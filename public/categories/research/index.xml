@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on Nicola Rennie</title>
-    <link>https://nrennie.github.io/categories/research/</link>
+    <link>https://trusting-johnson-ce4622.netlify.app/categories/research/</link>
     <description>Recent content in Research on Nicola Rennie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 06 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nrennie.github.io/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://trusting-johnson-ce4622.netlify.app/categories/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Detecting demand outliers in transport systems</title>
-      <link>https://nrennie.github.io/blog/2021-10-06-detecting-demand-outliers-in-transport-systems/</link>
+      <link>https://trusting-johnson-ce4622.netlify.app/blog/2021-10-06-detecting-demand-outliers-in-transport-systems/</link>
       <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://nrennie.github.io/blog/2021-10-06-detecting-demand-outliers-in-transport-systems/</guid>
+      <guid>https://trusting-johnson-ce4622.netlify.app/blog/2021-10-06-detecting-demand-outliers-in-transport-systems/</guid>
       <description>I recently completed my PhD at STOR-i CDT at Lancaster University. My thesis was titled &amp;ldquo;Detecting demand outliers in transport systems&amp;rdquo; and here I&amp;rsquo;ll (try to) give a brief overview of the work I&amp;rsquo;ve done in the last three years. The final version of my thesis can be found here.
 What are demand outliers?     An outlier is generally considered an abnormal event that doesn&amp;rsquo;t fit with the pattern of events normally observed.</description>
     </item>
