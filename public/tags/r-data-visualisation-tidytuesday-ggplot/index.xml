@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>r, data visualisation, tidytuesday, ggplot on Nicola Rennie</title>
+    <link>https://nrennie.github.io/tags/r-data-visualisation-tidytuesday-ggplot/</link>
+    <description>Recent content in r, data visualisation, tidytuesday, ggplot on Nicola Rennie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nrennie.github.io/tags/r-data-visualisation-tidytuesday-ggplot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thinking about #TidyTuesday (and the Spice Girls)</title>
+      <link>https://nrennie.github.io/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.github.io/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/</guid>
+      <description>Earlier this week, whilst curating for @ WeAreRLadies, I tweeted a thread on my thought process for this week&amp;rsquo;s #TidyTuesday challenge. This blog post expands on the thoughts in this aforementioned thread:
+It can be a little bit scary to make your first (or any) contribution to #TidyTuesday on twitter so I thought I’d outline my thought process for this week’s Spice Girls data. pic.twitter.com/zsyV3mfRkG
+&amp;mdash; We are R-Ladies (@WeAreRLadies) December 14, 2021 For those of you who don&amp;rsquo;t know, #TidyTuesday is a weekly data challenge aimed at the R community.</description>
+    </item>
+    
+  </channel>
+</rss>

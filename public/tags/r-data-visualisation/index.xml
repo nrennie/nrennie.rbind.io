@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>r, data visualisation on Nicola Rennie</title>
+    <link>https://nrennie.github.io/tags/r-data-visualisation/</link>
+    <description>Recent content in r, data visualisation on Nicola Rennie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nrennie.github.io/tags/r-data-visualisation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DuBois Challenge</title>
+      <link>https://nrennie.github.io/blog/2021-05-04-dubois-challenge/</link>
+      <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.github.io/blog/2021-05-04-dubois-challenge/</guid>
+      <description>The DuBois Challenge is part of a celebration of the data visualization legacy of W.E.B DuBois which attempts to recreate the visualizations from the 1900 Paris Exposition using modern tools. Check out the challenge here.  
+Code available at: github.com/nrennie/dubois_challenge.
+Challenge 1     Challenge 2     Challenge 3     Challenge 4     Challenge 5     Challenge 6     Challenge 7     Challenge 8     Challenge 9     Challenge 10     </description>
+    </item>
+    
+  </channel>
+</rss>

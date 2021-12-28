@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Nicola Rennie</title>
+    <link>https://nrennie.github.io/tags/</link>
+    <description>Recent content in Tags on Nicola Rennie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nrennie.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>r, data visualisation, tidytuesday, ggplot</title>
+      <link>https://nrennie.github.io/tags/r-data-visualisation-tidytuesday-ggplot/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.github.io/tags/r-data-visualisation-tidytuesday-ggplot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>r, data visualisation, maps,</title>
+      <link>https://nrennie.github.io/tags/r-data-visualisation-maps/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.github.io/tags/r-data-visualisation-maps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>r, outlier detection, research</title>
+      <link>https://nrennie.github.io/tags/r-outlier-detection-research/</link>
+      <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.github.io/tags/r-outlier-detection-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>r, data visualisation, vfsg</title>
+      <link>https://nrennie.github.io/tags/r-data-visualisation-vfsg/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.github.io/tags/r-data-visualisation-vfsg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>r, data visualisation</title>
+      <link>https://nrennie.github.io/tags/r-data-visualisation/</link>
+      <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.github.io/tags/r-data-visualisation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

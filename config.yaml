@@ -1,0 +1,106 @@
+baseURL: https://nrennie.github.io/
+languageCode: en
+theme: hugo-apero
+title: Nicola Rennie
+author: Nicola Rennie
+copyright: ''
+googleAnalytics: ''
+disqusShortname: ''
+metaDataFormat: yaml
+footnoteReturnLinkContents: '&#8617;'
+paginate: 5
+preserveTaxonomyNames: yes
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+  - \.knit\.md$
+  - \.utf8\.md$
+enableEmoji: yes
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      hardwraps: no
+      unsafe: yes
+  highlight:
+    style: github
+  tableOfContents:
+    endLevel: 2
+    ordered: no
+    startLevel: 2
+params:
+  custom_theme: ''
+  customheadingFontFamily: Fraunces
+  customtextFontFamily: Commissioner
+  description: A modern, beautiful, and easily configurable blog theme for Hugo.
+  favicon: /img/favicon.ico
+  headingFontFamily: sans-serif
+  mainSections:
+  navallcaps: yes
+  orgLocal:
+  orgName: Nicola Rennie
+  sharing_image: /img/papillons.jpg
+  social:
+    - icon: github
+      icon_pack: fab
+      url: https://github.com/nrennie
+    - icon: linkedin
+      icon_pack: fab
+      url: https://www.linkedin.com/in/nicola-rennie-076511b3/
+    - icon: twitter
+      icon_pack: fab
+      url: https://twitter.com/nrennie35
+    - icon: instagram
+      icon_pack: fab
+      url: https://www.instagram.com/nrennie_art/
+  socialInFooter: yes
+  socialInHeader: no
+  textFontFamily: sans-serif
+  theme: sky
+  twitter: nrennie35
+  utterances:
+    issue_term: pathname
+    label: 'comments :crystal_ball:'
+    repo_name: hugo-apero/apero
+    theme: boxy-light
+    use_utterances: yes
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+menu:
+  header:
+    - name: About
+      title: About
+      url: /
+      weight: 1
+    - name: Talks
+      title: Talks
+      url: /talk/
+      weight: 2
+    - name: Blog
+      title: Blog
+      url: /blog/
+      weight: 3
+privacy:
+  disqus:
+    disable: no
+  googleAnalytics:
+    anonymizeIP: yes
+    disable: no
+    respectDoNotTrack: yes
+  instagram:
+    disable: no
+    simple: yes
+  twitter:
+    disable: no
+    enableDNT: yes
+    simple: no
+  vimeo:
+    disable: no
+    enableDNT: yes
+    simple: yes
+  youtube:
+    disable: no
+    privacyEnhanced: yes
