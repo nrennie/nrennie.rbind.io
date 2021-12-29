@@ -6,7 +6,17 @@
     <description>Recent content in r, data visualisation, tidytuesday, ggplot on Nicola Rennie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://trusting-johnson-ce4622.netlify.app/tags/r-data-visualisation-tidytuesday-ggplot/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://trusting-johnson-ce4622.netlify.app/tags/r-data-visualisation-tidytuesday-ggplot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Year of #TidyTuesday</title>
+      <link>https://trusting-johnson-ce4622.netlify.app/blog/2021-12-29-a-year-of-tidytuesday/</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://trusting-johnson-ce4622.netlify.app/blog/2021-12-29-a-year-of-tidytuesday/</guid>
+      <description>One of my goals for 2021 was to participate in the #TidyTuesday challenge on a regular basis. This blog post reflects on the past year of data visualisations.
+For those of you who don&amp;rsquo;t know, #TidyTuesday is a weekly data challenge aimed at the R community. Every week a new dataset is posted alongside a chart or article related to that dataset, and ask participants explore the data. You can access the data and find out more here.</description>
+    </item>
+    
     <item>
       <title>Thinking about #TidyTuesday (and the Spice Girls)</title>
       <link>https://trusting-johnson-ce4622.netlify.app/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/</link>
