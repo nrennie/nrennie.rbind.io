@@ -44,6 +44,15 @@
     </item>
     
     <item>
+      <title>Identifying and responding to outlier demand in revenue management</title>
+      <link>https://nrennie.rbind.io/talk/2020-april-stori-pop/</link>
+      <pubDate>Thu, 02 Apr 2020 12:15:00 -0600</pubDate>
+      
+      <guid>https://nrennie.rbind.io/talk/2020-april-stori-pop/</guid>
+      <description>Revenue management strongly relies on accurate forecasts. Thus, when extraordinary events cause outlier demand, revenue management systems need to recognise this and adapt both forecast and controls. State-of-the-art systems rely on analyst expertise to identify outlier demand both online (within the booking horizon) and offline (in hindsight). In light of the partial nature of revenue management data and censoring effects from inventory controls, so far, there exists little research on automating the detection of outlier demand.</description>
+    </item>
+    
+    <item>
       <title>The identification of inaccurate demand estimates </title>
       <link>https://nrennie.rbind.io/talk/2019-june-euro2019/</link>
       <pubDate>Sun, 23 Jun 2019 08:00:00 -0600</pubDate>
