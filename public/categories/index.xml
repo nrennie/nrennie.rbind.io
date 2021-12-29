@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Nicola Rennie</title>
-    <link>https://trusting-johnson-ce4622.netlify.app/categories/</link>
+    <link>http://nrennie.rbind.io/categories/</link>
     <description>Recent content in Categories on Nicola Rennie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://trusting-johnson-ce4622.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://nrennie.rbind.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Visualisation</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/categories/data-visualisation/</link>
+      <link>http://nrennie.rbind.io/categories/data-visualisation/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/categories/data-visualisation/</guid>
+      <guid>http://nrennie.rbind.io/categories/data-visualisation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Research</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/categories/research/</link>
+      <link>http://nrennie.rbind.io/categories/research/</link>
       <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/categories/research/</guid>
+      <guid>http://nrennie.rbind.io/categories/research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conference</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/categories/conference/</link>
+      <link>http://nrennie.rbind.io/categories/conference/</link>
       <pubDate>Mon, 06 Sep 2021 09:30:59 -0600</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/categories/conference/</guid>
+      <guid>http://nrennie.rbind.io/categories/conference/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Workshop</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/categories/workshop/</link>
+      <link>http://nrennie.rbind.io/categories/workshop/</link>
       <pubDate>Mon, 08 Feb 2021 10:00:00 -0600</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/categories/workshop/</guid>
+      <guid>http://nrennie.rbind.io/categories/workshop/</guid>
       <description></description>
     </item>
     

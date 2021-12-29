@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nicola Rennie</title>
-    <link>https://trusting-johnson-ce4622.netlify.app/</link>
+    <link>http://nrennie.rbind.io/</link>
     <description>Recent content on Nicola Rennie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://trusting-johnson-ce4622.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://nrennie.rbind.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Year of #TidyTuesday</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/blog/2021-12-29-a-year-of-tidytuesday/</link>
+      <link>http://nrennie.rbind.io/blog/2021-12-29-a-year-of-tidytuesday/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/blog/2021-12-29-a-year-of-tidytuesday/</guid>
+      <guid>http://nrennie.rbind.io/blog/2021-12-29-a-year-of-tidytuesday/</guid>
       <description>One of my goals for 2021 was to participate in the #TidyTuesday challenge on a regular basis. This blog post reflects on the past year of data visualisations.
 For those of you who don&amp;rsquo;t know, #TidyTuesday is a weekly data challenge aimed at the R community. Every week a new dataset is posted alongside a chart or article related to that dataset, and ask participants explore the data. You can access the data and find out more here.</description>
     </item>
     
     <item>
       <title>Thinking about #TidyTuesday (and the Spice Girls)</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/</link>
+      <link>http://nrennie.rbind.io/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/</link>
       <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/</guid>
+      <guid>http://nrennie.rbind.io/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/</guid>
       <description>Earlier this week, whilst curating for @ WeAreRLadies, I tweeted a thread on my thought process for this week&amp;rsquo;s #TidyTuesday challenge. This blog post expands on the thoughts in this aforementioned thread:
 It can be a little bit scary to make your first (or any) contribution to #TidyTuesday on twitter so I thought I’d outline my thought process for this week’s Spice Girls data. pic.twitter.com/zsyV3mfRkG
 &amp;mdash; We are R-Ladies (@WeAreRLadies) December 14, 2021 For those of you who don&amp;rsquo;t know, #TidyTuesday is a weekly data challenge aimed at the R community.</description>
@@ -30,30 +30,30 @@ It can be a little bit scary to make your first (or any) contribution to #TidyTu
     
     <item>
       <title>30 Day Map Challenge 2021</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/blog/2021-12-01-30-day-map-challenge-2021/</link>
+      <link>http://nrennie.rbind.io/blog/2021-12-01-30-day-map-challenge-2021/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/blog/2021-12-01-30-day-map-challenge-2021/</guid>
+      <guid>http://nrennie.rbind.io/blog/2021-12-01-30-day-map-challenge-2021/</guid>
       <description>The #30DayMapChallenge is a daily mapping, cartography, and data visualization challenge aimed at the spatial community. Every day in November participants create a map with a given theme (e.g. population, monochrome, raster) and share their results Twitter using the #30DayMapChallenge hashtag. Check out the challenge here.
 Although I&amp;rsquo;ve been creating data visualisations for a while, I don&amp;rsquo;t normally have that many opportunities to work with spatial data. This year, I created all 30 maps (see below).</description>
     </item>
     
     <item>
       <title>Detecting demand outliers in transport systems</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/blog/2021-10-06-detecting-demand-outliers-in-transport-systems/</link>
+      <link>http://nrennie.rbind.io/blog/2021-10-06-detecting-demand-outliers-in-transport-systems/</link>
       <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/blog/2021-10-06-detecting-demand-outliers-in-transport-systems/</guid>
+      <guid>http://nrennie.rbind.io/blog/2021-10-06-detecting-demand-outliers-in-transport-systems/</guid>
       <description>I recently completed my PhD at STOR-i CDT at Lancaster University. My thesis was titled &amp;ldquo;Detecting demand outliers in transport systems&amp;rdquo; and here I&amp;rsquo;ll (try to) give a brief overview of the work I&amp;rsquo;ve done in the last three years. The final version of my thesis can be found here.
 What are demand outliers?     An outlier is generally considered an abnormal event that doesn&amp;rsquo;t fit with the pattern of events normally observed.</description>
     </item>
     
     <item>
       <title>Viz For Social Good</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/blog/2021-09-13-viz-for-social-good/</link>
+      <link>http://nrennie.rbind.io/blog/2021-09-13-viz-for-social-good/</link>
       <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/blog/2021-09-13-viz-for-social-good/</guid>
+      <guid>http://nrennie.rbind.io/blog/2021-09-13-viz-for-social-good/</guid>
       <description>Viz For Social Good volunteers create informative and impactful data visualizations for mission-driven organizations across the globe. Check out the organisation here.
 Code available at: github.com/nrennie/Viz_For_Social_Good
 VFSG: Visualize Our Community     Non-profits around the world are driving positive social change but some of them lack the in-house resources to effectively tell their story with the data they have. Viz For Social Good (VFSG) helps non-profits thrive by connecting talented community members with organizations in need of data visualization skill sets.</description>
@@ -61,28 +61,28 @@ VFSG: Visualize Our Community     Non-profits around the world are driving posit
     
     <item>
       <title>We&#39;re not getting any younger! Or should that be older?</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/talk/2021-september-rss-international-conference/</link>
+      <link>http://nrennie.rbind.io/talk/2021-september-rss-international-conference/</link>
       <pubDate>Mon, 06 Sep 2021 09:30:59 -0600</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/talk/2021-september-rss-international-conference/</guid>
+      <guid>http://nrennie.rbind.io/talk/2021-september-rss-international-conference/</guid>
       <description>At the same time as pension ages in the UK continue to rise, both academics and journalists claim that life expectancy is stalling. To investigate these claims, we look at changes in UK life expectancy growth from 1960 to present day. Using data from World Bank Open Data, we use a rolling window linear model to estimate how life expectancy has changed decade-by-decade. We find that though there has been a steep decline in life expectancy growth in the last ten years, the growth is still positive and life expectancy continues to increase.</description>
     </item>
     
     <item>
       <title>Detecting outlying demand in multi-leg bookings for transportation networks</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/talk/2021-july-euro2021/</link>
+      <link>http://nrennie.rbind.io/talk/2021-july-euro2021/</link>
       <pubDate>Sun, 11 Jul 2021 10:00:00 -0600</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/talk/2021-july-euro2021/</guid>
+      <guid>http://nrennie.rbind.io/talk/2021-july-euro2021/</guid>
       <description>Network effects complicate transport demand forecasting in general and outlier detection in particular. For example, a sudden increase in demand for a specific destination will not only affect the legs arriving at that destination, but also connected legs nearby in the network. Network effects are particularly strong when service providers, such as railway or coach companies, offer many multi-leg itineraries. In such situations, automated alerts can help analysts to adjust demand forecasts and enable reliable planning.</description>
     </item>
     
     <item>
       <title>DuBois Challenge</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/blog/2021-05-04-dubois-challenge/</link>
+      <link>http://nrennie.rbind.io/blog/2021-05-04-dubois-challenge/</link>
       <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/blog/2021-05-04-dubois-challenge/</guid>
+      <guid>http://nrennie.rbind.io/blog/2021-05-04-dubois-challenge/</guid>
       <description>The DuBois Challenge is part of a celebration of the data visualization legacy of W.E.B DuBois which attempts to recreate the visualizations from the 1900 Paris Exposition using modern tools. Check out the challenge here.  
 Code available at: github.com/nrennie/dubois_challenge.
 Challenge 1     Challenge 2     Challenge 3     Challenge 4     Challenge 5     Challenge 6     Challenge 7     Challenge 8     Challenge 9     Challenge 10     </description>
@@ -90,28 +90,28 @@ Challenge 1     Challenge 2     Challenge 3     Challenge 4     Challenge 5     
     
     <item>
       <title>Detecting outlier demand in revenue management networks</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/talk/2021-april-ima-or-conference/</link>
+      <link>http://nrennie.rbind.io/talk/2021-april-ima-or-conference/</link>
       <pubDate>Tue, 20 Apr 2021 13:00:00 -0600</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/talk/2021-april-ima-or-conference/</guid>
+      <guid>http://nrennie.rbind.io/talk/2021-april-ima-or-conference/</guid>
       <description>Transport service providers, such as airlines or railways, often use revenue management systems to control ticket prices and availability. Such systems rely on accurately forecasting expected demand to prepare optimal capacity allocations. Extraordinary events generate outlier demand, and cause inaccurate forecasts resulting in non-optimal allocations. Most revenue management systems allow room for analysts to compare the accumulated bookings against the forecasts and to intervene, if they deem the demand forecast to be inaccurate.</description>
     </item>
     
     <item>
       <title>Detecting outlier demand in railway networks</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/talk/2021-february-airoyoung/</link>
+      <link>http://nrennie.rbind.io/talk/2021-february-airoyoung/</link>
       <pubDate>Mon, 08 Feb 2021 10:00:00 -0600</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/talk/2021-february-airoyoung/</guid>
+      <guid>http://nrennie.rbind.io/talk/2021-february-airoyoung/</guid>
       <description>Transport service providers, such as airlines and railways, often use revenue manage-ment to control offers and demand in mobility networks. Such systems rely on accu-rate demand forecasts as input for the underlying optimisation models. When changes in the market place cause demand to deviate from the expected values, revenue man-agement controls no longer fit for the resulting outliers. Analysts can intervene if they deem the demand forecast to be inaccurate. However, existing research on judgemen-tal forecasting highlights fallibility and bias when human decision makers are not sys-tematically supported in such tasks.</description>
     </item>
     
     <item>
       <title>The identification of inaccurate demand estimates </title>
-      <link>https://trusting-johnson-ce4622.netlify.app/talk/2019-june-euro2019/</link>
+      <link>http://nrennie.rbind.io/talk/2019-june-euro2019/</link>
       <pubDate>Sun, 23 Jun 2019 08:00:00 -0600</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/talk/2019-june-euro2019/</guid>
+      <guid>http://nrennie.rbind.io/talk/2019-june-euro2019/</guid>
       <description>Most quantity-based airline revenue management systems rely on forecasting expected demand to prepare revenue-optimal capacity allocations. Inaccurate demand forecasts result in non-optimal allocations and hence, hurt revenue. Most airline revenue management systems also allow room for analysts to compare the accumulated bookings against the forecasts and to intervene, if they deem the demand forecast to be inaccurate. Systematically detecting outliers, where demand differs from expectations due to systematic market shifts, e.</description>
     </item>
     

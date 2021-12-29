@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>r, data visualisation, vfsg on Nicola Rennie</title>
-    <link>https://trusting-johnson-ce4622.netlify.app/tags/r-data-visualisation-vfsg/</link>
+    <link>http://nrennie.rbind.io/tags/r-data-visualisation-vfsg/</link>
     <description>Recent content in r, data visualisation, vfsg on Nicola Rennie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://trusting-johnson-ce4622.netlify.app/tags/r-data-visualisation-vfsg/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://nrennie.rbind.io/tags/r-data-visualisation-vfsg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Viz For Social Good</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/blog/2021-09-13-viz-for-social-good/</link>
+      <link>http://nrennie.rbind.io/blog/2021-09-13-viz-for-social-good/</link>
       <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/blog/2021-09-13-viz-for-social-good/</guid>
+      <guid>http://nrennie.rbind.io/blog/2021-09-13-viz-for-social-good/</guid>
       <description>Viz For Social Good volunteers create informative and impactful data visualizations for mission-driven organizations across the globe. Check out the organisation here.
 Code available at: github.com/nrennie/Viz_For_Social_Good
 VFSG: Visualize Our Community     Non-profits around the world are driving positive social change but some of them lack the in-house resources to effectively tell their story with the data they have. Viz For Social Good (VFSG) helps non-profits thrive by connecting talented community members with organizations in need of data visualization skill sets.</description>

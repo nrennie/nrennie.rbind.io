@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Visualisation on Nicola Rennie</title>
-    <link>https://trusting-johnson-ce4622.netlify.app/categories/data-visualisation/</link>
+    <link>http://nrennie.rbind.io/categories/data-visualisation/</link>
     <description>Recent content in Data Visualisation on Nicola Rennie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://trusting-johnson-ce4622.netlify.app/categories/data-visualisation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://nrennie.rbind.io/categories/data-visualisation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Year of #TidyTuesday</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/blog/2021-12-29-a-year-of-tidytuesday/</link>
+      <link>http://nrennie.rbind.io/blog/2021-12-29-a-year-of-tidytuesday/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/blog/2021-12-29-a-year-of-tidytuesday/</guid>
+      <guid>http://nrennie.rbind.io/blog/2021-12-29-a-year-of-tidytuesday/</guid>
       <description>One of my goals for 2021 was to participate in the #TidyTuesday challenge on a regular basis. This blog post reflects on the past year of data visualisations.
 For those of you who don&amp;rsquo;t know, #TidyTuesday is a weekly data challenge aimed at the R community. Every week a new dataset is posted alongside a chart or article related to that dataset, and ask participants explore the data. You can access the data and find out more here.</description>
     </item>
     
     <item>
       <title>Thinking about #TidyTuesday (and the Spice Girls)</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/</link>
+      <link>http://nrennie.rbind.io/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/</link>
       <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/</guid>
+      <guid>http://nrennie.rbind.io/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/</guid>
       <description>Earlier this week, whilst curating for @ WeAreRLadies, I tweeted a thread on my thought process for this week&amp;rsquo;s #TidyTuesday challenge. This blog post expands on the thoughts in this aforementioned thread:
 It can be a little bit scary to make your first (or any) contribution to #TidyTuesday on twitter so I thought I’d outline my thought process for this week’s Spice Girls data. pic.twitter.com/zsyV3mfRkG
 &amp;mdash; We are R-Ladies (@WeAreRLadies) December 14, 2021 For those of you who don&amp;rsquo;t know, #TidyTuesday is a weekly data challenge aimed at the R community.</description>
@@ -30,20 +30,20 @@ It can be a little bit scary to make your first (or any) contribution to #TidyTu
     
     <item>
       <title>30 Day Map Challenge 2021</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/blog/2021-12-01-30-day-map-challenge-2021/</link>
+      <link>http://nrennie.rbind.io/blog/2021-12-01-30-day-map-challenge-2021/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/blog/2021-12-01-30-day-map-challenge-2021/</guid>
+      <guid>http://nrennie.rbind.io/blog/2021-12-01-30-day-map-challenge-2021/</guid>
       <description>The #30DayMapChallenge is a daily mapping, cartography, and data visualization challenge aimed at the spatial community. Every day in November participants create a map with a given theme (e.g. population, monochrome, raster) and share their results Twitter using the #30DayMapChallenge hashtag. Check out the challenge here.
 Although I&amp;rsquo;ve been creating data visualisations for a while, I don&amp;rsquo;t normally have that many opportunities to work with spatial data. This year, I created all 30 maps (see below).</description>
     </item>
     
     <item>
       <title>Viz For Social Good</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/blog/2021-09-13-viz-for-social-good/</link>
+      <link>http://nrennie.rbind.io/blog/2021-09-13-viz-for-social-good/</link>
       <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/blog/2021-09-13-viz-for-social-good/</guid>
+      <guid>http://nrennie.rbind.io/blog/2021-09-13-viz-for-social-good/</guid>
       <description>Viz For Social Good volunteers create informative and impactful data visualizations for mission-driven organizations across the globe. Check out the organisation here.
 Code available at: github.com/nrennie/Viz_For_Social_Good
 VFSG: Visualize Our Community     Non-profits around the world are driving positive social change but some of them lack the in-house resources to effectively tell their story with the data they have. Viz For Social Good (VFSG) helps non-profits thrive by connecting talented community members with organizations in need of data visualization skill sets.</description>
@@ -51,10 +51,10 @@ VFSG: Visualize Our Community     Non-profits around the world are driving posit
     
     <item>
       <title>DuBois Challenge</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/blog/2021-05-04-dubois-challenge/</link>
+      <link>http://nrennie.rbind.io/blog/2021-05-04-dubois-challenge/</link>
       <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/blog/2021-05-04-dubois-challenge/</guid>
+      <guid>http://nrennie.rbind.io/blog/2021-05-04-dubois-challenge/</guid>
       <description>The DuBois Challenge is part of a celebration of the data visualization legacy of W.E.B DuBois which attempts to recreate the visualizations from the 1900 Paris Exposition using modern tools. Check out the challenge here.  
 Code available at: github.com/nrennie/dubois_challenge.
 Challenge 1     Challenge 2     Challenge 3     Challenge 4     Challenge 5     Challenge 6     Challenge 7     Challenge 8     Challenge 9     Challenge 10     </description>

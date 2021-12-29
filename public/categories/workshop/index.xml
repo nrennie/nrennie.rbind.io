@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Workshop on Nicola Rennie</title>
-    <link>https://trusting-johnson-ce4622.netlify.app/categories/workshop/</link>
+    <link>http://nrennie.rbind.io/categories/workshop/</link>
     <description>Recent content in Workshop on Nicola Rennie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Feb 2021 10:00:00 -0600</lastBuildDate><atom:link href="https://trusting-johnson-ce4622.netlify.app/categories/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Feb 2021 10:00:00 -0600</lastBuildDate><atom:link href="http://nrennie.rbind.io/categories/workshop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Detecting outlier demand in railway networks</title>
-      <link>https://trusting-johnson-ce4622.netlify.app/talk/2021-february-airoyoung/</link>
+      <link>http://nrennie.rbind.io/talk/2021-february-airoyoung/</link>
       <pubDate>Mon, 08 Feb 2021 10:00:00 -0600</pubDate>
       
-      <guid>https://trusting-johnson-ce4622.netlify.app/talk/2021-february-airoyoung/</guid>
+      <guid>http://nrennie.rbind.io/talk/2021-february-airoyoung/</guid>
       <description>Transport service providers, such as airlines and railways, often use revenue manage-ment to control offers and demand in mobility networks. Such systems rely on accu-rate demand forecasts as input for the underlying optimisation models. When changes in the market place cause demand to deviate from the expected values, revenue man-agement controls no longer fit for the resulting outliers. Analysts can intervene if they deem the demand forecast to be inaccurate. However, existing research on judgemen-tal forecasting highlights fallibility and bias when human decision makers are not sys-tematically supported in such tasks.</description>
     </item>
     
