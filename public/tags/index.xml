@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Nicola Rennie</title>
-    <link>http://nrennie.rbind.io/tags/</link>
+    <link>https://nrennie.rbind.io/tags/</link>
     <description>Recent content in Tags on Nicola Rennie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://nrennie.rbind.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nrennie.rbind.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>r, data visualisation, tidytuesday, ggplot</title>
-      <link>http://nrennie.rbind.io/tags/r-data-visualisation-tidytuesday-ggplot/</link>
+      <link>https://nrennie.rbind.io/tags/r-data-visualisation-tidytuesday-ggplot/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://nrennie.rbind.io/tags/r-data-visualisation-tidytuesday-ggplot/</guid>
+      <guid>https://nrennie.rbind.io/tags/r-data-visualisation-tidytuesday-ggplot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>r, data visualisation, maps,</title>
-      <link>http://nrennie.rbind.io/tags/r-data-visualisation-maps/</link>
+      <link>https://nrennie.rbind.io/tags/r-data-visualisation-maps/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://nrennie.rbind.io/tags/r-data-visualisation-maps/</guid>
+      <guid>https://nrennie.rbind.io/tags/r-data-visualisation-maps/</guid>
       <description></description>
     </item>
     
     <item>
       <title>r, outlier detection, research</title>
-      <link>http://nrennie.rbind.io/tags/r-outlier-detection-research/</link>
+      <link>https://nrennie.rbind.io/tags/r-outlier-detection-research/</link>
       <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://nrennie.rbind.io/tags/r-outlier-detection-research/</guid>
+      <guid>https://nrennie.rbind.io/tags/r-outlier-detection-research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>r, data visualisation, vfsg</title>
-      <link>http://nrennie.rbind.io/tags/r-data-visualisation-vfsg/</link>
+      <link>https://nrennie.rbind.io/tags/r-data-visualisation-vfsg/</link>
       <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://nrennie.rbind.io/tags/r-data-visualisation-vfsg/</guid>
+      <guid>https://nrennie.rbind.io/tags/r-data-visualisation-vfsg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>r, data visualisation</title>
-      <link>http://nrennie.rbind.io/tags/r-data-visualisation/</link>
+      <link>https://nrennie.rbind.io/tags/r-data-visualisation/</link>
       <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://nrennie.rbind.io/tags/r-data-visualisation/</guid>
+      <guid>https://nrennie.rbind.io/tags/r-data-visualisation/</guid>
       <description></description>
     </item>
     

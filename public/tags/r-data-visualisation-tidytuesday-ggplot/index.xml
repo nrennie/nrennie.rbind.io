@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>r, data visualisation, tidytuesday, ggplot on Nicola Rennie</title>
-    <link>http://nrennie.rbind.io/tags/r-data-visualisation-tidytuesday-ggplot/</link>
+    <link>https://nrennie.rbind.io/tags/r-data-visualisation-tidytuesday-ggplot/</link>
     <description>Recent content in r, data visualisation, tidytuesday, ggplot on Nicola Rennie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://nrennie.rbind.io/tags/r-data-visualisation-tidytuesday-ggplot/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nrennie.rbind.io/tags/r-data-visualisation-tidytuesday-ggplot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Year of #TidyTuesday</title>
-      <link>http://nrennie.rbind.io/blog/2021-12-29-a-year-of-tidytuesday/</link>
+      <link>https://nrennie.rbind.io/blog/2021-12-29-a-year-of-tidytuesday/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://nrennie.rbind.io/blog/2021-12-29-a-year-of-tidytuesday/</guid>
+      <guid>https://nrennie.rbind.io/blog/2021-12-29-a-year-of-tidytuesday/</guid>
       <description>One of my goals for 2021 was to participate in the #TidyTuesday challenge on a regular basis. This blog post reflects on the past year of data visualisations.
 For those of you who don&amp;rsquo;t know, #TidyTuesday is a weekly data challenge aimed at the R community. Every week a new dataset is posted alongside a chart or article related to that dataset, and ask participants explore the data. You can access the data and find out more here.</description>
     </item>
     
     <item>
       <title>Thinking about #TidyTuesday (and the Spice Girls)</title>
-      <link>http://nrennie.rbind.io/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/</link>
+      <link>https://nrennie.rbind.io/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/</link>
       <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://nrennie.rbind.io/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/</guid>
+      <guid>https://nrennie.rbind.io/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/</guid>
       <description>Earlier this week, whilst curating for @ WeAreRLadies, I tweeted a thread on my thought process for this week&amp;rsquo;s #TidyTuesday challenge. This blog post expands on the thoughts in this aforementioned thread:
 It can be a little bit scary to make your first (or any) contribution to #TidyTuesday on twitter so I thought I’d outline my thought process for this week’s Spice Girls data. pic.twitter.com/zsyV3mfRkG
 &amp;mdash; We are R-Ladies (@WeAreRLadies) December 14, 2021 For those of you who don&amp;rsquo;t know, #TidyTuesday is a weekly data challenge aimed at the R community.</description>

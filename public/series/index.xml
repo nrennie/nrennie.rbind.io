@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Nicola Rennie</title>
-    <link>http://nrennie.rbind.io/series/</link>
+    <link>https://nrennie.rbind.io/series/</link>
     <description>Recent content in Series on Nicola Rennie</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://nrennie.rbind.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://nrennie.rbind.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
