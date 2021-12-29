@@ -60,6 +60,16 @@ VFSG: Visualize Our Community     Non-profits around the world are driving posit
     </item>
     
     <item>
+      <title>#CottonViz Data Visualisation Challenge</title>
+      <link>https://nrennie.rbind.io/blog/2021-06-30-cotton-viz-challenge/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.rbind.io/blog/2021-06-30-cotton-viz-challenge/</guid>
+      <description>In June, the #CottonViz data visualisation challenge was run by the History of Statistics &amp;amp; Young Statisticians sections of the Royal Statistical Society (RSS). The challenge aimed to celebrate the work of Mary Eleanor Spear (1897 –1986), credited with popularising the range-bar charts.
+Reimagining Mary Eleanor Spear&amp;#39;s visualisation of US cotton supply for the #CotttonViz competition with @HistoryofStats and @statsyss. First time using the {ggpattern} package (great for colourblind-friendly visualisations).#DataVisualization #DataViz #RStats pic.</description>
+    </item>
+    
+    <item>
       <title>DuBois Challenge</title>
       <link>https://nrennie.rbind.io/blog/2021-05-04-dubois-challenge/</link>
       <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
