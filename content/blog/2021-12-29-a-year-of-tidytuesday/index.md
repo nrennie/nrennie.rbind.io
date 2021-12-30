@@ -13,6 +13,10 @@ title: "A Year of #TidyTuesday"
 image: featured.jpg
 ---
 
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet">
+Tweet</a>
+
 One of my goals for 2021 was to participate in the [#TidyTuesday challenge](https://github.com/rfordatascience/tidytuesday/) on a regular basis. This blog post reflects on the
 past year of data visualisations.
 
