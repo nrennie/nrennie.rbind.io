@@ -10,6 +10,7 @@ subtitle: The DuBois Challenge is part of a celebration of the data visualizatio
 tags:
 - r, data visualisation
 title: DuBois Challenge
+image: featured.jpg
 ---
 
 The DuBois Challenge is part of a celebration of the data visualization legacy of W.E.B DuBois which attempts to recreate the visualizations from the 1900 Paris Exposition using modern tools. Check out the challenge [here](https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/README.md). </br> </br>
@@ -85,3 +86,11 @@ Code available at: [github.com/nrennie/dubois_challenge](https://github.com/nren
 <img src="challenge_10.jpg?raw=true" width="49%">
 <img src="original_10.jpg?raw=true" width="49%">
 </p>
+
+
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet"
+  data-size="large">
+Tweet</a>
+
+

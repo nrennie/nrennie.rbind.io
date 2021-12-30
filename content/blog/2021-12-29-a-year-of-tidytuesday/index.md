@@ -13,10 +13,6 @@ title: "A Year of #TidyTuesday"
 image: featured.jpg
 ---
 
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet">
-Tweet</a>
-
 One of my goals for 2021 was to participate in the [#TidyTuesday challenge](https://github.com/rfordatascience/tidytuesday/) on a regular basis. This blog post reflects on the
 past year of data visualisations.
 
@@ -78,3 +74,8 @@ Overall, #TidyTuesday has been one of the best and most fun work-related things 
 
 Huge thanks to @[thomas_mock](https://twitter.com/thomas_mock) for putting #TidyTuesday together every week, and thanks to everyone who contributed data. I might add some data of my own next year.
 
+
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet"
+  data-size="large">
+Tweet</a>

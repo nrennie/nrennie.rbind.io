@@ -10,6 +10,7 @@ subtitle: "The #30DayMapChallenge is a daily mapping, cartography, and data visu
 tags:
 - r, data visualisation, maps, 
 title: 30 Day Map Challenge 2021
+image: featured.png
 ---
 
 The #30DayMapChallenge is a daily mapping, cartography, and data visualization challenge aimed at the spatial community. Every day in November participants create a map with a given theme (e.g. population, monochrome, raster) and share their results Twitter using the #30DayMapChallenge hashtag. Check out the challenge [here](https://github.com/tjukanovt/30DayMapChallenge). 
@@ -72,3 +73,7 @@ I definitely learnt a lot of new ways to visualise spatial data in the last 30 d
 Thanks to [Topi Tjukanov](https://twitter.com/tjukanov) for creating this challenge a few years ago, and well done to everyone who participated in this year's challenge whether you made one or thirty maps in November.
 
 
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet"
+  data-size="large">
+Tweet</a>

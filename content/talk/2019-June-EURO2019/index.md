@@ -19,6 +19,7 @@ links:
   icon_pack: fas
   name: Slides
   url: /talk/2019-june-euro2019/slides.pdf
+image: featured.png
 ---
 
 Most quantity-based airline revenue management systems rely on forecasting expected demand to prepare revenue-optimal capacity allocations. Inaccurate demand forecasts result in non-optimal allocations and hence, hurt revenue. Most airline revenue management systems also allow room for analysts to compare the accumulated bookings against the forecasts and to intervene, if they deem the demand forecast to be inaccurate. Systematically detecting outliers, where demand differs from expectations due to systematic market shifts, e.g., induced by special events, is an open challenge.
@@ -27,3 +28,8 @@ In a set of controlled simulation scenarios, we let demand systematically deviat
 
 Keywords: revenue management; simulation; demand estimation; tolerance intervals; decision support
 
+
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet"
+  data-size="large">
+Tweet</a>

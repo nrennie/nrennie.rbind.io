@@ -10,6 +10,7 @@ subtitle: "Earlier this week, whilst curating for @WeAreRLadies, I tweeted a thr
 tags:
 - r, data visualisation, tidytuesday, ggplot
 title: "Thinking about #TidyTuesday (and the Spice Girls)"
+image: featured.jpeg
 ---
 
 Earlier this week, whilst curating for @[WeAreRLadies](https://twitter.com/WeAreRLadies), I tweeted a thread on my thought process for [this week's #TidyTuesday challenge](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-12-14/readme.md). This blog post expands on the thoughts in this aforementioned thread:
@@ -69,4 +70,8 @@ The code for this plot is on [GitHub](https://github.com/nrennie/tidytuesday/tre
 I'll blog about my experience of curating in a later post, but for now I hope that sharing my process for creating a data visualisation has been helpful. Why don't you participate in your first TidyTuesday if you haven't already?
 
 
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet"
+  data-size="large">
+Tweet</a>
 

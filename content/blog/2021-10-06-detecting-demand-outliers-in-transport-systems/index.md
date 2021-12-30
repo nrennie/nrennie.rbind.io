@@ -10,6 +10,7 @@ subtitle: An overview of my PhD thesis entitled "Detecting demand outliers in tr
 tags:
 - r, outlier detection, research
 title: Detecting demand outliers in transport systems
+image: featured.png
 ---
 
 I recently completed my PhD at STOR-i CDT at Lancaster University. My thesis was titled "Detecting demand outliers in transport systems" and here I'll (try to) give a brief overview of the work I've done in the last three years. The final version of my thesis can be found [here](https://eprints.lancs.ac.uk/id/eprint/160845/1/2021renniephd.pdf).
@@ -58,3 +59,10 @@ If we are able to identify and predict when unusual demand patterns occur, bike-
 ### Final Thoughts
 
 Overall, a key finding of my thesis is that functional data analysis is a very powerful tool for identifying demand outliers. However, features of the data such as network effects or seasonal patterns need to be taken into account first. More research into how an outlier-based alert system could be implemented in an automated way is still needed.
+
+
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet"
+  data-size="large">
+Tweet</a>
+

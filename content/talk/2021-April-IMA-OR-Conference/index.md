@@ -19,6 +19,7 @@ links:
   icon_pack: fas
   name: Slides
   url: /talk/2021-april-ima-or-conference/slides.pdf
+image: featured.png
 ---
 
 Transport service providers, such as airlines or railways, often use revenue management systems to control ticket prices and availability. Such systems rely on accurately forecasting expected demand to prepare optimal capacity allocations. Extraordinary events generate outlier demand, and cause inaccurate forecasts resulting in non-optimal allocations. Most revenue management systems allow room for analysts to compare the accumulated bookings against the forecasts and to intervene, if they deem the demand forecast to be inaccurate. However, research on judgemental forecasting has clearly demonstrated the existence of fallibility and bias in such practices. This motivates the need for automated alerts to highlight outlier demand, and thereby support analysts. 
@@ -28,3 +29,9 @@ The problem of detecting outlier demand is further complicated by the considerat
 We present a method for aggregating outlier detection across multiple legs in a railway network, which leverages functional analysis and extreme value theory. In a set of controlled simulation scenarios, we let demand systematically deviate from the general level, and evaluate the method’s ability to detect outlier demand.. We show that by aggregating; we are able to both increase detection rates, and reduce false positive rates, in comparison to considering each leg in isolation. We demonstrate the practical implications of detecting outliers across networks by applying the procedure to empirical booking data obtained from Deutsche Bahn.
 
 Keywords: Revenue management; Simulation; Decision support; Outlier detection; Functional analysis; Network analysis
+
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet"
+  data-size="large">
+Tweet</a>
+

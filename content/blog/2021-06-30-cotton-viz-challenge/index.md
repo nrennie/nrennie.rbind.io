@@ -10,6 +10,7 @@ subtitle: "In June, the #CottonViz data visualisation challenge was run by the H
 tags:
 - r, data visualisation
 title: "#CottonViz Data Visualisation Challenge"
+image: featured.jpg
 ---
 
 In June, the #CottonViz data visualisation challenge was run by the History of Statistics & Young Statisticians sections of the Royal Statistical Society (RSS). The challenge aimed to celebrate the work of Mary Eleanor Spear (1897 –1986), credited with popularising the *range-bar* charts.
@@ -53,3 +54,9 @@ Although I liked the design of the first waffle plot, it wasn't overly creative 
 </p>
 
 Congratulations to all winners, and thanks to the History of Statistics & Young Statisticians sections of the RSS for organising this event. The RSS news article can be found [here](https://rss.org.uk/news-publication/news-publications/2021/general-news/cottonviz-data-visualisation-challenge-winners-ann/).
+
+
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet"
+  data-size="large">
+Tweet</a>

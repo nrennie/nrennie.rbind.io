@@ -10,6 +10,7 @@ subtitle: Viz For Social Good volunteers create informative and impactful data v
 tags:
 - r, data visualisation, vfsg
 title: Viz For Social Good
+image: featured.png
 ---
 
 Viz For Social Good volunteers create informative and impactful data visualizations for mission-driven organizations across the globe. Check out the organisation [here](https://www.vizforsocialgood.com/). 
@@ -32,3 +33,10 @@ Sunny Street is changing the world by providing healthcare to the most vulnerabl
 ![](featured.png) 
 
 Although the Covid-19 pandemic caused many clinics to be cancelled, Sunny Street volunteers had the same (or more) conversations and consultations. There has been little change in patient demographic throughout the pandemic.
+
+
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet"
+  data-size="large">
+Tweet</a>
+
