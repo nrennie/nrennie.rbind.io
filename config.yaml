@@ -40,7 +40,7 @@ params:
   navallcaps: yes
   orgLocal:
   orgName: Nicola Rennie
-  sharing_image: /img/papillons.jpg
+  sharing_image: /img/maps.png
   social:
     - icon: github
       icon_pack: fab

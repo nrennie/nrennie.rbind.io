@@ -10,6 +10,7 @@ subtitle: "One of my goals for 2021 was to participate in the #TidyTuesday chall
 tags:
 - r, data visualisation, tidytuesday, ggplot
 title: "A Year of #TidyTuesday"
+image: featured.jpg
 ---
 
 One of my goals for 2021 was to participate in the [#TidyTuesday challenge](https://github.com/rfordatascience/tidytuesday/) on a regular basis. This blog post reflects on the
