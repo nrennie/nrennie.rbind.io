@@ -13,8 +13,7 @@ title: "A Year of #TidyTuesday"
 image: featured.jpg
 ---
 
-One of my goals for 2021 was to participate in the [#TidyTuesday challenge](https://github.com/rfordatascience/tidytuesday/) on a regular basis. This blog post reflects on the
-past year of data visualisations.
+One of my goals for 2021 was to participate in the [#TidyTuesday challenge](https://github.com/rfordatascience/tidytuesday/) on a regular basis. This blog post reflects on the past year of data visualisations.
 
 For those of you who don't know, #TidyTuesday is a weekly data challenge aimed at the R community. Every week a new dataset is posted alongside a chart or article related to that dataset, and ask participants explore the data. You can access the data and find out more [here](https://github.com/rfordatascience/tidytuesday/blob/master/README.md). 
 

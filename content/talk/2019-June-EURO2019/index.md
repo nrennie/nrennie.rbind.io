@@ -28,8 +28,3 @@ In a set of controlled simulation scenarios, we let demand systematically deviat
 
 Keywords: revenue management; simulation; demand estimation; tolerance intervals; decision support
 
-
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"
-  data-size="large">
-Tweet</a>

@@ -21,7 +21,3 @@ Revenue management strongly relies on accurate forecasts. Thus, when extraordina
 
 Keywords: Revenue management; Simulation; Forecasting, Outlier detection; Functional data analysis.
 
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"
-  data-size="large">
-Tweet</a>

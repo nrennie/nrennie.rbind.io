@@ -29,9 +29,3 @@ The problem of detecting outlier demand is further complicated by the considerat
 We present a method for aggregating outlier detection across multiple legs in a railway network, which leverages functional analysis and extreme value theory. In a set of controlled simulation scenarios, we let demand systematically deviate from the general level, and evaluate the method’s ability to detect outlier demand.. We show that by aggregating; we are able to both increase detection rates, and reduce false positive rates, in comparison to considering each leg in isolation. We demonstrate the practical implications of detecting outliers across networks by applying the procedure to empirical booking data obtained from Deutsche Bahn.
 
 Keywords: Revenue management; Simulation; Decision support; Outlier detection; Functional analysis; Network analysis
-
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"
-  data-size="large">
-Tweet</a>
-

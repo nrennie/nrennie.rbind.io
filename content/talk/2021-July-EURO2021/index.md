@@ -27,8 +27,3 @@ In this presentation, we outline a novel two-step method for automatically detec
 
 Keywords: Analytics; Forecasting; Outlier detection; Network analysis; Simulation; Demand management. 
 
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"
-  data-size="large">
-Tweet</a>
-
