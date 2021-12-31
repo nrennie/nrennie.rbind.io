@@ -9,6 +9,7 @@
         {{ if .Params.show_social_links }}{{ partial "shared/social-links.html" . }}{{ end }}
         {{ with .Params.description }}<p class="f5 mv4 lh-copy black-70">{{ . | markdownify }}</p>{{ end }}
         {{ if .Params.show_action_link }}<a class="action {{ .Params.action_type }}" href="{{ .Params.action_link }}">{{ .Params.action_label | safeHTML }}</a>{{ end }}
+        {{ if .Params.show_action_link2 }}<a class="action {{ .Params.action_type }}" href="{{ .Params.action_link2 }}">{{ .Params.action_label2 | safeHTML }}</a>{{ end }}
       </div>
       <div class="tr w-50-l {{ if .Params.image_left }}ml4{{ else }}mr4{{ end }}">
       {{ with .Params.images }}
