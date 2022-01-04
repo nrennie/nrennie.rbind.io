@@ -77,7 +77,7 @@ menu:
       weight: 1
     - name: Talks
       title: Talks
-      url: /talk/
+      url: /talks/
       weight: 2
     - name: Blog
       title: Blog
