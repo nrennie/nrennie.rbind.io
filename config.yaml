@@ -79,10 +79,14 @@ menu:
       title: Talks
       url: /talks/
       weight: 2
+    - name: Rtistry
+      title: Rtistry
+      url: /rtistry/
+      weight: 3
     - name: Blog
       title: Blog
       url: /blog/
-      weight: 3
+      weight: 4
 privacy:
   disqus:
     disable: no
