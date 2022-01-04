@@ -33,7 +33,7 @@ params:
   custom_theme: ''
   customheadingFontFamily: Fraunces
   customtextFontFamily: Commissioner
-  description: A modern, beautiful, and easily configurable blog theme for Hugo.
+  description: A personal website for Nicola Rennie.
   favicon: /img/favicon.ico
   headingFontFamily: sans-serif
   mainSections:
