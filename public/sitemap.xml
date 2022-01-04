@@ -2,19 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nrennie.rbind.io/project/tiles/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nrennie.rbind.io/rtistry/tiles/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nrennie.rbind.io/project/vortex/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nrennie.rbind.io/rtistry/vortex/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nrennie.rbind.io/project/waves/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nrennie.rbind.io/rtistry/waves/</loc>
@@ -27,9 +18,6 @@
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nrennie.rbind.io/categories/rtistry/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nrennie.rbind.io/project/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nrennie.rbind.io/rtistry/</loc>
