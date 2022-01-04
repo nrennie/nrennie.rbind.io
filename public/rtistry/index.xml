@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rtistry on Nicola Rennie</title>
+    <link>https://nrennie.rbind.io/rtistry/</link>
+    <description>Recent content in Rtistry on Nicola Rennie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nrennie.rbind.io/rtistry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tiles</title>
+      <link>https://nrennie.rbind.io/rtistry/tiles/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.rbind.io/rtistry/tiles/</guid>
+      <description>OverviewThe tiles() series is loosely inspired by mosaic tiling techniques. Each generative artwork consists of a grid of tiles, where each tile is made up of three squares - one large, one medium, and one small. The colouring algorithm ensures that the three squares on each tile are of different colours.
+The colour palettes for this series comes from the {MetBrewer} package written by Blake Robert Mills (@BlakeRobMills.</description>
+    </item>
+    
+    <item>
+      <title>Vortex</title>
+      <link>https://nrennie.rbind.io/rtistry/vortex/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.rbind.io/rtistry/vortex/</guid>
+      <description>OverviewAvailable in two colour schemes, the vortex() series is inspired by patterns observed in fluid dynamics. This artwork is generated using line graphs and polar coordinates. There are two custom colour palettes available for this artwork - either a monochrome, or rainbow effect.
+InstallationThis generative artwork can be reproduced using my {aRt} package on GitHub, which you can install in R using:
+remotes::install_github(&amp;quot;nrennie/aRt&amp;quot;)library(aRt)vortex()Packages required {ggplot2}  Parameters n specifies how many lines are drawn i.</description>
+    </item>
+    
+    <item>
+      <title>Waves</title>
+      <link>https://nrennie.rbind.io/rtistry/waves/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.rbind.io/rtistry/waves/</guid>
+      <description>OverviewThe waves() series, inspired by repeating patterns, is constructed from sine and cosine waves.
+InstallationThis generative artwork can be reproduced using my {aRt} package on GitHub, which you can install in R using:
+remotes::install_github(&amp;quot;nrennie/aRt&amp;quot;)library(aRt)waves()Packages required {ggplot2} {rcartocolor}  Parameters a is a sine wave parameter. b is a cosine wave parameter. main_col sets the main colour of the artwork.</description>
+    </item>
+    
+  </channel>
+</rss>

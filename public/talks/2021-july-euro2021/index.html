@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.91.2" />
+<title>Detecting outlying demand in multi-leg bookings for transportation networks | Nicola Rennie</title>
+
+
+<meta property="twitter:site" content="@nrennie35">
+<meta property="twitter:creator" content="@nrennie35">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="31st European Conference on Operational Research">
+
+
+<meta property="og:site_name" content="Nicola Rennie">
+<meta property="og:title" content="Detecting outlying demand in multi-leg bookings for transportation networks | Nicola Rennie">
+<meta property="og:description" content="31st European Conference on Operational Research" />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://nrennie.rbind.io/talks/2021-july-euro2021/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="https://nrennie.rbind.io/talks/2021-july-euro2021/featured.png" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://nrennie.rbind.io/talks/2021-july-euro2021/featured.png" >
+    
+    
+  <meta itemprop="name" content="Detecting outlying demand in multi-leg bookings for transportation networks">
+<meta itemprop="description" content="Network effects complicate transport demand forecasting in general and outlier detection in particular. For example, a sudden increase in demand for a specific destination will not only affect the legs arriving at that destination, but also connected legs nearby in the network. Network effects are particularly strong when service providers, such as railway or coach companies, offer many multi-leg itineraries. In such situations, automated alerts can help analysts to adjust demand forecasts and enable reliable planning."><meta itemprop="datePublished" content="2021-07-11T10:00:00-06:00" />
+<meta itemprop="dateModified" content="2021-07-11T10:00:00-06:00" />
+<meta itemprop="wordCount" content="194"><meta itemprop="image" content="https://nrennie.rbind.io/talks/2021-july-euro2021/featured.png">
+<meta itemprop="keywords" content="" />
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="https://nrennie.rbind.io/style.main.min.d76947001c67101273b3b8e1f7e6a38767f041b23e9b2fddd3ca4aa0ee4ff57b.css" integrity="sha256-12lHABxnEBJzs7jh9&#43;ajh2fwQbI&#43;my/d08pKoO5P9Xs=" media="screen">
+  
+  
+  <script src="https://nrennie.rbind.io/panelset.min.078a92db9bd3228df502db3d9e0453c3cf3d910abe3f8deca0ad196c7071ad41.js" type="text/javascript"></script>
+  
+  
+  <script src="https://nrennie.rbind.io/main.min.fa7e67322c5baa17353e684b5a71d90861e778590c7e59ea3995dfca54d3ee1f.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container single">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/" title="About">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/talks/" title="Talks">Talks</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/rtistry/" title="Rtistry">Rtistry</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/blog/" title="Blog">Blog</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Detecting outlying demand in multi-leg bookings for transportation networks</h1>
+        <h4 class="f4 mt0 mb4 lh-title measure">31st European Conference on Operational Research</h4>
+        <p class="f6 measure lh-copy mv1">By Nicola Rennie in <a href="https://nrennie.rbind.io/categories/conference">Conference</a> </p>
+        <p class="f7 db mv0 ttu">July 11, 2021</p>
+
+      
+      <div class="ph0 pt5">
+        
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="/talk/2021-july-euro2021/slides.pdf" ><i class="fas fa-download fa-lg fa-fw mr2"></i>Slides</a>
+
+
+      </div>
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        <p>Network effects complicate transport demand forecasting in general and outlier detection in particular. For example, a sudden increase in demand for a specific destination will not only affect the legs arriving at that destination, but also connected legs nearby in the network. Network effects are particularly strong when service providers, such as railway or coach companies, offer many multi-leg itineraries. In such situations, automated alerts can help analysts to adjust demand forecasts and enable reliable planning. 
+In this presentation, we outline a novel two-step method for automatically detecting outlying demand from transportation network bookings. The first step clusters network legs according to the observed booking patterns. The second step identifies outliers within each cluster to create a ranked alert list of affected legs. We illustrate the method using empirical data obtained from Deutsche Bahn. In addition, we present a detailed simulation study that quantifies the improvement from the clustering step and implications of ranking to measure the criticality of the outliers. Our results show that the proposed approach outperforms independently analysing each leg, especially in highly connected networks where most passengers book multi-leg itineraries.</p>
+<p>Keywords: Analytics; Forecasting; Outlier detection; Network analysis; Simulation; Demand management.</p>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">July 11, 2021</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">1 minute read, 194 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="https://nrennie.rbind.io/categories/conference">Conference</a> </dd>
+  </dl>
+  
+  
+  
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="https://nrennie.rbind.io/talks/2021-april-ima-or-conference/">&larr; Detecting outlier demand in revenue management networks</a>
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="https://nrennie.rbind.io/talks/2021-september-rss-international-conference/">We&#39;re not getting any younger! Or should that be older? &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+  </section>
+</main>
+
+
+      </div>
+    </body>
+</html>
