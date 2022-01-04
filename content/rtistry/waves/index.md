@@ -26,7 +26,7 @@ The `waves()` series, inspired by repeating patterns, is constructed from sine a
 
 This generative artwork can be reproduced using my {aRt} package on [GitHub](https://github.com/nrennie/aRt), which you can install in R using: 
 
-```{r}
+```r
 remotes::install_github("nrennie/aRt")
 library(aRt)
 waves()

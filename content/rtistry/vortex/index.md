@@ -25,7 +25,7 @@ Available in two colour schemes, the `vortex()` series is inspired by patterns o
 
 This generative artwork can be reproduced using my {aRt} package on [GitHub](https://github.com/nrennie/aRt), which you can install in R using: 
 
-```{r}
+```r
 remotes::install_github("nrennie/aRt")
 library(aRt)
 vortex()

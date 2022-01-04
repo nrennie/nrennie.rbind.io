@@ -25,7 +25,7 @@ The colour palettes for this series comes from the {MetBrewer} package written b
       <guid>https://nrennie.rbind.io/rtistry/vortex/</guid>
       <description>OverviewAvailable in two colour schemes, the vortex() series is inspired by patterns observed in fluid dynamics. This artwork is generated using line graphs and polar coordinates. There are two custom colour palettes available for this artwork - either a monochrome, or rainbow effect.
 InstallationThis generative artwork can be reproduced using my {aRt} package on GitHub, which you can install in R using:
-remotes::install_github(&amp;quot;nrennie/aRt&amp;quot;)library(aRt)vortex()Packages required {ggplot2}  Parameters n specifies how many lines are drawn i.</description>
+remotes::install_github(&amp;#34;nrennie/aRt&amp;#34;) library(aRt) vortex() Packages required {ggplot2}  Parameters n specifies how many lines are drawn i.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@ remotes::install_github(&amp;quot;nrennie/aRt&amp;quot;)library(aRt)vortex()
       <guid>https://nrennie.rbind.io/rtistry/waves/</guid>
       <description>OverviewThe waves() series, inspired by repeating patterns, is constructed from sine and cosine waves.
 InstallationThis generative artwork can be reproduced using my {aRt} package on GitHub, which you can install in R using:
-remotes::install_github(&amp;quot;nrennie/aRt&amp;quot;)library(aRt)waves()Packages required {ggplot2} {rcartocolor}  Parameters a is a sine wave parameter. b is a cosine wave parameter. main_col sets the main colour of the artwork.</description>
+remotes::install_github(&amp;#34;nrennie/aRt&amp;#34;) library(aRt) waves() Packages required {ggplot2} {rcartocolor}  Parameters a is a sine wave parameter. b is a cosine wave parameter. main_col sets the main colour of the artwork.</description>
     </item>
     
   </channel>
