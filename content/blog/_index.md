@@ -2,7 +2,7 @@
 author: Nicola Rennie
 cascade:
   author: Nicola Rennie
-  show_author_byline: true
+  show_author_byline: false
   show_comments: true
   show_post_date: true
   sidebar: 

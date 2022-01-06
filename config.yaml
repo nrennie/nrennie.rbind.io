@@ -30,7 +30,8 @@ markup:
     ordered: no
     startLevel: 2
 params:
-  custom_theme: ''
+  theme: 
+  custom_theme: "hex-colors" 
   customheadingFontFamily: Fraunces
   customtextFontFamily: Commissioner
   description: A personal website for Nicola Rennie.
@@ -57,7 +58,6 @@ params:
   socialInFooter: yes
   socialInHeader: no
   textFontFamily: sans-serif
-  theme: sky
   twitter: nrennie35
   utterances:
     issue_term: pathname
@@ -87,6 +87,10 @@ menu:
       title: Blog
       url: /blog/
       weight: 4
+    - name: Links
+      title: Links
+      url: /links/
+      weight: 5
 privacy:
   disqus:
     disable: no

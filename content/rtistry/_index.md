@@ -3,7 +3,7 @@ title: Rtistry
 description: "A selection of generative art created using R, also known as #rtistry. You can also view my generative artwork on instagram: nrennie_aRt."
 author: "Nicola Rennie"
 show_post_thumbnail: true
-show_author_byline: true
+show_author_byline: false
 show_post_date: false
 type: rtistry
 # for listing page layout
