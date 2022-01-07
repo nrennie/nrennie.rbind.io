@@ -49,7 +49,7 @@ For data:
 My favourite map from the challenge was Day 9 (monochrome). This is a circular map of the roads and streets in Glasgow with data obtained from the `{osmdata}` package. I really liked the simplicity of this map, and that you can clearly see the river in the negative space, even without explicitly plotting it. 
 
 <p align="center">
-<img src="map_09.jpg?raw=true">
+<img src="/blog/2021-12-01-30-day-map-challenge-2021/map_09.jpg?raw=true">
 </p>
 
 This one was mostly inspired by [Abdoul Madjid](https://twitter.com/issa_madjid). This was the first time I'd looked at intersections between different spatial objects (something I'd been meaning to learn for a while). Being restricted to monochrome colours also meant I didn't spend too much time thinking about colour palettes, and could instead focus on the data. 

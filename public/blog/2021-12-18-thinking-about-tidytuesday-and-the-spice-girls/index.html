@@ -127,7 +127,7 @@ It can be a little bit scary to make your first (or any) contribution to #TidyTu
 <a href="https://github.com/rfordatascience/tidytuesday/blob/master/README.md" target="_blank" rel="noopener">here</a>.</p>
 <p>It can be a little bit scary to make your first (or any) contribution to #TidyTuesday on twitter especially when the quality of the submissions you see is so high. So I thought I’d outline my thought process for this week’s Spice Girls data.</p>
 <p align="center">
-<img src="spice.gif?raw=true">
+<img src="/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/spice.gif?raw=true">
 </p>
 <p align = "center" style="font-style: italic;">
 Image from tenor.com/view/wannabe-spice-girls-gif-13245102
@@ -160,7 +160,7 @@ Image from tenor.com/view/wannabe-spice-girls-gif-13245102
 <p>To start off plotting, I usually pull out the variables that I&rsquo;m going to use by using <code>select()</code> from <code>{dplyr}</code>. Then I use <code>group_by()</code> and <code>summarise_if()</code> to calculate the mean of each of my variables.</p>
 <p>Now for the fun part – plotting! There isn&rsquo;t a built in geom within <code>{ggplot2}</code> to create spider plots, so it&rsquo;s off to Google I go. The <code>{ggradar}</code> package on GitHub by @
 <a href="https://twitter.com/ricardobion" target="_blank" rel="noopener">ricardobion</a> is compatible with <code>{ggplot2}</code> so it seems like a viable option.</p>
-<p><img src="basic_plot.jpeg" alt=""></p>
+<p><img src="/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/basic_plot.jpeg" alt=""></p>
 <p>I now have a basic spider plot, and I can get started think a bit about design.</p>
 
 
@@ -177,7 +177,7 @@ Image from tenor.com/view/wannabe-spice-girls-gif-13245102
 <p>I add some captions, including some a subtitle (or tag) to explain what the plot tells a viewer. In terms of choosing a colour scheme, I like to choose something related to the data. This week’s data is perfect for using the Spice Girls palette from the <code>{popthemes}</code> package from @
 <a href="https://twitter.com/_johnmackintosh" target="_blank" rel="noopener">_johnmackintosh</a>. There doesn’t seem to be an option to change the axis label colour in ggradar so I may add these labels in a different colour later using an annotation layer.</p>
 <p>Now the only thing left to do is post the final version to twitter with the #TidyTuesday hashtag.</p>
-<p><img src="featured.jpeg" alt=""></p>
+<p><img src="/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/featured.jpeg" alt=""></p>
 <p>The code for this plot is on 
 <a href="https://github.com/nrennie/tidytuesday/tree/main/2021/14-12-2021" target="_blank" rel="noopener">GitHub</a> if you want to play around with it and create your own version.</p>
 

@@ -105,7 +105,7 @@ Tweet&lt;/a&gt;&lt;/p&gt;
 &lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/blob/master/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;It can be a little bit scary to make your first (or any) contribution to #TidyTuesday on twitter especially when the quality of the submissions you see is so high. So I thought I’d outline my thought process for this week’s Spice Girls data.&lt;/p&gt;
 &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;spice.gif?raw=true&#34;&gt;
+&lt;img src=&#34;https://nrennie.rbind.io/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/spice.gif?raw=true&#34;&gt;
 &lt;/p&gt;
 &lt;p align = &#34;center&#34; style=&#34;font-style: italic;&#34;&gt;
 Image from tenor.com/view/wannabe-spice-girls-gif-13245102
@@ -138,7 +138,7 @@ Image from tenor.com/view/wannabe-spice-girls-gif-13245102
 &lt;p&gt;To start off plotting, I usually pull out the variables that I&amp;rsquo;m going to use by using &lt;code&gt;select()&lt;/code&gt; from &lt;code&gt;{dplyr}&lt;/code&gt;. Then I use &lt;code&gt;group_by()&lt;/code&gt; and &lt;code&gt;summarise_if()&lt;/code&gt; to calculate the mean of each of my variables.&lt;/p&gt;
 &lt;p&gt;Now for the fun part – plotting! There isn&amp;rsquo;t a built in geom within &lt;code&gt;{ggplot2}&lt;/code&gt; to create spider plots, so it&amp;rsquo;s off to Google I go. The &lt;code&gt;{ggradar}&lt;/code&gt; package on GitHub by @
 &lt;a href=&#34;https://twitter.com/ricardobion&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ricardobion&lt;/a&gt; is compatible with &lt;code&gt;{ggplot2}&lt;/code&gt; so it seems like a viable option.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;basic_plot.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nrennie.rbind.io/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/basic_plot.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I now have a basic spider plot, and I can get started think a bit about design.&lt;/p&gt;
 
 
@@ -155,7 +155,7 @@ Image from tenor.com/view/wannabe-spice-girls-gif-13245102
 &lt;p&gt;I add some captions, including some a subtitle (or tag) to explain what the plot tells a viewer. In terms of choosing a colour scheme, I like to choose something related to the data. This week’s data is perfect for using the Spice Girls palette from the &lt;code&gt;{popthemes}&lt;/code&gt; package from @
 &lt;a href=&#34;https://twitter.com/_johnmackintosh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;_johnmackintosh&lt;/a&gt;. There doesn’t seem to be an option to change the axis label colour in ggradar so I may add these labels in a different colour later using an annotation layer.&lt;/p&gt;
 &lt;p&gt;Now the only thing left to do is post the final version to twitter with the #TidyTuesday hashtag.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;featured.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nrennie.rbind.io/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/featured.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The code for this plot is on 
 &lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/14-12-2021&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; if you want to play around with it and create your own version.&lt;/p&gt;
 
@@ -237,7 +237,7 @@ Tweet&lt;/a&gt;&lt;/p&gt;
 &lt;/h3&gt;
 &lt;p&gt;My favourite map from the challenge was Day 9 (monochrome). This is a circular map of the roads and streets in Glasgow with data obtained from the &lt;code&gt;{osmdata}&lt;/code&gt; package. I really liked the simplicity of this map, and that you can clearly see the river in the negative space, even without explicitly plotting it.&lt;/p&gt;
 &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;map_09.jpg?raw=true&#34;&gt;
+&lt;img src=&#34;https://nrennie.rbind.io/blog/2021-12-01-30-day-map-challenge-2021/map_09.jpg?raw=true&#34;&gt;
 &lt;/p&gt;
 &lt;p&gt;This one was mostly inspired by 
 &lt;a href=&#34;https://twitter.com/issa_madjid&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Abdoul Madjid&lt;/a&gt;. This was the first time I&amp;rsquo;d looked at intersections between different spatial objects (something I&amp;rsquo;d been meaning to learn for a while). Being restricted to monochrome colours also meant I didn&amp;rsquo;t spend too much time thinking about colour palettes, and could instead focus on the data.&lt;/p&gt;

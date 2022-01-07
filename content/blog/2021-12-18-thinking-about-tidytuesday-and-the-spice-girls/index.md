@@ -22,7 +22,7 @@ For those of you who don't know, #TidyTuesday is a weekly data challenge aimed a
 It can be a little bit scary to make your first (or any) contribution to #TidyTuesday on twitter especially when the quality of the submissions you see is so high. So I thought I’d outline my thought process for this week’s Spice Girls data. 
 
 <p align="center">
-<img src="spice.gif?raw=true">
+<img src="/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/spice.gif?raw=true">
 </p>
 
 <p align = "center" style="font-style: italic;">
@@ -47,7 +47,7 @@ To start off plotting, I usually pull out the variables that I'm going to use by
 
 Now for the fun part – plotting! There isn't a built in geom within `{ggplot2}` to create spider plots, so it's off to Google I go. The `{ggradar}` package on GitHub by @[ricardobion](https://twitter.com/ricardobion) is compatible with `{ggplot2}` so it seems like a viable option. 
 
-![](basic_plot.jpeg) 
+![](/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/basic_plot.jpeg) 
 
 I now have a basic spider plot, and I can get started think a bit about design.
 
@@ -61,7 +61,7 @@ I add some captions, including some a subtitle (or tag) to explain what the plot
 
 Now the only thing left to do is post the final version to twitter with the #TidyTuesday hashtag. 
 
-![](featured.jpeg)
+![](/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/featured.jpeg)
 
 The code for this plot is on [GitHub](https://github.com/nrennie/tidytuesday/tree/main/2021/14-12-2021) if you want to play around with it and create your own version. 
 
