@@ -1,7 +1,7 @@
 ---
 author: Nicola Rennie
 categories:
-  - Data Visualisation
+  - R
 date: "2021-12-29"
 draft: false
 excerpt: "One of my goals for 2021 was to participate in the #TidyTuesday challenge on a regular basis. This blog post reflects on the past year of data visualisations."

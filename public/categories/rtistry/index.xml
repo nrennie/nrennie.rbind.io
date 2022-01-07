@@ -13,8 +13,69 @@
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://nrennie.rbind.io/rtistry/tiles/</guid>
-      <description>OverviewThe tiles() series is loosely inspired by mosaic tiling techniques. Each generative artwork consists of a grid of tiles, where each tile is made up of three squares - one large, one medium, and one small. The colouring algorithm ensures that the three squares on each tile are of different colours.
-The colour palettes for this series comes from the {MetBrewer} package written by Blake Robert Mills (@BlakeRobMills.</description>
+      <description>
+
+
+
+&lt;h4 id=&#34;overview&#34;&gt;Overview
+  &lt;a href=&#34;#overview&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;The &lt;code&gt;tiles()&lt;/code&gt; series is loosely inspired by mosaic tiling techniques. Each generative artwork consists of a grid of &lt;em&gt;tiles&lt;/em&gt;, where each tile is made up of three squares - one large, one medium, and one small. The colouring algorithm ensures that the three squares on each tile are of different colours.&lt;/p&gt;
+&lt;p&gt;The colour palettes for this series comes from the {MetBrewer} package written by Blake Robert Mills (
+&lt;a href=&#34;https://twitter.com/BlakeRobMills&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@BlakeRobMills&lt;/a&gt;.)&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;installation&#34;&gt;Installation
+  &lt;a href=&#34;#installation&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;This generative artwork can be reproduced using my {aRt} package on 
+&lt;a href=&#34;https://github.com/nrennie/aRt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, which you can install in R using:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;remotes&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;install_github&lt;/span&gt;(&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;nrennie/aRt&amp;#34;&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;library&lt;/span&gt;(aRt)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;tiles&lt;/span&gt;()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+
+&lt;h4 id=&#34;packages-required&#34;&gt;Packages required
+  &lt;a href=&#34;#packages-required&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;{ggplot2}&lt;/li&gt;
+&lt;li&gt;{MetBrewer}&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;h4 id=&#34;parameters&#34;&gt;Parameters
+  &lt;a href=&#34;#parameters&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;n_x&lt;/code&gt; specifies the number of columns in the grid.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;n_y&lt;/code&gt; specifies the number of rows in the grid.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;col_palette&lt;/code&gt; sets the colour palette. Must be one of the options from the {MetBrewer} package.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;num_colours&lt;/code&gt; specifies the number of colours to be used, cannot be more than the number of colours available in the colour palette.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;s&lt;/code&gt; sets the random seed used to colour the tiles.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;h4 id=&#34;examples&#34;&gt;Examples
+  &lt;a href=&#34;#examples&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;featured.jpeg?raw=true&#34; width=&#34;33%&#34;&gt;
+&lt;img src=&#34;tiles1.jpeg?raw=true&#34; width=&#34;33%&#34;&gt;
+&lt;img src=&#34;tiles2.jpeg?raw=true&#34; width=&#34;33%&#34;&gt;
+&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;tiles&lt;/span&gt;(n_x&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;12&lt;/span&gt;, n_y&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;12&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Veronese&amp;#34;&lt;/span&gt;, num_colours&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;5&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;tiles&lt;/span&gt;(n_x&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;50&lt;/span&gt;, n_y&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;50&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Veronese&amp;#34;&lt;/span&gt;, num_colours&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;6&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;tiles&lt;/span&gt;(n_x&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;12&lt;/span&gt;, n_y&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;12&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Pissaro&amp;#34;&lt;/span&gt;, num_colours&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;5&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -23,9 +84,66 @@ The colour palettes for this series comes from the {MetBrewer} package written b
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://nrennie.rbind.io/rtistry/vortex/</guid>
-      <description>OverviewAvailable in two colour schemes, the vortex() series is inspired by patterns observed in fluid dynamics. This artwork is generated using line graphs and polar coordinates. There are two custom colour palettes available for this artwork - either a monochrome, or rainbow effect.
-InstallationThis generative artwork can be reproduced using my {aRt} package on GitHub, which you can install in R using:
-remotes::install_github(&amp;#34;nrennie/aRt&amp;#34;) library(aRt) vortex() Packages required {ggplot2}  Parameters n specifies how many lines are drawn i.</description>
+      <description>
+
+
+
+&lt;h4 id=&#34;overview&#34;&gt;Overview
+  &lt;a href=&#34;#overview&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;Available in two colour schemes, the &lt;code&gt;vortex()&lt;/code&gt; series is inspired by patterns observed in fluid dynamics. This artwork is generated using line graphs and polar coordinates. There are two custom colour palettes available for this artwork - either a monochrome, or rainbow effect.&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;installation&#34;&gt;Installation
+  &lt;a href=&#34;#installation&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;This generative artwork can be reproduced using my {aRt} package on 
+&lt;a href=&#34;https://github.com/nrennie/aRt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, which you can install in R using:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;remotes&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;install_github&lt;/span&gt;(&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;nrennie/aRt&amp;#34;&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;library&lt;/span&gt;(aRt)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;vortex&lt;/span&gt;()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+
+&lt;h4 id=&#34;packages-required&#34;&gt;Packages required
+  &lt;a href=&#34;#packages-required&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;{ggplot2}&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;h4 id=&#34;parameters&#34;&gt;Parameters
+  &lt;a href=&#34;#parameters&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;n&lt;/code&gt; specifies how many lines are drawn i.e. how dense the pattern is.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;start_val&lt;/code&gt; sets the angle where the lines are drawn from i.e. sets where the &lt;em&gt;gap&lt;/em&gt; in the lines is located.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;col_scheme&lt;/code&gt; sets the main colour scheme of the artwork. There are two options: either &lt;code&gt;&amp;quot;rainbow&amp;quot;&lt;/code&gt; or &lt;code&gt;&amp;quot;mono&amp;quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bg_col&lt;/code&gt; sets the background colour of the artwork.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;s&lt;/code&gt; sets the random seed used to generate the values.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;h4 id=&#34;examples&#34;&gt;Examples
+  &lt;a href=&#34;#examples&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;featured.jpeg?raw=true&#34; width=&#34;33%&#34;&gt;
+&lt;img src=&#34;vortex1.jpeg?raw=true&#34; width=&#34;33%&#34;&gt;
+&lt;img src=&#34;vortex2.jpeg?raw=true&#34; width=&#34;33%&#34;&gt;
+&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;vortex&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;25&lt;/span&gt;, start_val&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;90&lt;/span&gt;, col_scheme&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;mono&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;vortex&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, start_val&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;90&lt;/span&gt;, col_scheme&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;mono&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;vortex&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;25&lt;/span&gt;, start_val&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;90&lt;/span&gt;, col_scheme&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;rainbow&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -34,9 +152,67 @@ remotes::install_github(&amp;#34;nrennie/aRt&amp;#34;) library(aRt) vortex() Pa
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://nrennie.rbind.io/rtistry/waves/</guid>
-      <description>OverviewThe waves() series, inspired by repeating patterns, is constructed from sine and cosine waves.
-InstallationThis generative artwork can be reproduced using my {aRt} package on GitHub, which you can install in R using:
-remotes::install_github(&amp;#34;nrennie/aRt&amp;#34;) library(aRt) waves() Packages required {ggplot2} {rcartocolor}  Parameters a is a sine wave parameter. b is a cosine wave parameter. main_col sets the main colour of the artwork.</description>
+      <description>
+
+
+
+&lt;h4 id=&#34;overview&#34;&gt;Overview
+  &lt;a href=&#34;#overview&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;The &lt;code&gt;waves()&lt;/code&gt; series, inspired by repeating patterns, is constructed from sine and cosine waves.&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;installation&#34;&gt;Installation
+  &lt;a href=&#34;#installation&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;This generative artwork can be reproduced using my {aRt} package on 
+&lt;a href=&#34;https://github.com/nrennie/aRt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, which you can install in R using:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;remotes&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;install_github&lt;/span&gt;(&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;nrennie/aRt&amp;#34;&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;library&lt;/span&gt;(aRt)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;waves&lt;/span&gt;()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+
+&lt;h4 id=&#34;packages-required&#34;&gt;Packages required
+  &lt;a href=&#34;#packages-required&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;{ggplot2}&lt;/li&gt;
+&lt;li&gt;{rcartocolor}&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;h4 id=&#34;parameters&#34;&gt;Parameters
+  &lt;a href=&#34;#parameters&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;a&lt;/code&gt; is a sine wave parameter.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;b&lt;/code&gt; is a cosine wave parameter.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;main_col&lt;/code&gt; sets the main colour of the artwork. There are two ways to specify the colours: (i) if a single colour is given, all lines will be the same colour. If a palette from the {rcartocolor} package is given the colours will change with the radius of the pattern.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bg_col&lt;/code&gt; sets the background colour of the artwork.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;s&lt;/code&gt; sets the random seed used to generate the values.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;h4 id=&#34;examples&#34;&gt;Examples
+  &lt;a href=&#34;#examples&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;featured.jpeg?raw=true&#34; width=&#34;33%&#34;&gt;
+&lt;img src=&#34;waves1.jpeg?raw=true&#34; width=&#34;33%&#34;&gt;
+&lt;img src=&#34;waves2.jpeg?raw=true&#34; width=&#34;33%&#34;&gt;
+&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;waves&lt;/span&gt;(a&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;23&lt;/span&gt;, b&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;6&lt;/span&gt;, main_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;2021&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;waves&lt;/span&gt;(a&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;23&lt;/span&gt;, b&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;6&lt;/span&gt;, main_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Prism&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#edad08&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;2021&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;waves&lt;/span&gt;(a&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;6&lt;/span&gt;, b&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;23&lt;/span&gt;, main_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;2021&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>
