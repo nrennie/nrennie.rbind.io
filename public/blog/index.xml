@@ -13,8 +13,82 @@
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://nrennie.rbind.io/blog/2021-12-29-a-year-of-tidytuesday/</guid>
-      <description>One of my goals for 2021 was to participate in the #TidyTuesday challenge on a regular basis. This blog post reflects on the past year of data visualisations.
-For those of you who don&amp;rsquo;t know, #TidyTuesday is a weekly data challenge aimed at the R community. Every week a new dataset is posted alongside a chart or article related to that dataset, and ask participants explore the data. You can access the data and find out more here.</description>
+      <description>&lt;p&gt;One of my goals for 2021 was to participate in the 
+&lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#TidyTuesday challenge&lt;/a&gt; on a regular basis. This blog post reflects on the past year of data visualisations.&lt;/p&gt;
+&lt;p&gt;For those of you who don&amp;rsquo;t know, #TidyTuesday is a weekly data challenge aimed at the R community. Every week a new dataset is posted alongside a chart or article related to that dataset, and ask participants explore the data. You can access the data and find out more 
+&lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/blob/master/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This tweet from @
+&lt;a href=&#34;https://twitter.com/kustav_sen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kustav_sen&lt;/a&gt; shows everyone who has participated in TidyTuesday at least 10 times this year.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Another year of &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TidyTuesday&lt;/a&gt; now complete! 🎉Here is a collage of all the participants with more than 10 posts over 2021. Big thanks to &lt;a href=&#34;https://twitter.com/thomas_mock?ref_src=twsrc%5Etfw&#34;&gt;@thomas_mock&lt;/a&gt; for leading the initiative🙌&lt;br&gt;&lt;br&gt;Interactive version: &lt;a href=&#34;https://t.co/g6MqsVVPrJ&#34;&gt;https://t.co/g6MqsVVPrJ&lt;/a&gt;&lt;a href=&#34;https://twitter.com/hashtag/RStats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RStats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/d3js?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#d3js&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#dataviz&lt;/a&gt; &lt;br&gt;&lt;br&gt;1/3 &lt;a href=&#34;https://t.co/yb2Iz2HZn7&#34;&gt;pic.twitter.com/yb2Iz2HZn7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kaustav Sen (@kustav_sen) &lt;a href=&#34;https://twitter.com/kustav_sen/status/1475502029195808771?ref_src=twsrc%5Etfw&#34;&gt;December 27, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;The first thing I want to reflect on is what I was trying to achieve by taking part in TidyTuesday.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I got better at processing data. The data sets for TidyTuesday are usually relatively clean, so this was more about getting comfortable with {tidyverse} packages like {dplyr} and {tidyr} to get data into the format I needed it to be.&lt;/li&gt;
+&lt;li&gt;I got faster at doing basic things in {ggplot2}. I don&amp;rsquo;t need to look up syntax to change plot elements quite as much. Although Google still likes to remind me how often I&amp;rsquo;ve looked up multi-column legends&amp;hellip;&lt;/li&gt;
+&lt;li&gt;I tried out a lot of different (sometimes new, sometime old) packages in R, and discovered a lot of new ways of plotting data. Sometimes it worked, sometimes it didn&amp;rsquo;t.&lt;/li&gt;
+&lt;li&gt;I found lots of cool people on Twitter who also think playing with data in their spare time is fun.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I saw this tweet from @
+&lt;a href=&#34;https://twitter.com/aabattani&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aabattani&lt;/a&gt; reflecting on a year of Tableau vizzes, and I wanted to do the same for my #TidyTuesday contributions.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;In the spirit of &lt;a href=&#34;https://twitter.com/josh_tapley?ref_src=twsrc%5Etfw&#34;&gt;@josh_tapley&lt;/a&gt;&amp;#39;s year in review, I wanted to do a little more reflecting on my &lt;a href=&#34;https://twitter.com/tableaupublic?ref_src=twsrc%5Etfw&#34;&gt;@tableaupublic&lt;/a&gt; vizzes. So here is: &lt;br&gt;&lt;br&gt;- my first viz of this year&lt;br&gt;- my most recent viz of the year&lt;br&gt;- my favorite viz I posted this year&lt;br&gt;- and one I&amp;#39;d like to re-do&lt;br&gt;&lt;br&gt;what are yours? &lt;a href=&#34;https://t.co/MUuWNlimRF&#34;&gt;pic.twitter.com/MUuWNlimRF&lt;/a&gt;&lt;/p&gt;&amp;mdash; autumn🍂 (@aabattani) &lt;a href=&#34;https://twitter.com/aabattani/status/1475453410195300357?ref_src=twsrc%5Etfw&#34;&gt;December 27, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+
+
+&lt;h4 id=&#34;first-visualisation&#34;&gt;First visualisation
+  &lt;a href=&#34;#first-visualisation&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;My first contribution to #TidyTuesday back in January 2021 visualised the cost of different infrastructure projects. I still quite like this plot, although there are a few things I&amp;rsquo;d do differently. I&amp;rsquo;d probably colour and sort these by continent because the order of countries doesn&amp;rsquo;t make much sense. Different colours for pre- and post- 2021 expenditure may also be more helpful than a dashed line. I would also add a more detailed subtitle or summary to explain what&amp;rsquo;s going on.&lt;/p&gt;
+&lt;p&gt;In terms of R code, I reordered the variables manually by start date using &lt;code&gt;factor(df$country_name[order(df$start_year)],levels=df$country_name[order(df$start_year)])&lt;/code&gt; and there are definitely better ways of doing this e.g. with &lt;code&gt;fct_reorder()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Overall, I think this was a pretty good first attempt.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;My PhD project analyses data obtained from railway networks and so does this week&amp;#39;s &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TidyTuesday&lt;/a&gt;!&lt;br&gt;&lt;br&gt;Code on GitHub: &lt;a href=&#34;https://t.co/XCjc1qsQIj&#34;&gt;https://t.co/XCjc1qsQIj&lt;/a&gt; &lt;a href=&#34;https://t.co/T6LsNKGKbZ&#34;&gt;pic.twitter.com/T6LsNKGKbZ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nicola Rennie (@nrennie35) &lt;a href=&#34;https://twitter.com/nrennie35/status/1346942495008018442?ref_src=twsrc%5Etfw&#34;&gt;January 6, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+
+
+&lt;h4 id=&#34;most-recent-visualisation&#34;&gt;Most recent visualisation
+  &lt;a href=&#34;#most-recent-visualisation&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;I had the idea for this one in my head when I saw the data set, so it was more about trying to create the idea I had rather than playing around with different ideas.&lt;/p&gt;
+&lt;p&gt;The shades of green aren&amp;rsquo;t quite different enough for the legend to be useful. Instead, I&amp;rsquo;d add the values as text underneath each icon, and add an arrow on the right hadn side to indicate increasing caffeine levels.&lt;/p&gt;
+&lt;p&gt;I really like the clean, minimalist design of this one.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Looking at how much caffeine there is in different &lt;a href=&#34;https://twitter.com/hashtag/Starbucks?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Starbucks&lt;/a&gt; drinks for &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TidyTuesday&lt;/a&gt; this week! &lt;br&gt;&lt;br&gt;Thanks &lt;a href=&#34;https://twitter.com/StarTrek_Lt?ref_src=twsrc%5Etfw&#34;&gt;@StarTrek_Lt&lt;/a&gt; for the data!&lt;br&gt;&lt;br&gt;Code: &lt;a href=&#34;https://t.co/f6VyY6vaSC&#34;&gt;https://t.co/f6VyY6vaSC&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataVisualization?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataVisualization&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataViz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataViz&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataScience?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataScience&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/RStats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RStats&lt;/a&gt; &lt;a href=&#34;https://t.co/3kRCY7aN6v&#34;&gt;pic.twitter.com/3kRCY7aN6v&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nicola Rennie (@nrennie35) &lt;a href=&#34;https://twitter.com/nrennie35/status/1473361707477184512?ref_src=twsrc%5Etfw&#34;&gt;December 21, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+
+
+&lt;h4 id=&#34;favourite-visualisation&#34;&gt;Favourite visualisation
+  &lt;a href=&#34;#favourite-visualisation&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;My favourite data for #TidyTuesday in 2021 came from the Duke Lemur Center. One of the nice features was the personal data on each lemur, so you could track individual lemurs and their offspring over time. This was the point of the year, where I started to experiment with the graphic design side of visualisation more using package like {cowplot} and {patchwork} to combine plots and overlay images (like this one of an adorable lemur).&lt;/p&gt;
+&lt;p&gt;I also ended up following the Duke Lemur Center on twitter after this so my twitter feed regularly features lemur photos which is no bad thing.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Looking at collared brown lemurs at &lt;a href=&#34;https://twitter.com/DukeLemurCenter?ref_src=twsrc%5Etfw&#34;&gt;@DukeLemurCenter&lt;/a&gt; for &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TidyTuesday&lt;/a&gt; this week. The oldest lemur, Yvette, born in 1959, lived to 32.6 years. &lt;br&gt;&lt;br&gt;Code: &lt;a href=&#34;https://t.co/IEBznAlkGk&#34;&gt;https://t.co/IEBznAlkGk&lt;/a&gt;&lt;a href=&#34;https://twitter.com/hashtag/DataVisualization?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataVisualization&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataViz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataViz&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataScience?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataScience&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/RStats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RStats&lt;/a&gt; &lt;a href=&#34;https://t.co/Pv5NxqOuKF&#34;&gt;pic.twitter.com/Pv5NxqOuKF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nicola Rennie (@nrennie35) &lt;a href=&#34;https://twitter.com/nrennie35/status/1430184781849972748?ref_src=twsrc%5Etfw&#34;&gt;August 24, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+
+
+&lt;h4 id=&#34;visualisation-id-like-to-redo&#34;&gt;Visualisation I&amp;rsquo;d like to redo
+  &lt;a href=&#34;#visualisation-id-like-to-redo&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;I remember having a bit of an idea for this plot, but not quite knowing how to create it, I ended up using the {ggbump} package to create the sigmoids. Several weeks later, I discovered that this was actually called a Sankey chart and that there was a {ggplot2} compatible R package for creating them called {ggalluvial}. I&amp;rsquo;ve used it several times since, and I think it would definitely improve the execution of this idea.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A topical one for this week&amp;#39;s &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TidyTuesday&lt;/a&gt; (as I currently bake in 32°C heat), looking at the change in the percentage of California&amp;#39;s population affected by droughts in the last 20 years. &lt;br&gt;&lt;br&gt;Code: &lt;a href=&#34;https://t.co/d8o9unYSB8&#34;&gt;https://t.co/d8o9unYSB8&lt;/a&gt;&lt;a href=&#34;https://twitter.com/hashtag/DataVisualization?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataVisualization&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataViz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataViz&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataScience?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataScience&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/RStats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RStats&lt;/a&gt; &lt;a href=&#34;https://t.co/abpTgOyQ8p&#34;&gt;pic.twitter.com/abpTgOyQ8p&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nicola Rennie (@nrennie35) &lt;a href=&#34;https://twitter.com/nrennie35/status/1417532402860281862?ref_src=twsrc%5Etfw&#34;&gt;July 20, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+
+
+&lt;h3 id=&#34;final-thoughts&#34;&gt;Final thoughts
+  &lt;a href=&#34;#final-thoughts&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Overall, #TidyTuesday has been one of the best and most fun work-related things I decided to do on 2021. During my PhD, although I had a lot of data, it all looked quite similar so there wasn&amp;rsquo;t a lot of opportunity to experiment with different plots. #TidyTuesday is a nice environment to experiment with different plots and packages because you don&amp;rsquo;t have to get it right. For me at least, it&amp;rsquo;s about trying something new rather than making publication-ready plots. I&amp;rsquo;m definitely looking forward to participating in #TidyTuesday in 2022, and beyond.&lt;/p&gt;
+&lt;p&gt;Huge thanks to @
+&lt;a href=&#34;https://twitter.com/thomas_mock&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;thomas_mock&lt;/a&gt; for putting #TidyTuesday together every week, and thanks to everyone who contributed data. I might add some data of my own next year.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;twitter-share-button&#34;
+href=&#34;https://twitter.com/intent/tweet&#34;
+data-size=&#34;large&#34;&gt;
+Tweet&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -23,9 +97,83 @@ For those of you who don&amp;rsquo;t know, #TidyTuesday is a weekly data challen
       <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://nrennie.rbind.io/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/</guid>
-      <description>Earlier this week, whilst curating for @WeAreRLadies, I tweeted a thread on my thought process for this week&amp;rsquo;s #TidyTuesday challenge. This blog post expands on the thoughts in this aforementioned thread:
-It can be a little bit scary to make your first (or any) contribution to #TidyTuesday on twitter so I thought I’d outline my thought process for this week’s Spice Girls data. pic.twitter.com/zsyV3mfRkG
-&amp;mdash; We are R-Ladies (@WeAreRLadies) December 14, 2021 For those of you who don&amp;rsquo;t know, #TidyTuesday is a weekly data challenge aimed at the R community.</description>
+      <description>&lt;p&gt;Earlier this week, whilst curating for @
+&lt;a href=&#34;https://twitter.com/WeAreRLadies&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WeAreRLadies&lt;/a&gt;, I tweeted a thread on my thought process for 
+&lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-12-14/readme.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this week&amp;rsquo;s #TidyTuesday challenge&lt;/a&gt;. This blog post expands on the thoughts in this aforementioned thread:&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;It can be a little bit scary to make your first (or any) contribution to &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TidyTuesday&lt;/a&gt; on twitter so I thought I’d outline my thought process for this week’s Spice Girls data. &lt;a href=&#34;https://t.co/zsyV3mfRkG&#34;&gt;pic.twitter.com/zsyV3mfRkG&lt;/a&gt;&lt;/p&gt;&amp;mdash; We are R-Ladies (@WeAreRLadies) &lt;a href=&#34;https://twitter.com/WeAreRLadies/status/1470792871242522631?ref_src=twsrc%5Etfw&#34;&gt;December 14, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;For those of you who don&amp;rsquo;t know, #TidyTuesday is a weekly data challenge aimed at the R community. Every week a new dataset is posted alongside a chart or article related to that dataset, and ask participants explore the data. You can access the data and find out more 
+&lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/blob/master/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It can be a little bit scary to make your first (or any) contribution to #TidyTuesday on twitter especially when the quality of the submissions you see is so high. So I thought I’d outline my thought process for this week’s Spice Girls data.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;spice.gif?raw=true&#34;&gt;
+&lt;/p&gt;
+&lt;p align = &#34;center&#34; style=&#34;font-style: italic;&#34;&gt;
+Image from tenor.com/view/wannabe-spice-girls-gif-13245102
+&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;exploring-the-data&#34;&gt;Exploring the data
+  &lt;a href=&#34;#exploring-the-data&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;This week there are actually three different data sets. Although this can be a good opportunity to practice different types of joins of dataframes, to avoid getting overwhelmed, it might be a good idea to just focus on one of these data sets. I&amp;rsquo;m going to focus on the studio_album_tracks data.&lt;/p&gt;
+&lt;p&gt;Reading the data dictionary provided with the data set is usually my first step. Variables aren&amp;rsquo;t always named the most useful things (although they are this week!) and this helps me understand what the data actually is. There are quite a lot of variables in this data set.&lt;/p&gt;
+&lt;p&gt;Since I come from a time series/forecasting background, the first thing that catches my eye is the album_release_date. However, (sadly) the Spice Girls only released three albums so it&amp;rsquo;s not quite enough time periods to look at time dependence.&lt;/p&gt;
+&lt;p&gt;There are quite a lot of variables with values between 0 and 1 e.g. danceability, energy, &amp;hellip; This makes me think that a spider plot (AKA radar plot) might be appropriate. I also keep a list of plot types/packages that I&amp;rsquo;d like to experiment with and spider plots are one of the chart types on my list. I&amp;rsquo;ve never made a spider plot in R before so this will be a learning experience for me too. Not everyone is a fan of spider plots but it’s still useful to learn new things.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;building-a-basic-plot&#34;&gt;Building a basic plot
+  &lt;a href=&#34;#building-a-basic-plot&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;So let&amp;rsquo;s make a spider plot showing the average danceability, energy, speechiness, acousticness, instrumentalness, liveness, valence for each of the albums released.&lt;/p&gt;
+&lt;p&gt;To start off plotting, I usually pull out the variables that I&amp;rsquo;m going to use by using &lt;code&gt;select()&lt;/code&gt; from &lt;code&gt;{dplyr}&lt;/code&gt;. Then I use &lt;code&gt;group_by()&lt;/code&gt; and &lt;code&gt;summarise_if()&lt;/code&gt; to calculate the mean of each of my variables.&lt;/p&gt;
+&lt;p&gt;Now for the fun part – plotting! There isn&amp;rsquo;t a built in geom within &lt;code&gt;{ggplot2}&lt;/code&gt; to create spider plots, so it&amp;rsquo;s off to Google I go. The &lt;code&gt;{ggradar}&lt;/code&gt; package on GitHub by @
+&lt;a href=&#34;https://twitter.com/ricardobion&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ricardobion&lt;/a&gt; is compatible with &lt;code&gt;{ggplot2}&lt;/code&gt; so it seems like a viable option.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;basic_plot.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I now have a basic spider plot, and I can get started think a bit about design.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;making-it-look-pretty&#34;&gt;Making it look pretty
+  &lt;a href=&#34;#making-it-look-pretty&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Viewing the help files for the package (or function) are really useful in helping me to decide what elements of the spider plot I can customise easily.&lt;/p&gt;
+&lt;p&gt;Although extra graphics are always fun, spiders plots are already quite complex to read so I decide on a minimalist theme. Most of this, if not all will be done using just &lt;code&gt;{ggplot2}&lt;/code&gt; functions. The &lt;code&gt;theme()&lt;/code&gt; options are the most useful.&lt;/p&gt;
+&lt;p&gt;I add some captions, including some a subtitle (or tag) to explain what the plot tells a viewer. In terms of choosing a colour scheme, I like to choose something related to the data. This week’s data is perfect for using the Spice Girls palette from the &lt;code&gt;{popthemes}&lt;/code&gt; package from @
+&lt;a href=&#34;https://twitter.com/_johnmackintosh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;_johnmackintosh&lt;/a&gt;. There doesn’t seem to be an option to change the axis label colour in ggradar so I may add these labels in a different colour later using an annotation layer.&lt;/p&gt;
+&lt;p&gt;Now the only thing left to do is post the final version to twitter with the #TidyTuesday hashtag.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The code for this plot is on 
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/14-12-2021&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; if you want to play around with it and create your own version.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;final-thoughts&#34;&gt;Final Thoughts
+  &lt;a href=&#34;#final-thoughts&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;ll blog about my experience of curating in a later post, but for now I hope that sharing my process for creating a data visualisation has been helpful. Why don&amp;rsquo;t you participate in your first TidyTuesday if you haven&amp;rsquo;t already?&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;twitter-share-button&#34;
+href=&#34;https://twitter.com/intent/tweet&#34;
+data-size=&#34;large&#34;&gt;
+Tweet&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -34,8 +182,121 @@ It can be a little bit scary to make your first (or any) contribution to #TidyTu
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://nrennie.rbind.io/blog/2021-12-01-30-day-map-challenge-2021/</guid>
-      <description>The #30DayMapChallenge is a daily mapping, cartography, and data visualization challenge aimed at the spatial community. Every day in November participants create a map with a given theme (e.g. population, monochrome, raster) and share their results Twitter using the #30DayMapChallenge hashtag. Check out the challenge here.
-Although I&amp;rsquo;ve been creating data visualisations for a while, I don&amp;rsquo;t normally have that many opportunities to work with spatial data. This year, I created all 30 maps (see below).</description>
+      <description>&lt;p&gt;The #30DayMapChallenge is a daily mapping, cartography, and data visualization challenge aimed at the spatial community. Every day in November participants create a map with a given theme (e.g. population, monochrome, raster) and share their results Twitter using the #30DayMapChallenge hashtag. Check out the challenge 
+&lt;a href=&#34;https://github.com/tjukanovt/30DayMapChallenge&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;featured.png?raw=true&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;Although I&amp;rsquo;ve been creating data visualisations for a while, I don&amp;rsquo;t normally have that many opportunities to work with spatial data. This year, I created all 30 maps (see below). You can view all of my maps (and the code used to generate them) at: 
+&lt;a href=&#34;https://github.com/nrennie/30DayMapChallenge/tree/main/2021&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/nrennie/30DayMapChallenge&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;finding-and-processing-data&#34;&gt;Finding and processing data
+  &lt;a href=&#34;#finding-and-processing-data&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;One of the things that set the 30 Day Map Challenge apart from other data visualisation challenges I&amp;rsquo;ve participated in (like TidyTuesday, for example) was the lack of data. Not only did the challenge involve making 30 maps, it also involved deciding what to map and finding the relevant data. To make this part a little less intimidating, I focused most of my maps around Glasgow, Scotland, and the UK. This meant I could use the same base maps multiple times, and sometimes the same data. Unlike challenges where data is provided, most of the data I found &amp;ldquo;in the wild&amp;rdquo; wasn&amp;rsquo;t in a &lt;em&gt;nice&lt;/em&gt; format. For example, I also learnt how to read in .tif and .asc files, and convert them into a format that R would understand.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;useful-and-interesting-packages&#34;&gt;Useful and interesting packages
+  &lt;a href=&#34;#useful-and-interesting-packages&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Most of my maps were created using R, with the exception of days 14 and 15, which used Tableau and some watercolour paints (separately!). Although I&amp;rsquo;m very familiar with R and its various data visualisation tools, I discovered a number of new packages that I hadn&amp;rsquo;t used before. A few highlights:&lt;/p&gt;
+&lt;p&gt;For plotting:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;{roughsf}&lt;/code&gt;: an R package for plotting spatial objects in a hand-drawn, sketch style.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{rayshader}&lt;/code&gt;: an R package for producing (realistic) 2D and 3D data visualizations in R using elevation data.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{rcartocolor}&lt;/code&gt;: a set of discrete and continuous colour palettes with colourblind friendly options.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{MapColoring}&lt;/code&gt;: an R package for assigning colors to polygon maps such that no two adjacent features have the same color, while using a minimal number of colors.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For data:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;{osmdata}&lt;/code&gt;: an R package for downloading and using data from OpenStreetMap.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{osrm}&lt;/code&gt;: an R package for OSRM (a routing service based on OpenStreetMap data) which computes routes, trips, isochrones and travel distances and times.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{rgeoboundaries}&lt;/code&gt;: an R package for the geoBoundaries API, providing country political administrative boundaries.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{elevatr}&lt;/code&gt;: an R package which provides elevation data from Amazon Web Services Terrain Tiles, Open Topography Global Datasets, and the USGS Elevation Point Query Service.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;h3 id=&#34;my-favourite-map&#34;&gt;My Favourite Map
+  &lt;a href=&#34;#my-favourite-map&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;My favourite map from the challenge was Day 9 (monochrome). This is a circular map of the roads and streets in Glasgow with data obtained from the &lt;code&gt;{osmdata}&lt;/code&gt; package. I really liked the simplicity of this map, and that you can clearly see the river in the negative space, even without explicitly plotting it.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;map_09.jpg?raw=true&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;This one was mostly inspired by 
+&lt;a href=&#34;https://twitter.com/issa_madjid&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Abdoul Madjid&lt;/a&gt;. This was the first time I&amp;rsquo;d looked at intersections between different spatial objects (something I&amp;rsquo;d been meaning to learn for a while). Being restricted to monochrome colours also meant I didn&amp;rsquo;t spend too much time thinking about colour palettes, and could instead focus on the data.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;favourite-maps-on-twitter&#34;&gt;Favourite Maps on Twitter
+  &lt;a href=&#34;#favourite-maps-on-twitter&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;I saw so many cool maps in November, and it&amp;rsquo;s impossible to list them all, but here are a few I really liked:&lt;/p&gt;
+Day 19 (Islands) by 
+
+
+
+&lt;h4 id=&#34;day-19-islands-by-kate-ellenhttpstwittercomkateellen100&#34;&gt;
+&lt;a href=&#34;https://twitter.com/KateEllen100&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kate Ellen&lt;/a&gt;
+  &lt;a href=&#34;#day-19-islands-by-kate-ellenhttpstwittercomkateellen100&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Kept it really simple for day 19 - islands, a 3D view of stunning Halong Bay in Vietnam. &lt;a href=&#34;https://twitter.com/hashtag/30DayMapChallenge?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#30DayMapChallenge&lt;/a&gt; &lt;a href=&#34;https://t.co/vphKf0wNlH&#34;&gt;pic.twitter.com/vphKf0wNlH&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kate (@KateEllen100) &lt;a href=&#34;https://twitter.com/KateEllen100/status/1461639267416002563?ref_src=twsrc%5Etfw&#34;&gt;November 19, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+Day 26 (Choropleth) by 
+
+
+
+&lt;h4 id=&#34;day-26-choropleth-by-colin-angushttpstwittercomvictimofmaths&#34;&gt;
+&lt;a href=&#34;https://twitter.com/VictimOfMaths&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colin Angus&lt;/a&gt;
+  &lt;a href=&#34;#day-26-choropleth-by-colin-angushttpstwittercomvictimofmaths&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/30DayMapChallenge?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#30DayMapChallenge&lt;/a&gt;&lt;br&gt;Day 26: Choropleth map&lt;br&gt;&lt;br&gt;I thought I&amp;#39;d revisit an old bivariate map, showing rates of deaths due to drugs and alcohol across the UK.&lt;br&gt;&lt;br&gt;So many tragic stories here, but Scotland really stands out. &lt;a href=&#34;https://t.co/rdEBoApur3&#34;&gt;pic.twitter.com/rdEBoApur3&lt;/a&gt;&lt;/p&gt;&amp;mdash; Colin Angus (@VictimOfMaths) &lt;a href=&#34;https://twitter.com/VictimOfMaths/status/1464318176615976965?ref_src=twsrc%5Etfw&#34;&gt;November 26, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+Day 20 (Movement) by 
+
+
+
+&lt;h4 id=&#34;day-20-movement-by-dan-harrishttpstwittercomdiasporadan&#34;&gt;
+&lt;a href=&#34;https://twitter.com/DiasporaDan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dan Harris&lt;/a&gt;
+  &lt;a href=&#34;#day-20-movement-by-dan-harrishttpstwittercomdiasporadan&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/30DayMapChallenge?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#30DayMapChallenge&lt;/a&gt; day 20 - movement. Drive times to &lt;a href=&#34;https://twitter.com/LEGO_Group?ref_src=twsrc%5Etfw&#34;&gt;@LEGO_Group&lt;/a&gt; stores in the UK, which I would like to propose as a new indicator of rural deprivation. &lt;a href=&#34;https://t.co/vcFcP06zoG&#34;&gt;pic.twitter.com/vcFcP06zoG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Dan Harris (@DiasporaDan) &lt;a href=&#34;https://twitter.com/DiasporaDan/status/1462022239319171077?ref_src=twsrc%5Etfw&#34;&gt;November 20, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+
+
+&lt;h3 id=&#34;final-thoughts&#34;&gt;Final Thoughts
+  &lt;a href=&#34;#final-thoughts&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;I definitely learnt a lot of new ways to visualise spatial data in the last 30 days, including some new packages. I also learnt a lot about Glasgow, and the country I was born in through exploring new sources of data. Next year, I&amp;rsquo;d like to be more selective about which days to participate in. Rather than creating a map for the sake of ticking off a day, I&amp;rsquo;d like to spend more time on each individual map and delve a bit deeper into some of the new packages I find.&lt;/p&gt;
+&lt;p&gt;Thanks to 
+&lt;a href=&#34;https://twitter.com/tjukanov&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Topi Tjukanov&lt;/a&gt; for creating this challenge a few years ago, and well done to everyone who participated in this year&amp;rsquo;s challenge whether you made one or thirty maps in November.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;twitter-share-button&#34;
+href=&#34;https://twitter.com/intent/tweet&#34;
+data-size=&#34;large&#34;&gt;
+Tweet&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -44,8 +305,85 @@ Although I&amp;rsquo;ve been creating data visualisations for a while, I don&amp
       <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://nrennie.rbind.io/blog/2021-10-06-detecting-demand-outliers-in-transport-systems/</guid>
-      <description>I recently completed my PhD at STOR-i CDT at Lancaster University. My thesis was titled &amp;ldquo;Detecting demand outliers in transport systems&amp;rdquo; and here I&amp;rsquo;ll (try to) give a brief overview of the work I&amp;rsquo;ve done in the last three years. The final version of my thesis can be found here.
-Super happy to announce that this morning I passed my PhD viva with no corrections. 🎉🎉Thank you to my examiners Dr.</description>
+      <description>&lt;p&gt;I recently completed my PhD at STOR-i CDT at Lancaster University. My thesis was titled &amp;ldquo;Detecting demand outliers in transport systems&amp;rdquo; and here I&amp;rsquo;ll (try to) give a brief overview of the work I&amp;rsquo;ve done in the last three years. The final version of my thesis can be found 
+&lt;a href=&#34;https://eprints.lancs.ac.uk/id/eprint/160845/1/2021renniephd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Super happy to announce that this morning I passed my PhD viva with no corrections. 🎉🎉Thank you to my examiners Dr. Thomas Setzer and Dr. Rebecca Killick for an enjoyable discussion of my work. &lt;a href=&#34;https://twitter.com/hashtag/PhDone?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#PhDone&lt;/a&gt; [1/2] &lt;a href=&#34;https://t.co/XakueY1IQs&#34;&gt;pic.twitter.com/XakueY1IQs&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nicola Rennie (@nrennie35) &lt;a href=&#34;https://twitter.com/nrennie35/status/1445376796871086084?ref_src=twsrc%5Etfw&#34;&gt;October 5, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+
+
+&lt;h3 id=&#34;what-are-demand-outliers&#34;&gt;What are demand outliers?
+  &lt;a href=&#34;#what-are-demand-outliers&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;An outlier is generally considered an abnormal event that doesn&amp;rsquo;t fit with the pattern of events normally observed. In the transport setting, demand outliers might mean that there are a lot more (or less) passengers than normal, or that they book earlier than normal, or that passengers are willing to pay more than they normally would for the same ticket. There are many things that can cause these changes in demand such as, football matches, weather, or public holidays. Some of these events e.g. Christmas, are known about in advance and can be accounted for in the planning process. Others are not known about. And it&amp;rsquo;s these changes in demand that we want to identify. Ideally, they&amp;rsquo;d be identified as early as possible, in order for the transport company to take action.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s important to detect changes in demand for multiple reasons. Transport companies set prices and ticket availability based on forecasts of demand. If the demand no longer matches the forecasts, then the prices that have been set are no longer optimal. Then transport companies lose revenue. It could also result in transport services being busier than expected. If you&amp;rsquo;ve ever gotten on a packed train and been unable to get a seat, you know that incorrectly managed demand isn&amp;rsquo;t desirable for passengers either.&lt;/p&gt;
+&lt;p&gt;At the moment, many transport companies employ analysts to monitor the number of bookings. However, as human beings, we&amp;rsquo;re not very good at spotting things by eye, and we tend to see patterns that don&amp;rsquo;t exist. My research develops a statistical method to identify demand outliers and send alerts to analysts.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;so-how-do-we-find-the-outliers&#34;&gt;So, how do we find the outliers?
+  &lt;a href=&#34;#so-how-do-we-find-the-outliers&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Most transport providers store information about bookings as a time series. For example, for train ABC departing on January 31 at 10:00, there is a series of observations of how many passengers had booked tickets by 3 months per departure, 1 month before departure, 1 week before departure &amp;hellip; You get the idea. *Note: I&amp;rsquo;ll mainly be talking about trains here, but it&amp;rsquo;s all generalisable to other types of transport systems.&lt;/p&gt;
+&lt;p&gt;So for a set of departures, we would have a collection of time series that might look a bit like this:&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;bookings.jpg?raw=true&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;To detect outliers within this set of time series, we use &lt;em&gt;functional analysis&lt;/em&gt;. Functional analysis treats each time series of bookings as an observation of a continuous function. We calculate the &lt;em&gt;functional depth&lt;/em&gt; of the time series of bookings for each train. I won’t go into all of the details about the equations for calculating the functional depth because they’re not very nice. But generally, depth measures provide us with an ordering of the time series &amp;ndash; where the time series closest to the centre i.e., the median, has the highest depth, and that in the tails of the distribution i.e. outliers, have low depth. This allows to consider both changes in magnitude (e.g. a big increase in bookings), and shape of booking patterns (e.g. passengers booking earlier than normal). Outliers are detected by setting a threshold for the functional depth. Any time series with a functional depth below that threshold is classified as an outlier.&lt;/p&gt;
+&lt;p&gt;Of course, we don&amp;rsquo;t just want to identify demand outliers in historic data (although this can still be beneficial on its own). We want to identify these outliers as they are happening, so that an analyst can make an adjustment. We found that forecasting the bookings still to come in, and performing the outlier detection on the forecasted bookings, helped us to identify the outliers earlier.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;thinking-about-transport-systems&#34;&gt;Thinking about transport systems
+  &lt;a href=&#34;#thinking-about-transport-systems&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;The vast majority of, if not all, transport systems do not simply consist of a single journey from A to B. There are often many places where passengers can start and end their journey, and multiple combinations to get between the two. It&amp;rsquo;s quite unlikely that any demand changes will only affect one single part of the transport network e.g. a single leg of a train journey. It&amp;rsquo;s also quite unlikely that the entire network will be affected by demand changes in the same way at the same time. Before even thinking about demand outliers, we developed a method split up the network into clusters that experience demand in similar ways. Our outlier detection method could then be applied jointly to legs in the same cluster which are likely to share common outliers.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;featured.png?raw=true&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;During my PhD, I collaborated with Deutsche Bahn, the German rail provider, and was able to test the methods developed on their data. We tested our methodology on a section of the Deutsche Bahn network consisting of two train lines - (i) from Munich to Hamburg and (ii) from Basel in Switzerland to Berlin. Generally, legs in the same train line were clustered together, and the edges of the clusters coincided with major train stations.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;a-venture-into-bike-sharing&#34;&gt;A venture into bike-sharing
+  &lt;a href=&#34;#a-venture-into-bike-sharing&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Of course, it&amp;rsquo;s not all about trains. There are many other industries where detecting and accounting for systematic changes of demand is of interest. One of those industries is bike-sharing &amp;ndash; where members of the public can pick-up a bike at a terminal and return it to any other terminal. Most bike-sharing systems are located in cities. Since some areas of a city are more populous than others, the bikes must be redistributed from the terminals that are commonly used as drop-offs to those that are commonly used for pick-ups. Although, a responsive approach could be taken to redistributing bikes i.e. only sending drivers to a terminal when it is full or empty, this isn&amp;rsquo;t very efficient.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;bikes.png?raw=true&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;If we are able to identify and predict when unusual demand patterns occur, bike-sharing companies can better organise their resources. A case study of the Capital Bikeshare system in Washington D.C. finds that there are spatial and temporal patterns to the outliers that occur.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;final-thoughts&#34;&gt;Final Thoughts
+  &lt;a href=&#34;#final-thoughts&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Overall, a key finding of my thesis is that functional data analysis is a very powerful tool for identifying demand outliers. However, features of the data such as network effects or seasonal patterns need to be taken into account first. More research into how an outlier-based alert system could be implemented in an automated way is still needed.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;twitter-share-button&#34;
+href=&#34;https://twitter.com/intent/tweet&#34;
+data-size=&#34;large&#34;&gt;
+Tweet&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -54,9 +392,43 @@ Super happy to announce that this morning I passed my PhD viva with no correctio
       <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://nrennie.rbind.io/blog/2021-09-13-viz-for-social-good/</guid>
-      <description>Viz For Social Good volunteers create informative and impactful data visualizations for mission-driven organizations across the globe. Check out the organisation here.
-Code available at: github.com/nrennie/Viz_For_Social_Good
-VFSG: Visualize Our CommunityNon-profits around the world are driving positive social change but some of them lack the in-house resources to effectively tell their story with the data they have. Viz For Social Good (VFSG) helps non-profits thrive by connecting talented community members with organizations in need of data visualization skill sets.</description>
+      <description>&lt;p&gt;Viz For Social Good volunteers create informative and impactful data visualizations for mission-driven organizations across the globe. Check out the organisation 
+&lt;a href=&#34;https://www.vizforsocialgood.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Code available at: 
+&lt;a href=&#34;https://github.com/nrennie/Viz_For_Social_Good&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/nrennie/Viz_For_Social_Good&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h2 id=&#34;vfsg-visualize-our-community&#34;&gt;VFSG: Visualize Our Community
+  &lt;a href=&#34;#vfsg-visualize-our-community&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Non-profits around the world are driving positive social change but some of them lack the in-house resources to effectively tell their story with the data they have.  Viz For Social Good (VFSG) helps non-profits thrive by connecting talented community members with organizations in need of data visualization skill sets.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;visualize_our_community.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In November 2021, Viz For Social Good ran a community poll, the results of which will help shape their diversity &amp;amp; inclusion efforts. 224 people responded from 38 different countries.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Last &lt;a href=&#34;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#dataviz&lt;/a&gt; of 2021 - visualising the responses to the &lt;a href=&#34;https://twitter.com/VizFSG?ref_src=twsrc%5Etfw&#34;&gt;@VizFSG&lt;/a&gt; community poll last month. Featuring waffle plots, a circle packing chart, and a world cloud! &lt;br&gt;&lt;br&gt;Code: &lt;a href=&#34;https://t.co/Qdz2XWfer9&#34;&gt;https://t.co/Qdz2XWfer9&lt;/a&gt;&lt;a href=&#34;https://twitter.com/hashtag/DataVisualization?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataVisualization&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataScience?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataScience&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/RStats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RStats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/vizforsocialgood?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#vizforsocialgood&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/vfsg?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#vfsg&lt;/a&gt; &lt;a href=&#34;https://t.co/BsWBRxNIvM&#34;&gt;pic.twitter.com/BsWBRxNIvM&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nicola Rennie (@nrennie35) &lt;a href=&#34;https://twitter.com/nrennie35/status/1476187748880900097?ref_src=twsrc%5Etfw&#34;&gt;December 29, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+
+
+&lt;h2 id=&#34;sunny-street&#34;&gt;Sunny Street
+  &lt;a href=&#34;#sunny-street&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Sunny Street is changing the world by providing healthcare to the most vulnerable people in Eastern Australia. One conversation between a Sunny Street volunteer and a patient can change the course of both of their lives.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Although the Covid-19 pandemic caused many clinics to be cancelled, Sunny Street volunteers had the same (or more) conversations and consultations. There has been little change in patient demographic throughout the pandemic.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Volunteering on the latest &lt;a href=&#34;https://twitter.com/hashtag/VizforSocialGood?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#VizforSocialGood&lt;/a&gt; project by &lt;a href=&#34;https://twitter.com/VizFSG?ref_src=twsrc%5Etfw&#34;&gt;@VizFSG&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/hi_sunnystreet?ref_src=twsrc%5Etfw&#34;&gt;@hi_sunnystreet&lt;/a&gt;. I looked at patient demographics over time, and which consultation types patients require most often. &lt;br&gt;&lt;br&gt;Code: &lt;a href=&#34;https://t.co/pptxfsdV6C&#34;&gt;https://t.co/pptxfsdV6C&lt;/a&gt;&lt;a href=&#34;https://twitter.com/hashtag/DataVisualization?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataVisualization&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataViz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataViz&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataScience?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataScience&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/RStats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RStats&lt;/a&gt; &lt;a href=&#34;https://t.co/JQxED64VSH&#34;&gt;pic.twitter.com/JQxED64VSH&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nicola Rennie (@nrennie35) &lt;a href=&#34;https://twitter.com/nrennie35/status/1437457607262867457?ref_src=twsrc%5Etfw&#34;&gt;September 13, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;a class=&#34;twitter-share-button&#34;
+href=&#34;https://twitter.com/intent/tweet&#34;
+data-size=&#34;large&#34;&gt;
+Tweet&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -65,8 +437,42 @@ VFSG: Visualize Our CommunityNon-profits around the world are driving posit
       <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://nrennie.rbind.io/blog/2021-06-30-cotton-viz-challenge/</guid>
-      <description>In June, the #CottonViz data visualisation challenge was run by the History of Statistics &amp;amp; Young Statisticians sections of the Royal Statistical Society (RSS). The challenge aimed to celebrate the work of Mary Eleanor Spear (1897 –1986), credited with popularising the range-bar charts.
-Reimagining Mary Eleanor Spear&amp;#39;s visualisation of US cotton supply for the #CotttonViz competition with @HistoryofStats and @statsyss. First time using the {ggpattern} package (great for colourblind-friendly visualisations).#DataVisualization #DataViz #RStats pic.</description>
+      <description>&lt;p&gt;In June, the #CottonViz data visualisation challenge was run by the History of Statistics &amp;amp; Young Statisticians sections of the Royal Statistical Society (RSS). The challenge aimed to celebrate the work of Mary Eleanor Spear (1897 –1986), credited with popularising the &lt;em&gt;range-bar&lt;/em&gt; charts.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Reimagining Mary Eleanor Spear&amp;#39;s visualisation of US cotton supply for the &lt;a href=&#34;https://twitter.com/hashtag/CotttonViz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#CotttonViz&lt;/a&gt; competition with &lt;a href=&#34;https://twitter.com/HistoryofStats?ref_src=twsrc%5Etfw&#34;&gt;@HistoryofStats&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/statsyss?ref_src=twsrc%5Etfw&#34;&gt;@statsyss&lt;/a&gt;. First time using the {ggpattern} package (great for colourblind-friendly visualisations).&lt;a href=&#34;https://twitter.com/hashtag/DataVisualization?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataVisualization&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataViz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataViz&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/RStats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RStats&lt;/a&gt; &lt;a href=&#34;https://t.co/R84pa9G8L5&#34;&gt;pic.twitter.com/R84pa9G8L5&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nicola Rennie (@nrennie35) &lt;a href=&#34;https://twitter.com/nrennie35/status/1405542205184299013?ref_src=twsrc%5Etfw&#34;&gt;June 17, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;The challenge invited particpants to either recreate Spears&#39; original visualisation of US cotton supply (shown below), or design a new visualisation of the same data.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;spears-charts400.png?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;The details of the challenge can be found on the 
+&lt;a href=&#34;https://rss.org.uk/news-publication/news-publications/2021/section-group-reports/mary-eleanor-spear-dataviz-competition-for-childre/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RSS website&lt;/a&gt;. Prizes were available for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Most accurate recreation&lt;/li&gt;
+&lt;li&gt;Most creative&lt;/li&gt;
+&lt;li&gt;Most innovative&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I started by recreating the original viz using {ggplot2}. One of the things I really like about the original visualisation is the black and white nature of it. Instead, patterns are used to tell apart the bars, leading me to discover the {ggpattern} package in R.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;viz2.jpg?raw=true&#34; width=&#34;80%&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;I also made three other attempts at re-visualising the US cotton supply data. For my first visualisation I stayed similar to the original design and created a 2 x 1 plot, one an area plot and the other a line chart.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;viz4.jpg?raw=true&#34; width=&#34;80%&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;The other two attempts were both waffle plots. The first was a simple faceted waffle plot showing the number of bales of cotton per year and where it was distributed.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;viz3.jpg?raw=true&#34; width=&#34;80%&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;Although I liked the design of the first waffle plot, it wasn&amp;rsquo;t overly creative and didn&amp;rsquo;t reflect the &lt;em&gt;cotton&lt;/em&gt; theme. So I decided to hand-draw some cotton bales (using Inkscape) and use these instead of tiles in my waffle plots. This plot won me an honourable mention from the judges.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;viz.jpg?raw=true&#34; width=&#34;80%&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;Congratulations to all winners, and thanks to the History of Statistics &amp;amp; Young Statisticians sections of the RSS for organising this event. The RSS news article can be found 
+&lt;a href=&#34;https://rss.org.uk/news-publication/news-publications/2021/general-news/cottonviz-data-visualisation-challenge-winners-ann/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;twitter-share-button&#34;
+href=&#34;https://twitter.com/intent/tweet&#34;
+data-size=&#34;large&#34;&gt;
+Tweet&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -75,10 +481,156 @@ Reimagining Mary Eleanor Spear&amp;#39;s visualisation of US cotton supply for t
       <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://nrennie.rbind.io/blog/2021-05-04-dubois-challenge/</guid>
-      <description>The DuBois Challenge is part of a celebration of the data visualization legacy of W.E.B DuBois which attempts to recreate the visualizations from the 1900 Paris Exposition using modern tools. Check out the challenge here.  
-My own attempts at the #DuBoisChallenge are here: https://t.co/i2bUFWGo3p#RStats #DataViz https://t.co/24I8VJoqLV pic.twitter.com/IajAIjfGYp
-&amp;mdash; Nicola Rennie (@nrennie35) June 15, 2021 Code available at: github.com/nrennie/dubois_challenge.
-Challenge 1Challenge 2Challenge 3Challenge 4Challenge 5Challenge 6Challenge 7Challenge 8Challenge 9Challenge 10Tweet</description>
+      <description>&lt;p&gt;The DuBois Challenge is part of a celebration of the data visualization legacy of W.E.B DuBois which attempts to recreate the visualizations from the 1900 Paris Exposition using modern tools. Check out the challenge 
+&lt;a href=&#34;https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. &lt;/br&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;My own attempts at the &lt;a href=&#34;https://twitter.com/hashtag/DuBoisChallenge?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DuBoisChallenge&lt;/a&gt; are here: &lt;a href=&#34;https://t.co/i2bUFWGo3p&#34;&gt;https://t.co/i2bUFWGo3p&lt;/a&gt;&lt;a href=&#34;https://twitter.com/hashtag/RStats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RStats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataViz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataViz&lt;/a&gt; &lt;a href=&#34;https://t.co/24I8VJoqLV&#34;&gt;https://t.co/24I8VJoqLV&lt;/a&gt; &lt;a href=&#34;https://t.co/IajAIjfGYp&#34;&gt;pic.twitter.com/IajAIjfGYp&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nicola Rennie (@nrennie35) &lt;a href=&#34;https://twitter.com/nrennie35/status/1404826037062619139?ref_src=twsrc%5Etfw&#34;&gt;June 15, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Code available at: 
+&lt;a href=&#34;https://github.com/nrennie/dubois_challenge&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/nrennie/dubois_challenge&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;h2 id=&#34;challenge-1&#34;&gt;Challenge 1
+  &lt;a href=&#34;#challenge-1&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_01.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_01.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h2 id=&#34;challenge-2&#34;&gt;Challenge 2
+  &lt;a href=&#34;#challenge-2&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_02.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_02.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h2 id=&#34;challenge-3&#34;&gt;Challenge 3
+  &lt;a href=&#34;#challenge-3&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_03.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_03.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h2 id=&#34;challenge-4&#34;&gt;Challenge 4
+  &lt;a href=&#34;#challenge-4&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_04.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_04.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h2 id=&#34;challenge-5&#34;&gt;Challenge 5
+  &lt;a href=&#34;#challenge-5&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_05.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_05.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h2 id=&#34;challenge-6&#34;&gt;Challenge 6
+  &lt;a href=&#34;#challenge-6&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_06.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_06.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h2 id=&#34;challenge-7&#34;&gt;Challenge 7
+  &lt;a href=&#34;#challenge-7&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_07.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_07.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h2 id=&#34;challenge-8&#34;&gt;Challenge 8
+  &lt;a href=&#34;#challenge-8&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_08.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_08.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h2 id=&#34;challenge-9&#34;&gt;Challenge 9
+  &lt;a href=&#34;#challenge-9&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_09.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_09.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h2 id=&#34;challenge-10&#34;&gt;Challenge 10
+  &lt;a href=&#34;#challenge-10&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_10.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_10.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;twitter-share-button&#34;
+href=&#34;https://twitter.com/intent/tweet&#34;
+data-size=&#34;large&#34;&gt;
+Tweet&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

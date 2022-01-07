@@ -1,7 +1,7 @@
 ---
 author: Nicola Rennie
 categories:
-  - Data Visualisation
+  - Data Visualisation, R
 date: "2021-12-18"
 draft: false
 excerpt: "Earlier this week, whilst curating for @WeAreRLadies, I tweeted a thread on my thought process for this week's #TidyTuesday challenge. This blog post expands on the thoughts in that thread."
