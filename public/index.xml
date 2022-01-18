@@ -6,7 +6,7 @@
     <description>Recent content on Nicola Rennie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nrennie.rbind.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nrennie.rbind.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tiles</title>
       <link>https://nrennie.rbind.io/rtistry/tiles/</link>
@@ -213,6 +213,131 @@
 &lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;waves&lt;/span&gt;(a&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;23&lt;/span&gt;, b&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;6&lt;/span&gt;, main_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Prism&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#edad08&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;2021&lt;/span&gt;)
 &lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;waves&lt;/span&gt;(a&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;6&lt;/span&gt;, b&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;23&lt;/span&gt;, main_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;2021&lt;/span&gt;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Curating for @WeAreRLadies</title>
+      <link>https://nrennie.rbind.io/blog/2022-01-18-curating-for-wearerladies/</link>
+      <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.rbind.io/blog/2022-01-18-curating-for-wearerladies/</guid>
+      <description>&lt;p&gt;In December 2020, I curated the twitter feed for 
+&lt;a href=&#34;https://twitter.com/WeAreRLadies&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@WeAreRLadies&lt;/a&gt; and shared my 280 character thoughts to over 25,000 followers. This blog post will share my thoughts on the experience, and hopefully encourage (and prepare) you to sign up as a curator yourself.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;This week&amp;#39;s &lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt; curator is &lt;a href=&#34;https://twitter.com/nrennie35?ref_src=twsrc%5Etfw&#34;&gt;@nrennie35&lt;/a&gt;!! &lt;a href=&#34;https://t.co/Xq2gVYduoJ&#34;&gt;pic.twitter.com/Xq2gVYduoJ&lt;/a&gt;&lt;/p&gt;&amp;mdash; We are R-Ladies (@WeAreRLadies) &lt;a href=&#34;https://twitter.com/WeAreRLadies/status/1470070867782770693?ref_src=twsrc%5Etfw&#34;&gt;December 12, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+
+
+&lt;h3 id=&#34;what-is-wearerladies&#34;&gt;What is @WeAreRLadies?
+  &lt;a href=&#34;#what-is-wearerladies&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://rladies.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R-Ladies&lt;/a&gt; is a worldwide organization whose mission is to promote gender diversity in the R community. 
+&lt;a href=&#34;https://twitter.com/WeAreRLadies&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@WeAreRLadies&lt;/a&gt; is a twitter account run by R-Ladies Global which features a rotating curator each week. The aim is to encourage engagement with the R-Ladies community, and highlight cool work in R by female and minority genders.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;why-did-i-decide-to-curate&#34;&gt;Why did I decide to curate?
+  &lt;a href=&#34;#why-did-i-decide-to-curate&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;There were a couple of different reasons why I signed up to curate. Firstly, I wanted to highlight the awesome work that female and minority genders within the R community. The day after I finished curating, a major UK newspaper ran an article with the headline &lt;em&gt;Phwoar! Look at the vital statistics on these lads&lt;/em&gt; and stated that those who are good at data science tend to be men. Even searching the 
+&lt;a href=&#34;https://twitter.com/search?q=%23Rstats&amp;amp;src=typeahead_click&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#Rstats&lt;/a&gt; hashtag on twitter brings up results from women less often. The truth is pretty different, and I think the best way to prove articles like the one I mentioned wrong, is to showcase how many women are doing &lt;em&gt;awesome&lt;/em&gt; work in data science.&lt;/p&gt;
+&lt;p&gt;Secondly, I also wanted to confront the imposter syndrome that often floats around in the back of my mind, head on. Just because you don&amp;rsquo;t know &lt;em&gt;everything&lt;/em&gt; about R (hint: nobody does), doesn&amp;rsquo;t mean you don&amp;rsquo;t have valuable knowledge to share with the R community.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;things-i-wish-id-known&#34;&gt;Things I wish I&amp;rsquo;d known
+  &lt;a href=&#34;#things-i-wish-id-known&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;There are a couple of things I wish I&amp;rsquo;d thought about a bit more before curating began. One of the main things: twitter. Access to the 
+&lt;a href=&#34;https://twitter.com/WeAreRLadies&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@WeAreRLadies&lt;/a&gt; twitter account is done through 
+&lt;a href=&#34;https://tweetdeck.twitter.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TweetDeck&lt;/a&gt;, and many of the unexpected issues I faced related to its lack of functionality.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tweetdeck does not natively support alt-text for images. To add alt-text to images (which is highly recommended), you need to install a browser extension. I used 
+&lt;a href=&#34;https://chrome.google.com/webstore/detail/alt-or-not/bhbbijphceaijfpppmdjmjalnogkhamc?hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Alt-or-not&lt;/a&gt;, which still doesn&amp;rsquo;t support alt-text for gifs unfortunately.&lt;/li&gt;
+&lt;li&gt;You can&amp;rsquo;t schedule threads in TweetDeck, and I ended up keeping a .txt file with the threads I planned to post. It was quite stressful to then have to post each one as a comment. It also means you have to schedule a bit more time for tweeting during the day. I didn&amp;rsquo;t find a way around this.&lt;/li&gt;
+&lt;li&gt;Polls are quite useful to engage with people, and to help identify things to tweet about if you&amp;rsquo;re stuck for ideas. Again, TweetDeck doesn&amp;rsquo;t support creating polls and you need to create a poll from your personal account instead. Polls can be scheduled to your personal account (either through TweetDeck or directly through Twitter) but you will still need to manually retweet in TweetDeck through the @WeAreRLadies account. Scheduling on my personal account and setting reminders on my phone worked quite well.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Originally, I had a bit of a rough schedule planned out with things I thought might be interesting to talk about. But like many things in life, plans don&amp;rsquo;t always work out.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I had a few ideas for things I wanted to tweet about. However people often left comments on posts, or responded to polls, with things they&amp;rsquo;d like to know more about. Be prepared to let your plans change!&lt;/li&gt;
+&lt;li&gt;I also switched up some of the spatial-themed tweets since the previous week focused mostly on spatial stuff.&lt;/li&gt;
+&lt;li&gt;There also might be days when you have no idea what to tweet about. If you&amp;rsquo;re stuck for ideas, ask! Create a post early in the week, asking people in the community if there&amp;rsquo;s anything they would like to learn hwo to do in R. If you don&amp;rsquo;t know anything about the suggested topics yourself, use it as an opportunity to crowd-source knowledge and help others make new connections.&lt;/li&gt;
+&lt;li&gt;Polls also work very well because they naturally create multiple posts. As well as the initial poll, you can also make a post showing the results (and show off some pretty {ggplot2} plots), and then make a further post discussing the results. The results of the polls and the code I used to create the plots in {ggplot2} are on 
+&lt;a href=&#34;https://github.com/nrennie/R-Ladies&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; if you&amp;rsquo;re thinking of creating a polls and want to reuse the same plots.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;https://nrennie.rbind.io/blog/2022-01-18-curating-for-wearerladies/poll.jpg?raw=true&#34; width=&#34;80%&#34;&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Talk about what you like, even if it&amp;rsquo;s not the thing you know the most about. I really enjoy data visualisation, and I ended up live-tweeting my participation in 
+&lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/blob/master/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#TidyTuesday&lt;/a&gt; that week (thanks 
+&lt;a href=&#34;https://twitter.com/StatsRhian&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@StatsRhian&lt;/a&gt; for the suggestion!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Life gets busy. Don&amp;rsquo;t beat yourself up if you don&amp;rsquo;t quite stick to your original plan.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;some-other-useful-resources&#34;&gt;Some other useful resources
+  &lt;a href=&#34;#some-other-useful-resources&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;There were a few different blog posts that I found useful in preparing for curating:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First of all, the WeAreRLadies 
+&lt;a href=&#34;https://guide.rladies.org/rocur/guide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;curator guide&lt;/a&gt; provides basic information on how curating works.&lt;/li&gt;
+&lt;li&gt;This 
+&lt;a href=&#34;https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog post&lt;/a&gt; from 
+&lt;a href=&#34;https://twitter.com/PipingHotData&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shannon Pileggi&lt;/a&gt; has a lot of guidance and ideas for content.&lt;/li&gt;
+&lt;li&gt;This 
+&lt;a href=&#34;https://roundtable.datascience.salon/one-more-thought-on-imposter-syndrome&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog post&lt;/a&gt; from Jessica Renaud, was useful in thinking about overcoming imposter syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;h3 id=&#34;how-do-you-get-involved&#34;&gt;How do you get involved?
+  &lt;a href=&#34;#how-do-you-get-involved&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;You can sign up to become a curator by filling out the following 
+&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSepXaNf2z_hvekoNKIbS1hA1B8Z_3B9p5WK0Kk6wlHIDIw2Lg/viewform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;online form&lt;/a&gt;. It takes a little while to fill out the form since it includes the information in your curator profile, so give yourself at least half an hour. Don&amp;rsquo;t worry if your information changes in between signing up and actually curating - you&amp;rsquo;ll be able to okay your profile before it gets published on twitter. In the months between signing up and actually curating, pretty much &lt;em&gt;all&lt;/em&gt; my info changed!&lt;/p&gt;
+&lt;p&gt;You can find more information 
+&lt;a href=&#34;https://guide.rladies.org/rocur/about/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;final-thoughts&#34;&gt;Final Thoughts
+  &lt;a href=&#34;#final-thoughts&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;I really enjoyed my experience of curating and I’d encourage you to sign-up and curate the 
+&lt;a href=&#34;https://twitter.com/WeAreRLadies&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@WeAreRLadies&lt;/a&gt; account! I discovered many new cool accounts to follow when searching for work to highlight, learnt new things about R, and made some new connections.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re thinking about curating but aren&amp;rsquo;t quite sure about it yet, I&amp;rsquo;m happy to chat!&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;twitter-share-button&#34;
+href=&#34;https://twitter.com/intent/tweet&#34;
+data-size=&#34;large&#34;&gt;
+Tweet&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
