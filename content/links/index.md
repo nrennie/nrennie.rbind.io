@@ -22,4 +22,10 @@ An R shiny dashboard to accompany upcoming my significance article "We're not ge
 * [aRt](https://nrennie35.shinyapps.io/nrennie_aRt/). 
 An R shiny application to generate and download generative art created in R.
 
+#### R-bloggers
+
+The R-related content of this blog can also be found on [R-bloggers](https://www.r-bloggers.com/).
+
+
+
 
