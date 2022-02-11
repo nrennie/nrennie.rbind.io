@@ -18,7 +18,7 @@ links:
 - icon: download
   icon_pack: fas
   name: Slides
-  url: /talk/2019-june-euro2019/slides.pdf
+  url: /talks/2019-june-euro2019/slides.pdf
 image: featured.png
 ---
 
