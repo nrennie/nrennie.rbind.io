@@ -18,7 +18,7 @@ links:
 - icon: download
   icon_pack: fas
   name: Slides
-  url: /talk/2021-september-rss-international-conference/slides.pdf
+  url: /talks/2021-september-rss-international-conference/slides.pdf
 image: featured.jpg
 ---
 

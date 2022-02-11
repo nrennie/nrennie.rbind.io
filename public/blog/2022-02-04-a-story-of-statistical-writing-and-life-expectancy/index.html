@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.91.2" />
+<title>A Story of Statistical Writing and Life Expectancy | Nicola Rennie</title>
+
+
+<meta property="twitter:site" content="@nrennie35">
+<meta property="twitter:creator" content="@nrennie35">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="Last year I was a finalist in the 2021 Statistical Excellence Award for Early-Career Writing. This blog post introduces my article published in Significance and gives some tips for statistical writing.">
+
+
+<meta property="og:site_name" content="Nicola Rennie">
+<meta property="og:title" content="A Story of Statistical Writing and Life Expectancy | Nicola Rennie">
+<meta property="og:description" content="Last year I was a finalist in the 2021 Statistical Excellence Award for Early-Career Writing. This blog post introduces my article published in Significance and gives some tips for statistical writing." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://nrennie.rbind.io/blog/2022-02-04-a-story-of-statistical-writing-and-life-expectancy/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="https://nrennie.rbind.io/blog/2022-02-04-a-story-of-statistical-writing-and-life-expectancy/featured.jpg" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://nrennie.rbind.io/blog/2022-02-04-a-story-of-statistical-writing-and-life-expectancy/featured.jpg" >
+    
+    
+  <meta itemprop="name" content="A Story of Statistical Writing and Life Expectancy">
+<meta itemprop="description" content="The Statistical Excellence Award for Early-Career Writing is an annual competition run by Significance and the RSS Young Statisticians Section. Entrants are asked to use data and statistics to tell the stories that matter most to them.
+Today we (@signmagazine and @statsyss) are pleased to announce the finalists of the 2021 Statistical Excellence Award for Early-Career Writing, with stories about luck, life expectancy, and a weather-predicting tortoise https://t.co/NbwatlYiGM pic.twitter.com/VlAsmaR6uq
+&mdash; Significance (@signmagazine) July 8, 2021 Congratulations to all competition entrants, especially winner Connor Jackson, and fellow finalist Anna Beukenhorst."><meta itemprop="datePublished" content="2022-02-04T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-02-04T00:00:00+00:00" />
+<meta itemprop="wordCount" content="849"><meta itemprop="image" content="https://nrennie.rbind.io/blog/2022-02-04-a-story-of-statistical-writing-and-life-expectancy/featured.jpg">
+<meta itemprop="keywords" content="research," />
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="https://nrennie.rbind.io/style.main.min.c80f73b18345d3649328c59a2a5b8e8341f38c805f8f8a60b77b66e7498d5239.css" integrity="sha256-yA9zsYNF02STKMWaKluOg0HzjIBfj4pgt3tm50mNUjk=" media="screen">
+  
+  
+  <script src="https://nrennie.rbind.io/panelset.min.078a92db9bd3228df502db3d9e0453c3cf3d910abe3f8deca0ad196c7071ad41.js" type="text/javascript"></script>
+  
+  
+  <script src="https://nrennie.rbind.io/main.min.fa7e67322c5baa17353e684b5a71d90861e778590c7e59ea3995dfca54d3ee1f.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container single">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+       
+          
+          
+          
+       
+      <a class="link f6 f5-l dib pv1 ph2" href="/" title="About">About</a> 
+       
+          
+          
+          
+       
+      <a class="link f6 f5-l dib pv1 ph2" href="/talks/" title="Talks">Talks</a> 
+       
+          
+          
+          
+       
+      <a class="link f6 f5-l dib pv1 ph2" href="/rtistry/" title="Rtistry">Rtistry</a> 
+       
+          
+          
+          
+       
+      <a class="link f6 f5-l dib pv1 ph2" href="/blog/" title="Blog">Blog</a> 
+       
+          
+          
+          
+       
+      <a class="link f6 f5-l dib pv1 ph2" href="/links/" title="Links">Links</a> 
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">A Story of Statistical Writing and Life Expectancy</h1>
+        <h4 class="f4 mt0 mb4 lh-title measure">Last year I was a finalist in the 2021 Statistical Excellence Award for Early-Career Writing. This blog post introduces my article published in Significance and gives some tips for statistical writing.</h4>
+        
+        <p class="f7 db mv0 ttu">February 4, 2022</p>
+
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        <p>The Statistical Excellence Award for Early-Career Writing is an annual competition run by 
+<a href="https://www.significancemagazine.com/" target="_blank" rel="noopener">Significance</a> and the 
+<a href="https://twitter.com/statsyss" target="_blank" rel="noopener">RSS Young Statisticians Section</a>. Entrants are asked to use data and statistics to tell the stories that matter most to them.</p>
+<blockquote class="twitter-tweet" align="center"><p lang="en" dir="ltr">Today we (<a href="https://twitter.com/signmagazine?ref_src=twsrc%5Etfw">@signmagazine</a> and <a href="https://twitter.com/statsyss?ref_src=twsrc%5Etfw">@statsyss</a>) are pleased to announce the finalists of the 2021 Statistical Excellence Award for Early-Career Writing, with stories about luck, life expectancy, and a weather-predicting tortoise <a href="https://t.co/NbwatlYiGM">https://t.co/NbwatlYiGM</a> <a href="https://t.co/VlAsmaR6uq">pic.twitter.com/VlAsmaR6uq</a></p>&mdash; Significance (@signmagazine) <a href="https://twitter.com/signmagazine/status/1413090737537830913?ref_src=twsrc%5Etfw">July 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Congratulations to all competition entrants, especially winner 
+<a href="https://www.significancemagazine.com/10-news/704-writing-comp-winner?highlight=WyJuaWNvbGEiLCJyZW5uaWUiLCJuaWNvbGEgcmVubmllIl0=" target="_blank" rel="noopener">Connor Jackson</a>, and fellow finalist Anna Beukenhorst.</p>
+
+
+
+
+<h3 id="writing-about-statistics-for-the-masses">Writing about statistics for the masses
+  <a href="#writing-about-statistics-for-the-masses"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>The way that we write about statistics should vary depending on who will be reading our work. It seems like an obvious statement but it&rsquo;s something that, as a PhD student, I never really had to think about. Most of the statistical writing I did was for journal papers, conferences, or my thesis. Generally, a pretty small audience with similar backgrounds in statistics.</p>
+<p>Gaining some practice at explaining statistical concepts has also helped me as I transitioned into working in industry as a Data Scientist at 
+<a href="https://www.jumpingrivers.com/" target="_blank" rel="noopener">Jumping Rivers</a>.</p>
+
+
+
+
+<h3 id="were-not-getting-any-younger-or-should-that-be-older">We&rsquo;re not getting any younger! Or should that be older?
+  <a href="#were-not-getting-any-younger-or-should-that-be-older"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>The title of the article I submitted was <em>We&rsquo;re not getting any younger! Or should that be older?</em>. I wrote about trend in life expectancies, both in the UK and in the rest of the world. I started by motivating the analysis I&rsquo;d done, by talking about recent rises in pension ages in the UK - something that personally affects many readers. At the same time as pension ages in the UK continue to rise, both academics and journalists claim that life expectancy is stalling. To investigate these claims, I looked at changes in UK life expectancy growth from 1960 to present day. Using data from World Bank Open Data, I used a rolling window linear model to estimate how life expectancy has changed decade-by-decade. I found that though there has been a steep decline in life expectancy growth in the last ten years, the growth is still positive and life expectancy continues to increase.</p>
+<p>However, just as life expectancies are not equal for men and women, neither are the changes in life expectancy growth. Whilst life expectancy has stalled for women in the UK, men continue to get older - albeit more slowly than they used to. The gap between the life expectancies for men and women is closing and I estimated that, given current trends continue, both men and women will have an equal life expectancy of 85.2 years by 2100.</p>
+<p>I then extended my analyses beyond the UK to look at the bigger picture, and examine how trends in life expectancy in the last decade differ between the most and least developed countries in the world. Countries where life expectancy has stalled are identified, and I discussed the commonalities found in such countries in terms of level of development and current life expectancy age.</p>
+<p>The article will be available online soon.</p>
+
+
+
+
+<h3 id="statistical-modelling-shiny-app">Statistical modelling Shiny app
+  <a href="#statistical-modelling-shiny-app"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>With a limit of 2,000 words, I couldn&rsquo;t delve deep into the life expectancies of every country, and sub-population, in the world. Even without a word limit, it probably wouldn&rsquo;t have made a very coherent story to tell. Instead, I made an 
+<a href="https://nrennie35.shinyapps.io/life_expectancy_shiny_app/" target="_blank" rel="noopener">interactive shiny dashboard</a> for <em>super keen</em> readers to explore the data on their own.</p>
+
+
+
+
+<h3 id="tips-for-aspiring-writers">Tips for aspiring writers
+  <a href="#tips-for-aspiring-writers"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<ul>
+<li><strong>Choose a relevant, but not overdone topic</strong>: There&rsquo;s already a wealth of statistical information out there on topics like Covid-19 or Brexit. Although certainly interesting, it might be difficult to find a unique take on the topic. Conversely, if the topic is extremely obscure, it might limit your audience slightly.</li>
+<li><strong>Visualise your data</strong>: I believe that, at heart, we all read magazine articles or papers like a five-year old - we look at the pictures first. Adding in some clear, illustrative data visualisations or explanatory diagrams makes for a more engaging read than a long stream of text.</li>
+<li><strong>Stick to simple language</strong>: If you find yourself writing a <em>specialist</em> term and then using the next sentence to explain what the phrase means, ask yourself if you can write it without using the term at all. Rather than giving the reader a new word and definition to remember, just get straight to the point.</li>
+<li><strong>What&rsquo;s the point?</strong>: There should be a reason that your article exists and it should be clear to a reader what they gain by reading your article. What question does it address? I structured my article by posing an overall question in the introduction (well, actually in the title&hellip;) and then each subsection as a smaller part of that larger question.</li>
+</ul>
+
+
+
+
+<h3 id="2022-competition">2022 Competition
+  <a href="#2022-competition"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>The 2022 Statistical Excellence Award for Early-Career Writing competition is open now. Details can be found on the Significance 
+<a href="https://www.significancemagazine.com/10-news/640-enter-our-2020-writing-competition-for-early-career-statisticians-and-data-scientists" target="_blank" rel="noopener">website</a>.</p>
+<p>If you&rsquo;re a:</p>
+<ul>
+<li>student currently studying for a first degree, master’s or PhD in statistics, data science or related subject; or</li>
+<li>graduate whose last qualification in statistics, data science or related subject (whether first degree, master’s or PhD) was not more than five years ago,</li>
+</ul>
+<p>I&rsquo;d highly recommend submitting an entry.</p>
+<p><a class="twitter-share-button"
+href="https://twitter.com/intent/tweet"
+data-size="large">
+Tweet</a></p>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">February 4, 2022</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">4 minute read, 849 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="https://nrennie.rbind.io/categories/research">Research</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Tags:</dt>
+    <dd class="fw5 ml0"> <a href="https://nrennie.rbind.io/tags/research">research</a> </dd>
+  </dl>
+  
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="https://nrennie.rbind.io/blog/2022-01-18-curating-for-wearerladies/">&larr; Curating for @WeAreRLadies</a>
+  
+  
+</div>
+
+      </footer>
+    </article>
+    
+      
+<div class="post-comments pa0 pa4-l mt4">
+  
+  <script src="https://utteranc.es/client.js"
+          repo="hugo-apero/apero"
+          issue-term="pathname"
+          theme="boxy-light"
+          label="comments :crystal_ball:"
+          crossorigin="anonymous"
+          async
+          type="text/javascript">
+  </script>
+  
+</div>
+
+    
+  </section>
+</main>
+ <footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/nrennie" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/nicola-rennie-076511b3/" title="linkedin" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/nrennie35" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.instagram.com/nrennie_art/" title="instagram" target="_blank" rel="noopener">
+      <i class="fab fa-instagram fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+  </nav>
+</footer> 
+
+      </div>
+    </body>
+</html>
