@@ -41,7 +41,6 @@ params:
   navallcaps: yes
   orgLocal:
   orgName: Nicola Rennie
-  sharing_image: "/img/revoir.jpg"
   twitter: nrennie35
   social:
     - icon: github
