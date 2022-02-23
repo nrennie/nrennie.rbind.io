@@ -41,7 +41,8 @@ params:
   navallcaps: yes
   orgLocal:
   orgName: Nicola Rennie
-  sharing_image: /img/maps.png
+  sharing_image: "/img/revoir.jpg"
+  twitter: nrennie35
   social:
     - icon: github
       icon_pack: fab
@@ -58,7 +59,6 @@ params:
   socialInFooter: yes
   socialInHeader: no
   textFontFamily: sans-serif
-  twitter: nrennie35
   utterances:
     issue_term: pathname
     label: 'comments :crystal_ball:'
