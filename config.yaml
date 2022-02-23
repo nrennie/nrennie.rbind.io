@@ -29,11 +29,6 @@ markup:
     endLevel: 2
     ordered: no
     startLevel: 2
-twitter:
-  - card: "summary_large_image"
-  - site: "@nrennie35"
-  - creator: "@nrennie35"
-  - image: ["https://nrennie.rbind.io/img/nicola_blue.jpg"]
 params:
   theme: 
   custom_theme: "hex-colors" 
@@ -48,6 +43,7 @@ params:
   orgName: Nicola Rennie
   sharing_image: ["https://nrennie.rbind.io/img/nicola_blue.jpg"]
   twitter: nrennie35
+  image: /img/nicola_blue.jpg
   social:
     - icon: github
       icon_pack: fab
