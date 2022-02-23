@@ -33,7 +33,7 @@ twitter:
   - card: "summary_large_image"
   - site: "@nrennie35"
   - creator: "@nrennie35"
-  - image: "/img/revoir.jpg"
+  - image: ["https://nrennie.rbind.io/img/nicola_blue.jpg"]
 params:
   theme: 
   custom_theme: "hex-colors" 
@@ -46,7 +46,7 @@ params:
   navallcaps: yes
   orgLocal:
   orgName: Nicola Rennie
-  sharing_image: "/img/revoir.jpg"
+  sharing_image: ["https://nrennie.rbind.io/img/nicola_blue.jpg"]
   twitter: nrennie35
   social:
     - icon: github
