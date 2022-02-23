@@ -29,6 +29,11 @@ markup:
     endLevel: 2
     ordered: no
     startLevel: 2
+twitter:
+  - card: "summary_large_image"
+  - site: "@nrennie35"
+  - creator: "@nrennie35"
+  - image: "/img/revoir.jpg"
 params:
   theme: 
   custom_theme: "hex-colors" 
@@ -41,6 +46,7 @@ params:
   navallcaps: yes
   orgLocal:
   orgName: Nicola Rennie
+  sharing_image: "/img/revoir.jpg"
   twitter: nrennie35
   social:
     - icon: github
