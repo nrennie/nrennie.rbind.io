@@ -80,9 +80,9 @@ menu:
       title: Talks
       url: /talks/
       weight: 2
-    - name: Rtistry
-      title: Rtistry
-      url: /rtistry/
+    - name: Portfolio
+      title: Portfolio
+      url: /portfolio/
       weight: 3
     - name: Blog
       title: Blog
