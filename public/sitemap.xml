@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nrennie.rbind.io/rtistry/tiles/</loc>
+    <loc>https://nrennie.rbind.io/portfolio/rtistry/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nrennie.rbind.io/rtistry/vortex/</loc>
+    <loc>https://nrennie.rbind.io/portfolio/tidytuesday/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nrennie.rbind.io/rtistry/waves/</loc>
+    <loc>https://nrennie.rbind.io/portfolio/dubois_challenge/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nrennie.rbind.io/blog/2022-02-04-a-story-of-statistical-writing-and-life-expectancy/</loc>
@@ -44,10 +44,13 @@
     <loc>https://nrennie.rbind.io/links/</loc>
     <lastmod>2022-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nrennie.rbind.io/categories/rtistry/</loc>
+    <loc>https://nrennie.rbind.io/categories/data-visualisation/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nrennie.rbind.io/rtistry/</loc>
+    <loc>https://nrennie.rbind.io/portfolio/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nrennie.rbind.io/categories/rtistry/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nrennie.rbind.io/blog/2021-12-29-a-year-of-tidytuesday/</loc>
@@ -73,9 +76,6 @@
   </url><url>
     <loc>https://nrennie.rbind.io/tags/r-outlier-detection-research/</loc>
     <lastmod>2021-10-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nrennie.rbind.io/categories/data-visualisation/</loc>
-    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nrennie.rbind.io/tags/r-data-visualisation-vfsg/</loc>
     <lastmod>2021-09-13T00:00:00+00:00</lastmod>

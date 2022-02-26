@@ -6,7 +6,233 @@
     <description>Recent content in Data Visualisation on Nicola Rennie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nrennie.rbind.io/categories/data-visualisation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nrennie.rbind.io/categories/data-visualisation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#TidyTuesday</title>
+      <link>https://nrennie.rbind.io/portfolio/tidytuesday/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.rbind.io/portfolio/tidytuesday/</guid>
+      <description>
+
+
+
+&lt;h3 id=&#34;what-is-tidytuesday&#34;&gt;What is #TidyTuesday?
+  &lt;a href=&#34;#what-is-tidytuesday&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;#TidyTuesday is a weekly data challenge aimed at the R community. Every week a new dataset is posted alongside a chart or article related to that dataset, and ask participants explore the data. You can access the data and find out more 
+&lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/blob/master/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;portfolio&#34;&gt;Portfolio
+  &lt;a href=&#34;#portfolio&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Below is a selection of my contributions to the #TidyTuesday challenge. All contributions and the code used to generate them can be found on 
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2022/2022-02-22&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2022/2022-02-22/20220222.jpeg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2022/2022-02-08&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2022/2022-02-08/20220208.jpeg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2022/2022-01-11&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2022/2022-01-11/20220111.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/21-12-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/21-12-2021/21122021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/07-12-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/07-12-2021/07122021.jpeg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/26-10-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/26-10-2021/26102021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/05-10-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/05-10-2021/05102021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/24-08-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/24-08-2021/24082021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/10-08-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/10-08-2021/10082021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/29-06-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/29-06-2021/29062021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/04-05-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/04-05-2021/04052021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/30-03-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/30-03-2021/30032021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/02-03-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/02-03-2021/02032021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Du Bois Challenge</title>
+      <link>https://nrennie.rbind.io/portfolio/dubois_challenge/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.rbind.io/portfolio/dubois_challenge/</guid>
+      <description>
+
+
+
+&lt;h3 id=&#34;what-is-the-du-bois-challenge&#34;&gt;What is the Du Bois Challenge?
+  &lt;a href=&#34;#what-is-the-du-bois-challenge&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;The Du Bois Challenge is part of a celebration of the data visualization legacy of W.E.B Du Bois which attempts to recreate the visualizations from the 1900 Paris Exposition using modern tools. Check out the challenge 
+&lt;a href=&#34;https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;who-was-web-dubois&#34;&gt;Who was W.E.B. DuBois?
+  &lt;a href=&#34;#who-was-web-dubois&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Born in 1868, William Edward Burghardt Du Bois was an activist, author, and scholar, being the first African-American to receive a doctorate from Harvard University. In addition, his approach to data visualisations was incredibly innovative, both in terms of his stylistic methods and in his use of using visualisations to build data-driven arguments.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;2021-challenge&#34;&gt;2021 Challenge
+  &lt;a href=&#34;#2021-challenge&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Below are my contributions to the 2021 DuBois Challenge, with my reproduction on the left and the original on the right. a selection of my contributions to the #TidyTuesday challenge. The code for the reproductions can be found on 
+&lt;a href=&#34;https://github.com/nrennie/dubois_challenge&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-1&#34;&gt;Challenge 1
+  &lt;a href=&#34;#challenge-1&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_01.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_01.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-2&#34;&gt;Challenge 2
+  &lt;a href=&#34;#challenge-2&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_02.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_02.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-3&#34;&gt;Challenge 3
+  &lt;a href=&#34;#challenge-3&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_03.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_03.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-4&#34;&gt;Challenge 4
+  &lt;a href=&#34;#challenge-4&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_04.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_04.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-5&#34;&gt;Challenge 5
+  &lt;a href=&#34;#challenge-5&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_05.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_05.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-6&#34;&gt;Challenge 6
+  &lt;a href=&#34;#challenge-6&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_06.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_06.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-7&#34;&gt;Challenge 7
+  &lt;a href=&#34;#challenge-7&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_07.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_07.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-8&#34;&gt;Challenge 8
+  &lt;a href=&#34;#challenge-8&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_08.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_08.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-9&#34;&gt;Challenge 9
+  &lt;a href=&#34;#challenge-9&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_09.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_09.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-10&#34;&gt;Challenge 10
+  &lt;a href=&#34;#challenge-10&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_10.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_10.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Viz For Social Good</title>
       <link>https://nrennie.rbind.io/blog/2021-09-13-viz-for-social-good/</link>
