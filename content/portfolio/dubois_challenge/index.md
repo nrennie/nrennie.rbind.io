@@ -28,6 +28,8 @@ Born in 1868, William Edward Burghardt Du Bois was an activist, author, and scho
 
 Below are my contributions to the 2021 DuBois Challenge, with my reproduction on the left and the original on the right. a selection of my contributions to the #TidyTuesday challenge. The code for the reproductions can be found on [GitHub](https://github.com/nrennie/dubois_challenge).
 
+Note that the text in the visualisations is taken from the original charts and uses antiquated terms to refer to populations of colour.
+
 #### Challenge 1
 
 <p align="center">
