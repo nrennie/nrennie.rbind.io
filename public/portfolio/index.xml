@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio on Nicola Rennie</title>
+    <link>https://nrennie.rbind.io/portfolio/</link>
+    <description>Recent content in Portfolio on Nicola Rennie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nrennie.rbind.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rtistry</title>
+      <link>https://nrennie.rbind.io/portfolio/rtistry/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.rbind.io/portfolio/rtistry/</guid>
+      <description>
+
+
+
+&lt;h3 id=&#34;overview&#34;&gt;Overview
+  &lt;a href=&#34;#overview&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Generative art is the practice of creating artwork using code. When the programming language of choice is R, it&amp;rsquo;s often termed &lt;em&gt;Rtistry&lt;/em&gt; or &lt;em&gt;aRt&lt;/em&gt;. The generative artwork below can be reproduced using my {aRt} package on 
+&lt;a href=&#34;https://github.com/nrennie/aRt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, which you can install in R using:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;remotes&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;install_github&lt;/span&gt;(&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;nrennie/aRt&amp;#34;&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;library&lt;/span&gt;(aRt)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can also view my generative artwork on 
+&lt;a href=&#34;https://www.instagram.com/nrennie_art/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Instagram&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;examples&#34;&gt;Examples
+  &lt;a href=&#34;#examples&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+
+
+
+
+&lt;h4 id=&#34;attraction&#34;&gt;Attraction
+  &lt;a href=&#34;#attraction&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;attraction&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;50000&lt;/span&gt;, a&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;-3&lt;/span&gt;, b&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1&lt;/span&gt;, c&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.5&lt;/span&gt;, d&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;-1&lt;/span&gt;, main_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;attraction&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;50000&lt;/span&gt;, a&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;-6&lt;/span&gt;, b&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1&lt;/span&gt;, c&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.5&lt;/span&gt;, d&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;-2&lt;/span&gt;, main_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;attraction&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;50000&lt;/span&gt;, a&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;-3&lt;/span&gt;, b&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;-2&lt;/span&gt;, c&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1&lt;/span&gt;, d&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;-1&lt;/span&gt;, main_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;SunsetDark&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;attraction1.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;attraction2.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;attraction3.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;boxes&#34;&gt;Boxes
+  &lt;a href=&#34;#boxes&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;boxes&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, perc&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.1&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;DarkMint&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;boxes&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;20&lt;/span&gt;, perc&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.1&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;DarkMint&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;boxes&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, perc&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.5&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Magenta&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;boxes_n100_p1.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;boxes_n20_p1.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;boxes_n100_p5.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;bricks&#34;&gt;Bricks
+  &lt;a href=&#34;#bricks&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;bricks&lt;/span&gt;(n_y&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;20&lt;/span&gt;, colours&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#9B1D20&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#3D2B3D&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#CBEFB6&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#635D5C&amp;#34;&lt;/span&gt;), bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;gray97&amp;#34;&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;bricks&lt;/span&gt;(n_y&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;200&lt;/span&gt;, colours&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#9B1D20&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#3D2B3D&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#CBEFB6&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#635D5C&amp;#34;&lt;/span&gt;), bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;gray97&amp;#34;&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;bricks&lt;/span&gt;(n_y&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;20&lt;/span&gt;, colours&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;carto_pal&lt;/span&gt;(&lt;span style=&#34;color:#099&#34;&gt;7&lt;/span&gt;, &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Burg&amp;#34;&lt;/span&gt;), bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;gray97&amp;#34;&lt;/span&gt;)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;bricks1.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;bricks2.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;bricks3.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;bubbles&#34;&gt;Bubbles
+  &lt;a href=&#34;#bubbles&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;bubbles&lt;/span&gt;(num_circles &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;20&lt;/span&gt;, main_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, col_palette &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Bold&amp;#34;&lt;/span&gt;, bg_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, s &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;bubbles&lt;/span&gt;(num_circles &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;20&lt;/span&gt;, main_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;lightgrey&amp;#34;&lt;/span&gt;, col_palette &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Bold&amp;#34;&lt;/span&gt;, bg_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, s &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;123&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;bubbles&lt;/span&gt;(num_circles &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;10&lt;/span&gt;, main_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, col_palette &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Prism&amp;#34;&lt;/span&gt;, bg_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;2022&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;bubbles1.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;bubbles2.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;bubbles3.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;bullseye&#34;&gt;Bullseye
+  &lt;a href=&#34;#bullseye&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;bullseye&lt;/span&gt;(main_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;bullseye&lt;/span&gt;(main_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;bullseye&lt;/span&gt;(main_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;2021&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;bullseye_1234.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;bullseye_1234n.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;bullseye_2021.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;circles&#34;&gt;Circles
+  &lt;a href=&#34;#circles&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;circles&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, smoothness&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Bold&amp;#34;&lt;/span&gt;, line_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;NA&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;circles&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;10&lt;/span&gt;, smoothness&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Bold&amp;#34;&lt;/span&gt;, line_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;NA&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#e73f74&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;circles&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;2&lt;/span&gt;, smoothness&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;3&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Bold&amp;#34;&lt;/span&gt;, line_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;circles1.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;circles2.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;circles3.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;circular&#34;&gt;Circular
+  &lt;a href=&#34;#circular&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;circular&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;2&lt;/span&gt;, main_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;56&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;circular&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;10&lt;/span&gt;, main_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;56&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;circular&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, main_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;56&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;circular_n2.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;circular_n10.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;circular_n100.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;connected&#34;&gt;Connected
+  &lt;a href=&#34;#connected&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;connected&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, n_geom&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;10&lt;/span&gt;, random&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#999&#34;&gt;F&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;RdPu&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#ae217e&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;connected&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, n_geom&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;10&lt;/span&gt;, random&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#999&#34;&gt;T&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;RdPu&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#ae217e&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;connected&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;250&lt;/span&gt;, n_geom&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;2&lt;/span&gt;, random&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#999&#34;&gt;F&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;RdPu&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#ae217e&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;connected_100_10F.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;connected_100_10T.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;connected_250_2F.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;crawling&#34;&gt;Crawling
+  &lt;a href=&#34;#crawling&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;crawling&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;50&lt;/span&gt;, edge_colour&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, node_size&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1&lt;/span&gt;, node_colour&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;crawling&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;250&lt;/span&gt;, edge_colour&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, node_size&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1&lt;/span&gt;, node_colour&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;crawling&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1000&lt;/span&gt;, edge_colour&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, node_size&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1&lt;/span&gt;, node_colour&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;crawling50.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;crawling250.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;crawling1000.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;dots&#34;&gt;Dots
+  &lt;a href=&#34;#dots&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;dots&lt;/span&gt;(n_x&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;50&lt;/span&gt;, n_y&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, jitter_size_width&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.5&lt;/span&gt;, jitter_size_height&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.5&lt;/span&gt;, col_palette &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Purp&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#63589f&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;dots&lt;/span&gt;(n_x&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;500&lt;/span&gt;, n_y&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, jitter_size_width&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.5&lt;/span&gt;, jitter_size_height&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;5&lt;/span&gt;, col_palette &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Purp&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#63589f&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;dots&lt;/span&gt;(n_x&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;50&lt;/span&gt;, n_y&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, jitter_size_width&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.05&lt;/span&gt;, jitter_size_height&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;50&lt;/span&gt;, col_palette &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Purp&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#63589f&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;dots1.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;dots2.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;dots3.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;fading&#34;&gt;Fading
+  &lt;a href=&#34;#fading&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;fading&lt;/span&gt;(n_layers&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;6&lt;/span&gt;, n_points&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;10&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;SunsetDark&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;fading&lt;/span&gt;(n_layers&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;6&lt;/span&gt;, n_points&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Sunset&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;fading&lt;/span&gt;(n_layers&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;10&lt;/span&gt;, n_points&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;10&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;SunsetDark&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;fading_6_10.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;fading_6_1.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;fading_10_10.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;heart&#34;&gt;Heart
+  &lt;a href=&#34;#heart&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;heart&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;25&lt;/span&gt;, col_scheme&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;mono&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;heart&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, col_scheme&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;mono&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;heart&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;25&lt;/span&gt;, col_scheme&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;rainbow&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;heart_n25_m.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;heart_n100_m.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;heart_n25_r.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;infinity&#34;&gt;Infinity
+  &lt;a href=&#34;#infinity&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;infinity&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;25&lt;/span&gt;, col_scheme&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;mono&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;infinity&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, col_scheme&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;mono&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;infinity&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;25&lt;/span&gt;, col_scheme&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;rainbow&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;infinity_n25_m.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;infinity_n100_m.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;infinity_n25_r.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;polygons&#34;&gt;Polygons
+  &lt;a href=&#34;#polygons&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;polygons&lt;/span&gt;(n_x&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;12&lt;/span&gt;, n_y&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;18&lt;/span&gt;, gap_size&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.5&lt;/span&gt;, deg_jitter&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.1&lt;/span&gt;, colours&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#9B1D20&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#3D2B3D&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#CBEFB6&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#635D5C&amp;#34;&lt;/span&gt;), rand &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;FALSE&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;gray97&amp;#34;&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;polygons&lt;/span&gt;(n_x&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;6&lt;/span&gt;, n_y&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;9&lt;/span&gt;, gap_size&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.2&lt;/span&gt;, deg_jitter&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.1&lt;/span&gt;, colours&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#9B1D20&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#3D2B3D&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#CBEFB6&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#635D5C&amp;#34;&lt;/span&gt;), rand &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;FALSE&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;gray97&amp;#34;&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;polygons&lt;/span&gt;(n_x&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;12&lt;/span&gt;, n_y&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;18&lt;/span&gt;, gap_size&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.5&lt;/span&gt;, deg_jitter&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.5&lt;/span&gt;, colours&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;carto_pal&lt;/span&gt;(&lt;span style=&#34;color:#099&#34;&gt;7&lt;/span&gt;, &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Burg&amp;#34;&lt;/span&gt;), rand &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;FALSE&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;gray97&amp;#34;&lt;/span&gt;)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;polygons1.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;polygons2.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;polygons3.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;rectangles&#34;&gt;Rectangles
+  &lt;a href=&#34;#rectangles&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;rectangles&lt;/span&gt;(n &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, max_height &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;7&lt;/span&gt;, max_width &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;5&lt;/span&gt;, size &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;2&lt;/span&gt;, main_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;lightgrey&amp;#34;&lt;/span&gt;, col_palette &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Bold&amp;#34;&lt;/span&gt;, bg_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, s &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;123&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;rectangles&lt;/span&gt;(n &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;10&lt;/span&gt;, max_height &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;15&lt;/span&gt;, max_width &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;15&lt;/span&gt;, size &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;4&lt;/span&gt;, main_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;lightgrey&amp;#34;&lt;/span&gt;, col_palette &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Bold&amp;#34;&lt;/span&gt;, bg_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, s &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;123&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;rectangles&lt;/span&gt;(n &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, max_height &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;4&lt;/span&gt;, max_width &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;6&lt;/span&gt;, size &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;1&lt;/span&gt;, main_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; ggplot2&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;alpha&lt;/span&gt;(&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#099&#34;&gt;0.5&lt;/span&gt;), col_palette &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Prism&amp;#34;&lt;/span&gt;, bg_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;123&lt;/span&gt;)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;rectangles1.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;rectangles2.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;rectangles3.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;shell&#34;&gt;Shell
+  &lt;a href=&#34;#shell&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;shells&lt;/span&gt;(n &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;4&lt;/span&gt;, alpha &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;1&lt;/span&gt;, main_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, bg_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;shells&lt;/span&gt;(n &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;10&lt;/span&gt;, alpha &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;1&lt;/span&gt;, main_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, bg_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;shells&lt;/span&gt;(n &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;6&lt;/span&gt;, alpha &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;0.5&lt;/span&gt;, main_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#CC338B&amp;#34;&lt;/span&gt;, bg_col &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;alpha&lt;/span&gt;(&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#CC338B&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#099&#34;&gt;0.2&lt;/span&gt;))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;shell1.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;shell2.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;shell3.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;spirals&#34;&gt;Spirals
+  &lt;a href=&#34;#spirals&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;spirals&lt;/span&gt;(perc&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.2&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;spirals&lt;/span&gt;(perc&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.5&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;spirals&lt;/span&gt;(perc&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.8&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;spirals_p2.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;spirals_p5.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;spirals_p8.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;static&#34;&gt;Static
+  &lt;a href=&#34;#static&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;static&lt;/span&gt;(perc&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.01&lt;/span&gt;, n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;500&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;static&lt;/span&gt;(perc&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.1&lt;/span&gt;, n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;500&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;static&lt;/span&gt;(perc&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.3&lt;/span&gt;, n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;500&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;static_p01_n500.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;static_p10_n500.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;static_p30_n500.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;stripes&#34;&gt;Stripes
+  &lt;a href=&#34;#stripes&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;stripes&lt;/span&gt;(perc&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0&lt;/span&gt;, n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;3&lt;/span&gt;, col_palette &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;TealGrn&amp;#34;&lt;/span&gt;, alpha &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;1&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;stripes&lt;/span&gt;(perc&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;0.5&lt;/span&gt;, n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;3&lt;/span&gt;, col_palette &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;TealGrn&amp;#34;&lt;/span&gt;, alpha &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;1&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;stripes&lt;/span&gt;(perc&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1&lt;/span&gt;, n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;3&lt;/span&gt;, col_palette &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;TealGrn&amp;#34;&lt;/span&gt;, alpha &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;1&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;stripes_p00_n3.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;stripes_p50_n3.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;stripes_p100_n3.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;tiles&#34;&gt;Tiles
+  &lt;a href=&#34;#tiles&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;tiles&lt;/span&gt;(n_x&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;12&lt;/span&gt;, n_y&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;12&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Veronese&amp;#34;&lt;/span&gt;, num_colours&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;5&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;tiles&lt;/span&gt;(n_x&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;50&lt;/span&gt;, n_y&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;50&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Veronese&amp;#34;&lt;/span&gt;, num_colours&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;6&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;tiles&lt;/span&gt;(n_x&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;12&lt;/span&gt;, n_y&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;12&lt;/span&gt;, col_palette&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Pissaro&amp;#34;&lt;/span&gt;, num_colours&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;5&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;tiles_veronese1.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;tiles_veronese2.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;tiles_pissaro1.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;vortex&#34;&gt;Vortex
+  &lt;a href=&#34;#vortex&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;vortex&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;25&lt;/span&gt;, start_val&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;90&lt;/span&gt;, col_scheme&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;mono&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;vortex&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, start_val&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;90&lt;/span&gt;, col_scheme&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;mono&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;vortex&lt;/span&gt;(n&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;25&lt;/span&gt;, start_val&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;90&lt;/span&gt;, col_scheme&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;rainbow&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;vortex_n25_m.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;vortex_n100_m.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;vortex_n25_r.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;waves&#34;&gt;Waves
+  &lt;a href=&#34;#waves&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;waves&lt;/span&gt;(a&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;23&lt;/span&gt;, b&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;6&lt;/span&gt;, main_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;2021&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;waves&lt;/span&gt;(a&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;23&lt;/span&gt;, b&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;6&lt;/span&gt;, main_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;Prism&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#edad08&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;2021&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;waves&lt;/span&gt;(a&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;6&lt;/span&gt;, b&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;23&lt;/span&gt;, main_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, bg_col&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, s&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#099&#34;&gt;2021&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;waves23_6_bw.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;waves23_6_col.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;waves6_23_bw.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>#TidyTuesday</title>
+      <link>https://nrennie.rbind.io/portfolio/tidytuesday/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.rbind.io/portfolio/tidytuesday/</guid>
+      <description>
+
+
+
+&lt;h3 id=&#34;what-is-tidytuesday&#34;&gt;What is #TidyTuesday?
+  &lt;a href=&#34;#what-is-tidytuesday&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;#TidyTuesday is a weekly data challenge aimed at the R community. Every week a new dataset is posted alongside a chart or article related to that dataset, and ask participants explore the data. You can access the data and find out more 
+&lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/blob/master/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;portfolio&#34;&gt;Portfolio
+  &lt;a href=&#34;#portfolio&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Below is a selection of my contributions to the #TidyTuesday challenge. All contributions and the code used to generate them can be found on 
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2022/2022-02-22&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2022/2022-02-22/20220222.jpeg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2022/2022-02-08&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2022/2022-02-08/20220208.jpeg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2022/2022-01-11&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2022/2022-01-11/20220111.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/21-12-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/21-12-2021/21122021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/07-12-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/07-12-2021/07122021.jpeg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/26-10-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/26-10-2021/26102021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/05-10-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/05-10-2021/05102021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/24-08-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/24-08-2021/24082021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/10-08-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/10-08-2021/10082021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/29-06-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/29-06-2021/29062021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/04-05-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/04-05-2021/04052021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/30-03-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/30-03-2021/30032021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2021/02-03-2021&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2021/02-03-2021/02032021.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Du Bois Challenge</title>
+      <link>https://nrennie.rbind.io/portfolio/dubois_challenge/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.rbind.io/portfolio/dubois_challenge/</guid>
+      <description>
+
+
+
+&lt;h3 id=&#34;what-is-the-du-bois-challenge&#34;&gt;What is the Du Bois Challenge?
+  &lt;a href=&#34;#what-is-the-du-bois-challenge&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;The Du Bois Challenge is part of a celebration of the data visualization legacy of W.E.B Du Bois which attempts to recreate the visualizations from the 1900 Paris Exposition using modern tools. Check out the challenge 
+&lt;a href=&#34;https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;who-was-web-dubois&#34;&gt;Who was W.E.B. DuBois?
+  &lt;a href=&#34;#who-was-web-dubois&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Born in 1868, William Edward Burghardt Du Bois was an activist, author, and scholar, being the first African-American to receive a doctorate from Harvard University. In addition, his approach to data visualisations was incredibly innovative, both in terms of his stylistic methods and in his use of using visualisations to build data-driven arguments.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;2021-challenge&#34;&gt;2021 Challenge
+  &lt;a href=&#34;#2021-challenge&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Below are my contributions to the 2021 DuBois Challenge, with my reproduction on the left and the original on the right. a selection of my contributions to the #TidyTuesday challenge. The code for the reproductions can be found on 
+&lt;a href=&#34;https://github.com/nrennie/dubois_challenge&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-1&#34;&gt;Challenge 1
+  &lt;a href=&#34;#challenge-1&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_01.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_01.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-2&#34;&gt;Challenge 2
+  &lt;a href=&#34;#challenge-2&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_02.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_02.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-3&#34;&gt;Challenge 3
+  &lt;a href=&#34;#challenge-3&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_03.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_03.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-4&#34;&gt;Challenge 4
+  &lt;a href=&#34;#challenge-4&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_04.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_04.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-5&#34;&gt;Challenge 5
+  &lt;a href=&#34;#challenge-5&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_05.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_05.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-6&#34;&gt;Challenge 6
+  &lt;a href=&#34;#challenge-6&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_06.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_06.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-7&#34;&gt;Challenge 7
+  &lt;a href=&#34;#challenge-7&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_07.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_07.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-8&#34;&gt;Challenge 8
+  &lt;a href=&#34;#challenge-8&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_08.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_08.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-9&#34;&gt;Challenge 9
+  &lt;a href=&#34;#challenge-9&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_09.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_09.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-10&#34;&gt;Challenge 10
+  &lt;a href=&#34;#challenge-10&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;challenge_10.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;original_10.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
