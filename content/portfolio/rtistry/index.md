@@ -1,7 +1,7 @@
 ---
 title: "Rtistry"
 subtitle: ""
-excerpt: "A selection of generative art created using R, also known as #rtistry."
+excerpt: "Generative art is the practice of creating artwork using code. When the programming language of choice is R, it's often termed *Rtistry* or *aRt*."
 date: 2022-01-01
 weight: 1
 author: "Nicola Rennie"
