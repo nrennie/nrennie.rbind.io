@@ -16,11 +16,14 @@ Creating 30 maps for the 30 Day Map Challenge in November 2021 was indeed a chal
 
 #### R Shiny applications
 
-* [Life expectancy](https://nrennie35.shinyapps.io/life_expectancy_shiny_app/). 
-An R shiny dashboard to accompany upcoming my significance article "We're not getting any younger! Or should that be older?" which investigates trend in life expectancy.
-
 * [aRt](https://nrennie35.shinyapps.io/nrennie_aRt/). 
 An R shiny application to generate and download generative art created in R.
+
+* [ggplot2-examples](https://nrennie35.shinyapps.io/ggplot2-examples/). 
+An R shiny application to demonstrate (with code segments) different types of plots in {ggplot2}.
+
+* [Life expectancy](https://nrennie35.shinyapps.io/life_expectancy_shiny_app/). 
+An R shiny dashboard to accompany upcoming my significance article "We're not getting any younger! Or should that be older?" which investigates trend in life expectancy.
 
 #### R-bloggers
 

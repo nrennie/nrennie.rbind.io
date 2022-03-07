@@ -6,7 +6,127 @@
     <description>Recent content in Blog on Nicola Rennie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nrennie.rbind.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nrennie.rbind.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best (artistic) practices in R</title>
+      <link>https://nrennie.rbind.io/blog/2022-03-03-best-artistic-practices-in-r/</link>
+      <pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrennie.rbind.io/blog/2022-03-03-best-artistic-practices-in-r/</guid>
+      <description>
+
+
+
+&lt;h3 id=&#34;what-is-generative-art&#34;&gt;What is generative art?
+  &lt;a href=&#34;#what-is-generative-art&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Generative art is the process of creating artwork through a set of pre-determined rules often with an element of randomness. It is often termed &lt;em&gt;rtistry&lt;/em&gt; or &lt;em&gt;aRt&lt;/em&gt; when the art is created using the programming language R.&lt;/p&gt;
+&lt;p&gt;In October 2021, I started experimenting with generative art, and developed a 
+&lt;a href=&#34;https://github.com/nrennie/aRt/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R package&lt;/a&gt;. I also took part in 
+&lt;a href=&#34;https://github.com/nrennie/genuary&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#genuary2022&lt;/a&gt;, the challenge running in the month of January where generative artists create art based on a different prompt each day. is an artificially generated month of time where we build code that makes beautiful things. You can view a selection of my generative art portfolio 
+&lt;a href=&#34;https://nrennie.rbind.io/portfolio/rtistry/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;und&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://t.co/sdRpqHb1OM&#34;&gt;https://t.co/sdRpqHb1OM&lt;/a&gt; &lt;a href=&#34;https://t.co/BwnS1Ntgxf&#34;&gt;pic.twitter.com/BwnS1Ntgxf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nicola Rennie (@nrennie35) &lt;a href=&#34;https://twitter.com/nrennie35/status/1488099926450094080?ref_src=twsrc%5Etfw&#34;&gt;January 31, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;This blog post will outline the best practices I follow when creating generative art. Note that these are simply the practices that I tend to follow, and are not meant to be representative of the practices utilised in the wider generative art community, or a recommendation of practices to follow.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;what-are-best-practices&#34;&gt;What are best practices?
+  &lt;a href=&#34;#what-are-best-practices&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Best coding practices are informal rules that developers follow to help improve the quality of their code, and ensure it is easy to maintain. In the R (and wider) community, common coding practices include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;using descriptive variable names&lt;/li&gt;
+&lt;li&gt;following a consistent style guide (e.g. always using either &lt;code&gt;&amp;lt;-&lt;/code&gt; or &lt;code&gt;=&lt;/code&gt; to assign variables, not a mixture of both)&lt;/li&gt;
+&lt;li&gt;writing short functions that do only one thing&lt;/li&gt;
+&lt;li&gt;writing clear user documentation (that includes how to install and use your code)&lt;/li&gt;
+&lt;li&gt;making results reproducible (i.e. if someone else runs your code they should get the exact same output)&lt;/li&gt;
+&lt;li&gt;writing unit tests to check which conditions your code works under&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;h3 id=&#34;best-practices-in-generative-art&#34;&gt;Best practices in generative art
+  &lt;a href=&#34;#best-practices-in-generative-art&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;This section will cover some additional, or adjusted practices, I also follow when producing generative art in R.&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;parameter-restriction&#34;&gt;Parameter restriction
+  &lt;a href=&#34;#parameter-restriction&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;The functions I use to generate art often have multiple parameters as input. These parameters may have &lt;em&gt;natural&lt;/em&gt; restrictions on them. For example, some parameters may need to be positive e.g. the number of points to draw. I often impose additional restrictions on the parameters e.g., I may force there to be at least 100 points generated. Although the art could be generated (in the sense that the code would run) outside of these additional restrictions, this forces anyone else using the functions to generate art within the general style that I designed.&lt;/p&gt;
+&lt;p&gt;I developed a 
+&lt;a href=&#34;https://nrennie35.shinyapps.io/nrennie_aRt/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shiny app&lt;/a&gt; for users to generate and download a PNG of some of my rtistry. I limited the parameters even further in this instance to make it simpler for users.&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;one-function-one-task&#34;&gt;One function, one task
+  &lt;a href=&#34;#one-function-one-task&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;In a data science project, I would tend to split up my functions into:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;data generation&lt;/li&gt;
+&lt;li&gt;data wrangling&lt;/li&gt;
+&lt;li&gt;data analysis&lt;/li&gt;
+&lt;li&gt;visualisation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;However, in my {aRt} package, &lt;em&gt;most&lt;/em&gt; of the art pieces tend to each be generated by a single function: data generation, plotting, and themes all in one. In the instances where I do split into separate functions, this tends to be for reasons of computational efficiency rather than readability. There are a couple of reasons why:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I wanted each piece to be generated by a single function&lt;/li&gt;
+&lt;li&gt;I wanted each exported function to generate a piece of art&lt;/li&gt;
+&lt;li&gt;I didn&amp;rsquo;t want (too many) hidden functions so that users had all the tools they need to recreate a piece&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;rsquo;m still on the fence about whether this is a more appropriate approach.&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;commenting-code-and-documentation&#34;&gt;Commenting code and documentation
+  &lt;a href=&#34;#commenting-code-and-documentation&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;I do try to document code as much as possible. The part of documentation I find difficult in generative art is the overall description of what the function does. I tend to go for a &lt;em&gt;technical&lt;/em&gt; description of what the code does e.g. &amp;ldquo;this function returns a {ggplot2} object constructed using polygons&amp;rdquo;. I find this easier to write, and perhaps more important in terms of coding practices, than a description of the final artwork.&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;reproducibility&#34;&gt;Reproducibility
+  &lt;a href=&#34;#reproducibility&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;Let&amp;rsquo;s think about reproducibility for a second. It’s standard good coding practice - when someone else runs your code, they should be able to produce an identical output. But is this always desirable in the generative art world? If you could replicate the Mona Lisa at the touch of a button, would you? Although I would never claim to be the Leonardo da Vinci of generative art, the world of creative coding does open up the question of whether giving someone else the ability to replicate your art is a good thing. Especially in the world of NFTs (although we&amp;rsquo;re not getting into &lt;em&gt;that&lt;/em&gt; here).&lt;/p&gt;
+&lt;p&gt;Personally, I do make my work reproducible and all of my code is available on 
+&lt;a href=&#34;https://github.com/nrennie&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;final-thoughts&#34;&gt;Final thoughts
+  &lt;a href=&#34;#final-thoughts&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;These are just a few of the additional practices I also follow when writing code for generative art. The most important thing for me to remember is that generative art is supposed to be fun, so good coding practices probably matter even less here!&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;twitter-share-button&#34;
+href=&#34;https://twitter.com/intent/tweet&#34;
+data-size=&#34;large&#34;&gt;
+Tweet&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>A Story of Statistical Writing and Life Expectancy</title>
       <link>https://nrennie.rbind.io/blog/2022-02-04-a-story-of-statistical-writing-and-life-expectancy/</link>

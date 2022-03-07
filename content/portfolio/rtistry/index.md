@@ -176,6 +176,19 @@ fading(n_layers=10, n_points=10, col_palette="SunsetDark", s=1234)
 <img src="fading_10_10.jpeg?raw=true" width="30%">
 </p>
 
+#### Flow fields
+
+``` r
+flow_fields(n = 10000, granualarity = 1000, x_freq = 1, y_freq = 1, alpha = 1, line_col = c("#edf8fb","#bfd3e6","#9ebcda","#8c96c6","#8c6bb1","#88419d","#6e016b"), bg_col = "lightgrey", s = 1234)
+flow_fields(n = 10000, granualarity = 1000, x_freq = 1, y_freq = 1, alpha = 0.3, line_col = "black", bg_col = "white", s = 1234)
+flow_fields(n = 10000, granualarity = 1000, x_freq = 3, y_freq = 0.2, alpha = 1, line_col = c("#edf8fb","#bfd3e6","#9ebcda","#8c96c6","#8c6bb1","#88419d","#6e016b"), bg_col = "lightgrey", s = 1234)
+```
+<p align="center">
+<img src="flow_fields1.jpeg?raw=true" width="30%">
+<img src="flow_fields2.jpeg?raw=true" width="30%">
+<img src="flow_fields3.jpeg?raw=true" width="30%">
+</p>
+
 #### Heart
 
 ``` r
