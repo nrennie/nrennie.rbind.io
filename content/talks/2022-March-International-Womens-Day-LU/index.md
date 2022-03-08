@@ -2,8 +2,8 @@
 title: "Women in Stats and Data Science at Lancaster University"
 subtitle: "A panel discussion on the career path of Women in Statistics and Data Science at Lancaster University as we celebrate International Women's Day. A panel of speakers from Lancaster University will answer questions from the audience."
 excerpt: "A panel discussion on the career path of Women in Statistics and Data Science at Lancaster University as we celebrate International Women's Day. A panel of speakers from Lancaster University will answer questions from the audience."
-date: 2022-03-08T10:30:00-06:00
-date_end: "2022-03-08T11:30:00-06:00"
+date: 2022-03-07T10:30:00-06:00
+date_end: "2022-07-08T11:30:00-06:00"
 show_post_time: false
 event: "Women in Stats and Data Science"
 author: "Nicola Rennie"
