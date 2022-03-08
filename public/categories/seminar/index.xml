@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seminar on Nicola Rennie</title>
+    <link>https://nrennie.rbind.io/categories/seminar/</link>
+    <description>Recent content in Seminar on Nicola Rennie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 07 Mar 2022 10:30:00 -0600</lastBuildDate><atom:link href="https://nrennie.rbind.io/categories/seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Women in Stats and Data Science at Lancaster University</title>
+      <link>https://nrennie.rbind.io/talks/2022-march-international-womens-day-lu/</link>
+      <pubDate>Mon, 07 Mar 2022 10:30:00 -0600</pubDate>
+      
+      <guid>https://nrennie.rbind.io/talks/2022-march-international-womens-day-lu/</guid>
+      <description>&lt;p&gt;On March 8, 2022, Lancaster University hosted an online panel discussion on the career path of Women in Stats to celebrate International Womens&#39; Day. The speakers were Anastasia Ushakova, Carolina Euan, Emma Eastoe, Kathryn Turnbull and Nicola Rennie. My answers to the five main questions are below:&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;what-do-you-do-on-a-typical-day-at-work&#34;&gt;What do you do on a typical day at work?
+  &lt;a href=&#34;#what-do-you-do-on-a-typical-day-at-work&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;For me, it&amp;rsquo;s easier to answer this in terms of a typical week rather than typical day since I tend to have quite a varied schedule. In my job, I do a combination of data science consultancy and running training courses - mostly on programming in R. So a typical week for me, is maybe two half days of teaching (online at the moment). I would also spend sometime preparing for teaching, and developing or updating course material. In terms of consultancy, I spend two or three days a week on client work. For me, that could be a wide range of things - it could be statistical advice i.e., helping clients decide which methods to use; it could be building dashboards; it could be reviewing code that a client has written. Then I also usually spend another day of my week doing internal consultancy, so projects that Jumping Rivers are working on internally. That might be building a website for a conference, running workshops at conferences, or automating some of our admin processes. That&amp;rsquo;s a typical week, but no two days are exactly the same and I can mostly pick-and-choose what I do on each day of the week.&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;when-and-why-did-you-decide-to-work-in-statisticsdata-science&#34;&gt;When and why did you decide to work in statistics/data science?
+  &lt;a href=&#34;#when-and-why-did-you-decide-to-work-in-statisticsdata-science&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;During my undergrad (in maths), I didn&amp;rsquo;t really do many stats courses until my final year. And I liked it. It seemed more applied than most of the applied maths I&amp;rsquo;d spent the first few years doing. So I decided to go and do a stats PhD, which I did at STOR-i. I knew I wanted apply whatever I was learning so I was probably leaning more towards working in industry even before I started my PhD. During my PhD, I had an industrial partner - I collaborated with Deutsche Bahn, and I enjoyed that part of my PhD a lot more than the research side of things. I found myself wanting to spend time developing dashboards or playing with data more than I wanted to write papers (or my thesis). So I think at that point, I thought: okay, let&amp;rsquo;s find a job where I can spend my time doing the type of work I enjoy.&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;what-aspects-of-the-job-are-most-appealing-least-appealing&#34;&gt;What aspects of the job are most appealing? Least appealing?
+  &lt;a href=&#34;#what-aspects-of-the-job-are-most-appealing-least-appealing&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;Most appealing? I think there are two things I really like about my job. One is the variety of projects I get to work on. Both in terms of the application, and in terms of the actual technical work I&amp;rsquo;m doing. The other thing I really enjoy is delivering work to clients, there&amp;rsquo;s quite a lot of job satisfaction in that.&lt;/p&gt;
+&lt;p&gt;Least appealing? I&amp;rsquo;m actually very lucky in that I&amp;rsquo;m now in a job that I really like pretty much everything about it. I guess one thing would be, sometimes we have to compromise on how fancy soe of our methodology is. You know, we might have an idea for a very complex method that could work for a very specific problem, but (i) simple methods are easier to explain to clients; (ii) they&amp;rsquo;re generally faster to build and run.&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;what-skills-are-essential-for-success-in-this-career-hard-and-soft-skills&#34;&gt;What skills are essential for success in this career? (Hard and soft skills)
+  &lt;a href=&#34;#what-skills-are-essential-for-success-in-this-career-hard-and-soft-skills&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;In terms of hard (technical) skills, programming skills are the obvious one. You don&amp;rsquo;t need to be proficient in every programming language, but at the very least having an awareness of the programming languages that are commonly used (e.g., R, Python), and having done some work in one of them. I would also recommend getting used to working with version control early. It&amp;rsquo;s probably easier to practice using something like git when you&amp;rsquo;re the only person working on a project. If you&amp;rsquo;re confident using it on your own, then it&amp;rsquo;ll make it easier to scale up and join an existing project which already has hundreds of scripts.&lt;/p&gt;
+&lt;p&gt;In terms of soft skills, I think being able to talk to people about maths without using maths-y words is really important. A lot of the time, clients will come to us for advice and they don&amp;rsquo;t necessarily know what the problem is. They also don&amp;rsquo;t usually have a statistics background. So being able to sit down and talk to them about what they want the end result to be, and what&amp;rsquo;s most important to them, is usually the first step in defining the data science problem that you&amp;rsquo;re actually going to be working on. It&amp;rsquo;s unlikely that a client comes to you with a perfectly formed, textbook data science problem.&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;if-i-decided-to-pursue-this-career-path-what-advice-would-you-give-me&#34;&gt;If I decided to pursue this career path, what advice would you give me?
+  &lt;a href=&#34;#if-i-decided-to-pursue-this-career-path-what-advice-would-you-give-me&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;Try to work for a company where you&amp;rsquo;re invested in the bigger picture of what they do. Everybody has days where something&amp;rsquo;s not working, and you just want to throw your laptop out the window. That&amp;rsquo;s perfectly normal. When you&amp;rsquo;re studying, you&amp;rsquo;re invested in getting a degree so you have a good reason to not throw your laptop out the window. But when you&amp;rsquo;re working for a company, you&amp;rsquo;re not going to be quite as personally invested in your work, but those sort of difficult days are easier if you like the company you work for, and you like the work that they do.&lt;/p&gt;
+&lt;p&gt;I would also say, don&amp;rsquo;t be put off for applying for a job because you don&amp;rsquo;t tick every box on the criteria. Most good employers are willing to spend time developing employees, because data science as a field is developing constantly. You&amp;rsquo;ll have to learn new things all the time anyway. And someone that is willing to learn whatever they need to is more valuable to an employer in the longer term. So just go for opportunities when they&amp;rsquo;re there.&lt;/p&gt;
+&lt;p&gt;Featured image: 
+&lt;a href=&#34;https://unsplash.com/@hannahbusing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hannah Busing&lt;/a&gt; on 
+&lt;a href=&#34;https://unsplash.com/photos/Zyx1bK9mqmA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
