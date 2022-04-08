@@ -58,6 +58,21 @@
 
 
 
+&lt;h4 id=&#34;blending&#34;&gt;Blending
+  &lt;a href=&#34;#blending&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;blending&lt;/span&gt;(n &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, down &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, up &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;blending&lt;/span&gt;(n &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;500&lt;/span&gt;, down &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, up &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, s &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;span style=&#34;color:#900;font-weight:bold&#34;&gt;blending&lt;/span&gt;(n &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;100&lt;/span&gt;, down &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#ba1141&amp;#34;&lt;/span&gt;, up &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;#003366&amp;#34;&lt;/span&gt;, s &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;1234&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;blending1.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;blending2.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;img src=&#34;blending3.jpeg?raw=true&#34; width=&#34;30%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
 &lt;h4 id=&#34;boxes&#34;&gt;Boxes
   &lt;a href=&#34;#boxes&#34;&gt;&lt;/a&gt;
 &lt;/h4&gt;

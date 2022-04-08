@@ -20,9 +20,19 @@ links:
 
 #TidyTuesday is a weekly data challenge aimed at the R community. Every week a new dataset is posted alongside a chart or article related to that dataset, and ask participants explore the data. You can access the data and find out more [here](https://github.com/rfordatascience/tidytuesday/blob/master/README.md). 
 
-### Portfolio
-
 Below is a selection of my contributions to the #TidyTuesday challenge. All contributions and the code used to generate them can be found on [GitHub](https://github.com/nrennie/tidytuesday).
+
+<p align="center">
+<a href="https://github.com/nrennie/tidytuesday/tree/main/2022/2022-04-05"><img src="https://raw.githubusercontent.com/nrennie/tidytuesday/main/2022/2022-04-05/20220405.png" width="80%"></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/nrennie/tidytuesday/tree/main/2022/2022-03-22"><img src="https://raw.githubusercontent.com/nrennie/tidytuesday/main/2022/2022-03-22/20220322.jpeg" width="80%"></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/nrennie/tidytuesday/tree/main/2022/2022-03-15"><img src="https://raw.githubusercontent.com/nrennie/tidytuesday/main/2022/2022-03-15/20220315.jpeg" width="80%"></a>
+</p>
 
 <p align="center">
 <a href="https://github.com/nrennie/tidytuesday/tree/main/2022/2022-02-22"><img src="https://raw.githubusercontent.com/nrennie/tidytuesday/main/2022/2022-02-22/20220222.jpeg" width="80%"></a>

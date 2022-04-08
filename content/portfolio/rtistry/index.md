@@ -41,6 +41,18 @@ attraction(n=50000, a=-3, b=-2, c=1, d=-1, main_col="SunsetDark", bg_col="white"
 <img src="attraction3.jpeg?raw=true" width="30%">
 </p>
 
+#### Blending
+
+``` r
+blending(n = 100, down = "white", up = "black", s = 1234)
+blending(n = 500, down = "white", up = "black", s = 1234)
+blending(n = 100, down = "#ba1141", up = "#003366", s = 1234)
+```
+<p align="center">
+<img src="blending1.jpeg?raw=true" width="30%">
+<img src="blending2.jpeg?raw=true" width="30%">
+<img src="blending3.jpeg?raw=true" width="30%">
+</p>
 
 #### Boxes 
 

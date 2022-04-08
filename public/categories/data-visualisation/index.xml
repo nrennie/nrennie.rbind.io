@@ -25,18 +25,17 @@
 &lt;/h3&gt;
 &lt;p&gt;#TidyTuesday is a weekly data challenge aimed at the R community. Every week a new dataset is posted alongside a chart or article related to that dataset, and ask participants explore the data. You can access the data and find out more 
 &lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/blob/master/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-
-
-
-&lt;h3 id=&#34;portfolio&#34;&gt;Portfolio
-  &lt;a href=&#34;#portfolio&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
-      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
-    &lt;/svg&gt;&lt;/a&gt;
-&lt;/h3&gt;
 &lt;p&gt;Below is a selection of my contributions to the #TidyTuesday challenge. All contributions and the code used to generate them can be found on 
 &lt;a href=&#34;https://github.com/nrennie/tidytuesday&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2022/2022-04-05&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2022/2022-04-05/20220405.png&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2022/2022-03-22&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2022/2022-03-22/20220322.jpeg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2022/2022-03-15&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2022/2022-03-15/20220315.jpeg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
 &lt;p align=&#34;center&#34;&gt;
 &lt;a href=&#34;https://github.com/nrennie/tidytuesday/tree/main/2022/2022-02-22&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nrennie/tidytuesday/main/2022/2022-02-22/20220222.jpeg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
 &lt;/p&gt;
@@ -112,14 +111,14 @@
 
 
 
-&lt;h3 id=&#34;2021-challenge&#34;&gt;2021 Challenge
-  &lt;a href=&#34;#2021-challenge&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;h3 id=&#34;2022-challenge&#34;&gt;2022 Challenge
+  &lt;a href=&#34;#2022-challenge&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
       &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
       &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
     &lt;/svg&gt;&lt;/a&gt;
 &lt;/h3&gt;
-&lt;p&gt;Below are my contributions to the 2021 DuBois Challenge, with my reproduction on the left and the original on the right. a selection of my contributions to the #TidyTuesday challenge. The code for the reproductions can be found on 
-&lt;a href=&#34;https://github.com/nrennie/dubois_challenge&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Below are my contributions to the 2022 Du Bois Challenge, with my reproduction on the left and the original on the right. The code for the reproductions can be found on 
+&lt;a href=&#34;https://github.com/nrennie/dubois_challenge/tree/main/2022&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Note that the text in the visualisations is taken from the original charts and uses antiquated terms to refer to populations of colour.&lt;/p&gt;
 
 
@@ -129,8 +128,8 @@
   &lt;a href=&#34;#challenge-1&#34;&gt;&lt;/a&gt;
 &lt;/h4&gt;
 &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_01.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_01.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/challenge_01.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/original_01.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
 &lt;/p&gt;
 
 
@@ -140,8 +139,8 @@
   &lt;a href=&#34;#challenge-2&#34;&gt;&lt;/a&gt;
 &lt;/h4&gt;
 &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_02.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_02.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/challenge_02.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/original_02.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
 &lt;/p&gt;
 
 
@@ -151,8 +150,8 @@
   &lt;a href=&#34;#challenge-3&#34;&gt;&lt;/a&gt;
 &lt;/h4&gt;
 &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_03.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_03.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/challenge_03.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/original_03.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
 &lt;/p&gt;
 
 
@@ -162,8 +161,8 @@
   &lt;a href=&#34;#challenge-4&#34;&gt;&lt;/a&gt;
 &lt;/h4&gt;
 &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_04.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_04.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/challenge_04.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/original_04.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
 &lt;/p&gt;
 
 
@@ -173,8 +172,8 @@
   &lt;a href=&#34;#challenge-5&#34;&gt;&lt;/a&gt;
 &lt;/h4&gt;
 &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_05.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_05.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/challenge_05.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/original_05.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
 &lt;/p&gt;
 
 
@@ -184,8 +183,8 @@
   &lt;a href=&#34;#challenge-6&#34;&gt;&lt;/a&gt;
 &lt;/h4&gt;
 &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_06.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_06.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/challenge_06.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/original_06.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
 &lt;/p&gt;
 
 
@@ -195,8 +194,8 @@
   &lt;a href=&#34;#challenge-7&#34;&gt;&lt;/a&gt;
 &lt;/h4&gt;
 &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_07.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_07.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/challenge_07.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/original_07.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
 &lt;/p&gt;
 
 
@@ -206,8 +205,8 @@
   &lt;a href=&#34;#challenge-8&#34;&gt;&lt;/a&gt;
 &lt;/h4&gt;
 &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_08.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_08.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/challenge_08.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/original_08.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
 &lt;/p&gt;
 
 
@@ -217,8 +216,8 @@
   &lt;a href=&#34;#challenge-9&#34;&gt;&lt;/a&gt;
 &lt;/h4&gt;
 &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_09.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_09.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/challenge_09.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/original_09.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
 &lt;/p&gt;
 
 
@@ -228,22 +227,172 @@
   &lt;a href=&#34;#challenge-10&#34;&gt;&lt;/a&gt;
 &lt;/h4&gt;
 &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_10.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_10.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/challenge_10.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2022/original_10.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h3 id=&#34;2021-challenge&#34;&gt;2021 Challenge
+  &lt;a href=&#34;#2021-challenge&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Below are my contributions to the 2021 Du Bois Challenge, with my reproduction on the left and the original on the right. The code for the reproductions can be found on 
+&lt;a href=&#34;https://github.com/nrennie/dubois_challenge/tree/main/2021&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Note that the text in the visualisations is taken from the original charts and uses antiquated terms to refer to populations of colour.&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-1-1&#34;&gt;Challenge 1
+  &lt;a href=&#34;#challenge-1-1&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;2021/challenge_01.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2021/original_01.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-2-1&#34;&gt;Challenge 2
+  &lt;a href=&#34;#challenge-2-1&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;2021/challenge_02.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2021/original_02.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-3-1&#34;&gt;Challenge 3
+  &lt;a href=&#34;#challenge-3-1&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;2021/challenge_03.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2021/original_03.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-4-1&#34;&gt;Challenge 4
+  &lt;a href=&#34;#challenge-4-1&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;2021/challenge_04.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2021/original_04.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-5-1&#34;&gt;Challenge 5
+  &lt;a href=&#34;#challenge-5-1&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;2021/challenge_05.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2021/original_05.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-6-1&#34;&gt;Challenge 6
+  &lt;a href=&#34;#challenge-6-1&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;2021/challenge_06.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2021/original_06.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-7-1&#34;&gt;Challenge 7
+  &lt;a href=&#34;#challenge-7-1&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;2021/challenge_07.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2021/original_07.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-8-1&#34;&gt;Challenge 8
+  &lt;a href=&#34;#challenge-8-1&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;2021/challenge_08.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2021/original_08.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-9-1&#34;&gt;Challenge 9
+  &lt;a href=&#34;#challenge-9-1&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;2021/challenge_09.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2021/original_09.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;/p&gt;
+
+
+
+
+&lt;h4 id=&#34;challenge-10-1&#34;&gt;Challenge 10
+  &lt;a href=&#34;#challenge-10-1&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;2021/challenge_10.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
+&lt;img src=&#34;2021/original_10.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
 &lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Viz For Social Good</title>
-      <link>https://nrennie.rbind.io/blog/2021-09-13-viz-for-social-good/</link>
-      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      <link>https://nrennie.rbind.io/portfolio/vfsg/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://nrennie.rbind.io/blog/2021-09-13-viz-for-social-good/</guid>
+      <guid>https://nrennie.rbind.io/portfolio/vfsg/</guid>
       <description>&lt;p&gt;Viz For Social Good volunteers create informative and impactful data visualizations for mission-driven organizations across the globe. Check out the organisation 
 &lt;a href=&#34;https://www.vizforsocialgood.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Code available at: 
 &lt;a href=&#34;https://github.com/nrennie/Viz_For_Social_Good&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/nrennie/Viz_For_Social_Good&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h2 id=&#34;tap-elderly-womens-wisdom-for-youth-tewwy&#34;&gt;Tap Elderly Women&amp;rsquo;s Wisdom for Youth (TEWWY)
+  &lt;a href=&#34;#tap-elderly-womens-wisdom-for-youth-tewwy&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Tap Elderly Women&amp;rsquo;s Wisdom for Youth (TEWWY) is an organisation which taps the wisdom of grandmothers to serve the mental health needs of vulnerable populations. TEWWY’s Mental Health Intervention Programs (MHIPs) have reached 17,975 people through its initiatives in Dar-es-Salaam’s 5 municipalities and in Kilwa, Lindi rural community.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Nearly 1 in 10 people have a mental health disorder, but only 1% of the global health workforce provides mental health care. 1,397 patients answered questions about their mental health, giving scores from 0 to 3 on how often, over the last 2 weeks, they have been bothered by different problems. A score of 0 indicates that the patient answered &lt;code&gt;No&lt;/code&gt;, whilst a score above 0 indicates the patient answered &lt;code&gt;Yes&lt;/code&gt;. The infographics indicate the percentage of people answering &lt;code&gt;Yes&lt;/code&gt; to each questions, split by male and female patients.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;This month&amp;#39;s Viz For Social Good (&lt;a href=&#34;https://twitter.com/VizFSG?ref_src=twsrc%5Etfw&#34;&gt;@VizFSG&lt;/a&gt;) project with &lt;a href=&#34;https://twitter.com/TEWWYWisdom?ref_src=twsrc%5Etfw&#34;&gt;@TEWWYWisdom&lt;/a&gt; looks at patient responses to mental health surveys❔ TEWWY’s Mental Health Intervention Programs have reached 17,975 people so far!&lt;br&gt;&lt;br&gt;Code: &lt;a href=&#34;https://t.co/2pR4DEyFO7&#34;&gt;https://t.co/2pR4DEyFO7&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataVisualization?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataVisualization&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataViz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataViz&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://t.co/9ZTegzsn14&#34;&gt;pic.twitter.com/9ZTegzsn14&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nicola Rennie (@nrennie35) &lt;a href=&#34;https://twitter.com/nrennie35/status/1505526066575777792?ref_src=twsrc%5Etfw&#34;&gt;March 20, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+
+
+&lt;h2 id=&#34;build-up-nepal&#34;&gt;Build Up Nepal
+  &lt;a href=&#34;#build-up-nepal&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Build up Nepal is a social business dedicated to building resilient communities and fighting poverty in rural areas of Nepal.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Build_Up_Nepal.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A very simple (and last-minute) &lt;a href=&#34;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#dataviz&lt;/a&gt; for the &lt;a href=&#34;https://twitter.com/VizFSG?ref_src=twsrc%5Etfw&#34;&gt;@VizFSG&lt;/a&gt; project with &lt;a href=&#34;https://twitter.com/BuildupNepal?ref_src=twsrc%5Etfw&#34;&gt;@BuildupNepal&lt;/a&gt; who build resilient communities and fight poverty in rural areas of Nepal. &lt;br&gt;&lt;br&gt;Code: &lt;a href=&#34;https://t.co/GirZunZTC8&#34;&gt;https://t.co/GirZunZTC8&lt;/a&gt;&lt;a href=&#34;https://twitter.com/hashtag/vfsg?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#vfsg&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataVisualization?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataVisualization&lt;/a&gt; &lt;a href=&#34;https://t.co/8T6WEHboOU&#34;&gt;pic.twitter.com/8T6WEHboOU&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nicola Rennie (@nrennie35) &lt;a href=&#34;https://twitter.com/nrennie35/status/1490214675719540737?ref_src=twsrc%5Etfw&#34;&gt;February 6, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 
 
@@ -269,7 +418,7 @@
     &lt;/svg&gt;&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Sunny Street is changing the world by providing healthcare to the most vulnerable people in Eastern Australia. One conversation between a Sunny Street volunteer and a patient can change the course of both of their lives.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Sunny_Street.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Although the Covid-19 pandemic caused many clinics to be cancelled, Sunny Street volunteers had the same (or more) conversations and consultations. There has been little change in patient demographic throughout the pandemic.&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Volunteering on the latest &lt;a href=&#34;https://twitter.com/hashtag/VizforSocialGood?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#VizforSocialGood&lt;/a&gt; project by &lt;a href=&#34;https://twitter.com/VizFSG?ref_src=twsrc%5Etfw&#34;&gt;@VizFSG&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/hi_sunnystreet?ref_src=twsrc%5Etfw&#34;&gt;@hi_sunnystreet&lt;/a&gt;. I looked at patient demographics over time, and which consultation types patients require most often. &lt;br&gt;&lt;br&gt;Code: &lt;a href=&#34;https://t.co/pptxfsdV6C&#34;&gt;https://t.co/pptxfsdV6C&lt;/a&gt;&lt;a href=&#34;https://twitter.com/hashtag/DataVisualization?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataVisualization&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataViz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataViz&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataScience?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataScience&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/RStats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RStats&lt;/a&gt; &lt;a href=&#34;https://t.co/JQxED64VSH&#34;&gt;pic.twitter.com/JQxED64VSH&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nicola Rennie (@nrennie35) &lt;a href=&#34;https://twitter.com/nrennie35/status/1437457607262867457?ref_src=twsrc%5Etfw&#34;&gt;September 13, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;p&gt;&lt;a class=&#34;twitter-share-button&#34;
@@ -316,164 +465,6 @@ Tweet&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;Congratulations to all winners, and thanks to the History of Statistics &amp;amp; Young Statisticians sections of the RSS for organising this event. The RSS news article can be found 
 &lt;a href=&#34;https://rss.org.uk/news-publication/news-publications/2021/general-news/cottonviz-data-visualisation-challenge-winners-ann/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;twitter-share-button&#34;
-href=&#34;https://twitter.com/intent/tweet&#34;
-data-size=&#34;large&#34;&gt;
-Tweet&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Du Bois Challenge</title>
-      <link>https://nrennie.rbind.io/blog/2021-05-04-dubois-challenge/</link>
-      <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://nrennie.rbind.io/blog/2021-05-04-dubois-challenge/</guid>
-      <description>&lt;p&gt;The Du Bois Challenge is part of a celebration of the data visualization legacy of W.E.B Du Bois which attempts to recreate the visualizations from the 1900 Paris Exposition using modern tools. Check out the challenge 
-&lt;a href=&#34;https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Note that the text in the visualisations is taken from the original charts and uses antiquated terms to refer to populations of colour. &lt;/br&gt; &lt;/br&gt;&lt;/p&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34; align=&#34;center&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;My own attempts at the &lt;a href=&#34;https://twitter.com/hashtag/DuBoisChallenge?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DuBoisChallenge&lt;/a&gt; are here: &lt;a href=&#34;https://t.co/i2bUFWGo3p&#34;&gt;https://t.co/i2bUFWGo3p&lt;/a&gt;&lt;a href=&#34;https://twitter.com/hashtag/RStats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RStats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataViz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataViz&lt;/a&gt; &lt;a href=&#34;https://t.co/24I8VJoqLV&#34;&gt;https://t.co/24I8VJoqLV&lt;/a&gt; &lt;a href=&#34;https://t.co/IajAIjfGYp&#34;&gt;pic.twitter.com/IajAIjfGYp&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nicola Rennie (@nrennie35) &lt;a href=&#34;https://twitter.com/nrennie35/status/1404826037062619139?ref_src=twsrc%5Etfw&#34;&gt;June 15, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;p&gt;Code available at: 
-&lt;a href=&#34;https://github.com/nrennie/dubois_challenge&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/nrennie/dubois_challenge&lt;/a&gt;.&lt;/p&gt;
-
-
-
-
-&lt;h2 id=&#34;challenge-1&#34;&gt;Challenge 1
-  &lt;a href=&#34;#challenge-1&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
-      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
-    &lt;/svg&gt;&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_01.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_01.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;h2 id=&#34;challenge-2&#34;&gt;Challenge 2
-  &lt;a href=&#34;#challenge-2&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
-      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
-    &lt;/svg&gt;&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_02.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_02.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;h2 id=&#34;challenge-3&#34;&gt;Challenge 3
-  &lt;a href=&#34;#challenge-3&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
-      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
-    &lt;/svg&gt;&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_03.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_03.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;h2 id=&#34;challenge-4&#34;&gt;Challenge 4
-  &lt;a href=&#34;#challenge-4&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
-      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
-    &lt;/svg&gt;&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_04.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_04.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;h2 id=&#34;challenge-5&#34;&gt;Challenge 5
-  &lt;a href=&#34;#challenge-5&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
-      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
-    &lt;/svg&gt;&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_05.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_05.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;h2 id=&#34;challenge-6&#34;&gt;Challenge 6
-  &lt;a href=&#34;#challenge-6&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
-      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
-    &lt;/svg&gt;&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_06.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_06.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;h2 id=&#34;challenge-7&#34;&gt;Challenge 7
-  &lt;a href=&#34;#challenge-7&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
-      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
-    &lt;/svg&gt;&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_07.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_07.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;h2 id=&#34;challenge-8&#34;&gt;Challenge 8
-  &lt;a href=&#34;#challenge-8&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
-      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
-    &lt;/svg&gt;&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_08.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_08.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;h2 id=&#34;challenge-9&#34;&gt;Challenge 9
-  &lt;a href=&#34;#challenge-9&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
-      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
-    &lt;/svg&gt;&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_09.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_09.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;/p&gt;
-
-
-
-
-&lt;h2 id=&#34;challenge-10&#34;&gt;Challenge 10
-  &lt;a href=&#34;#challenge-10&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
-      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
-    &lt;/svg&gt;&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;challenge_10.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;img src=&#34;original_10.jpg?raw=true&#34; width=&#34;49%&#34;&gt;
-&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;twitter-share-button&#34;
 href=&#34;https://twitter.com/intent/tweet&#34;
 data-size=&#34;large&#34;&gt;
