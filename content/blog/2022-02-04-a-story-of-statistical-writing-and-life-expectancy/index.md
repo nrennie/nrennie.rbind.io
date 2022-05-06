@@ -34,7 +34,7 @@ However, just as life expectancies are not equal for men and women, neither are 
 
 I then extended my analyses beyond the UK to look at the bigger picture, and examine how trends in life expectancy in the last decade differ between the most and least developed countries in the world. Countries where life expectancy has stalled are identified, and I discussed the commonalities found in such countries in terms of level of development and current life expectancy age.
 
-The article will be available online soon. 
+The article is available [online](https://www.significancemagazine.com/science/723-we-re-not-getting-any-younger-or-should-that-be-older). 
 
 ### Statistical modelling Shiny app
 

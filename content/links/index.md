@@ -23,7 +23,7 @@ An R shiny application to generate and download generative art created in R.
 An R shiny application to demonstrate (with code segments) different types of plots in {ggplot2}.
 
 * [Life expectancy](https://nrennie35.shinyapps.io/life_expectancy_shiny_app/). 
-An R shiny dashboard to accompany upcoming my significance article "We're not getting any younger! Or should that be older?" which investigates trend in life expectancy.
+An R shiny dashboard to accompany my significance article ["We're not getting any younger! Or should that be older?"](https://www.significancemagazine.com/science/723-we-re-not-getting-any-younger-or-should-that-be-older) which investigates trend in life expectancy.
 
 #### R-bloggers
 
