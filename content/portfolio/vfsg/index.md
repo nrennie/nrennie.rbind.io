@@ -3,7 +3,7 @@ title: "Viz For Social Good"
 subtitle: ""
 excerpt: "Viz For Social Good volunteers create informative and impactful data visualizations for mission-driven organizations across the globe."
 date: 2022-01-01
-weight: 4
+weight: 6
 author: "Nicola Rennie"
 draft: false
 categories:
