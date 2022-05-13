@@ -58,7 +58,7 @@ I have developed R packages for generative art, data analysis, data visualisatio
   </div>
   <div style="float: left; width: 75%;">
   <a href="https://nrennie.github.io/PrettyCols/"><h2>PrettyCols</h2></a>
-  <p>{PrettyCols} is an R package containing aesthetically pleasing colour palettes. The structure of the package is  based on code from the <a> {PNWColors}](https://github.com/jakelawlor/PNWColors),  [{wesanderson}](https://github.com/karthik/wesanderson), and [{MetBrewer}](https://github.com/BlakeRMills/MetBrewer) packages. 
+  <p>{PrettyCols} is an R package containing aesthetically pleasing colour palettes. The structure of the package is  based on code from the <a href="https://github.com/jakelawlor/PNWColors">{PNWColors}</a>,  <a href="https://github.com/karthik/wesanderson">{wesanderson}</a>, and <a href="https://github.com/BlakeRMills/MetBrewer">{MetBrewer}</a> packages. 
 </p>
   </div>
 </div>
@@ -91,7 +91,7 @@ I have developed R packages for generative art, data analysis, data visualisatio
   </div>
   <div style="float: left; width: 75%;">
   <a href="https://nrennie.github.io/WBLifeExpectancy/"><h2>WBLifeExpectancy</h2></a>
-  <p>{WBLifeExpectancy} is an R package for analysing and visualising World Bank life expectancy data. It was created and used for the analysis in the Significane article [We’re not getting any younger! Or should that be “older”?](https://www.significancemagazine.com/science/723-we-re-not-getting-any-younger-or-should-that-be-older).
+  <p>{WBLifeExpectancy} is an R package for analysing and visualising World Bank life expectancy data. It was created and used for the analysis in the Significane article <a href="https://www.significancemagazine.com/science/723-we-re-not-getting-any-younger-or-should-that-be-older">We’re not getting any younger! Or should that be “older”?</a>.
   </p>
   </div>
 </div>
