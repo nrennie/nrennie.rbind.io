@@ -3,7 +3,7 @@ title: "#TidyTuesday"
 subtitle: ""
 excerpt: "#TidyTuesday is a weekly data challenge aimed at the R community. Every week a new dataset is posted alongside a chart or article related to that dataset, and ask participants explore the data."
 date: 2022-01-01
-weight: 2
+weight: 3
 author: "Nicola Rennie"
 draft: false
 categories:

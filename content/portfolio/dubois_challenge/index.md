@@ -3,7 +3,7 @@ title: "Du Bois Challenge"
 subtitle: ""
 excerpt: "The Du Bois Challenge is part of a celebration of the data visualization legacy of W.E.B Du Bois which attempts to recreate the visualizations from the 1900 Paris Exposition using modern tools."
 date: 2022-01-01
-weight: 3
+weight: 7
 author: "Nicola Rennie"
 draft: false
 categories:
