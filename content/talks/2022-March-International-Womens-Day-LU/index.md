@@ -7,7 +7,7 @@ date_end: "2022-03-08T11:30:00-06:00"
 show_post_time: false
 event: "Women in Stats and Data Science"
 author: "Nicola Rennie"
-location: "Lancaster, UK"
+location: "Lancaster, UK (online)"
 draft: false
 # layout options: single, single-sidebar
 layout: single

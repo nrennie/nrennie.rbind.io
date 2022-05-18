@@ -8,7 +8,7 @@ show_post_time: false
 event: "5th AIRO Young Workshop"
 event_url: http://opslab.dieti.unina.it/index.php/en/home-eng-2/ayws
 author: "Nicola Rennie"
-location: "Università degli Studi di Napoli Federico II, Italy"
+location: "Università degli Studi di Napoli Federico II, Italy (online)"
 draft: false
 # layout options: single, single-sidebar
 layout: single

@@ -8,7 +8,7 @@ show_post_time: false
 event: "RSS International Conference 2021"
 event_url: https://rss.org.uk/training-events/events/events-2021/conferences/rss-2021-international-conference/
 author: "Nicola Rennie"
-location: "Manchester, UK"
+location: "Manchester, UK (online)"
 draft: false
 # layout options: single, single-sidebar
 layout: single
