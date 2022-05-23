@@ -8,7 +8,7 @@ show_post_time: false
 event: "31st European Conference on Operational Research"
 event_url: https://euro2021athens.com/
 author: "Nicola Rennie"
-location: "Athens, Greece."
+location: "Athens, Greece (online)"
 draft: false
 # layout options: single, single-sidebar
 layout: single
