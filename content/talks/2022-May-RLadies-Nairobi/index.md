@@ -16,8 +16,16 @@ categories:
 links:
 - icon: download
   icon_pack: fas
-  name: Slides
+  name: Slides (HTML)
   url: /talks/2022-may-rladies-nairobi/slides.html
+- icon: download
+  icon_pack: fas
+  name: Slides (PDF)
+  url: /talks/2022-may-rladies-nairobi/slides.pdf
+- icon: github
+  icon_pack: fab
+  name: GitHub
+  url: https://github.com/nrennie/R-Ladies/tree/main/RLadiesNairobi/2022-05-26
 image: featured.jpg
 ---
 
