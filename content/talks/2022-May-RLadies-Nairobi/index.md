@@ -2,8 +2,8 @@
 title: "R-Ladies Nairobi: #30DayChartChallenge"
 subtitle: "In this talk, I discuss why and how I created 30 charts for the #30DayChartChallenge, the aspects I found most challenging, and some interesting things I discovered in R along the way!"
 excerpt: "In this talk, I discuss why and how I created 30 charts for the #30DayChartChallenge, the aspects I found most challenging, and some interesting things I discovered in R along the way!"
-date: 2022-05-26T18:00:00-06:00
-date_end: "2022-05-26T20:00:00-06:00"
+date: 2022-05-26T00:00:00-06:00
+date_end: "2022-05-26T00:00:00-06:00"
 show_post_time: false
 event: "R-Ladies Nairobi Meet-up"
 author: "Nicola Rennie"
