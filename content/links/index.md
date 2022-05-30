@@ -7,6 +7,8 @@ date: 2022-01-06
 draft: false
 layout: single
 show_title_as_headline: true
+images:
+- sidebar-listing.jpg
 ---
 
 ### R Packages
