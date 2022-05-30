@@ -9,6 +9,7 @@ draft: false
 categories:
   - Rtistry
 layout: single
+image: featured.jpeg
 links:
 - icon: github
   icon_pack: fab
