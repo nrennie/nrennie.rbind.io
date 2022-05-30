@@ -9,6 +9,7 @@ draft: false
 categories:
   - Data visualisation
 layout: single
+image: featured.jpg
 links:
 - icon: github
   icon_pack: fab

@@ -9,6 +9,7 @@ draft: false
 categories:
   - Packages
 layout: single
+image: featured.png
 links:
 - icon: github
   icon_pack: fab

@@ -9,6 +9,7 @@ draft: false
 categories:
   - Data visualisation
 layout: single
+image: featured.png
 links:
 - icon: globe
   icon_pack: fa
