@@ -41,9 +41,8 @@ params:
   navallcaps: yes
   orgLocal:
   orgName: Nicola Rennie
-  sharing_image: ["https://nrennie.rbind.io/img/nicola_blue.jpg"]
   twitter: nrennie35
-  image: /img/revoir.jpg
+  image: [img/twitter_card.jpg]
   social:
     - icon: github
       icon_pack: fab
