@@ -4,7 +4,7 @@ description:
 author: Nicola Rennie
 show_post_thumbnail: true
 images:
-- [sidebar-listing.jpg]
+- sidebar-listing.jpg
 show_author_byline: false
 show_post_date: true
 show_post_time: false

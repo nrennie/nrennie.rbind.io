@@ -15,7 +15,7 @@ show_author_byline: true
 show_post_date: true
 show_post_thumbnail: true
 images:
-- [sidebar-listing.jpg]
+- sidebar-listing.jpg
 sidebar:
   author: Nicola Rennie
   description: "This is a fully featured blog that supports categories,\ntags, series,
