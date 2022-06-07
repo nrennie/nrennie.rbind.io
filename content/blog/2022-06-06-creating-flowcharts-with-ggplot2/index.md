@@ -320,7 +320,7 @@ And that gives us the final image:
 <img width = "80%" src="/blog/2022-06-06-creating-flowcharts-with-ggplot2/final.png?raw=true">
 </p>
 
-Hopefully, this tutorial blog demonstrated the process of creating a flowchart in R using {igraph} and {ggplot2}, and encourages you to create your own!
+Hopefully, this tutorial blog demonstrated the process of creating a flowchart in R using {igraph} and {ggplot2}, and encourages you to create your own! You can also find the slides and recording of the talk I gave to R-Ladies Nairobi [here](https://nrennie.rbind.io/talks/2022-may-rladies-nairobi/).
 
 <a class="twitter-share-button"
   href="https://twitter.com/intent/tweet"
