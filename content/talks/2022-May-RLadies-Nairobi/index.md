@@ -6,6 +6,7 @@ date: 2022-05-26T00:00:00-06:00
 date_end: "2022-05-26T00:00:00-06:00"
 show_post_time: false
 event: "R-Ladies Nairobi Meet-up"
+event_url: https://www.meetup.com/rladies-nairobi/events/285981897/
 author: "Nicola Rennie"
 location: "Nairobi, Kenya (online)"
 draft: false
@@ -16,11 +17,7 @@ categories:
 links:
 - icon: download
   icon_pack: fas
-  name: HTML
-  url: /talks/2022-may-rladies-nairobi/slides.html
-- icon: download
-  icon_pack: fas
-  name: PDF
+  name: Slides
   url: /talks/2022-may-rladies-nairobi/slides.pdf
 - icon: github
   icon_pack: fab
