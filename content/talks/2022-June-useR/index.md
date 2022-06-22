@@ -17,7 +17,11 @@ categories:
 links:
 - icon: download
   icon_pack: fas
-  name: Slides
+  name: HTML
+  url: /talks/2022-june-user/slides.html
+- icon: download
+  icon_pack: fas
+  name: PDF
   url: /talks/2022-june-user/slides.pdf
 image: featured.jpg
 ---
