@@ -38,6 +38,11 @@ My data visualisation and dashboard work in Tableau can be found on [Tableau Pub
 
 Creating 30 maps for the 30 Day Map Challenge in November 2021 was indeed a challenge, but over the course of the month I developed a process for approaching the problem. This blog post will focus on the thought process behind creating maps rather than the technical aspects of writing the code.
 
+
+[Custom colour palettes for {ggplot2}](https://www.jumpingrivers.com/blog/custom-colour-palettes-for-ggplot2/). *Jumping Rivers*. June 2022. 
+
+Maybe you’re already manually defining colours with the scale_colour_manual() function in {ggplot2} but it’s getting a bit tedious? Or maybe you just want your plots to look a little bit prettier? This blog post will show you how to make a basic colour palette that is compatible with {ggplot2}.
+
 ### R-Weekly
 
 My blog post on [Creating flowcharts with {ggplot2}](https://nrennie.rbind.io/blog/2022-06-06-creating-flowcharts-with-ggplot2/) was featured on [R-Weekly](https://rweekly.org/2022-W24.html) in June 2022. You can also listen to the podcast discussing it [here](https://share.fireside.fm/episode/87RSVeFz+RMN2Utb3).
