@@ -17,7 +17,7 @@ I recently gave a talk to [R-Ladies Nairobi](https://twitter.com/rladiesnairobi)
 
 <blockquote class="twitter-tweet" align="center"><p lang="en" dir="ltr">Such an informative session! 💡<br>For the illustration, <a href="https://twitter.com/nrennie35?ref_src=twsrc%5Etfw">@nrennie35</a> created a flow chart using the {igraph} package. We also learned about <a href="https://t.co/obbYLMOaV4">https://t.co/obbYLMOaV4</a> to add images to a plot.<br><br>Slides: <a href="https://t.co/VGJ6NN3HOO">https://t.co/VGJ6NN3HOO</a><a href="https://twitter.com/hashtag/RStats?src=hash&amp;ref_src=twsrc%5Etfw">#RStats</a> <a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> <a href="https://twitter.com/hashtag/30daychartchallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30daychartchallenge</a> <a href="https://twitter.com/hashtag/rladies?src=hash&amp;ref_src=twsrc%5Etfw">#rladies</a> <a href="https://t.co/epaPapX0Bk">pic.twitter.com/epaPapX0Bk</a></p>&mdash; R-Ladies Nairobi 🇰🇪 (@RLadiesNairobi) <a href="https://twitter.com/RLadiesNairobi/status/1529901597291159552?ref_src=twsrc%5Etfw">May 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Flowcharts can be a useful way to visualise complex processes. Although the example here is rather trivial and created ourely for fun, nonetheless flowcharts have been a useful part of data visualistaion in my work.
+Flowcharts can be a useful way to visualise complex processes. Although the example here is rather trivial and created purely for fun, nonetheless flowcharts have been a useful part of data visualistaion in my work.
 
 ### Packages for making flowcharts in R
 
