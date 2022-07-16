@@ -31,6 +31,13 @@ Below are my contributions to the 2022 Du Bois Challenge, with my reproduction o
 
 Note that the text in the visualisations is taken from the original charts and uses antiquated terms to refer to populations of colour.
 
+<p align="center">
+<img src="2022/dubois.gif?raw=true" width="75%">
+</p>
+
+<details>
+    <summary><b>See 2022 DuBois Challenge Contributions</b></summary>
+
 #### Challenge 1
 
 <p align="center">
@@ -101,12 +108,20 @@ Note that the text in the visualisations is taken from the original charts and u
 <img src="2022/original_10.jpg?raw=true" width="49%">
 </p>
 
+</details>
 
 ### 2021 Challenge
 
 Below are my contributions to the 2021 Du Bois Challenge, with my reproduction on the left and the original on the right. The code for the reproductions can be found on [GitHub](https://github.com/nrennie/dubois_challenge/tree/main/2021).
 
 Note that the text in the visualisations is taken from the original charts and uses antiquated terms to refer to populations of colour.
+
+<p align="center">
+<img src="2021/dubois.gif?raw=true" width="75%">
+</p>
+
+<details>
+    <summary><b>See 2021 DuBois Challenge Contributions</b></summary>
 
 #### Challenge 1
 
@@ -178,5 +193,5 @@ Note that the text in the visualisations is taken from the original charts and u
 <img src="2021/original_10.jpg?raw=true" width="49%">
 </p>
 
-
+</details>
 
