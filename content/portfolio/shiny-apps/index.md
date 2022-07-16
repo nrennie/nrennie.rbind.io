@@ -33,3 +33,12 @@ An R shiny dashboard to accompany my significance article [We’re not getting a
 
 <iframe src="https://nrennie35.shinyapps.io/life_expectancy_shiny_app/" data-external="1" width="100%" height="600px">
 </iframe>
+
+
+
+<h3>Outlier Detection:</h3> <a href="https://nrennie35.shinyapps.io/OutlierDeploy/">nrennie35.shinyapps.io/OutlierDeploy</a> 
+
+An R shiny dashboard based on my PhD research to detect outliers in functional time series data occurring in a network in an online setting. Accompanies the paper titled ["Detecting outlying demand in multi-leg bookings for transportation networks"](https://arxiv.org/abs/2104.04157).
+
+<iframe src="https://nrennie35.shinyapps.io/OutlierDeploy/" data-external="1" width="100%" height="600px">
+</iframe>

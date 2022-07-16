@@ -22,11 +22,11 @@ Full documentation for the public R packages I have created is available at [nre
 [aRt](https://nrennie35.shinyapps.io/nrennie_aRt/). 
 An R shiny application to generate and download generative art created in R.
 
-[ggplot2-examples](https://nrennie35.shinyapps.io/ggplot2-examples/). 
-An R shiny application to demonstrate (with code segments) different types of plots in {ggplot2}.
-
 [Life expectancy](https://nrennie35.shinyapps.io/life_expectancy_shiny_app/). 
 An R shiny dashboard to accompany my significance article ["We're not getting any younger! Or should that be older?"](https://www.significancemagazine.com/science/723-we-re-not-getting-any-younger-or-should-that-be-older) which investigates trends in life expectancy.
+
+[Outlier detection](https://nrennie35.shinyapps.io/OutlierDeploy/). 
+An R shiny dashboard based on my PhD research to detect outliers in functional time series data occurring in a network in an online setting. Accompanies the paper titled ["Detecting outlying demand in multi-leg bookings for transportation networks"](https://arxiv.org/abs/2104.04157).
 
 ### Tableau 
 
