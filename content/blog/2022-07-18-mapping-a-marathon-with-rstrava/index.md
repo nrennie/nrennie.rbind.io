@@ -2,7 +2,7 @@
 author: Nicola Rennie
 categories:
   - R
-date: "2022-07-19"
+date: "2022-07-18"
 draft: false
 excerpt: "This tutorial blog will walk through the process of getting data from Strava using {rStrava}, making a map of it, and animating the map with {gganimate}."
 layout: single
@@ -39,27 +39,29 @@ However, if you want detailed data on your activities or if your profile is priv
 On the Strava website, in the settings, you can [make an API application](https://www.strava.com/settings/api). There are three pieces of information you need to fill out: 
 
 <p align="center">
-<img width = "80%" src="/blog/2022-07-19-mapping-a-marathon-with-rstrava/strava_api.png?raw=true">
+<img width = "80%" src="/blog/2022-07-18-mapping-a-marathon-with-rstrava/strava_api.png?raw=true">
 </p>
 
-* Application Name: the name of your app (this can be almost anything). I used the blog title.
-* Website: Must be a valid URL, but can otherwise be pretty much anything.
-* Authorization Callback Domain: change to `localhost` or any domain. If deploying an app that uses the Strava API, you'll need to update this. After you click "Create", you'll be prompted to upload an icon (can be any image), and this will generate a token for you.
+* **Application Name**: the name of your app (this can be almost anything). I used the blog title.
+* **Website**: Must be a valid URL, but can otherwise be pretty much anything.
+* **Authorization Callback Domain**: change to `localhost` or any domain. If deploying an app that uses the Strava API, you'll need to update this. 
+
+After you click "Create", you'll be prompted to upload an icon (can be any image), and this will generate a token for you. 
 
 Now, you need to add this token into R. You can do this using the `config()` function from {httr}, and the `strava_oauth()` function from {rStrava}. The `strava_oauth()` function needs four pieces of information, all provided as character strings. 
 
 ```{r}
 strava_token <- httr::config(token = strava_oauth(app_name,
-                                           app_client_id,
-                                           app_secret,
-                                           app_scope="activity:read_all"))
+                                                  app_client_id,
+                                                  app_secret,
+                                                  app_scope = "activity:read_all"))
 ```
-The `app_name` is the name you gave to the app when making your token on the Strava website. The `app_client_id` and `app_secret` were generated on the Strava website and you can pass these in. You will also perhaps want to change the `app_scope` argument. By default, this is set to `"public"`, but you may want to get information on your activities which are not public. You can save the token as a variable, to pass into the {rStrava} functions. I've called it `strava_token`.
+The `app_name` is the name you gave to the app when making your token on the Strava website. The `app_client_id` and `app_secret` were generated after you clicked "Create" on the Strava website, and you can simply pass these in. You will also perhaps want to change the `app_scope` argument. By default, this is set to `"public"`, but you may want to get information on your activities which are not public. You can save the token as a variable, to pass into the {rStrava} functions. I've called it `strava_token`.
 
 
 ### Reading in the data
 
-With the authentication token setm you can now begin to get data into R, directly from the Strava API. First of all, I grab the data on my activities using the `get_activity_list()` function, for which I need to pass in my Strava token. I then use the `get_activity_streams()` function to get detailed information on a specific activity. Here the `id` is the activity id i.e., the number that comes at the end of the URL string for the activity: `https://www.strava.com/activities/{id}.` 
+With the authentication token set you can now begin to get data into R, directly from the Strava API. First of all, I grabbed the data on my activities using the `get_activity_list()` function, for which I need to pass in my Strava token. I then use the `get_activity_streams()` function to get detailed information on a specific activity. Here the `id` is the activity id i.e., the number that comes at the end of the URL string for the activity: `https://www.strava.com/activities/{id}.` 
 
 ```{r}
 my_acts <- get_activity_list(strava_token) 
@@ -81,7 +83,7 @@ This is what the output of `strava_data` looks like:
 6     24.9      85   0.0130          1.1       119 54.04565 -2.798678   TRUE    7          5.2812 7419225187
 ```
 
-There are some excellent built-in mapping functions that I recommend checking out, but since I'm going to build my own here, I don't need to use {rStrava} again. I saved the data as a CSV file so that I could go back and work on it again without having to re-download it using {rStrava}.
+There are some nice built-in mapping functions in {rStrava} that I recommend checking out, but since I'm going to build my own here, I don't need to use {rStrava} again. I saved the data as a CSV file so that I could go back and work on it again without having to re-download it using {rStrava}.
 
 ```{r}
 write.csv(strava_data, "strava_data.csv", row.names = F)
@@ -89,7 +91,7 @@ write.csv(strava_data, "strava_data.csv", row.names = F)
 
 ### Data wrangling
 
-The data the comes out of the `get_activity_streams()` function is already very clean, so the data wrangling for this example is very minimal. In fact, I only used two functions, neither of which was really necessary. I converted the data frame to a tibble using `as_tibble()` because I prefer working with tibbles. Since all the data is for a single activity in this case, the `id` column is a bit redundant, I also used `select()` from {dplyr} to remove the `id` column. 
+The data the comes out of the `get_activity_streams()` function is already very clean, so the data wrangling for this example is very minimal. In fact, I only used two functions, neither of which was really necessary. I converted the data frame to a tibble using `as_tibble()` because I prefer working with tibbles. Since all the data is for a single activity in this case, the `id` column is a bit redundant so I also used `select()` from {dplyr} to remove the `id` column. 
 
 ```{r}
 library(tidyverse)
@@ -109,9 +111,9 @@ library(osmdata)
 library(rcartocolor)
 library(gganimate)
 ```
-Here, {sf} isn't technically necessary but useful if you want to make a geometry object in R (more on that later). {ggmap} and {osmdata} are used for creating a background map. {ggplot2} has already been loaded eariler with the rest of the tidyverse, and along with {rcartocolor} for a nice colour scheme, this will plot out main map. Then, {gganimate} is used for animating the map.
+Here, {sf} isn't technically necessary but useful if you want to make a geometry object in R (more on that later). {ggmap} and {osmdata} are used for creating a background map. {ggplot2} has already been loaded eariler with the rest of the tidyverse, and along with {rcartocolor} for a nice colour scheme, this will plot the main map. Then, {gganimate} is used for animating the map.
 
-Before I actually map my run, I wanted to get a background map. I used the `getbb()` (bounding box) function from {osmdata} to get the approximate coordinates around where I started my run using the place name as input. 
+Before I actually mapped my run, I wanted to get a background map. I used the `getbb()` (bounding box) function from {osmdata} to get the approximate coordinates around where I started my run using the place name as input. 
 
 ```{r}
 getbb("Lancaster, UK")
@@ -143,7 +145,7 @@ ggmap(bg_map)
 ```
 
 <p align="center">
-<img width = "80%" src="/blog/2022-07-19-mapping-a-marathon-with-rstrava/bg_map.png?raw=true">
+<img width = "80%" src="/blog/2022-07-18-mapping-a-marathon-with-rstrava/bg_map.png?raw=true">
 </p>
 
 ### Overlaying the activity data
@@ -152,16 +154,16 @@ I'm simply going to use {ggplot2} to overlay the data in `strava_data` on top of
 
 ```{r}
 g <- ggmap(bg_map) +
-  geom_point(data = strava_data,
-          inherit.aes = FALSE,
-          aes(x = lng, 
-              y = lat, 
-              colour = altitude), 
-          size = 1)
+     geom_point(data = strava_data,
+                inherit.aes = FALSE,
+                aes(x = lng, 
+                    y = lat, 
+                    colour = altitude), 
+                 size = 1)
 ```
 Here, we specify `strava_data` as the `data` argument in `geom_point()`. Note that there is no `ggplot()` call here, as it's hidden inside the `ggmap()` function. Therefore, we also want to specify `inherit.aes = FALSE` to make sure that the hidden aesthetics carried through by `ggmap()` don't interfere with our point data. I specify the `x` and `y` coordinates as the longitude and latitude, respectively, and colour the points based on the altitude. I also played around with the size of the points until it looked the way I wanted it to. Note that, alternatively you could use `geom_line()` in exactly the same way.
 
-Since, longitude and latitude are geographic data, it may make sense to convert them to a geometry object using the {sf} package. This may be necessary if your background map, and coordinate data use different coordinate systems. In this case, it doesn't actually matter. But I'll show you anyway, just in case you need it. First, we convert our `strava_data` tibble into an `sf` object using `st_as_sf()`. We also specify which columns from `strava_data` are the longitude and latitude, with the longitude column coming first. We set the coordinate reference system (`crs`) as `4326` to match the coordinate system used. Setting `remove = FALSE` also keeps the original latitude and longitude columns in the tibble, even after converting to an `sf` object.
+Since, longitude and latitude are geographic data, it may make sense to instead convert them to a geometry object using the {sf} package. This may be necessary if your background map and coordinate data use different coordinate systems. In this case, it doesn't actually matter. But I'll show you anyway, just in case you need it. First, we convert our `strava_data` tibble into an `sf` object using `st_as_sf()`. We also specify which columns from `strava_data` are the longitude and latitude, with the longitude column coming first. We set the coordinate reference system (`crs`) as `4326` to match the coordinate system used. Setting `remove = FALSE` also keeps the original latitude and longitude columns in the tibble, even after converting to an `sf` object.
 
 
 ```{r}
@@ -170,20 +172,20 @@ strava_sf <- st_as_sf(strava_data,
                       crs = 4326,
                       remove = FALSE)
 ```
-The `strava_sf` object is now an `sf` object so it can be used with `geom_sf()` instead of `geom_point()`. Here, we don't need to specify the `x` and `y` aesthetics as they are automatically detected from the `sf` object. You may get a `Coordinate system already present. Adding new coordinate system, which will replace the existing one.` warning. This is because `geom_sf()` and `ggmap()` are both trying to set (the same) coordinate system.
+The `strava_sf` object is now an `sf` object so it can be used with `geom_sf()` instead of `geom_point()`. Here, we don't need to specify the `x` and `y` aesthetics as they are automatically detected from the `sf` object. You may get a `Coordinate system already present. Adding new coordinate system, which will replace the existing one.` warning. This is because `geom_sf()` and `ggmap()` are both trying to set the (same) coordinate system.
 
 ```{r}
 g <- ggmap(bg_map) +
-  geom_sf(data = strava_sf,
-          inherit.aes = FALSE,
-          aes(colour = altitude), 
-          size = 1) 
+     geom_sf(data = strava_sf,
+             inherit.aes = FALSE,
+             aes(colour = altitude), 
+             size = 1) 
 g
 ```
 The maps returned using `geom_point()` and `geom_sf()` are essentially the same in this case.
 
 <p align="center">
-<img width = "80%" src="/blog/2022-07-19-mapping-a-marathon-with-rstrava/initial.png?raw=true">
+<img width = "80%" src="/blog/2022-07-18-mapping-a-marathon-with-rstrava/initial.png?raw=true">
 </p>
 
 ### Styling the map
@@ -194,7 +196,7 @@ The inital map looks okay, but we can add some styling to make it look better. I
 my_colors <- carto_pal(7, "SunsetDark")
 my_colors
 ```
-I change the colour of my points using `scale_colour_carto_c()` from {rcartocolor}, and change the title that appears in the legend at the same time. I also add a caption using the `labs()` function. Finally, I edit the theme. The `theme_void()` function because it removes most of the theme elements which aren't very useful on maps like this e.g. axis labels, axis ticks, grid lines. I use the `theme()` function to bring the legend and the plot caption (used as a title here) inside the plot area. This create a little bit of white space at the bottom of the plot, so I remove it using `plot.margin`. I also edit the colour and size of the caption text.
+I change the colour of my points using `scale_colour_carto_c()` from {rcartocolor}, and change the title that appears in the legend at the same time. I also add a caption using the `labs()` function. Finally, I edit the theme. The `theme_void()` function is really useful for maps because it removes most of the theme elements which aren't very useful on maps like this e.g. axis labels, axis ticks, grid lines. I use the `theme()` function to bring the legend and the plot caption (used as a title here) inside the plot area. This create a little bit of white space at the bottom of the plot, so I remove it using `plot.margin`. I also edit the colour and size of the caption text.
 
 ```{r}
 g <- g + 
@@ -210,7 +212,7 @@ g
 ```
 
 <p align="center">
-<img width = "80%" src="/blog/2022-07-19-mapping-a-marathon-with-rstrava/final.png?raw=true">
+<img width = "80%" src="/blog/2022-07-18-mapping-a-marathon-with-rstrava/final.png?raw=true">
 </p>
 
 ## Animating with {gganimate}
@@ -245,7 +247,7 @@ g = g +
   transition_time(time = time) +
   shadow_mark()
 ```
-The `animate()` function then actually builds the animation. Usually `renderer = gifski_renderer()` should be the default, but I kept getting individual images instead of a gif unless I specified it manually - to investigate later. Here, you also specify the width and height (using a little bit of trial and error to avoid white space caused by the fixed ratio from `ggmap()`). `anim_save()` then saves the gif to a file (analogously to `ggsave()` from {ggplot2}).
+The `animate()` function then actually builds the animation. Usually `renderer = gifski_renderer()` should be the default, but I kept getting individual images instead of a gif unless I specified it manually - to investigate later. Here, I also specified the width and height (using a little bit of trial and error to avoid white space caused by the fixed ratio from `ggmap()`). `anim_save()` then saves the gif to a file (analogously to `ggsave()` from {ggplot2}).
 
 ```{r}
 animate(g, renderer = gifski_renderer(), height = 372, width = 538, units = "px")
@@ -253,10 +255,10 @@ anim_save("mapping_marathon.gif")
 ```
 
 <p align="center">
-<img width = "80%" src="/blog/2022-07-19-mapping-a-marathon-with-rstrava/mapping_marathon.gif?raw=true">
+<img width = "80%" src="/blog/2022-07-18-mapping-a-marathon-with-rstrava/mapping_marathon.gif?raw=true">
 </p>
 
-And that's it! You now have an animated map of your Strava recorded run (or cycle, walk, ....)! Thanks very much to the creators of [{rStrava}](https://github.com/fawda123/rStrava) for such an easy to use package!
+And that's it! You now have an animated map of your Strava recorded run (or cycle, or walk, or ...)! If you want to create a map of your own, you can find the R code used in this blog on [my website](/blog/2022-07-18-mapping-a-marathon-with-rstrava/mapping_marathon.R). Thanks very much to the creators of [{rStrava}](https://github.com/fawda123/rStrava) for such an easy to use package!
 
 <a class="twitter-share-button"
   href="https://twitter.com/intent/tweet"
