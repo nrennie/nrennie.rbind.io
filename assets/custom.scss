@@ -1,0 +1,78 @@
+// Override this file to add your own SCSS styling.
+
+.f1.lh-solid.measure-narrow.mb3.fw4 { text-align: center }
+
+
+.f4.mt0.mb4.lh-title.measure {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto}
+
+.mv0.w-70-m{
+    margin-top: 40px;
+}
+
+.home .action.button{
+  width: 200px;
+  margin-top: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+div.highlight {
+  background-color: #dae8e8 !important;
+}
+
+.pre {
+  background-color: #dae8e8 !important;
+  max-height: 400px !important;
+}
+
+// Cookie banner
+
+#cookie-notice a {
+  font-weight: 600;
+  display: inline-flex;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+#cookie-notice-accept {
+  color: #fff;
+  background-color: #546666 ;
+  border-color: #546666;
+  border-style: solid;
+  padding: 8px 15px;
+}
+
+#cookie-notice-deny {
+  color: #546666;
+  border-color: #546666;
+  border-style: solid;
+  padding: 8px 15px;
+}
+
+#cookie-notice {
+  font-size: larger;
+  padding: 0.5rem 1rem;
+  display: none;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  background: #D2D9D9;
+  opacity: 1;
+  z-index: 1000;
+  color: #546666;
+}
+
+
+
+
+
+
+
+
