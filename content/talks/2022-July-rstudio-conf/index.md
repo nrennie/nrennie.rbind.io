@@ -4,6 +4,7 @@ subtitle: "This lightning talk will highlight the importance and difficulties of
 excerpt: "This lightning talk will highlight the importance and difficulties of building {shiny} apps in multiple languages."
 date: 2022-07-25T00:00:00-06:00
 date_end: "2022-07-28T00:00:00-06:00"
+PublishDate: 2022-07-20T00:00:00-06:00
 show_post_time: false
 event: "rstudio::conf 2022"
 author: "Nicola Rennie"
@@ -14,6 +15,11 @@ layout: single
 categories:
 - Conference
 image: featured.jpg
+links:
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: /talks/2022-july-rstudio-conf/slides.pdf
 ---
 
 ## Abstract
