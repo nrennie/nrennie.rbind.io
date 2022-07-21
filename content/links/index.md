@@ -17,31 +17,51 @@ images:
 
 Full documentation for the public R packages I have created is available at [nrennie.github.io](https://nrennie.github.io/).
 
-### R Shiny applications
 
-[aRt](https://nrennie35.shinyapps.io/nrennie_aRt/). 
-An R shiny application to generate and download generative art created in R.
+<!-- JR -->
+<div style="display: table; width: 100%; padding-bottom:20px;">
+  <div style="float: left; width: 25%;">
+  <img src="/links/jumping_rivers.jpg?raw=true" width="70%">
+  </div>
+  <div style="float: left; width: 75%;">
+    <a href="https://www.jumpingrivers.com/"><h3>Jumping Rivers</h3></a>
+    <p> I'm a data scientist at [Jumping Rivers](https://www.jumpingrivers.com/) where I ... . You can also find my contributed blogs ... 
+    </p>
+      <ul>
+        <li>
+          <a href="https://www.jumpingrivers.com/blog/custom-colour-palettes-for-ggplot2/">Custom colour palettes for {ggplot2}</a> Maybe you’re already manually defining colours with the scale_colour_manual() function in {ggplot2} but it’s getting a bit tedious? Or maybe you just want your plots to look a little bit prettier? This blog post will show you how to make a basic colour palette that is compatible with {ggplot2}.
+        </li>
+        <li>
+          <a href="https://www.jumpingrivers.com/blog/2021-thinking-about-maps-and-ice-cream/">Thinking about maps and ice cream</a> Creating 30 maps for the 30 Day Map Challenge in November 2021 was indeed a challenge, but over the course of the month I developed a process for approaching the problem. This blog post will focus on the thought process behind creating maps rather than the technical aspects of writing the code.
+        </li>
+      </ul>
+  </div>
+</div>
 
-[Life expectancy](https://nrennie35.shinyapps.io/life_expectancy_shiny_app/). 
-An R shiny dashboard to accompany my significance article ["We're not getting any younger! Or should that be older?"](https://www.significancemagazine.com/science/723-we-re-not-getting-any-younger-or-should-that-be-older) which investigates trends in life expectancy.
+<!-- R Bloggers -->
+<div style="display: table; width: 100%; padding-bottom:20px;">
+  <div style="float: left; width: 25%;">
+  <img src="/links/rbloggers.png?raw=true" width="70%">
+  </div>
+  <div style="float: left; width: 75%;">
+    <a href="https://www.r-bloggers.com/"><h3>R-bloggers</h3></a>
+    <p> The R-related content of this blog can also be found on [R-bloggers](https://www.r-bloggers.com/).
+    </p>
+  </div>
+</div>
 
-[Outlier detection](https://nrennie35.shinyapps.io/OutlierDeploy/). 
-An R shiny dashboard based on my PhD research to detect outliers in functional time series data occurring in a network in an online setting. Accompanies the paper titled ["Detecting outlying demand in multi-leg bookings for transportation networks"](https://arxiv.org/abs/2104.04157).
+<!-- R Weekly -->
+<div style="display: table; width: 100%; padding-bottom:20px;">
+  <div style="float: left; width: 25%;">
+  <img src="/links/rweekly.jpg?raw=true" width="70%">
+  </div>
+  <div style="float: left; width: 75%;">
+    <a href="https://rweekly.org/"><h3>R Weekly</h3></a>
+    <p> R Weekly keeps track of great things in the R community and makes it more accessible to everyone.
+    </p>
+  </div>
+</div>
 
-### Tableau 
-
-My data visualisation and dashboard work in Tableau can be found on [Tableau Public](https://public.tableau.com/app/profile/nicola.rennie).
-
-### Contributed blogs
-
-[Thinging about maps and ice cream](https://www.jumpingrivers.com/blog/2021-thinking-about-maps-and-ice-cream/). *Jumping Rivers*. December 2021. 
-
-Creating 30 maps for the 30 Day Map Challenge in November 2021 was indeed a challenge, but over the course of the month I developed a process for approaching the problem. This blog post will focus on the thought process behind creating maps rather than the technical aspects of writing the code.
-
-
-[Custom colour palettes for {ggplot2}](https://www.jumpingrivers.com/blog/custom-colour-palettes-for-ggplot2/). *Jumping Rivers*. June 2022. 
-
-Maybe you’re already manually defining colours with the scale_colour_manual() function in {ggplot2} but it’s getting a bit tedious? Or maybe you just want your plots to look a little bit prettier? This blog post will show you how to make a basic colour palette that is compatible with {ggplot2}.
 
 ### R-Weekly
 
@@ -49,7 +69,7 @@ My blog post on [Creating flowcharts with {ggplot2}](https://nrennie.rbind.io/bl
 
 ### R-bloggers
 
-The R-related content of this blog can also be found on [R-bloggers](https://www.r-bloggers.com/).
+
 
 
 
