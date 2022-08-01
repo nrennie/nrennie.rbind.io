@@ -23,6 +23,10 @@ links:
   icon_pack: fas
   name: PDF
   url: /talks/2022-june-user/slides.pdf
+- icon: youtube
+  icon_pack: fab
+  name: YouTube  
+  url: https://www.youtube.com/watch?v=2JX8zu4QxMg&list=PL77T87Q0eoJjvKVFHuJZ5_BGVbPPpB8LL&index=4
 image: featured.jpg
 ---
 
