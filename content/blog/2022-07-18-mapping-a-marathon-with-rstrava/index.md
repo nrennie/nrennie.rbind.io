@@ -215,7 +215,7 @@ g
 <img width = "80%" src="/blog/2022-07-18-mapping-a-marathon-with-rstrava/final.png?raw=true">
 </p>
 
-## Animating with {gganimate}
+### Animating with {gganimate}
 
 I was pretty happy with the final static image, but why not animate it? {gganimate} makes it really easy to animate ggplot objects. For this example, I'd strongly recommend using the `geom_point()` version of the map. 
 

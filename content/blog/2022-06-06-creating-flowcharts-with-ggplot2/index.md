@@ -29,7 +29,7 @@ Having previously exclusively used tools like MS Visio for creating flowcharts, 
 * {ggnetwork}, {ggnet2}, and {ggraph}: packages for working with and plotting network data
 * {tikz}: (okay, this is actually a LaTex package for flowcharts but you *can* write LaTeX in R!)
 
-None of these packages did *quite* what I was looking for - a programmatic way of creating highly customisable, good looking flowcharts in R. In essence, flwocharts are just rectangles, text, and arrows. And since {ggplot2} is capable of building all three of those things, so I decided to use it build a flowchart. This blog post illustrates the process of doing so.
+None of these packages did *quite* what I was looking for - a programmatic way of creating highly customisable, good looking flowcharts in R. In essence, flowcharts are just rectangles, text, and arrows. And since {ggplot2} is capable of building all three of those things, so I decided to use it build a flowchart. This blog post illustrates the process of doing so.
 
 ### R packages required
 
