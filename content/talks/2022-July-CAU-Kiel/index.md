@@ -12,7 +12,7 @@ draft: false
 # layout options: single, single-sidebar
 layout: single
 categories:
-- Conference
+- Seminar
 links:
 - icon: download
   icon_pack: fas

@@ -84,6 +84,9 @@ images:
     </p>
       <ul>
         <li>
+          <a href="https://www.jumpingrivers.com/blog/highlights-rstudioconf2022/">Highlights from rstudio::conf(2022)</a>
+        </li>
+        <li>
           <a href="https://www.jumpingrivers.com/blog/custom-colour-palettes-for-ggplot2/">Custom colour palettes for {ggplot2}</a>
         </li>
         <li>
