@@ -103,7 +103,7 @@ Don't make plots with more in them, make more plots! For the example from this w
 <img width = "80%" src="/blog/2022-08-16-designing-tidytuesday-visualisations-for-mobile-with-quarto/featured.png?raw=true">
 </p>
 
-Any other tips for creating data visualisations for mobile?
+You can find my code for this week's #TidyTuesday on [GitHub](https://github.com/nrennie/tidytuesday/tree/main/2022/2022-08-16). Any other tips for creating data visualisations for mobile?
 
 <a class="twitter-share-button"
   href="https://twitter.com/intent/tweet"
