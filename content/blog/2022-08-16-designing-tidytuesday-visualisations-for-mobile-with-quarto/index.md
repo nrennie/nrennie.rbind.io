@@ -2,14 +2,14 @@
 author: Nicola Rennie
 categories:
   - R
-date: "2022-08-17"
+date: "2022-08-16"
 draft: false
 excerpt: "If, like me, you mostly scroll through Twitter on your phone, you might want to consider designing your content specifically aimed at people who look at Twitter on their phone. Here's how to do it in R, with a little help from Quarto."
 layout: single
 subtitle: "If, like me, you mostly scroll through Twitter on your phone, you might want to consider designing your content specifically aimed at people who look at Twitter on their phone. Here's how to do it in R, with a little help from Quarto."
 tags:
 - r, data visualisation, quarto
-title: "Using Quarto to design #TidyTuesday visualisations for mobile"
+title: "Designing #TidyTuesday visualisations for mobile (with Quarto)"
 image: featured.png
 ---
 
@@ -53,16 +53,16 @@ Here, I've specified the width and height in pixels. By setting `noRStudioGD = T
 Have you ever spent ages tinkering with a plot you're previewing in RStudio...
 
 <p align="center">
-<img width = "80%" src="/blog/2022-08-17-using-quarto-to-design-tidytuesday-visualisations-for-mobile/nice.png?raw=true">
+<img width = "80%" src="/blog/2022-08-16-designing-tidytuesday-visualisations-for-mobile-with-quarto/nice.png?raw=true">
 </p>
 
 ... and then used `ggsave()` to save a higher resolution image, and ended up with something like this:
 
 <p align="center">
-<img width = "80%" src="/blog/2022-08-17-using-quarto-to-design-tidytuesday-visualisations-for-mobile/not_nice.png?raw=true">
+<img width = "80%" src="/blog/2022-08-16-designing-tidytuesday-visualisations-for-mobile-with-quarto/not_nice.png?raw=true">
 </p>
 
-If you're previewing plots in the RStudio graphics, or in one of the other options I suggested as a solution to problem 1 above, then you're (usually) looking at an image with a resolution of 96 dpi (dots per inch). In contrast, `ggsave()` uses 300 dpi by default - it's what makes the saved images have a higher resolution. Unfortunately, because we're previewing and saving with different dpi, our plots can look completely different after we save the final version. (I find it really annoying to have to save multiple versions with `ggsave()` and keep opening them to see how it looks.)
+If you're previewing plots in the RStudio graphics, or in one of the other options I suggested as a solution to problem 1 above, then you're (usually) looking at an image with a resolution of 96 dpi (dots per inch). In contrast, `ggsave()` uses 300 dpi by default - it's what makes the saved images have a higher resolution. Unfortunately, because we're previewing and saving with different dpi, our plots can look completely different after we save the final version. Although you can simply use `ggsave()` from the start, and repeatedly save over your plot, then open the file to preview it - I find that quite a tedious process and wanted something a little bit more automated. 
 
 P.S. If you're looking for a longer explanation of how dpi, pixels, and absolute measurements all fit together (and how they affect elements like font size), I'd recommend Christophe Nicault's [blog post](https://www.christophenicault.com/post/understand_size_dimension_ggplot2/) on the topic.
 
@@ -92,7 +92,7 @@ Another bonus: if you *run current chunk* in Quarto a preview of the plot will a
 For me, the whole point of creating a visualisation specifically for viewing on mobile, is that you don't have to zoom in to see what the plot contains. This means your design needs to be reasonably minimal - I'd suggest a maximum of one plot, and maybe a (very short) paragraph of text. This felt a lot less than I'd normally put into a data visualisation. Usually, I'd have multiple plots, a paragraph giving context, some logos, annotations, ...
 
 <p align="center">
-<img width = "30%" src="/blog/2022-08-17-using-quarto-to-design-tidytuesday-visualisations-for-mobile/villanelle-1.png?raw=true">
+<img width = "30%" src="/blog/2022-08-16-designing-tidytuesday-visualisations-for-mobile-with-quarto/villanelle-1.png?raw=true">
 </p>
 
 **Solution**: Create more than one image.
@@ -100,7 +100,7 @@ For me, the whole point of creating a visualisation specifically for viewing on 
 Don't make plots with more in them, make more plots! For the example from this week's #TidyTuesday, I created three separate images, one for each of the three main characters in Killing Eve. Normally, I would use `facet_wrap()` here to automatically create a plot for each character and arrange them in a single row or column. But three plots would have been too much information, with plots too small, for a mobile screen. Instead, three separate images, each with the same theming and styling to create a gallery effect, works much better.
 
 <p align="center">
-<img width = "80%" src="/blog/2022-08-17-using-quarto-to-design-tidytuesday-visualisations-for-mobile/featured.png?raw=true">
+<img width = "80%" src="/blog/2022-08-16-designing-tidytuesday-visualisations-for-mobile-with-quarto/featured.png?raw=true">
 </p>
 
 Any other tips for creating data visualisations for mobile?
