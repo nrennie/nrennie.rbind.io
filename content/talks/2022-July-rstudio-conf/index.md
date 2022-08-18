@@ -20,6 +20,10 @@ links:
   icon_pack: fas
   name: Slides
   url: /talks/2022-july-rstudio-conf/slides.pdf
+- icon: youtube
+  icon_pack: fab
+  name: Video
+  url: https://www.rstudio.com/conference/2022/talks/say-hello-to-multilingual-shiny/
 ---
 
 ## Abstract
