@@ -79,6 +79,15 @@ The data can be found on [GitHub](https://github.com/rfordatascience/tidytuesday
 
 </details>
 
+### European Flights
+
+I revisited some data from one of the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-07-12) challenges on European flights data from [Eurocontrol](https://ansperformance.eu/data/). I constructed a dashboard to display information of flights leaving or arriving from six European countries, where users can filter by a date range and a set of countries they are interested in. The dashboard is available on [Tableau Public](https://public.tableau.com/app/profile/nicola.rennie/viz/EuropeanFlights_16611157667530/EuropeanFlightsTableau_1).
+
+<p align="center">
+<img width = "80%" src="/portfolio/tableau/flights_dashboard.png?raw=true">
+</p>
+
+I also recreated the same dashboard using {shiny} in R, and embedded it as a new tab in the Tableau dashboard for a side-by-side comparison of R and Tableau. 
 
 ### #30ChartMapChallenge 2022
 
