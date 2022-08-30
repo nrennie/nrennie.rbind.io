@@ -2,7 +2,7 @@
 title: "Technical presentations are difficult - let's make them easier!"
 subtitle: "This talk delivered for the Early Career Researcher pre-conference workshop organised by the Young Statisticians Section focuses on how to improve technical presentations."
 excerpt: "This talk delivered for the Early Career Researcher pre-conference workshop organised by the Young Statisticians Section focuses on how to improve technical presentations."
-PublishDate: 2022-09-02T00:00:00-06:00
+PublishDate: 2022-09-06T00:00:00-06:00
 date: 2022-09-12T00:00:00-06:00
 date_end: "2022-09-15T00:00:00-06:00"
 show_post_time: false
