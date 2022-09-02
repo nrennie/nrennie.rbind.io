@@ -2,8 +2,8 @@
 title: "R Packages"
 subtitle: ""
 excerpt: "R packages for generative art, data analysis and visualisation; and outlier detection."
-date: 2022-05-01
-weight: 4
+date: 2022-09-02
+weight: 2
 author: "Nicola Rennie"
 draft: false
 categories:
@@ -19,6 +19,21 @@ links:
 
 I have developed R packages for generative art, data analysis, data visualisation; and outlier detection. The documentation for all of my publicly available R packages can be found on [nrennie.github.io](https://nrennie.github.io/).
 
+## CRAN Packages
+
+<div style="display: table; width: 100%; padding-bottom:20px;">
+  <div style="float: left; width: 25%;">
+  <img src="https://github.com/nrennie/PrettyCols/blob/main/man/figures/logo.png?raw=true" width="70%">
+  </div>
+  <div style="float: left; width: 75%;">
+  <a href="https://nrennie.github.io/PrettyCols/"><h2>PrettyCols</h2></a>
+  <p>{PrettyCols} is an R package containing aesthetically pleasing colour palettes. The structure of the package is based on code from the <a href="https://github.com/jakelawlor/PNWColors">{PNWColors}</a>,  <a href="https://github.com/karthik/wesanderson">{wesanderson}</a>, and <a href="https://github.com/BlakeRMills/MetBrewer">{MetBrewer}</a> packages. <br><br>
+  CRAN: <a href="https://cran.r-project.org/package=PrettyCols">cran.r-project.org/package=PrettyCols<a>
+</p>
+  </div>
+</div>
+
+## GitHub Packages
 
 <div style="display: table; width: 100%; padding-bottom:20px;">
   <div style="float: left; width: 25%;">
@@ -61,17 +76,6 @@ I have developed R packages for generative art, data analysis, data visualisatio
   <a href="https://nrennie.github.io/ggflowchart/"><h2>ggflowchart</h2></a>
   <p>{ggflowchart} is an R package for creating flowchart diagrams using {ggplot2}.
   </p>
-  </div>
-</div>
-
-<div style="display: table; width: 100%; padding-bottom:20px;">
-  <div style="float: left; width: 25%;">
-  <img src="https://github.com/nrennie/PrettyCols/blob/main/man/figures/logo.png?raw=true" width="70%">
-  </div>
-  <div style="float: left; width: 75%;">
-  <a href="https://nrennie.github.io/PrettyCols/"><h2>PrettyCols</h2></a>
-  <p>{PrettyCols} is an R package containing aesthetically pleasing colour palettes. The structure of the package is  based on code from the <a href="https://github.com/jakelawlor/PNWColors">{PNWColors}</a>,  <a href="https://github.com/karthik/wesanderson">{wesanderson}</a>, and <a href="https://github.com/BlakeRMills/MetBrewer">{MetBrewer}</a> packages. 
-</p>
   </div>
 </div>
 
