@@ -15,6 +15,11 @@ draft: false
 layout: single
 categories:
 - Conference
+links:
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: /talks/2022-september-rss-international-conference/slides.html
 image: featured.png
 ---
 
