@@ -40,9 +40,21 @@ The data can be found on [GitHub](https://github.com/rfordatascience/tidytuesday
 
 <details>
     <summary><b>See more examples</b></summary>
+    
+<p align="center">
+<img width = "80%" src="/portfolio/tableau/Frogs.png?raw=true">
+</p>
 
 <p align="center">
-<img width = "65%" src="/portfolio/tableau/firsts.png?raw=true">
+<img width = "80%" src="/portfolio/tableau/CHIP Dataset.png?raw=true">
+</p>
+
+<p align="center">
+<img width = "80%" src="/portfolio/tableau/Wastewater Plants.png?raw=true">
+</p>
+
+<p align="center">
+<img width = "80%" src="/portfolio/tableau/firsts.png?raw=true">
 </p>
 
 <p align="center">
@@ -50,7 +62,7 @@ The data can be found on [GitHub](https://github.com/rfordatascience/tidytuesday
 </p>
 
 <p align="center">
-<img width = "65%" src="/portfolio/tableau/Pay Gap.png?raw=true">
+<img width = "80%" src="/portfolio/tableau/Pay Gap.png?raw=true">
 </p>
 
 <p align="center">
