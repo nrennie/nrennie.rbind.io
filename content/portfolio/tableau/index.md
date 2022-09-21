@@ -25,7 +25,7 @@ My portfolio of data visualisation is still under construction, and the followin
 
 ### #TableauTuesday
 
-In order to improve my Tableau skills, I've started visualising [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) data sets in Tableau as well as in R (and calling it #TableauTuesday). All of the examples here can be found on my [Tableau Public profile](https://public.tableau.com/app/profile/nicola.rennie/viz/TableauTuesday/).
+In order to improve my Tableau skills, I've started visualising [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) data sets in Tableau as well as in R (and calling it #TableauTuesday). All of the examples here can be found on my [Tableau Public profile](https://public.tableau.com/app/profile/nicola.rennie/viz/TableauTuesday/TableauTuesday_1).
 
 In this example, I visualised the score differences in Scotland's rugby matches in the Womens' Six Nations Rugby tournament. The chart is a lollipop chart, colour-coded by whether or not the macth was a home or away game. The image on the left shows the version created using Tableau, and the image on the right shows the version created using {ggplot2} in R.
 
