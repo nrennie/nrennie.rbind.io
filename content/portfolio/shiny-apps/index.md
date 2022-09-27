@@ -26,6 +26,13 @@ An R shiny application to generate and download generative art created in R.
 <iframe src="https://nrennie35.shinyapps.io/nrennie_aRt/" data-external="1" width="100%" height="600px"></iframe>
 
 
+<h3>shinytweet:</h3> <a href="https://nrennie35.shinyapps.io/shinytweet/">nrennie35.shinyapps.io/shinytweet</a> 
+
+A simple R shiny application to browse tweets related to R, Python, and data science. This app uses GitHub actions to automatically update data and redeploy the shiny app.
+
+<iframe src="https://nrennie35.shinyapps.io/shinytweet/" data-external="1" width="100%" height="600px">
+</iframe>
+
 
 <h3>Life Expectancy:</h3> <a href="https://nrennie35.shinyapps.io/life_expectancy_shiny_app/">nrennie35.shinyapps.io/life_expectancy_shiny_app</a> 
 
