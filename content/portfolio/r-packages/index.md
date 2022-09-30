@@ -70,6 +70,17 @@ I have developed R packages for generative art, data analysis, data visualisatio
 
 <div style="display: table; width: 100%; padding-bottom:20px;">
   <div style="float: left; width: 25%;">
+  <img src="https://github.com/nrennie/ggalttext/blob/main/man/figures/logo.png?raw=true" width="70%">
+  </div>
+  <div style="float: left; width: 75%;">
+  <a href="https://nrennie.github.io/ggalttext/"><h2>ggalttext</h2></a>
+  <p>{ggalttext} is an R package which generates alt text for plots created in {ggplot2}.
+  </p>
+  </div>
+</div>
+
+<div style="display: table; width: 100%; padding-bottom:20px;">
+  <div style="float: left; width: 25%;">
   <img src="https://github.com/nrennie/ggflowchart/blob/main/man/figures/logo.png?raw=true" width="70%">
   </div>
   <div style="float: left; width: 75%;">
