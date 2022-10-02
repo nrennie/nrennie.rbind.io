@@ -15,6 +15,11 @@ draft: false
 layout: single
 categories:
 - RLadies
+links:
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: /talks/2022-october-rladies-london/slides.html
 image: featured.png
 ---
 
