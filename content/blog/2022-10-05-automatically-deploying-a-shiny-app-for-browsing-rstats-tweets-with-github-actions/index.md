@@ -8,7 +8,7 @@ excerpt: "This tutorial blog will show you how to use GitHub actions to automati
 layout: single
 subtitle: "This tutorial blog will show you how to use GitHub actions to automatically update a data source and re-deploy a Shiny app, with an example Shiny application which uses {rtweet} to browse R-related tweets."
 tags:
-- r, shiny, twitter
+- r, shiny, twitter, docker, github
 title: "Automatically deploying a Shiny app for browsing #RStats tweets with GitHub Actions"
 image: featured.png
 ---
