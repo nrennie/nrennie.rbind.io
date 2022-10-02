@@ -7,7 +7,7 @@ date: 2022-10-17T00:00:00-08:00
 date_end: "2022-10-17T00:00:00-08:00"
 show_post_time: false
 event: "Oxford R User Group Meetup"
-event_url: https://www.meetup.com/Oxford-R-User-Group/
+event_url: https://www.meetup.com/oxford-r-user-group/events/288753388/
 author: "Nicola Rennie"
 location: "Oxford, UK"
 draft: false
