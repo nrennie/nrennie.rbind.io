@@ -26,6 +26,3 @@ image: featured.png
 ### Abstract
 
 Choosing colours, selecting fonts, and styling your plots isn't just about making them look good, although it's certainly something to keep in mind. It's also about making sure any plots you create are accessible and interpretable to everyone. In this talk, I'll discuss good practices for styling different elements of your plots, demonstrate how you implement these in {ggplot2}, and show you how defining your own theme functions can make the process smoother.
-
-Slides will be available online soon.
-
