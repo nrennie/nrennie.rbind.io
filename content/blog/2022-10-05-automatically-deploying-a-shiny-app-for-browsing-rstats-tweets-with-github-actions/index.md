@@ -37,6 +37,8 @@ The [blog post](https://www.popmusicresearch.org/post/twitter-repo/) by Craig Ha
 
 One thing that did trip me up a little: it wasn't obvious how to get the data on the author of the tweets I had liked using the `get_favourites()` function. It turns out if you use the default setting of `parse = TRUE` in `get_favourites()`, the author information isn't returned in the tidied tibble. Instead, I had to set `parse = FALSE` to get the non-tidy json data from the Twitter API, and extract it manually.
 
+*Update: the maintainer of {rtweet}, [Lluís Revilla Sancho](https://twitter.com/Lluis_Revilla), pointed out that you can use `users_data()` to get the author data, and then `cbind()` to join in to the favourites data, when `parse = TRUE`.*
+
 **2. Write the UI code**
 
 As I said above, the UI for the app is simple - it only contains a table made using {reactable}:
