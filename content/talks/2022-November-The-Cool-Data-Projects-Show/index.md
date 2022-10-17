@@ -7,9 +7,9 @@ date: 2022-11-02T00:00:00-08:00
 date_end: "2022-11-02T00:00:00-08:00"
 show_post_time: false
 event: "The Cool Data Projects Show"
-event_url: https://www.meetup.com/rladies-london/
+event_url: https://www.linkedin.com/video/event/urn:li:ugcPost:6987774632980283392/
 author: "Nicola Rennie"
-location: "Online"
+location: "Online (13:30 GMT)"
 draft: false
 # layout options: single, single-sidebar
 layout: single
