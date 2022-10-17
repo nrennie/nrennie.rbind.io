@@ -7,7 +7,7 @@ date: 2022-10-26T00:00:00-08:00
 date_end: "2022-10-26T00:00:00-08:00"
 show_post_time: false
 event: "R Ladies London Meetup"
-event_url: https://www.meetup.com/rladies-london/
+event_url: https://www.eventbrite.co.uk/e/hybrid-styling-ggplot-graphics-for-accessibility-tickets-442642013177
 author: "Nicola Rennie"
 location: "London, UK"
 draft: false
