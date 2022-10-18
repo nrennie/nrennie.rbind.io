@@ -79,6 +79,24 @@ images:
 </div>
 <hr>
 
+<!-- RStudio -->
+<div style="display: table; width: 100%; padding-bottom:10px;">
+  <div style="float: left; width: 25%;">
+  <img src="/links/RStudio.png" width="70%">
+  </div>
+  <div style="float: left; width: 75%">
+    <a href="https://www.rstudio.com/blog/"><h3 style="margin-block-start: 0.3em; margin-block-end: 0.3em">RStudio</h4></a>
+    <p> The <a href="https://www.rstudio.com/blog/">RStudio blog</a> covers topics including industry, open source, products and technology, training and education, and data science leadership. You can find my contributed blogs listed below. 
+    </p>
+      <ul>
+        <li>
+          <a href="https://www.rstudio.com/blog/translating-shiny-apps-for-international-audiences/">Translating Shiny Apps for International Audiences</a>
+        </li>
+      </ul>
+  </div>
+</div>
+<hr>
+
 <!-- R4DS -->
 <div style="display: table; width: 100%; padding-bottom:10px;">
   <div style="float: left; width: 25%;">
