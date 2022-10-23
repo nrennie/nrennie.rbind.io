@@ -1,13 +1,13 @@
 ---
 title: "{shiny} applications"
 subtitle: ""
-excerpt: "Applications and dashboards developed in R using {shiny}. "
-date: 2022-05-01
+excerpt: "A selection of interactive applications and dashboards developed in R using {shiny}. "
+date: 2022-10-01
 weight: 1
 author: "Nicola Rennie"
 draft: false
 categories:
-  - Packages
+  - Dashboards
 layout: single
 image: featured.png
 links:

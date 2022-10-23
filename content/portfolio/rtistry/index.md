@@ -2,8 +2,8 @@
 title: "Rtistry"
 subtitle: ""
 excerpt: "Generative art is the practice of creating artwork using code. When the programming language of choice is R, it's often termed *Rtistry* or *aRt*."
-date: 2022-08-30
-weight: 3
+date: 2022-10-23
+weight: 5
 author: "Nicola Rennie"
 draft: false
 categories:
@@ -28,6 +28,13 @@ remotes::install_github("nrennie/aRt")
 library(aRt)
 ```
 You can also view my generative artwork on [Instagram](https://www.instagram.com/nrennie_art/). 
+
+<p align="center">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/abacus1.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/abacus2.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/abacus3.jpeg?raw=true" width="30%">
+</p>
+
 <p align="center">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/attraction1.jpeg?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/attraction2.jpeg?raw=true" width="30%">
@@ -128,6 +135,12 @@ You can also view my generative artwork on [Instagram](https://www.instagram.com
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/mosaic1.png?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/mosaic2.png?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/mosaic3.png?raw=true" width="30%">
+</p>
+
+<p align="center">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/mosaic_sketch1.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/mosaic_sketch2.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/mosaic_sketch3.jpeg?raw=true" width="30%">
 </p>
 
 <p align="center">
