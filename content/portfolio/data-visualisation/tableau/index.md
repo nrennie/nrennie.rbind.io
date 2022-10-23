@@ -3,7 +3,7 @@ title: "Tableau"
 subtitle: ""
 excerpt: "Tableau is an interactive data visualization tool, used to make plots, dashboards, and presentations of data."
 date: 2022-05-01
-weight: 8
+weight: 9
 author: "Nicola Rennie"
 draft: false
 categories:
@@ -19,7 +19,7 @@ links:
 
 ## Tableau
 
-[Tableau](https://www.tableau.com/en-gb) is an interactive data visualization tool, used to make plots, dashboards, and presentations of data. Although I primarily use R to create plots and dashbaords for visualising data, I've recently started to explore less-programmatic ways of visualiing data. 
+[Tableau](https://www.tableau.com/en-gb) is an interactive data visualization tool, used to make plots, dashboards, and presentations of data. Although I primarily use R to create plots and dashboards for visualising data, I've recently started to explore less-programmatic ways of visualising data. 
 
 My portfolio of data visualisation is still under construction, and the following represents some preliminary examples of plots and dashboards I have built using Tableau. My Tableau data visualisations and dashboards can be found on my [Tableau Public profile](https://public.tableau.com/app/profile/nicola.rennie/).
 
