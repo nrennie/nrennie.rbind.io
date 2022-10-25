@@ -2,7 +2,7 @@
 title: "Styling {ggplot2} graphics for accessibility"
 subtitle: "In this talk, I'll discuss good practices for styling different elements of your plots, demonstrate how you implement these in {ggplot2}, and show you how defining your own theme functions can make the process smoother."
 excerpt: "In this talk, I'll discuss good practices for styling different elements of your plots, demonstrate how you implement these in {ggplot2}, and show you how defining your own theme functions can make the process smoother."
-PublishDate: 2022-09-28T00:00:00-06:00
+PublishDate: 2022-10-25T00:00:00-06:00
 date: 2022-10-26T00:00:00-08:00
 date_end: "2022-10-26T00:00:00-08:00"
 show_post_time: false
