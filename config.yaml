@@ -59,6 +59,9 @@ params:
     - icon: youtube
       icon_pack: fab
       url: https://www.youtube.com/channel/UCOOZl_qCfHlXutEIbCorIjg
+    - icon: mastodon
+      icon_pack: fab
+      url: https://fosstodon.org/web/@nrennie
   socialInFooter: yes
   socialInHeader: no
   textFontFamily: sans-serif
