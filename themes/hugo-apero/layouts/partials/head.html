@@ -1,5 +1,6 @@
 <head>
   {{ template "partials/cookie-consent.html" . }}
+  {{ if .Params.math }}{{ partial "katex.html" . }}{{ end }}
   {{ partial "meta.html" . }}
   {{ template "_internal/schema.html" . }}
   {{ `<!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->` | safeHTML }}
