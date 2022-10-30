@@ -17,7 +17,7 @@ The #30DayChartChallenge is a data visualisation challenge organised by [Cédric
 
 <blockquote class="twitter-tweet" align="center"><p lang="en" dir="ltr">✅ <a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> <br><br>Code: <a href="https://t.co/6hkqL1ST4g">https://t.co/6hkqL1ST4g</a><a href="https://twitter.com/hashtag/DataViz?src=hash&amp;ref_src=twsrc%5Etfw">#DataViz</a> <a href="https://twitter.com/hashtag/DataVizualisation?src=hash&amp;ref_src=twsrc%5Etfw">#DataVizualisation</a> <a href="https://t.co/btpPEvwWxC">pic.twitter.com/btpPEvwWxC</a></p>&mdash; Nicola Rennie (@nrennie35) <a href="https://twitter.com/nrennie35/status/1520384723947646976?ref_src=twsrc%5Etfw">April 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-All of my contributions can be seen on my [portfolio page](https://nrennie.rbind.io/portfolio/30daychartchallenge/).
+All of my contributions can be seen on my [portfolio page](https://nrennie.rbind.io/portfolio/data-visualisation/#30daychartchallenge).
 
 ### Why did I create 30 charts?
 
