@@ -42,6 +42,12 @@ You can also view my generative artwork on [Instagram](https://www.instagram.com
 </p>
 
 <p align="center">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/black_hole1.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/black_hole2.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/black_hole3.jpeg?raw=true" width="30%">
+</p>
+
+<p align="center">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/blending1.jpeg?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/blending2.jpeg?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/blending3.jpeg?raw=true" width="30%">
