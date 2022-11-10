@@ -39,3 +39,15 @@ Get ready for the next The Cool Data Projects Show (TCDPS)! Kristen Kehrer will 
 
 * GitHub repository: [github.com/nrennie/shinytweet](https://github.com/nrennie/shinytweet)
 
+
+### Clips
+
+* [Getting Started with Shiny Apps](https://www.youtube.com/watch?v=J6Y7ag5w4HY&t=27s)
+
+* [A Guide to GitHub Actions](https://www.youtube.com/watch?v=tExTxgLNsSQ&t=2s)
+
+* [Generative Art Shiny App](https://www.youtube.com/watch?v=7AHHOv-Vt3o&t=4s)
+
+* [Automatic Redeployment in the ShinyTweet project](https://www.youtube.com/watch?v=XzBsCnQHo9o&t=2s)
+
+
