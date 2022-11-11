@@ -84,41 +84,33 @@ Since the motivation behind this colour palette package was for using in generat
 <p align="center">
 <img width="40%" src="/blog/2022-09-02-introducing-prettycols/001.png?raw=true">
 </p>
-<details>
-<summary>Code</summary>
-<pre>
-<code class="language-{r}" data-lang="{r}">
+{{< detail-tag "Show code" >}}
+``` r
 aRt::tiles(n_x = 15,
            n_y = 15,
            col_palette = PrettyCols::prettycols("Dark"),
            s = 123)
-</code>
-</pre>
-</details>
+```
+{{< /detail-tag >}}
 
 <p align="center">
 <img width="40%" src="/blog/2022-09-02-introducing-prettycols/002.png?raw=true">
 </p>
-<details>
-<summary>Code</summary>
-<pre>
-<code class="language-{r}" data-lang="{r}">
+{{< detail-tag "Show code" >}}
+``` r
 aRt::waves(a = 23,
            b = 6,
            main_col = PrettyCols::prettycols("Teals"),
            bg_col = "white",
            s = 54)
-</code>
-</pre>
-</details>
+```
+{{< /detail-tag >}}
 
 <p align="center">
 <img width="40%" src="/blog/2022-09-02-introducing-prettycols/003.png?raw=true">
 </p>
-<details>
-<summary>Code</summary>
-<pre>
-<code class="language-{r}" data-lang="{r}">
+{{< detail-tag "Show code" >}}
+``` r
 aRt::fractals(N = 13,
               col_palette = c(PrettyCols::prettycols("Rainbow"),"black"),
               shift = 1.5,
@@ -127,25 +119,20 @@ aRt::fractals(N = 13,
               y_param = 3,
               resolution = 0.005,
               dist_max = 3)
-</code>
-</pre>
-</details>
+```
+{{< /detail-tag >}}
 
 <p align="center">
 <img width="40%" src="/blog/2022-09-02-introducing-prettycols/004.png?raw=true">
 </p>
-<details>
-<summary>Code</summary>
-<pre>
-<code class="language-r" data-lang="r">
+{{< detail-tag "Show code" >}}
+``` r
 aRt::fading(n_layers = 10,
             n_points = 1,
-            col_palette=PrettyCols::prettycols("Relax"),
+            col_palette = PrettyCols::prettycols("Relax"),
             s=1234)
-            
-</code>
-</pre>
-</details>
+```
+{{< /detail-tag >}}
 
 ### The most important part...
 
