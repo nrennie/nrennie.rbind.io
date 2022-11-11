@@ -45,7 +45,7 @@ So let's make a spider plot showing the average danceability, energy, speechines
 
 To start off plotting, I usually pull out the variables that I'm going to use by using `select()` from `{dplyr}`. Then I use `group_by()` and `summarise_if()` to calculate the mean of each of my variables.
 
-Now for the fun part – plotting! There isn't a built in geom within `{ggplot2}` to create spider plots, so it's off to Google I go. The `{ggradar}` package on GitHub by @[ricardobion](https://twitter.com/ricardobion) is compatible with `{ggplot2}` so it seems like a viable option. 
+Now for the fun part – plotting! There isn't a built in geom within {ggplot2} to create spider plots, so it's off to Google I go. The {ggradar} package on GitHub by @[ricardobion](https://twitter.com/ricardobion) is compatible with {ggplot2} so it seems like a viable option. 
 
 ![](/blog/2021-12-18-thinking-about-tidytuesday-and-the-spice-girls/basic_plot.jpeg) 
 
@@ -55,9 +55,9 @@ I now have a basic spider plot, and I can get started think a bit about design.
 
 Viewing the help files for the package (or function) are really useful in helping me to decide what elements of the spider plot I can customise easily. 
 
-Although extra graphics are always fun, spiders plots are already quite complex to read so I decide on a minimalist theme. Most of this, if not all will be done using just `{ggplot2}` functions. The `theme()` options are the most useful.
+Although extra graphics are always fun, spiders plots are already quite complex to read so I decide on a minimalist theme. Most of this, if not all will be done using just {ggplot2} functions. The `theme()` options are the most useful.
 
-I add some captions, including some a subtitle (or tag) to explain what the plot tells a viewer. In terms of choosing a colour scheme, I like to choose something related to the data. This week’s data is perfect for using the Spice Girls palette from the `{popthemes}` package from @[_johnmackintosh](https://twitter.com/_johnmackintosh). There doesn’t seem to be an option to change the axis label colour in ggradar so I may add these labels in a different colour later using an annotation layer.
+I add some captions, including some a subtitle (or tag) to explain what the plot tells a viewer. In terms of choosing a colour scheme, I like to choose something related to the data. This week’s data is perfect for using the Spice Girls palette from the {popthemes} package from @[_johnmackintosh](https://twitter.com/_johnmackintosh). There doesn’t seem to be an option to change the axis label colour in {ggradar} so I may add these labels in a different colour later using an annotation layer.
 
 Now the only thing left to do is post the final version to twitter with the #TidyTuesday hashtag. 
 
@@ -68,10 +68,3 @@ The code for this plot is on [GitHub](https://github.com/nrennie/tidytuesday/tre
 ### Final Thoughts
 
 I'll blog about my experience of curating in a later post, but for now I hope that sharing my process for creating a data visualisation has been helpful. Why don't you participate in your first TidyTuesday if you haven't already?
-
-
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"
-  data-size="large">
-Tweet</a>
-

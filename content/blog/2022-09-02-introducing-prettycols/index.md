@@ -19,13 +19,13 @@ Making plots that are aesthetically pleasing has always been an important aspect
 
 {PrettyCols} is now on [CRAN](https://cran.r-project.org/package=PrettyCols). Install it using:
 
-```
+``` r
 install.packages("PrettyCols")
 ```
 
 and load it into R using `library(PrettyCols)`. You can also install the development version from [GitHub](https://github.com/nrennie/PrettyCols) using:
 
-```
+``` r
 remotes::install_github("nrennie/PrettyCols")
 ```
 
@@ -37,7 +37,7 @@ There are currently 20 palettes available in {PrettyCols}. You can view them all
 
 Each of the palettes falls into one of three categories: sequential (`seq`), diverging (`div`), or qualitative (`qual`). You can filter the palettes based on their type. For example, to see diverging palettes only:
 
-```
+``` r
 view_all_palettes(type = "div")
 ```
 <p align="center">
@@ -137,11 +137,12 @@ aRt::fractals(N = 13,
 <details>
 <summary>Code</summary>
 <pre>
-<code class="language-{r}" data-lang="{r}">
+<code class="language-r" data-lang="r">
 aRt::fading(n_layers = 10,
             n_points = 1,
             col_palette=PrettyCols::prettycols("Relax"),
             s=1234)
+            
 </code>
 </pre>
 </details>
@@ -153,9 +154,3 @@ Of course, the most important part of any R package is the hex sticker! You migh
 <p align="center">
 <img width="60%" src="/blog/2022-09-02-introducing-prettycols/logo.png?raw=true">
 </p>
-
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"
-  data-size="large">
-Tweet</a>

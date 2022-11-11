@@ -72,9 +72,3 @@ I remember having a bit of an idea for this plot, but not quite knowing how to c
 Overall, #TidyTuesday has been one of the best and most fun work-related things I decided to do on 2021. During my PhD, although I had a lot of data, it all looked quite similar so there wasn't a lot of opportunity to experiment with different plots. #TidyTuesday is a nice environment to experiment with different plots and packages because you don't have to get it right. For me at least, it's about trying something new rather than making publication-ready plots. I'm definitely looking forward to participating in #TidyTuesday in 2022, and beyond. 
 
 Huge thanks to @[thomas_mock](https://twitter.com/thomas_mock) for putting #TidyTuesday together every week, and thanks to everyone who contributed data. I might add some data of my own next year.
-
-
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"
-  data-size="large">
-Tweet</a>

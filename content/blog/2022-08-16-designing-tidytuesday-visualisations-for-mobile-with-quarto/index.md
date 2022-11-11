@@ -19,7 +19,6 @@ Most of the time, people (if they're anything like me) aren't viewing #TidyTuesd
 
 <blockquote class="twitter-tweet" align="center"><p lang="en" dir="ltr">This week&#39;s <a href="https://twitter.com/hashtag/TidyTuesday?src=hash&amp;ref_src=twsrc%5Etfw">#TidyTuesday</a> is about personality test results - I focused on Killing Eve characters! Inspired by <a href="https://twitter.com/bear_jordan_?ref_src=twsrc%5Etfw">@bear_jordan_</a> to try mobile-friendly data viz formats! Thanks to <a href="https://twitter.com/tanya_shapiro?ref_src=twsrc%5Etfw">@tanya_shapiro</a> for the data and plot inspiration!<br><br>Code: <a href="https://t.co/XiCurLLHFI">https://t.co/XiCurLLHFI</a><a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/DataViz?src=hash&amp;ref_src=twsrc%5Etfw">#DataViz</a> <a href="https://t.co/ZQeoD6xcoE">pic.twitter.com/ZQeoD6xcoE</a></p>&mdash; Nicola Rennie (@nrennie35) <a href="https://twitter.com/nrennie35/status/1559513805440385027?ref_src=twsrc%5Etfw">August 16, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
 ### What does mobile-friendly visualisation mean?
 
 In this context, I'm specifically talking about static images. Interactive dashboards and apps should also be designed for mobile, but that's a bigger topic for another day. For me, making a static data visualisation mobile friendly basically means two things:
@@ -42,7 +41,7 @@ As I mentioned earlier, a key part of designing for mobile is to choose a releva
 
 You can open a new graphics window using the `dev.new()` function, which allows you to specify the width and height of the new window:
 
-```{r}
+``` r
 dev.new(width=1080, height=2160, unit="px", noRStudioGD = TRUE)
 ```
 Here, I've specified the width and height in pixels. By setting `noRStudioGD = TRUE`, any new plots appear in the new graphics window rather than the RStudio graphics device. Other functions such as `windows()`, `x11()`, or `png()` from the {ragg} package can do similar things.
@@ -72,6 +71,7 @@ I'll preface this section with the fact the I already like [Quarto](https://quar
 
 Quarto (or RMarkdown) probably wasn't designed to help you make png or jpg files of static visualisations in a specific size, but it's a really nice feature that comes out naturally. Instead of running the code to generate your plot in an R script, run it in a code block in a Quarto (.qmd) or RMarkdown (.Rmd) file instead. The code block options for your code might look something like this:
 
+````
 ```{r}
 #| dpi: 300
 #| fig.height: 7.2
@@ -81,6 +81,8 @@ Quarto (or RMarkdown) probably wasn't designed to help you make png or jpg files
 #| warning: false
 #| message: false
 ```
+````
+
 For each code block, you can specify the dpi, the height and width of the plot, and the file type. Here, I've set the plot height to be 7.2 inches (`fig.height` and `fig.width` are always given in inches), which with a dpi of 300, gives a height of 2160 pixels (the same as the `dev.new()` method above). To make it easier to simply preview your plot, rather than also seeing your code, you can hide your code and any messages or warnings by setting `echo`, `warning`, and `message` to `false`.
 
 When you render your Quarto or RMarkdown document, it should appear in the **Viewer** tab in the bottom right corner of RStudio. The image that is rendered here will have the dpi you specified rather than 96 dpi as in the **Plot** tab. The plot will stretch to fit the pane width, but it will look *correct* in terms of the way the e.g. fonts appear. If you haven't set your Quarto document to be `self-contained`, then the images have also already been saved for you - probably in a folder called  `documentname_files/figure-html/`. Otherwise, either right click on the image and save, or use `ggsave()` with the same dpi setting.
@@ -104,12 +106,6 @@ Don't make plots with more in them, make more plots! For the example from this w
 </p>
 
 You can find my code for this week's #TidyTuesday on [GitHub](https://github.com/nrennie/tidytuesday/tree/main/2022/2022-08-16). Any other tips for creating data visualisations for mobile?
-
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"
-  data-size="large">
-Tweet</a>
-
 
 
 

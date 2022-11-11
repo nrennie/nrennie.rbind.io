@@ -61,10 +61,3 @@ If we are able to identify and predict when unusual demand patterns occur, bike-
 ### Final Thoughts
 
 Overall, a key finding of my thesis is that functional data analysis is a very powerful tool for identifying demand outliers. However, features of the data such as network effects or seasonal patterns need to be taken into account first. More research into how an outlier-based alert system could be implemented in an automated way is still needed.
-
-
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"
-  data-size="large">
-Tweet</a>
-

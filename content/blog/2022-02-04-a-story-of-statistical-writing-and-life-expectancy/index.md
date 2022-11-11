@@ -56,9 +56,4 @@ If you're a:
 * student currently studying for a first degree, master’s or PhD in statistics, data science or related subject; or
 * graduate whose last qualification in statistics, data science or related subject (whether first degree, master’s or PhD) was not more than five years ago, 
 
-I'd highly recommend submitting an entry.
-
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"
-  data-size="large">
-Tweet</a>
+I'd highly recommend submitting an entry!

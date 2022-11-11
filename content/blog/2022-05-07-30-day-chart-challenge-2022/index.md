@@ -88,8 +88,3 @@ My twitter feed definitely got prettier during the month of April as it filled u
 I'd definitely recommend participating to anyone thinking about taking part in the the #30DayChartChallenge - and no, you don't **have** to do all 30 days. It was a lot of fun to create different charts, I learnt a bunch of new things, and I saw so many beautiful charts from other people.
 
 Thanks to [Cédric Scherer](https://twitter.com/CedScherer) and [Dominic Royé](https://twitter.com/dr_xeo) for creating this challenge, and thanks also to [Wendy Shijia](https://twitter.com/ShijiaWendy) and [Marco Sciaini](https://twitter.com/shinysci) who supported the organisation. Well done to everyone who participated in this year's challenge whether you made one or thirty charts in April.
-
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"
-  data-size="large">
-Tweet</a>

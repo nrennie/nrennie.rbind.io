@@ -35,7 +35,7 @@ None of these packages did *quite* what I was looking for - a programmatic way o
 
 I used four packages in creating the flowchart (technically more, since {tidyverse} is a collection of packages!). The {showtext} package is used for fonts, and {rcartocolor} for the colour palettes. Therefore, these are not necessary packages for building a generic non-styled flowchart.
 
-```{r, warning=FALSE, message=FALSE}
+``` r
 library(tidyverse)
 library(igraph)
 library(showtext)
@@ -49,7 +49,7 @@ The first step in building the flowchart was to create data frames (or tibbles) 
 
 The input data required is a data frame with two columns specifying the start and end points of the arrows in my chart. I constructed it manually by writing out a tibble, but you could alternatively store this information in a .csv file, for example.
 
-```{r}
+``` r
 goldilocks <- tibble(from = c("Goldilocks",
                               "Porridge", "Porridge", "Porridge",
                               "Just right",
@@ -68,7 +68,7 @@ goldilocks <- tibble(from = c("Goldilocks",
 
 This is what the data should look like: 
 
-```{r}
+``` r
 # A tibble: 6 × 2
   from       to           
   <chr>      <chr>        
@@ -86,14 +86,14 @@ One key thing to note here, is that each node in my flowchart must have a unique
 
 I initially toyed with the idea of writing my own code to define the layout of the nodes. However, the {igraph} package actually did what I wanted. Flowcharts are essentially tree graphs, and the `layout_as_tree()` function constructs a tree layout of an input graph.
 
-```{r}
+``` r
 g = graph_from_data_frame(goldilocks, directed = TRUE)
 coords = layout_as_tree(g)
 colnames(coords) = c("x", "y")
 ```
 The returns a data frame of x and y coordinates for the centre points of the node locations:
 
-```{r}
+``` r
       x y
 [1,]  0 7
 [2,]  0 6
@@ -111,7 +111,7 @@ I use a regex to remove the appended numbers from the names, and create the labe
 
 I also multiply the x-coordinates by -1. This reverse the plotting from a top-right -- bottom-left direction, to become a top-left -- bottom-right direction. Although I could have used something like `scale_x_reverse()` at a later stage, when I was working out how to construct the coordinates, I found it easier to think about the data without accounting for future transformations. Finally, I add a `type` variable, to classify the nodes into actions, decisions, and outcomes. I'll later colour the rectangles based on `type`.
 
-```{r}
+``` r
 output_df = as_tibble(coords) %>%
   mutate(step = vertex_attr(g, "name"),
          label = gsub("\\d+$", "", step),
@@ -119,7 +119,7 @@ output_df = as_tibble(coords) %>%
          type = factor(c(1, 2, 3, 2, 3, 2, 3, 3, 3, 3, 3, 3, 3, 1)))
 ```
 
-```{r}
+``` r
 # A tibble: 6 × 5
       x     y step        type  label     
   <dbl> <dbl> <chr>       <fct> <chr>     
@@ -135,7 +135,7 @@ output_df = as_tibble(coords) %>%
 
 The columns in `output_df` give me the x and y coordinates of the centre of the nodes. I'm going to use `geom_rect()` from {ggplot2} to plot the rectangles, and it requires four arguments: `xmin`, `xmax`, `ymin` and `ymax` - essentially specifying the coordinates of the corners of the boxes. I use `mutate()` from {dplyr} to created new columns, specifying how far away the top, bottom, left, and right of the rectangles should be from the center. It took a little bit of trial and error to find the correct values here.
 
-```{r}
+``` r
 plot_nodes = output_df %>%
   mutate(xmin = x - 0.35,
          xmax = x + 0.35,
@@ -144,7 +144,7 @@ plot_nodes = output_df %>%
 ```
 Now `plot_nodes` tibble looks like this:
 
-```{r}
+``` r
 # A tibble: 6 × 9
       x     y step        type  label       xmin  xmax  ymin  ymax
   <dbl> <dbl> <chr>       <fct> <chr>      <dbl> <dbl> <dbl> <dbl>
@@ -164,7 +164,7 @@ The `left_join()` function from {dplyr} is then used to match up these coordinat
 
 The x-coordinates of my arrows will always start from the horizontal centre of the rectangle, so I can use the existing x-coordinates of the rectangles for this. The y-coordinate is a little trickier. The y-coordinate of the arrow endpoint depends if it's the "from" or the "to" part of the arrow. Arrows leaving a rectangle should leave from the bottom of the rectangle - the `"ymin"` value. Arrows arriving at a rectangle should arrive at the top of the rectangle - the `"ymax"` value. A combination of `mutate()` and `ifelse()` constructs the y-coordinates.
 
-```{r}
+``` r
 plot_edges = goldilocks %>%
   mutate(id = row_number()) %>%
   pivot_longer(cols = c("from", "to"),
@@ -176,7 +176,7 @@ plot_edges = goldilocks %>%
   select(-c(ymin, ymax))
 ```
 
-```{r, echo=FALSE}
+``` r
 # A tibble: 6 × 5
      id s_e   step           x     y
   <int> <chr> <chr>      <dbl> <dbl>
@@ -194,7 +194,7 @@ There are three main components to flowcharts: rectangles, text, and arrows. I'l
 
 #### Drawing rectangles
 
-```{r}
+``` r
 p = ggplot() +
   geom_rect(data = plot_nodes,
             mapping = aes(xmin = xmin, ymin = ymin, 
@@ -214,13 +214,13 @@ Before I add the text labels, I need to choose what font I want to use. Although
 
 For this flowchart, I settled on the *Henny Penny* font from Google - it gives off fairy tale vibes to me! I load it into R using the `font_add_google()` function, giving the official name and the name I will use to refer to the font in R as arguments. Running `showtext_auto()` is an important step as it makes the loaded fonts available to R.
 
-```{r}
+``` r
 font_add_google(name = "Henny Penny", family = "henny")
 showtext_auto()
 ```
 I can then add text labels to my flowchart with `geom_text()`, specifying the font and colour.
 
-```{r}
+``` r
 p = p + 
   geom_text(data = plot_nodes,
             mapping = aes(x = x, y = y, label = label),
@@ -238,7 +238,7 @@ The arrows are drawn using `geom_path()`. It's important that I use `geom_path()
 
 The arrowheads are specified using the `arrow` argument and `arrow()` function. Again, it took a little bit of trial and error to find the right size of arrowhead. 
 
-```{r}
+``` r
 p = p + 
   geom_path(data = plot_edges,
             mapping = aes(x = x, y = y, group = id),
@@ -254,7 +254,7 @@ p = p +
 
 We now have the basic flowchart constructed and it's time to start styling it - this is my favourite part! Instead of the default colour palette used by {ggplot2}, I'm going to use a palette from the {rcartocolor} package called `"Antique"`. You can browse the palettes in this package at [jakubnowosad.com/rcartocolor](https://jakubnowosad.com/rcartocolor/). I change both the outline and inner colour of the rectangles to have the same colours.
 
-```{r}
+``` r
 p = p + 
   scale_fill_carto_d(palette = "Antique") +
   scale_colour_carto_d(palette = "Antique")
@@ -268,7 +268,7 @@ p = p +
 
 The next step is adding a title and caption using the `labs()` function. In the caption, I usually include my name, the data source, and (in this case) the source of the image I will add later.
 
-```{r}
+``` r
 p = p + 
   labs(title = "The Goldilocks Decision Tree",
        caption = "N. Rennie\n\nData: Robert Southey. Goldilocks and the Three Bears. 
@@ -292,7 +292,7 @@ Here, I also use `theme_void()` to remove all axis labels, titles, ticks, and gr
 
 Finally, I style the title and caption text, and use the same font as I did for the rectangle labels.
 
-```{r}
+``` r
 p = p + 
   theme_void() +
   theme(plot.margin = unit(c(1, 1, 0.5, 1), "cm"),
@@ -321,8 +321,3 @@ And that gives us the final image:
 </p>
 
 Hopefully, this tutorial blog demonstrated the process of creating a flowchart in R using {igraph} and {ggplot2}, and encourages you to create your own! You can also find the slides and recording of the talk I gave to R-Ladies Nairobi [here](https://nrennie.rbind.io/talks/2022-may-rladies-nairobi/).
-
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"
-  data-size="large">
-Tweet</a>

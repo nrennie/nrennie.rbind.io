@@ -25,7 +25,6 @@ Although I've been creating data visualisations for a while, I don't normally ha
 
 One of the things that set the 30 Day Map Challenge apart from other data visualisation challenges I've participated in (like TidyTuesday, for example) was the lack of data. Not only did the challenge involve making 30 maps, it also involved deciding what to map and finding the relevant data. To make this part a little less intimidating, I focused most of my maps around Glasgow, Scotland, and the UK. This meant I could use the same base maps multiple times, and sometimes the same data. Unlike challenges where data is provided, most of the data I found "in the wild" wasn't in a *nice* format. For example, I also learnt how to read in .tif and .asc files, and convert them into a format that R would understand.
 
-
 ### Useful and interesting packages
 
 Most of my maps were created using R, with the exception of days 14 and 15, which used Tableau and some watercolour paints (separately!). Although I'm very familiar with R and its various data visualisation tools, I discovered a number of new packages that I hadn't used before. A few highlights:
@@ -71,9 +70,3 @@ I saw so many cool maps in November, and it's impossible to list them all, but h
 I definitely learnt a lot of new ways to visualise spatial data in the last 30 days, including some new packages. I also learnt a lot about Glasgow, and the country I was born in through exploring new sources of data. Next year, I'd like to be more selective about which days to participate in. Rather than creating a map for the sake of ticking off a day, I'd like to spend more time on each individual map and delve a bit deeper into some of the new packages I find. 
 
 Thanks to [Topi Tjukanov](https://twitter.com/tjukanov) for creating this challenge a few years ago, and well done to everyone who participated in this year's challenge whether you made one or thirty maps in November.
-
-
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"
-  data-size="large">
-Tweet</a>

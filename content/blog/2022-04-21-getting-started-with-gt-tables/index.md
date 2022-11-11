@@ -23,7 +23,7 @@ I recently found some time to explore {gt} and make a table which combines textu
 
 This blog post assumes you have some basic knowledge of {tidyverse} packages - mainly {dplyr} and `%>%`, the pipe operator. Although it will demonstrate the data wrangling process, it is not the focus of the blog post. We'll be using multiple packages from the {tidyverse}, along with {readxl} to read in the data, {purrr} to create multiple plots, and of course {gt}. 
 
-```{r}
+``` r
 library(readxl)
 library(tidyverse)
 library(gt)
@@ -38,7 +38,7 @@ The date set contains information on the top 100 most spoken languages in the wo
 
 The data can be read in using `read_xlsl()` and converted to a tibble. The data is already sorted in rank order so we can simply using `slice_head(n = 10)` to look at the top 10 most widely spoken languages.
 
-```{r}
+``` r
 df <- tibble(read_xlsx("100 Most Spoken Languages.xlsx")) %>% 
     slice_head(n = 10)
 ```
@@ -51,7 +51,7 @@ The final table will contain 4 columns: (i) the rank, (ii) the name of the langu
 
 The first two columns and quite simple - they already exist in the original data set in the format we need them to be in. For the third column, we can use `mutate()` to add a new character column called `"description"` to the tibble.
 
-```{r}
+``` r
 df <- df %>%
   mutate(description =
            c("English is the most spoken language in the world in terms of total speakers, although only the second most common in terms of native speakers.",
@@ -70,7 +70,7 @@ Alternatively, you could store these descriptions in a separate file and then jo
 
 Before getting started on making the plots, we need to format the two numeric columns we'll be using. Currently, both `"Total Speakers"` and `"Native Speakers"` are stored as character vectors in the form `"1,132M"`. We want this to be a numeric value of `1132`. We use `mutate()` again to add new columns with the correctly formatted numeric columns. This is done using regular expressions.
 
-```{r}
+``` r
 df <- df %>% 
   mutate(
     Total = as.numeric(
@@ -81,7 +81,7 @@ df <- df %>%
         regmatches(`Native Speakers`, gregexpr("[[:digit:]]+", `Native Speakers`)), function(x) str_flatten(x)))))
 ```
 We also convert and `NA` values to 0, and remove columns we no longer need.
-
+ r
 ```
 df <- df %>% 
   mutate(Native = replace_na(Native, 0),
@@ -102,7 +102,7 @@ The easiest way to do this, in my opinion, is to create a function which takes t
 
 The function filters the data set to only give the row related to the chosen language. It then converts it into long format, ready to use with {ggplot2}. I initially manually filtered the data set, and prepared one plot to mess around with getting it to look the way I wanted it to, before I made it a function. The output of the function is a single plot, relating to a specific language.
 
-```
+``` r
 plot_lang <- function(lang, df){
   # prep data
   p_data <- filter(df, Language == lang) %>%
@@ -143,7 +143,7 @@ There were a couple of things to be aware of when making this plot:
 
 After the plot function was created, we can use `map()` from {purrr} to create a list of plots, by applying to a list of all languages.
 
-```
+``` r
 all_lang <- df %>%
   pull(Language)
 lang_plots <- purrr::map(.x = all_lang, .f = ~plot_lang(.x, df = df))
@@ -151,7 +151,7 @@ lang_plots <- purrr::map(.x = all_lang, .f = ~plot_lang(.x, df = df))
 
 Columns of tibbles don't just store numeric or character vectors, they can also store lists of ggplots. So we can use `mutate()` again to add our list of plots resulting from applying `map()` as another column. We also filter out the columns we no longer need.
 
-```
+``` r
 df <- df %>%
   mutate(plots = lang_plots) %>%
   select(Rank, Language, description, plots)
@@ -167,7 +167,7 @@ Instead, we:
 * add a `NA` column for the plots,
 * pipe this into `gt()`
 
-```
+``` r
 tb <- df %>%
   select(Rank, Language, description) %>%
   mutate(plots = NA) %>%
@@ -175,7 +175,7 @@ tb <- df %>%
 ```
 Now, we use the `text_transform()` function to add in our plots to the table. Again, we use `map()` from {purrr} to apply `ggplot_image()`.
 
-```
+``` r
 tb <- tb %>% 
   text_transform(
   locations = cells_body(columns=plots),
@@ -201,7 +201,7 @@ There are a lots of different ways to style {gt} tables, so we'll just highlight
 
 * *Adding text*: adding in titles, subtitle, and captions is a key part that you'll likely want to include in most of your tables. The `tab_header()` function adds text above the main body of the table, and `tab_source_note()` add text below the table.
 
-```
+``` r
 tb <- tb %>% 
   tab_header(
     title = "10 Most Spoken Languages",
@@ -214,7 +214,7 @@ tb <- tb %>%
 
 * *Styling text*: you may want to change the font colour, font family, sizing etc. of the titles or subtitles, as well as the text contained in the columns of the table. `tab_style()` is the function used to do all of these.
 
-```
+``` r
 tb <- tb %>% 
   tab_style(
     locations = cells_title(groups = 'title'),
@@ -270,7 +270,7 @@ tb <- tb %>%
 
 * *Edit column names*: by default the column headings in the table are the same as the column names in the input tibble. These may not be named in a presentation-ready format, so we can manually rename them using `cols_label()`.
 
-```
+``` r
 tb <- tb %>% 
   cols_label(
     Rank = "Rank",
@@ -282,7 +282,7 @@ tb <- tb %>%
 
 * *Edit column widths*: editing the column widths can be done using `cols_width()` to make sure that the column is wide enough to make the plot legible.
 
-```
+``` r
 tb <- tb %>% 
   cols_width(
     Rank ~ px(100),
@@ -294,7 +294,7 @@ tb <- tb %>%
   
 * *Table width*: to ensure that the final table will be displayed and saved correctly, it's useful to set the total width of the table equal to the sum of the column widths we just set using `tab_options()`.
 
-```
+``` r
 tb <- tb %>% 
   tab_options(table.width = 1035,
               container.width = 1035)
@@ -302,7 +302,7 @@ tb <- tb %>%
 
 * *Colouring rows*: tables can sometimes be tricky to read, especially if they have lots of rows. `tab_style()` can also be used to set different colours for alternating rows.
 
-```
+``` r
 tb <- tb %>% 
   tab_style(
     style = list(cell_fill(color = "#e4edf4")),
@@ -320,9 +320,8 @@ The final table now looks a little more polished.
 
 If you're using RStudio you'll notice that {gt} tables are previewed in the *Viewer* pane, rather than the *Plots* pane, so you can't just use the *Export* button. However, the {gt} package does have the `gtsave()` function which you can use to save a static version of your plot.
 
-```
+``` r
 gtsave(tb,"languages.png")
-
 ```
 Alternatively, you can use Rmarkdown to output to HTML, or PDF documents, for example.
 
@@ -330,13 +329,4 @@ Alternatively, you can use Rmarkdown to output to HTML, or PDF documents, for ex
 
 These are just a couple of the things you can do with {gt}. Hopefully, it's inspired you to explore what it can do. If you want to recreate this table for yourself, the data can be downloaded [here](https://data.world/diversityindata/diversityindata-the-countdown-to-christmas-and-new-year) and the code is available on [GitHub](https://github.com/nrennie/gt_tables/tree/main/Languages).
 
-When I was first exploring {gt}, I found this twitter thread by [Benjamin Nowak](https://twitter.com/BjnNowak) very helpful.
-
-<blockquote class="twitter-tweet" align = "center"><p lang="en" dir="ltr">🧵 Lately the table below received the Runner Up award at the RStudio table contest<br><br>Here is a thread with some tips to reproduce this table with <a href="https://twitter.com/hashtag/RStats?src=hash&amp;ref_src=twsrc%5Etfw">#RStats</a> and the {gt} package <br><br>⬇️⬇️⬇️ <a href="https://t.co/f7cvF1KKc0">pic.twitter.com/f7cvF1KKc0</a></p>&mdash; Benjamin Nowak (@BjnNowak) <a href="https://twitter.com/BjnNowak/status/1472562727684124688?ref_src=twsrc%5Etfw">December 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-If you're already a fan of {gt}, it's also worth checking out [{gtExtras}](https://jthomasmock.github.io/gtExtras/) which provides some additional helper functions to assist in creating beautiful tables with {gt}.
-
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"
-  data-size="large">
-Tweet</a>
+When I was first exploring {gt}, I found some resources by [Benjamin Nowak](https://bjnnowak.netlify.app/2021/10/04/r-beautiful-tables-with-gt-and-gtextras/) very helpful. If you're already a fan of {gt}, it's also worth checking out [{gtExtras}](https://jthomasmock.github.io/gtExtras/) which provides some additional helper functions to assist in creating beautiful tables with {gt}.

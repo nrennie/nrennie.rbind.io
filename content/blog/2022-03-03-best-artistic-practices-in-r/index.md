@@ -77,8 +77,3 @@ Personally, I do make my work reproducible and all of my code is available on [G
 ### Final thoughts
 
 These are just a few of the additional practices I also follow when writing code for generative art. The most important thing for me to remember is that generative art is supposed to be fun, so good coding practices probably matter even less here!
-
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"
-  data-size="large">
-Tweet</a>

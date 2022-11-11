@@ -68,9 +68,3 @@ You can find more information [here](https://guide.rladies.org/rocur/about/).
 I really enjoyed my experience of curating and I’d encourage you to sign-up and curate the [@WeAreRLadies](https://twitter.com/WeAreRLadies) account! I discovered many new cool accounts to follow when searching for work to highlight, learnt new things about R, and made some new connections.
 
 If you're thinking about curating but aren't quite sure about it yet, I'm happy to chat!
-
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"
-  data-size="large">
-Tweet</a>
-

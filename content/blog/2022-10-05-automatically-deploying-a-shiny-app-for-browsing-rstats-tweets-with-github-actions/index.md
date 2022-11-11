@@ -163,7 +163,7 @@ Essentially, the Dockerfile gives the instructions to install all the R packages
 
 Then, we need to set up a GitHub Action that tells GitHub to auto-deploy our app when something changes on main. In a folder called `.github/workflows`, we create a file called `deploy-shinyapps.yml`. The name of the file doesn't really matter, just that the file type is `.yml`, since this is how we write a workflow for GitHub Actions. This workflow is adapted from Roel Hogervorst's [blog post](https://blog.rmhogervorst.nl/blog/2021/02/27/deploy-to-shinyapps-io-from-github-actions/) mentioned above.
 
-``` yml
+``` yaml
 name: Run on push master, main
 
 # Controls when the action will run. 
@@ -222,7 +222,7 @@ Now, we set up another GitHub Action to run the `update-data.R` script every day
 
 Define the name of the action and when it will run. `cron: "0 8 * * *"` tells GitHub to run it everyday at 8am. Adding `workflow_dispatch:` allows me to also trigger the workflow from the actions tab in GitHub. This is useful when de-bugging the initial setup, and also if I want to trigger a data refresh at a different time of day for some reason.
 
-```
+``` yaml
 name: Update data
 
 on:
@@ -233,7 +233,7 @@ on:
 
 Next, we define the jobs and set up R. This part is exactly the same as the deployment action.
 
-```
+``` yaml
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -249,7 +249,7 @@ jobs:
 
 Then, we want to install any R packages our `update-data.R` script requires to run. In the deployment action, we did this through the Dockerfile, but here we write it directly into the GitHub actions file.
 
-```
+``` yaml
       - name: Install dependencies
         run: |
           install.packages(c("rtweet", "dplyr", "tibble",
@@ -259,7 +259,7 @@ Then, we want to install any R packages our `update-data.R` script requires to r
 
 Then we run our update script. Since {rtweet} requires authentication, we need to add another GitHub secret (`TWITTER_BEARER`) containing the token that gets passed to {rtweet}. The process is very similar to adding a token for authenticating shinyapps.io.
 
-```
+``` yaml
       - name: Update data
         run: |
           source("update_data.R")
@@ -270,7 +270,7 @@ Then we run our update script. Since {rtweet} requires authentication, we need t
 
 Finally, we push the changes to main. Once the new .rds file has been created in the `update_data.R` script, we need to push the changes to GitHub (in exactly the same we would if we ran it locally). The following step adds, commits, and pushes the changes to main, which triggers the running of the deploy workflow that's already defined. The Shiny app is then updated and re-deployed with the new data. 
 
-```
+``` yaml
       - name: Commit files
         run: |
           git config --local user.email "actions@github.com"
@@ -286,6 +286,3 @@ And that's it! The deployed app is available at [nrennie35.shinyapps.io/shinytwe
 <p align="center">
 <img width="80%" src="https://nrennie.rbind.io/blog/2022-10-05-automatically-deploying-a-shiny-app-for-browsing-rstats-tweets-with-github-actions/cat.gif" alt="gif of cat sleeping and relaxing">
 </p>
-
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-size="large">Tweet</a>
