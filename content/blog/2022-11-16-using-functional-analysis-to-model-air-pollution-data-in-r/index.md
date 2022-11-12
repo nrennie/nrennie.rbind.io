@@ -141,7 +141,7 @@ Aberdeen_WR <- Aberdeen_WR %>%
 Now that we've tidied up the data and dealt with the missing values, it's time to get stuck into the modelling process! First of all, let's have another look at our data but in a slightly different way:
 
 <p align="center">
-<img width="80%" src="https://nrennie.rbind.io/blog/2022-11-16-using-functional-analysis-to-model-air-pollution-data-in-r/daily_levels.png" alt="Line chart of nitrogen dioxide levels every hour from November 2018 to November 2022. Each line represents a different day. A line showing the average level per hour is shown. There are two bumps showing higher levels around 9am and 5pm.">
+<img width="80%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-11-16-using-functional-analysis-to-model-air-pollution-data-in-r/daily_levels.png" alt="Line chart of nitrogen dioxide levels every hour from November 2018 to November 2022. Each line represents a different day. A line showing the average level per hour is shown. There are two bumps showing higher levels around 9am and 5pm.">
 </p>
 
 {{< detail-tag "Show code: plotting the data" >}}
@@ -175,7 +175,7 @@ The nitrogen dioxide levels follow a similar pattern each day, with higher level
 We still need to deal with seasonal and trend components of the functional data. For example, since the higher levels of pollution around 8am and 5pm are most likely caused by people travelling to work, this raises the question of whether pollution levels are lower on weekends, when there are generally fewer people travelling to work. Are there different pollution patterns on different days of the week?
 
 <p align="center">
-<img width="80%" src="https://nrennie.rbind.io/blog/2022-11-16-using-functional-analysis-to-model-air-pollution-data-in-r/daily_average.png" alt="Line chart of average nitrogen dioxide levels every hour from November 2018 to November 2022. Each line represents a different day of the week. Saturdays and Sundays follow different patterns from the rest of the days.">
+<img width="80%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-11-16-using-functional-analysis-to-model-air-pollution-data-in-r/daily_average.png" alt="Line chart of average nitrogen dioxide levels every hour from November 2018 to November 2022. Each line represents a different day of the week. Saturdays and Sundays follow different patterns from the rest of the days.">
 </p>
 
 {{< detail-tag "Show code: plotting the data" >}}
@@ -252,7 +252,7 @@ Aberdeen_residuals <- Aberdeen_matrix - fitted_curves
 We can then analyse the residuals, that look a little bit like this:
 
 <p align="center">
-<img width="80%" src="https://nrennie.rbind.io/blog/2022-11-16-using-functional-analysis-to-model-air-pollution-data-in-r/residuals.png" alt="Line chart of residual nitrogen dioxide levels every hour from November 2018 to November 2022. Each line represents a different day. The variation is higher on the positive side of the residuals.">
+<img width="80%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-11-16-using-functional-analysis-to-model-air-pollution-data-in-r/residuals.png" alt="Line chart of residual nitrogen dioxide levels every hour from November 2018 to November 2022. Each line represents a different day. The variation is higher on the positive side of the residuals.">
 </p>
 
 {{< detail-tag "Show code: plotting the residuals" >}}
@@ -314,7 +314,7 @@ threshold <- func_depth_threshold(data = Aberdeen_residuals, times = 1:24)
 Now we can take a look at the functional depths, and the associated threshold.
 
 <p align="center">
-<img width="80%" src="https://nrennie.rbind.io/blog/2022-11-16-using-functional-analysis-to-model-air-pollution-data-in-r/depths.png" alt="Lollipop chart of functional depths for each day from November 2018 to November 2022. Each line represents a different day.">
+<img width="80%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-11-16-using-functional-analysis-to-model-air-pollution-data-in-r/depths.png" alt="Lollipop chart of functional depths for each day from November 2018 to November 2022. Each line represents a different day.">
 </p>
 
 {{< detail-tag "Show code: plotting the data" >}}
@@ -368,5 +368,5 @@ outliers <- plot_depths %>%
 If you're super keen on finding out more about applying function depth to find outlying time series, you can read [our paper](https://doi.org/10.1016/j.ejor.2021.01.002) on how we applied similar methodology to railway booking data.
 
 <p align="center">
-<img width="80%" src="https://nrennie.rbind.io/blog/2022-11-16-using-functional-analysis-to-model-air-pollution-data-in-r/fireworks.gif" alt="gif of fireworks exploding">
+<img width="80%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-11-16-using-functional-analysis-to-model-air-pollution-data-in-r/fireworks.gif" alt="gif of fireworks exploding">
 </p>
