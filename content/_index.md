@@ -16,6 +16,10 @@ subtitle: Data Scientist
 text_align_left: false
 title: Nicola Rennie
 type: home
+outputs:
+- html
+- rss
+- json
 ---
 
 ** index doesn't contain a body, just front matter above.

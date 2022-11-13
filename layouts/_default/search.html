@@ -1,0 +1,34 @@
+{{ define "footerfiles" }}
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+<script src="{{ "js/search.js" | absURL }}"></script>
+{{ end }}
+{{ define "main" }}
+<main class="page-main pa4" role="main">
+<section class="page-content mw7 center">
+  <div class="my-auto" >
+    <div id="search-results">
+    <h2 class="f2 f1-ns lh-solid tc center fw4">Search</h2>
+    </div>
+    <center>
+    <form action="{{ "search" | absURL }}">
+      <input id="search-query" name="s"/>
+    </form>
+    </center>
+    <div id="search-results">
+     <h3><center>Matching pages</center></h3>
+    </div>
+  </div>
+</section>
+<!-- this template is sucked in by search.js and appended to the search-results div above. So editing here will adjust style -->
+<script id="search-result-template" type="text/x-js-template">
+    <div id="summary-${key}">
+      <h4><a href="${link}">${title}</a></h4>
+      <p>${snippet}</p>
+      ${ isset tags }<p>Tags: ${tags}</p>${ end }
+      ${ isset categories }<p>Categories: ${categories}</p>${ end }
+    </div>
+</script>
+</main>
+{{ end }}
