@@ -12,6 +12,3 @@ command = "hugo -F -b $DEPLOY_PRIME_URL"
 [context.production]
 [context.production.environment]
 HUGO_ENV = "production"
-
-[outputs]
-home = ["HTML", "RSS", "JSON"]

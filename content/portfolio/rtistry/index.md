@@ -156,6 +156,12 @@ You can also view my generative artwork on [Instagram](https://www.instagram.com
 </p>
 
 <p align="center">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/puzzles1.png?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/puzzles2.png?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/puzzles3.png?raw=true" width="30%">
+</p>
+
+<p align="center">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/rectangles1.jpeg?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/rectangles2.jpeg?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/rectangles3.jpeg?raw=true" width="30%">

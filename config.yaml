@@ -115,8 +115,3 @@ privacy:
   youtube:
     disable: no
     privacyEnhanced: yes
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
