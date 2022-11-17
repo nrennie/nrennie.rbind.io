@@ -68,3 +68,15 @@ div.highlight {
   z-index: 1000;
   color: #546666;
 }
+
+/* Style the search box inside the navigation bar */
+
+input[type=search] {
+  padding: 6px;
+  border: none;
+  margin-top: 10px;
+  background-color: #dae8e8;
+  font-size: 17px;
+}
+
+
