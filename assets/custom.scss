@@ -68,3 +68,27 @@ div.highlight {
   z-index: 1000;
   color: #546666;
 }
+
+/* Style the search box inside the navigation bar */
+
+input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 10px;
+  height: 40px;
+  background-color: #dae8e8;
+  font-size: 17px;
+}
+
+input[type=submit] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  color: #546666;
+}
+
+
