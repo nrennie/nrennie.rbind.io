@@ -94,6 +94,10 @@ menu:
       title: Links
       url: /links/
       weight: 5
+    - name: Search
+      title: Search
+      url: /search/
+      weight: 6
 privacy:
   disqus:
     disable: no
@@ -115,14 +119,3 @@ privacy:
   youtube:
     disable: no
     privacyEnhanced: yes
-
-outputFormats:
-  SearchIndex:
-    baseName: search
-    mediaType: application/json
-
-outputs:
-  home:
-    - HTML
-    - RSS
-    - SearchIndex

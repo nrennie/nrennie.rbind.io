@@ -10,9 +10,6 @@
        <!-- <a class="link f6 f5-l dib pv1 ph2 {{ if $active }}active{{ end }}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a> -->
       <a class="link f6 f5-l dib pv1 ph2" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a> 
       {{ end }}
-      <form id="search" class="search" role="search">
-        <input type="search" id="search-input" class="search-input" placeholder="Search...">
-      </form>
       {{ if .Site.Params.socialInHeader }}
       <div class="dib v-mid">
         {{ partial "shared/social-links.html" . }}
