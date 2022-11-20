@@ -47,7 +47,7 @@ format: pdf
 The [{reticulate} R package](https://rstudio.github.io/reticulate/) provides an interface between R and Python which allows you to call Python code within R and translate between R and Python objects.
 
 <p align="center">
-<img src="/blog/2022-11-25-combining-r-and-python-with-reticulate-and-quarto/and.jpg" width = "40%">
+<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-11-25-combining-r-and-python-with-reticulate-and-quarto/and.jpg" width = "40%">
 </p>
 
 Using {reticulate} means that your Python code can access objects created in R, and vice versa. It means you can include Python code within an R package. It means you can run Python code in the RStudio IDE console. 
@@ -114,7 +114,7 @@ lemur_data_py["Residuals"] = mod.resid
 ````
 Here, we've kept it very simple and fitted a linear model:
 
-$$weight_{i} = age_{i} + e_{i}$$
+$$weight_{i} = \beta_0 + \beta_1age_{i} + e_{i}$$
 
 Obviously, R has the capabilities to fit a linear model, and for this simple example there's no *need* for us to use Python. However, this illustrates how you might approach the problem, if you find yourself needing to use a particular library or model that you can only find in Python. 
 
@@ -153,7 +153,7 @@ ggplot(data = lemur_residuals,
 which returns the following residual plot:
 
 <p align="center">
-<img width="80%" src="/blog/2022-11-25-combining-r-and-python-with-reticulate-and-quarto/residuals.png" alt="Scatter plot of predicted and residual values for the fitted linear model.">
+<img width="80%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-11-25-combining-r-and-python-with-reticulate-and-quarto/residuals.png" alt="Scatter plot of predicted and residual values for the fitted linear model.">
 </p>
 
 These residuals look okay - they're not great. It looks like there's still some unaccounted-for trend for lemurs with smaller predicted weights. Maybe they're not growing at a linear rate. It also looks like there is an increase in variation for lemurs with large predicted weights. It would be useful to go back and try a few other models here to see what happens, but we'll leave that for another day...
