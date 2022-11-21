@@ -4,7 +4,7 @@ author: Nicola Rennie
 categories:
   - R
   - Python
-date: "2022-11-25"
+date: "2022-12-15"
 draft: false
 excerpt: "Sometimes you might need to use R. Sometimes you might need to use Python. Sometimes you need to use both at the same time. This blog post shows you how to combine R and Python code using {reticulate} and output the results using Quarto."
 layout: single
@@ -47,7 +47,7 @@ format: pdf
 The [{reticulate} R package](https://rstudio.github.io/reticulate/) provides an interface between R and Python which allows you to call Python code within R and translate between R and Python objects.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-11-25-combining-r-and-python-with-reticulate-and-quarto/and.jpg" width = "40%">
+<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-15-combining-r-and-python-with-reticulate-and-quarto/and.jpg" width = "40%">
 </p>
 
 Using {reticulate} means that your Python code can access objects created in R, and vice versa. It means you can include Python code within an R package. It means you can run Python code in the RStudio IDE console. 
@@ -153,7 +153,7 @@ ggplot(data = lemur_residuals,
 which returns the following residual plot:
 
 <p align="center">
-<img width="80%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-11-25-combining-r-and-python-with-reticulate-and-quarto/residuals.png" alt="Scatter plot of predicted and residual values for the fitted linear model.">
+<img width="80%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-15-combining-r-and-python-with-reticulate-and-quarto/residuals.png" alt="Scatter plot of predicted and residual values for the fitted linear model.">
 </p>
 
 These residuals look okay - they're not great. It looks like there's still some unaccounted-for trend for lemurs with smaller predicted weights. Maybe they're not growing at a linear rate. It also looks like there is an increase in variation for lemurs with large predicted weights. It would be useful to go back and try a few other models here to see what happens, but we'll leave that for another day...
@@ -171,7 +171,7 @@ In the final R code block, we do something sort of similar to `py$lemur_data_py`
 Let's see what our slides containing the code, table, and plot look like...
 
 <p align="center">
-<iframe src="/blog/2022-11-25-combining-r-and-python-with-reticulate-and-quarto/example.html" width="80%" height = "400px"></iframe>
+<iframe src="/blog/2022-12-15-combining-r-and-python-with-reticulate-and-quarto/example.html" width="80%" height = "400px"></iframe>
 </p>
 
 {{< detail-tag "Show Quarto .qmd file" >}}
