@@ -81,23 +81,25 @@ These features are currently listed as issues on GitHub, and I will slowly work 
 
 Since the motivation behind this colour palette package was for using in generative art, it seems only fair to include a few examples of generative art that uses {PrettyCols}! All of the examples here can be reproduced using my {aRt} package, which can be found on [GitHub](https://github.com/nrennie/aRt).
 
+<div class="row">
+<div class="column">
 <p align="center">
-<img width="40%" src="/blog/2022-09-02-introducing-prettycols/001.png?raw=true">
+<img width="90%" src="/blog/2022-09-02-introducing-prettycols/001.png?raw=true">
 </p>
+</div>
+<div class="column">
+<p align="center">
+<img width="90%" src="/blog/2022-09-02-introducing-prettycols/002.png?raw=true">
+</p>
+</div>
+</div>
 {{< detail-tag "Show code" >}}
 ``` r
-aRt::tiles(n_x = 15,
-           n_y = 15,
+aRt::tiles(n_x = 14,
+           n_y = 14,
            col_palette = PrettyCols::prettycols("Dark"),
            s = 123)
-```
-{{< /detail-tag >}}
-
-<p align="center">
-<img width="40%" src="/blog/2022-09-02-introducing-prettycols/002.png?raw=true">
-</p>
-{{< detail-tag "Show code" >}}
-``` r
+              
 aRt::waves(a = 23,
            b = 6,
            main_col = PrettyCols::prettycols("Teals"),
@@ -106,9 +108,19 @@ aRt::waves(a = 23,
 ```
 {{< /detail-tag >}}
 
+
+<div class="row">
+<div class="column">
 <p align="center">
-<img width="40%" src="/blog/2022-09-02-introducing-prettycols/003.png?raw=true">
+<img width="90%" src="/blog/2022-09-02-introducing-prettycols/003.png?raw=true">
 </p>
+</div>
+<div class="column">
+<p align="center">
+<img width="90%" src="/blog/2022-09-02-introducing-prettycols/004.png?raw=true">
+</p>
+</div>
+</div>
 {{< detail-tag "Show code" >}}
 ``` r
 aRt::fractals(N = 13,
@@ -119,14 +131,7 @@ aRt::fractals(N = 13,
               y_param = 3,
               resolution = 0.005,
               dist_max = 3)
-```
-{{< /detail-tag >}}
-
-<p align="center">
-<img width="40%" src="/blog/2022-09-02-introducing-prettycols/004.png?raw=true">
-</p>
-{{< detail-tag "Show code" >}}
-``` r
+              
 aRt::fading(n_layers = 10,
             n_points = 1,
             col_palette = PrettyCols::prettycols("Relax"),

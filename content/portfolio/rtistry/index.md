@@ -96,6 +96,12 @@ You can also view my generative artwork on [Instagram](https://www.instagram.com
 </p>
 
 <p align="center">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/contours1.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/contours2.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/contours3.jpeg?raw=true" width="30%">
+</p>
+
+<p align="center">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/crawling50.jpeg?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/crawling250.jpeg?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/crawling1000.jpeg?raw=true" width="30%">
@@ -183,6 +189,12 @@ You can also view my generative artwork on [Instagram](https://www.instagram.com
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/squares_01.jpeg?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/squares_02.jpeg?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/squares_03.jpeg?raw=true" width="30%">
+</p>
+
+<p align="center">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/stacked1.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/stacked2.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/stacked3.jpeg?raw=true" width="30%">
 </p>
 
 <p align="center">

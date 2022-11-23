@@ -91,4 +91,12 @@ input[type=submit] {
   color: #546666;
 }
 
+/* Two columns layout */
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
