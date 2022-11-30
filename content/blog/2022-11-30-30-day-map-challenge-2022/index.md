@@ -3,7 +3,7 @@ title: "30 Day Map Challenge 2022"
 author: Nicola Rennie
 categories:
   - R
-date: "2022-12-01"
+date: "2022-11-30"
 draft: false
 excerpt: "The #30DayMapChallenge is a month-long mapping, cartography, and data visualization challenge aimed at the spatial community. Here are the things I've learnt from participating in the challenge for a second time."
 layout: single
@@ -124,7 +124,7 @@ I ended up spending a bit more time on this, and finishing it off. You can also 
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/nrennie/30DayMapChallenge/main/2022/images/Glasgow_Subway.png" width = "45%">
-<img src="/blog/2022-12-01-30-day-map-challenge-2022/subway.gif" width = "44.7%">
+<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-11-30-30-day-map-challenge-2022/subway.gif" width = "44.7%">
 </p>
 
 ### Resources 
