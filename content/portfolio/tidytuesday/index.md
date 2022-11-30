@@ -23,6 +23,15 @@ links:
 
 Below is a selection of my contributions to the #TidyTuesday challenge. All contributions and the code used to generate them can be found on [GitHub](https://github.com/nrennie/tidytuesday).
 
+
+<p align="center">
+<a href="https://github.com/nrennie/tidytuesday/tree/main/2022/2022-11-29"><img src="https://raw.githubusercontent.com/nrennie/tidytuesday/main/2022/2022-11-29/20221129.png" width="80%"></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/nrennie/tidytuesday/tree/main/2022/2022-11-22"><img src="https://raw.githubusercontent.com/nrennie/tidytuesday/main/2022/2022-11-22/20221122.png" width="80%"></a>
+</p>
+
 <p align="center">
 <a href="https://github.com/nrennie/tidytuesday/tree/main/2022/2022-09-27"><img src="https://raw.githubusercontent.com/nrennie/tidytuesday/main/2022/2022-09-27/20220927.png" width="80%"></a>
 </p>
