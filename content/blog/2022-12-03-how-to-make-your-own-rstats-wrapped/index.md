@@ -96,10 +96,10 @@ Now, there comes a bit more manual work - you need to find some images for each 
 
 ```r
 imgs <- tibble(img = c("https://ggplot2.tidyverse.org/logo.png",
-                      "https://ggplot2.tidyverse.org/logo.png",
-                      "https://www.r-project.org/logo/Rlogo.png",
-                      "https://www.r-project.org/logo/Rlogo.png",
-                      "https://ggplot2.tidyverse.org/logo.png"))
+                       "https://ggplot2.tidyverse.org/logo.png",
+                       "https://www.r-project.org/logo/Rlogo.png",
+                       "https://www.r-project.org/logo/Rlogo.png",
+                       "https://ggplot2.tidyverse.org/logo.png"))
 ```
 
 ### Plotting your top functions
@@ -171,7 +171,7 @@ p <- ggplot() +
                                   family = "raleway"))
 ```
 
-You may have used `geom_image()` from {ggimage} to add images to plot before - I had a few issues with this initially. It seems that `geom_image()` re-scales images to the same aspect ratio as the plotting area which doesn't really work here. Instead I used `geom_textured_rect()` from {ggtextures} which allows you to specify a width and height for your image.
+You may have used `geom_image()` from {ggimage} to add images to a plot before - I had a few issues with this initially. It seems that `geom_image()` re-scales images to the same aspect ratio as the plotting area which doesn't really work here. Instead I used `geom_textured_rect()` from {ggtextures} which allows you to specify a width and height for your image.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-03-how-to-make-your-own-rstats-wrapped/plot1.png" width = "40%" alt = "A graphic showing my top 5 most used functions during this year's TidyTuesday contributions: aes, ggplot, library, c, labs, in the style of spotify wrapped graphics">
