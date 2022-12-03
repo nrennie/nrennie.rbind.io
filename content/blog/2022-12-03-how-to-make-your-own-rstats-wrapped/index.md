@@ -16,7 +16,7 @@ image: featured.png
 Around the beginning of December social media accounts start to fill with images of people's Spotify Wrapped showing their most listened to songs. If you're an #RStats user, you might also be interested in which functions you use most often. This blog post will show you how to create your own #RStats Wrapped!
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-03-how-to-make-your-own-rstats-wrapped/featured.png" width = "75%">
+<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-03-how-to-make-your-own-rstats-wrapped/featured.png" width = "75%", alt = "A graphic showing my top 5 most used functions during this year's TidyTuesday contributions: aes, ggplot, library, c, labs, in the style of spotify wrapped graphics onthe right. On the left a green rectangle with rstats wrapped written in pink ">
 </p>
 
 ### Finding your most used functions
@@ -174,7 +174,7 @@ p <- ggplot() +
 You may have used `geom_image()` from {ggimage} to add images to plot before - I had a few issues with this initially. It seems that `geom_image()` re-scales images to the same aspect ratio as the plotting area which doesn't really work here. Instead I used `geom_textured_rect()` from {ggtextures} which allows you to specify a width and height for your image.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-03-how-to-make-your-own-rstats-wrapped/plot1.png" width = "40%">
+<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-03-how-to-make-your-own-rstats-wrapped/plot1.png" width = "40%" alt = "A graphic showing my top 5 most used functions during this year's TidyTuesday contributions: aes, ggplot, library, c, labs, in the style of spotify wrapped graphics">
 </p>
 
 When you're making graphics in RStudio, I'd recommend using {camcorder} or {ggview} to show your plot in the Viewer tab of RStudio using the same dpi you'll end up saving your image with using `ggsave()`. This helps to avoid issues with fonts not re-scaling when saving your image.
@@ -194,7 +194,7 @@ inset1 <- ggplot(data = curve1,
 ```
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-03-how-to-make-your-own-rstats-wrapped/plot2.png" width = "50%">
+<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-03-how-to-make-your-own-rstats-wrapped/plot2.png" width = "50%" alt = "A pink area graph with no axis, labels or title.">
 </p>
 
 Now, you can overlay the coloured area using {patchwork}:
@@ -214,7 +214,7 @@ p + inset_element(inset1, left = -1, right = 1.2, bottom = 0, top = 2.2, align_t
 It took a little bit of trial and error to get the positioning of the inset element and the margins to get something I was happy with - if you generate a different inset element, you might want to choose different values!
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-03-how-to-make-your-own-rstats-wrapped/plot3.png" width = "40%">
+<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-03-how-to-make-your-own-rstats-wrapped/plot3.png" width = "40%" alt = "A graphic showing my top 5 most used functions during this year's TidyTuesday contributions: aes, ggplot, library, c, labs, in the style of spotify wrapped graphics">
 </p>
 
 Finally, save your image using `ggsave()`:
