@@ -47,6 +47,8 @@ to_search <- all_files %>%
   filter(filetype == ".R") %>% 
   pull(value)
 ```
+*Edit: Thanks to David Friggens for pointing out the `pattern` argument in `list.files()` meaning that instead of the step above, you can instead use `list.files(path = fpath, recursive = TRUE, pattern = "\\.[Rr]$")`.*
+
 Now we actually get to the main part of getting our most used functions! The workhorse of this is `list.functions.in.file()` from {NCmisc}. It scans through a file and returns the functions used in a script. Note that this doesn't return the number of times each function is used in a script, just which functions are used. This is why I exclusively looked at my [#TidyTuesday](https://github.com/nrennie/tidytuesday) scripts - the result will be how many weeks I used a function, rather than how many times I used a function. If you're interested in the number of times a function is written in a script, you could use a combination of `utils::parse()` and `utils::getParseData()` to do this (which `list.functions.in.file()` is a wrapper around).
 
 You can then use {purrr} to map over all of the files in our `to_search` vector and apply the `list.functions.in.file()` to each file:
