@@ -24,6 +24,9 @@ images:
     </p>
     <ul>
         <li>
+          <a href="https://rweekly.org/2022-W49.html" target="_blank">2022 Week 49: How to make your own #RStats Wrapped!</a>
+        </li>
+        <li>
           <a href="https://rweekly.org/2022-W41.html" target="_blank">2022 Week 41: Automatically deploying a Shiny app for browsing #RStats tweets with GitHub Actions </a>
         </li>
         <li>
@@ -79,14 +82,14 @@ images:
 </div>
 <hr>
 
-<!-- RStudio -->
+<!-- Posit -->
 <div style="display: table; width: 100%; padding-bottom:10px;">
   <div style="float: left; width: 25%;">
-  <img src="/links/RStudio.png" width="70%">
+  <img src="/links/Posit.png" width="70%">
   </div>
   <div style="float: left; width: 75%">
-    <a href="https://www.rstudio.com/blog/" target="_blank"><h3 style="margin-block-start: 0.3em; margin-block-end: 0.3em">RStudio</h4></a>
-    <p> The <a href="https://www.rstudio.com/blog/" target="_blank">RStudio blog</a> covers topics including industry, open source, products and technology, training and education, and data science leadership. You can find my contributed blogs listed below.  
+    <a href="https://posit.co/blog/" target="_blank"><h3 style="margin-block-start: 0.3em; margin-block-end: 0.3em">Posit</h4></a>
+    <p> The <a href="https://posit.co/blog/" target="_blank">Posit</a> (formerly RStudio) blog covers topics including industry, open source, products and technology, training and education, and data science leadership. You can find my contributed blogs listed below.  
     </p>
       <ul>
         <li>
