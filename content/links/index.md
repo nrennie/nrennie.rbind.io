@@ -48,6 +48,9 @@ images:
     </p>
     <ul>
         <li>
+          <a href="https://podverse.fm/episode/caSjP8YoI" target="_blank">2022 Week 49: How to make your own #RStats Wrapped! </a>
+        </li>
+        <li>
           <a href="https://share.fireside.fm/episode/87RSVeFz+RMN2Utb3" target="_blank">2022 Week 41: Automatically deploying a Shiny app for browsing #RStats tweets with GitHub Actions </a>
         </li>
         <li>
@@ -68,6 +71,9 @@ images:
     <p> <a href="https://www.jumpingrivers.com/blog/" target="_blank">Jumping Rivers</a> write blog posts on topics related to R, Python, and all things data science. You can find my contributed blogs listed below. 
     </p>
       <ul>
+        <li>
+          <a href="https://www.jumpingrivers.com/blog/quarto-rmarkdown-comparison/" target="_blank">I'm an R user: Quarto or R Markdown?</a>
+        </li>
         <li>
           <a href="https://www.jumpingrivers.com/blog/highlights-rstudioconf2022/" target="_blank">Highlights from rstudio::conf(2022)</a>
         </li>
