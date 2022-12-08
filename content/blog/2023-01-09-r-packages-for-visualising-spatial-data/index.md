@@ -2,7 +2,7 @@
 author: Nicola Rennie
 categories:
   - R
-date: "2022-12-09"
+date: "2023-01-09"
 draft: false
 excerpt: "Throughout the #30DayChartChallenge I made most of my maps with R. This blog post details the R packages I find myself using most often when visualising spatial data."
 layout: single
@@ -63,7 +63,7 @@ dev.off()
 The base R map has a slightly odd default scaling in my opinion - to get the map to be focused on the UK a little more, and include less background space, I'd need to manually manipulate the axes limits. If we don't use `st_geometry()` around our `sf` object, we'll get multiple maps created - one for each other column in our data set.
 
 <p align="center">
-<img width="60%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-09-r-packages-for-visualising-spatial-data/base.png" alt="Map of UK coloured in yellow with blue background. Blue points highlight locations of branches of Greggs">
+<img width="60%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-01-09-r-packages-for-visualising-spatial-data/base.png" alt="Map of UK coloured in yellow with blue background. Blue points highlight locations of branches of Greggs">
 </p>
 
 ### {ggplot2}
@@ -86,7 +86,7 @@ ggsave("ggplot2.png", height = 4, width = 4, bg = "#00558e")
 If you wanted to, you could also specify co-ordinates in the `aes()` function and use `geom_point()` and `geom_polygon()` instead. Since {ggplot2} isn't primarily designed for making maps, the default theme doesn't usually look good - you can remove all theme elements with `theme_void()`.
 
 <p align="center">
-<img width="60%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-09-r-packages-for-visualising-spatial-data/ggplot2.png" alt="Map of UK coloured in yellow with blue background. Blue points highlight locations of branches of Greggs">
+<img width="60%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-01-09-r-packages-for-visualising-spatial-data/ggplot2.png" alt="Map of UK coloured in yellow with blue background. Blue points highlight locations of branches of Greggs">
 </p>
 
 ### {tmap}
@@ -107,7 +107,7 @@ dev.off()
 The difference is that {tmap} is created specifically for making maps. One of the functions in {tmap} that I really like is `tm_style()`: this allows you to add pre-defined styling to your maps, including colour schemes inspired by some common LaTeX themes that means you can match your maps to your presentations more easily! 
 
 <p align="center">
-<img width="60%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-09-r-packages-for-visualising-spatial-data/tmap.png" alt="Map of UK coloured in yellow with blue background. Blue points highlight locations of branches of Greggs">
+<img width="60%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-01-09-r-packages-for-visualising-spatial-data/tmap.png" alt="Map of UK coloured in yellow with blue background. Blue points highlight locations of branches of Greggs">
 </p>
 
 ### {leaflet}
@@ -137,7 +137,7 @@ mapshot(m, file = "leaflet.png")
 Although {leaflet} is primarily used to create interactive maps, the `mapshot()` function from {mapview} takes a static snapshot. I couldn't find a built-in way to change the background colour of the map (which is light grey by default). Instead, I added a base map underneath with `addTiles()`. If you're using a leaflet map with Quarto, R Markdown, or Shiny (which is likely since these maps are interactive), then you can edit the background colour using CSS styling. 
 
 <p align="center">
-<img width="60%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-09-r-packages-for-visualising-spatial-data/leaflet.png" alt="Map of UK coloured in yellow with blue background. Blue points highlight locations of branches of Greggs">
+<img width="60%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-01-09-r-packages-for-visualising-spatial-data/leaflet.png" alt="Map of UK coloured in yellow with blue background. Blue points highlight locations of branches of Greggs">
 </p>
 
 If you're interested in adding background maps to static plots with {ggplot2}, I'd suggest looking at [{ggmap}](https://github.com/dkahle/ggmap) which provides background tiles from a variety of sources.
@@ -174,7 +174,7 @@ dev.off()
 The base R plot here actually looks okay. The river is very clear, although in my opinion other colour palettes might be more appropriate - the yellow and the white both look lighter than the orange - but one represents higher elevation, the other lower.
 
 <p align="center">
-<img width="60%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-09-r-packages-for-visualising-spatial-data/base_elevation.png" alt="Rectangular map showing area of Newcastle with colour representing elevation">
+<img width="60%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-01-09-r-packages-for-visualising-spatial-data/base_elevation.png" alt="Rectangular map showing area of Newcastle with colour representing elevation">
 </p>
 
 ### {tanaka}
@@ -199,7 +199,7 @@ dev.off()
 I really like {tanaka} contours - I find them much easier to interpret than flat contour lines, and the monochromatic colour palette is clearly shows the direction of change.
 
 <p align="center">
-<img width="60%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-09-r-packages-for-visualising-spatial-data/tanaka.png" alt="Rectangular map showing area of Newcastle with colour representing elevation">
+<img width="60%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-01-09-r-packages-for-visualising-spatial-data/tanaka.png" alt="Rectangular map showing area of Newcastle with colour representing elevation">
 </p>
 
 If you'd rather have a create tanaka contours using {ggplot2}, then the [{metR}](https://eliocamp.github.io/metR/index.html) package provides the `geom_contour_tanaka()` to do something similar in {ggplot2}.
@@ -227,7 +227,7 @@ render_snapshot(filename = "rayshader.png",
 The {rayshader} package has so many functions to add realistic elements to your map - including cloud cover using the `render_clouds()` function! If you're interested in 3D visualisation in R, I'd also recommend checking out the [{rayrender}](https://github.com/tylermorganwall/rayrender) package.
 
 <p align="center">
-<img width="60%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2022-12-09-r-packages-for-visualising-spatial-data/rayshader.png" alt="3D rectangular map showing area of Newcastle with colour representing elevation">
+<img width="60%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-01-09-r-packages-for-visualising-spatial-data/rayshader.png" alt="3D rectangular map showing area of Newcastle with colour representing elevation">
 </p>
 
 ### Final thoughts
