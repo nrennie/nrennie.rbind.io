@@ -1,0 +1,12 @@
+title: Nicola Rennie Presentation Template
+author: Nicola Rennie
+version: 0.0.1
+contributes:
+  formats: 
+    revealjs:
+      logo: logo.png
+      footer: |
+        [Nicola Rennie](https://nrennie.rbind.io/)
+      theme: nr.scss
+      title-slide-attributes:
+        data-background-color: "#2F4F4F"
