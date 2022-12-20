@@ -44,7 +44,7 @@ images:
   </div>
   <div style="float: left; width: 75%;">
     <a href="https://rweekly.fireside.fm/" target="_blank"><h3 style="margin-block-start: 0.3em; margin-block-end: 0.3em">R Weekly Podcast</h3></a>
-    <p> The R Weekly podcast offers a quick description of the latest highlighted stories and other stories from the latest R Weekly issue.
+    <p> The R Weekly podcast offers a quick description of the latest highlighted blogs and other stories from the latest R Weekly issue.
     </p>
     <ul>
         <li>
