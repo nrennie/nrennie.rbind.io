@@ -3,7 +3,7 @@ title: Links
 subtitle: ""
 author: Nicola Rennie
 description: ""
-date: 2022-01-06
+date: 2022-12-20
 draft: false
 layout: single
 show_title_as_headline: true
@@ -16,7 +16,7 @@ images:
 <!-- R Weekly -->
 <div style="display: table; width: 100%; padding-bottom:10px;">
   <div style="float: left; width: 25%;">
-  <img src="/links/rweekly.jpg?raw=true" width="70%">
+  <img src="/links/rweekly.png?raw=true" width="70%">
   </div>
   <div style="float: left; width: 75%;">
     <a href="https://rweekly.org/" target="_blank"><h3 style="margin-block-start: 0.3em; margin-block-end: 0.3em">R Weekly</h3></a>
@@ -40,7 +40,7 @@ images:
 <!-- R Weekly Highlights -->
 <div style="display: table; width: 100%; padding-bottom:10px;">
   <div style="float: left; width: 25%;">
-  <img src="/links/rweekly_podcast.jpg?raw=true" width="70%">
+  <img src="/links/rweekly_podcast.png?raw=true" width="70%">
   </div>
   <div style="float: left; width: 75%;">
     <a href="https://rweekly.fireside.fm/" target="_blank"><h3 style="margin-block-start: 0.3em; margin-block-end: 0.3em">R Weekly Podcast</h3></a>
@@ -64,13 +64,16 @@ images:
 <!-- JR -->
 <div style="display: table; width: 100%; padding-bottom:10px;">
   <div style="float: left; width: 25%;">
-  <img src="/links/jumping_rivers.jpg?raw=true" width="70%">
+  <img src="/links/jumping_rivers.png?raw=true" width="70%">
   </div>
   <div style="float: left; width: 75%">
     <a href="https://www.jumpingrivers.com/" target="_blank"><h3 style="margin-block-start: 0.3em; margin-block-end: 0.3em">Jumping Rivers</h4></a>
     <p> <a href="https://www.jumpingrivers.com/blog/" target="_blank">Jumping Rivers</a> write blog posts on topics related to R, Python, and all things data science. You can find my contributed blogs listed below. 
     </p>
       <ul>
+        <li>
+          <a href="https://www.jumpingrivers.com/blog/r7-oop-object-oriented-programming-r/" target="_blank">What is R7? A New OOP System for R</a>
+        </li>
         <li>
           <a href="https://www.jumpingrivers.com/blog/quarto-rmarkdown-comparison/" target="_blank">I'm an R user: Quarto or R Markdown?</a>
         </li>
