@@ -108,6 +108,12 @@ You can also view my generative artwork on [Instagram](https://www.instagram.com
 </p>
 
 <p align="center">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/divide1.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/divide2.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/divide3.jpeg?raw=true" width="30%">
+</p>
+
+<p align="center">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/dots1.jpeg?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/dots2.jpeg?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/dots3.jpeg?raw=true" width="30%">
@@ -144,6 +150,18 @@ You can also view my generative artwork on [Instagram](https://www.instagram.com
 </p>
 
 <p align="center">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/lines1.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/lines2.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/lines3.jpeg?raw=true" width="30%">
+</p>
+
+<p align="center">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/moire1.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/moire2.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/moire3.jpeg?raw=true" width="30%">
+</p>
+
+<p align="center">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/mosaic1.png?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/mosaic2.png?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/mosaic3.png?raw=true" width="30%">
@@ -174,9 +192,21 @@ You can also view my generative artwork on [Instagram](https://www.instagram.com
 </p>
 
 <p align="center">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/riley1.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/riley2.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/riley3.jpeg?raw=true" width="30%">
+</p>
+
+<p align="center">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/shell1.jpeg?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/shell2.jpeg?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/shell3.jpeg?raw=true" width="30%">
+</p>
+
+<p align="center">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/smudge1.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/smudge2.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/smudge3.jpeg?raw=true" width="30%">
 </p>
 
 <p align="center">
@@ -189,6 +219,12 @@ You can also view my generative artwork on [Instagram](https://www.instagram.com
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/squares_01.jpeg?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/squares_02.jpeg?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/squares_03.jpeg?raw=true" width="30%">
+</p>
+
+<p align="center">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/squiggles1.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/squiggles2.jpeg?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/squiggles3.jpeg?raw=true" width="30%">
 </p>
 
 <p align="center">
