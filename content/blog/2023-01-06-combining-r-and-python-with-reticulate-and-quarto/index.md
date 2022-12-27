@@ -283,5 +283,15 @@ You can download the .qmd file from my [website](example.qmd).
 
 You can use {reticulate} outside of Quarto (and R Markdown) documents, including to run Python code from the console in RStudio. If you want to read more about what {reticulate} can do, the [package website](https://rstudio.github.io/reticulate/) has a lot of nice examples and guidance.
 
-If you're interested in using a jupyter engine (likely if most of your code is in Python and you want to use a little bit of R), then you can do something similar using the [rpy2 module](https://rpy2.github.io/).
+If you're interested in using a Jupyter engine (likely if most of your code is in Python and you want to use a little bit of R), then you can do something similar using the [rpy2 module](https://rpy2.github.io/).
+
+Now you're ready to use R and Python together!
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-01-06-combining-r-and-python-with-reticulate-and-quarto/lemurs.gif" width = "40%" alt="Gif of lemurs leapfrogging over a stubborn lemur on a fence"><br>
+<small>Image: <a href="https://giphy.com/pbsnature">giphy.com/pbsnature</a></small>
+</p>
+
+
+
 
