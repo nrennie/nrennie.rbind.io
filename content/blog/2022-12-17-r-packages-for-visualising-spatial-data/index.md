@@ -13,7 +13,7 @@ title: "R packages for visualising spatial data"
 image: featured.png
 ---
 
-Throughout November I took part in the [#30DayMapChallenge](https://30daymapchallenge.com/) - a daily mapping, cartography, and data visualization challenge aimed at the spatial community. You can read my recap of the challenge in the [blog](https://nrennie.rbind.io/blog/2022-12-01-30-day-map-challenge-2022/) I wrote last week, if you're interested in finding out more about it. Throughout the challenge, I created most of my maps using R. This blog post details the R packages that I often find myself using the most often when I'm visualising spatial data - including some new ones I found out about during the #30DayMapChallenge!
+Throughout November I took part in the [#30DayMapChallenge](https://30daymapchallenge.com/) - a daily mapping, cartography, and data visualization challenge aimed at the spatial community. You can read my recap of the challenge in the [blog](https://nrennie.rbind.io/blog/2022-11-30-30-day-map-challenge-2022/) I wrote last week, if you're interested in finding out more about it. Throughout the challenge, I created most of my maps using R. This blog post details the R packages that I often find myself using the most often when I'm visualising spatial data - including some new ones I found out about during the #30DayMapChallenge!
 
 I've split this blog post into two sections:
 
