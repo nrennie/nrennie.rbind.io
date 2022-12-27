@@ -288,7 +288,7 @@ If you're interested in using a Jupyter engine (likely if most of your code is i
 Now you're ready to use R and Python together!
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-01-06-combining-r-and-python-with-reticulate-and-quarto/lemurs.gif" width = "40%" alt="Gif of lemurs leapfrogging over a stubborn lemur on a fence"><br>
+<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-01-06-combining-r-and-python-with-reticulate-and-quarto/lemurs.gif" width = "60%" alt="Gif of lemurs leapfrogging over a stubborn lemur on a fence"><br>
 <small>Image: <a href="https://giphy.com/pbsnature">giphy.com/pbsnature</a></small>
 </p>
 
