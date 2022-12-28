@@ -289,7 +289,7 @@ Now you're ready to use R and Python together!
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-01-06-combining-r-and-python-with-reticulate-and-quarto/lemurs.gif" width = "60%" alt="Gif of lemurs leapfrogging over a stubborn lemur on a fence"><br>
-<small>Image: <a href="https://giphy.com/pbsnature">giphy.com/pbsnature</a></small>
+<small>Image: <a href="https://giphy.com/gifs/line-lemurs-ludicrously-wLTJn2Tnbi240">giphy.com</a></small>
 </p>
 
 
