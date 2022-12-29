@@ -1,13 +1,14 @@
 ---
 title: "Combining R and Python with {reticulate} and Quarto"
 author: Nicola Rennie
+slug: "2023-01-06-combining-r-and-python-with-reticulate-and-quarto"
 categories:
   - R
   - Python
 date: "2023-01-06"
 draft: false
 excerpt: "Sometimes you might need to use R. Sometimes you might need to use Python. Sometimes you need to use both at the same time. This blog post shows you how to combine R and Python code using {reticulate} and output the results using Quarto."
-layout: single
+layout: blog-single
 subtitle: "Sometimes you might need to use R. Sometimes you might need to use Python. Sometimes you need to use both at the same time. This blog post shows you how to combine R and Python code using {reticulate} and output the results using Quarto."
 tags:
 - r, python, quarto
@@ -291,7 +292,3 @@ Now you're ready to use R and Python together!
 <img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-01-06-combining-r-and-python-with-reticulate-and-quarto/lemurs.gif" width = "60%" alt="Gif of lemurs leapfrogging over a stubborn lemur on a fence"><br>
 <small>Image: <a href="https://giphy.com/gifs/line-lemurs-ludicrously-wLTJn2Tnbi240">giphy.com</a></small>
 </p>
-
-
-
-

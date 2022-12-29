@@ -5,7 +5,6 @@ author: Nicola Rennie
 description: ""
 date: 2022-12-20
 draft: false
-layout: single
 show_title_as_headline: true
 show_post_thumbnail: true
 images:
