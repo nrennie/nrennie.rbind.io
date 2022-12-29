@@ -5,7 +5,8 @@ categories:
 date: "2022-12-27"
 draft: false
 excerpt: "After another 52 data visualisations created for #TidyTuesday, it's time for the annual round-up! Read this blog post for some interesting R packages discovered, a few new I've tricks learnt, and the data visualisations I'd like to do again."
-layout: single
+layout: blog-single
+slug: "2022-12-27-another-year-of-tidytuesday"
 subtitle: "After another 52 data visualisations created for #TidyTuesday, it's time for the annual round-up! Read this blog post for some interesting R packages discovered, a few new I've tricks learnt, and the data visualisations I'd like to do again."
 tags:
 - r, data visualisation, tidytuesday, ggplot
