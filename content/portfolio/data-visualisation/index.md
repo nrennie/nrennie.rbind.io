@@ -639,10 +639,10 @@ Below are my contributions to the 2021 Du Bois Challenge, with my reproduction o
 
 [Tableau](https://www.tableau.com/en-gb) is an interactive data visualization tool, used to make plots, dashboards, and presentations of data. Although I primarily use R to create plots and dashboards for visualising data, I've recently started to explore less-programmatic ways of visualising data. My portfolio of data visualisation is still under construction, and the following represents some preliminary examples of plots and dashboards I have built using Tableau. My Tableau data visualisations and dashboards can be found on my [Tableau Public profile](https://public.tableau.com/app/profile/nicola.rennie/).
 
-In order to improve my Tableau skills, I've started visualising [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) data sets in Tableau as well as in R (and calling it #TableauTuesday). I dug deeper into some data from one of the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-07-12) challenges on European flights data from [Eurocontrol](https://ansperformance.eu/data/). I constructed a dashboard to display information of flights leaving or arriving from six European countries, where users can filter by a date range and a set of countries they are interested in. The dashboard is available on [Tableau Public](https://public.tableau.com/app/profile/nicola.rennie/viz/EuropeanFlights_16611157667530/EuropeanFlightsTableau_1). I also recreated the same dashboard using {shiny} in R, and embedded it as a new tab in the Tableau dashboard for a side-by-side comparison of R and Tableau.
+In order to improve my Tableau skills, I've started visualising [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) data sets in Tableau as well as in R (and calling it [#TableauTuesday](https://public.tableau.com/app/profile/nicola.rennie/viz/TableauTuesday/TableauTuesday_1)). 
 
 <p align="center">
-<img width = "80%" src="/portfolio/data-visualisation/tableau/flights_dashboard.png?raw=true">
+<img width = "80%" src="/portfolio/data-visualisation/tableau/Rugby.png?raw=true">
 </p>
 
 <details>
@@ -678,10 +678,6 @@ In order to improve my Tableau skills, I've started visualising [#TidyTuesday](h
 
 <p align="center">
 <img width = "80%" src="/portfolio/data-visualisation/tableau/Companies.png?raw=true">
-</p>
-
-<p align="center">
-<img width = "80%" src="/portfolio/data-visualisation/tableau/Rugby.png?raw=true">
 </p>
 
 <p align="center">
