@@ -68,7 +68,7 @@ params:
   utterances:
     issue_term: pathname
     label: 'comments :crystal_ball:'
-    repo_name: hugo-apero/apero
+    repo_name: nrennie/nrennie.rbind.io
     theme: boxy-light
     use_utterances: yes
 taxonomies:
