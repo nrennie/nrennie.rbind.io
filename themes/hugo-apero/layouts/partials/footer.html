@@ -1,10 +1,13 @@
  <footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <hr>
   <nav class="db dt-l w-100">
     {{ if .Site.Params.socialInFooter }}
-    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0" style="padding-top:10px;">
       {{ partial "shared/social-links.html" . }}
     </div>
     {{ end }}
   </nav>
-
+      <div style="text-align:center; padding-top:10px;">
+      <small>© 2023 Nicola Rennie.  Made with <a style="color:#546666;" href="https://github.com/hugo-apero/">Hugo Apéro</a>.</small>
+    </div>
 </footer> 
