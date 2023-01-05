@@ -1,7 +1,7 @@
 ---
 title: "Combining R and Python with {reticulate} and Quarto"
 author: Nicola Rennie
-slug: "2023-01-06-combining-r-and-python-with-reticulate-and-quarto"
+slug: "combining-r-and-python-with-reticulate-and-quarto"
 categories:
   - R
   - Python
@@ -185,7 +185,7 @@ In the final R code block, we do something sort of similar to `py$lemur_data_py`
 Let's see what our slides containing the code, table, and plot look like...
 
 <p align="center">
-<iframe src="/blog/2023-01-06-combining-r-and-python-with-reticulate-and-quarto/example.html" width="80%" height = "400px"></iframe>
+<iframe src="/blog/combining-r-and-python-with-reticulate-and-quarto/example.html" width="80%" height = "400px"></iframe>
 </p>
 
 {{< detail-tag "Show Quarto .qmd file" >}}
