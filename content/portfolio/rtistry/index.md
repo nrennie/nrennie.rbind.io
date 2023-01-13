@@ -274,3 +274,9 @@ You can also view my generative artwork on [Instagram](https://www.instagram.com
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/waves23_6_col.jpeg?raw=true" width="30%">
 <img src="https://github.com/nrennie/aRt/blob/main/man/figures/waves6_23_bw.jpeg?raw=true" width="30%">
 </p>
+
+<p align="center">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/windows1.png?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/windows2.png?raw=true" width="30%">
+<img src="https://github.com/nrennie/aRt/blob/main/man/figures/windows3.png?raw=true" width="30%">
+</p>
