@@ -349,7 +349,7 @@ There are some big advantages to using Shinylive instead of a traditional deploy
 
 Shinylive deployment was relatively seamless - it integrated well with GitHub Pages and I was able to automate the deployment so any changes to main on GitHub trigger a re-deploy. The official documentation was enough to guide me through the process. I did have a look at a few other blog posts on shinylive, but some of the early tutorials were a little out of date since Shiny for Python is still in active development and changing. If you are browsing for blog posts, look for one that gets updated, or has a recent date. I particularly like [this guide](https://github.com/RamiKrispin/shinylive) from Rami Krispin which talks about deploying an app with shinylive to GitHub Pages.
 
-The only issue I had with shinylive deployment was reading in the data file. Whilst supplying the URL of the csv file (or even the local file path): 
+The only issue I had with shinylive deployment was reading in the data file. Whilst supplying the URL of the CSV file (or even the local file path): 
 ```python
 flights = pd.read_csv('https://raw.githubusercontent.com/nrennie/EuropeanFlights-Python/main/app/flights_data.csv')
 ```
