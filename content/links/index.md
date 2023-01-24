@@ -23,6 +23,9 @@ images:
     </p>
     <ul>
         <li>
+          <a href="https://rweekly.org/2023-W04.html" target="_blank">2023 Week 04: Seeing double? Building the same app in Shiny for R and Shiny for Python</a>
+        </li>
+        <li>
           <a href="https://rweekly.org/2022-W49.html" target="_blank">2022 Week 49: How to make your own #RStats Wrapped!</a>
         </li>
         <li>
