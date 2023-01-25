@@ -1,9 +1,9 @@
 ---
 title: "Research"
 subtitle: ""
-excerpt: "My research interests lie in statistics and operational research, more specifically in time series analysis, forecasting, and outlier detection with a focus on applications of methodology."
+excerpt: "My research interests lie in statistics, more specifically in time series analysis, with a focus on applications to health data."
 date: 2022-10-01
-weight: 3
+weight: 1
 author: "Nicola Rennie"
 draft: false
 categories:

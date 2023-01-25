@@ -1,6 +1,6 @@
 ---
 title: Portfolio
-description: "An overview of some of my data science, data visualisation, and interactive dashboard projects."
+description: "An overview of some of my academic research and data science projects."
 author: "Nicola Rennie"
 show_post_thumbnail: true
 images:

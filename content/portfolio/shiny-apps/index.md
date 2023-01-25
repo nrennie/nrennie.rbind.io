@@ -3,7 +3,7 @@ title: "{shiny} applications"
 subtitle: ""
 excerpt: "A selection of interactive applications and dashboards developed in R using {shiny}. "
 date: 2022-10-01
-weight: 1
+weight: 3
 author: "Nicola Rennie"
 draft: false
 categories:

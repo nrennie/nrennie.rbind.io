@@ -1,8 +1,8 @@
 ---
 title: "Data Visualisation"
 subtitle: ""
-excerpt: "Data visualisation is essential for exploratory analysis, and for effectively communicating results. This is a selection of my data visualisation work created in R, Python, Tableau, rawgraphs, Inkscape, and Figma."
-date: 2022-10-01
+excerpt: "A selection of my data visualisation work created in R, Python, Tableau, rawgraphs, Inkscape, and Figma."
+date: 2023-01-25
 weight: 5
 author: "Nicola Rennie"
 draft: false
@@ -10,16 +10,6 @@ categories:
   - Data Visualisation
 layout: single
 image: featured.jpg
-links:
-- icon: globe
-  icon_pack: fa
-  name: GitHub
-  url: https://github.com/nrennie/
-links:
-- icon: globe
-  icon_pack: fa
-  name: Tableau Public
-  url: https://public.tableau.com/app/profile/nicola.rennie/
 ---
 
 

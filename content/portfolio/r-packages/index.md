@@ -3,7 +3,7 @@ title: "R Packages"
 subtitle: ""
 excerpt: "R packages for generative art, data analysis and visualisation; data simulation, and outlier detection."
 date: 2022-09-02
-weight: 2
+weight: 4
 author: "Nicola Rennie"
 draft: false
 categories:
