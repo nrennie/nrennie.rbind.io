@@ -50,6 +50,9 @@ images:
     </p>
     <ul>
         <li>
+          <a href="https://share.fireside.fm/episode/87RSVeFz+qEIQh5ZK" target="_blank">2023 Week 04: Seeing double? Building the same app in Shiny for R and Shiny for Python </a>
+        </li>
+        <li>
           <a href="https://podverse.fm/episode/caSjP8YoI" target="_blank">2022 Week 49: How to make your own #RStats Wrapped! </a>
         </li>
         <li>
