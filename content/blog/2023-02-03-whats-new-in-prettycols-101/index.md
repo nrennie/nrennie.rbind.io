@@ -16,7 +16,17 @@ image: featured.png
 
 Back in September 2022 I submitted {PrettyCols}, an R package containing aesthetically pleasing colour palettes, to CRAN. If you missed it, you can read the [blog post](https://nrennie.rbind.io/blog/2022-09-02-introducing-prettycols/) introducing the package!
 
-After a few months, it was time for an update and this blog post will give you a brief overview of some of the new features and palettes!
+After a few months, it was time for an update and this blog post will give you a brief overview of some of the new features and palettes! You can install {PrettyCols} using:
+
+``` r
+install.packages("PrettyCols")
+```
+
+You can also install the development version from [GitHub](https://github.com/nrennie/PrettyCols) using:
+
+``` r
+remotes::install_github("nrennie/PrettyCols")
+```
 
 ### More palettes!
 
