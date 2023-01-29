@@ -33,7 +33,7 @@ remotes::install_github("nrennie/PrettyCols")
 The new release contains twelve additional palettes, including two new sequential palettes (`Yellows` and `Reds`), two new diverging palettes (`PurpleYellows` and `RedBlues`), and eight new qualitative palettes. You can see the complete list of available palettes by running `view_all_palettes()`:
 
 <p align="center">
-<img width="70%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-03-whats-new-in-prettycols-101/all_palettes.png">
+<img width="70%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-03-whats-new-in-prettycols-101/all_palettes.png" alt="Grid showing 32 different colour palettes">
 </p>
 
 or browsing the [package vignette](https://nrennie.github.io/PrettyCols/articles/available-palettes.html) on available palettes.
@@ -44,7 +44,7 @@ or browsing the [package vignette](https://nrennie.github.io/PrettyCols/articles
 PrettyCols::view_all_palettes(colourblind_friendly = TRUE)
 ```
 <p align="center">
-<img width="70%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-03-whats-new-in-prettycols-101/cblind.png">
+<img width="70%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-03-whats-new-in-prettycols-101/cblind.png" alt="Grid showing colourblind friendly colour palettes">
 </p>
 
 You can combine filtering by palette types with filtering by colourblind friendliness, for example to view only colourblind friendly diverging palettes:
@@ -53,7 +53,7 @@ You can combine filtering by palette types with filtering by colourblind friendl
 PrettyCols::view_all_palettes(type = "div", colourblind_friendly = TRUE)
 ```
 <p align="center">
-<img width="70%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-03-whats-new-in-prettycols-101/cblind_div.png">
+<img width="70%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-03-whats-new-in-prettycols-101/cblind_div.png" alt="Grid showing colourblind friendly diverging colour palettes">
 </p>
 
 The `view_all_palettes()` function now also supports filtering by multiple types, e.g. to view all sequential and diverging palettes:
@@ -62,7 +62,7 @@ The `view_all_palettes()` function now also supports filtering by multiple types
 PrettyCols::view_all_palettes(type = c("seq", "div"))
 ```
 <p align="center">
-<img width="70%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-03-whats-new-in-prettycols-101/div_seq.png">
+<img width="70%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-03-whats-new-in-prettycols-101/div_seq.png" alt="Grid showing diverging and sequential colour palettes">
 </p>
 
 The colourblind-friendliness has been checked using `colorblindcheck::palette_check()`, and a judgement made based on the number of distinct colour pairs with deuteranopia, protanopia, tritanopia in comparison to full colour vision. This judgement may not always be correct, and if you think a colour palette has been listed as colourblind friendly in error, please raise a [GitHub issue](https://github.com/nrennie/PrettyCols/issues) and I'll re-classify the palette.
@@ -86,7 +86,7 @@ plt.bar(x, value, color=colors)
 plt.show()
 ```
 <p align="center">
-<img width="70%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-03-whats-new-in-prettycols-101/python.png">
+<img width="70%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-03-whats-new-in-prettycols-101/python.png" alt="Bar chart with A, B, and C on the x-axis and 1, 2, and 3 on the y-axis. Bars are three different colours.">
 </p>
 
 To end this post, here's another couple of examples of these palettes being used for generative art!
@@ -94,12 +94,12 @@ To end this post, here's another couple of examples of these palettes being used
 <div class="row">
 <div class="column">
 <p align="center">
-<img width="90%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-03-whats-new-in-prettycols-101/001.png">
+<img width="90%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-03-whats-new-in-prettycols-101/001.png" alt="Generative art piece composed of squares and rectangles inside squares and rectangles.">
 </p>
 </div>
 <div class="column">
 <p align="center">
-<img width="90%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-03-whats-new-in-prettycols-101/002.png">
+<img width="90%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-03-whats-new-in-prettycols-101/002.png" alt="Generative art piece composed of a 4x4 grid with cutouts in the middle of each squares, with shadows shown.">
 </p>
 </div>
 </div>
