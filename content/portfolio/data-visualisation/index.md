@@ -31,7 +31,7 @@ Data visualisation is essential for exploratory analysis, and for effectively co
 
 <div class="flex-l items-center" style="">
 <div class="mh4 w-50-l tr">
-<a href="https://github.com/nrennie/30DayChartChallenge" target="_blank"><img src="/portfolio/data-visualisation/30daychartchallenge/30daychartchallenge2022.png"></a>
+<a href="https://github.com/nrennie/30DayChartChallenge" target="_blank"><img src="/portfolio/30daychartchallenge/30daychartchallenge2022.png"></a>
 </div>
 <div class="tl w-50-l mr4">
 <h3>#30DayChartChallenge</h3>
