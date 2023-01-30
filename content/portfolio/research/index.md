@@ -12,7 +12,7 @@ layout: single
 image: featured.jpg
 ---
 
-My research interests lie in statistics and operational research, more specifically in time series analysis, forecasting, and outlier detection with a focus on applications of methodology. My research thus far has focused on the development and use of functional analysis for detecting outliers in time series data. We have performed case studies on multiple empirical data sets including railway booking data and bike-sharing usage data.
+My research interests lie in statistics and operational research, more specifically in time series analysis with a focus on applications to health data. My research thus far has focused on the development and use of functional analysis for detecting outliers in time series data. We have performed case studies on multiple empirical data sets including railway booking data and bike-sharing usage data.
 
 A blog post giving an overview of my PhD thesis is available on [my website](https://nrennie.rbind.io/blog/2021-10-06-detecting-demand-outliers-in-transport-systems/).
 
