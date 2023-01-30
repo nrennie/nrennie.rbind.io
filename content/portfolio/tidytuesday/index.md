@@ -2,14 +2,14 @@
 title: "#TidyTuesday"
 subtitle: ""
 excerpt: "#TidyTuesday is a weekly data challenge aimed at the R community. Every week a new data set is posted alongside a chart or article related to that data set, and ask participants explore the data."
-date: 2022-09-27
-weight: 7
+date: 2023-01-30
 author: "Nicola Rennie"
 draft: false
 categories:
   - Data visualisation
 layout: single
 image: featured.jpg
+hidden: true
 links:
 - icon: github
   icon_pack: fab

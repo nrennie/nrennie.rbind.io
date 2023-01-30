@@ -9,8 +9,10 @@
   <section class="blog-content db flex-ns flex-row-ns flex-wrap-ns items-start mw8 center">
     {{ $pages := (where .RegularPagesRecursive "Type" "portfolio") }}
       {{ range $pages }}
-        {{ .Scratch.Set "$root" $caller }}
-        {{ partial "shared/summary-grid" . }}
+        {{ if not .Params.hidden }}
+          {{ .Scratch.Set "$root" $caller }}
+          {{ partial "shared/summary-grid" . }}
+        {{ end }}
       {{ end }}
   </section>
 </main>
