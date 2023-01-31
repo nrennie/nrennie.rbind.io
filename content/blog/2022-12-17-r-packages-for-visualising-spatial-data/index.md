@@ -5,7 +5,8 @@ categories:
 date: "2022-12-17"
 draft: false
 excerpt: "Throughout the #30DayChartChallenge I made most of my maps with R. This blog post details the R packages I find myself using most often when visualising spatial data."
-layout: single
+layout: blog-single
+slug: "2022-11-14-using-functional-analysis-to-model-air-pollution-data-in-r"
 subtitle: "Throughout the #30DayChartChallenge I made most of my maps with R. This blog post details the R packages I find myself using most often when visualising spatial data."
 tags:
 - r, data visualisation

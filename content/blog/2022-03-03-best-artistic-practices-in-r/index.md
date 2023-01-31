@@ -5,7 +5,8 @@ categories:
 date: "2022-03-03"
 draft: false
 excerpt: "Generative art is the process of creating artwork through a set of pre-determined rules often with an element of randomness. This blog post will outline the best practices I follow when creating generative art in R."
-layout: single
+layout: blog-single
+slug: "2022-03-03-best-artistic-practices-in-r"
 subtitle: "Generative art is the process of creating artwork through a set of pre-determined rules often with an element of randomness. This blog post will outline the best practices I follow when creating generative art in R."
 tags:
 - r, rtistry, generative art

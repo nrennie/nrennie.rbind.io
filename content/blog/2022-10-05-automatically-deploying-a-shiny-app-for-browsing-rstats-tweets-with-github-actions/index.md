@@ -5,7 +5,8 @@ categories:
 date: "2022-10-03"
 draft: false
 excerpt: "This tutorial blog will show you how to use GitHub actions to automatically update a data source and re-deploy a Shiny app, with an example Shiny application which uses {rtweet} to browse R-related tweets."
-layout: single
+layout: blog-single
+slug: "2022-10-05-automatically-deploying-a-shiny-app-for-browsing-rstats-tweets-with-github-actions"
 subtitle: "This tutorial blog will show you how to use GitHub actions to automatically update a data source and re-deploy a Shiny app, with an example Shiny application which uses {rtweet} to browse R-related tweets."
 tags:
 - r, shiny, twitter, docker, github

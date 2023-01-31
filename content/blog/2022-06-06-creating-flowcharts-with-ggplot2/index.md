@@ -5,7 +5,8 @@ categories:
 date: "2022-06-06"
 draft: false
 excerpt: "Flowcharts can be a useful way to visualise complex processes. This tutorial blog will explain how to create one using {igraph} and {ggplot2}."
-layout: single
+layout: blog-single
+slug: "2022-06-06-creating-flowcharts-with-ggplot2"
 subtitle: "Flowcharts can be a useful way to visualise complex processes. This tutorial blog will explain how to create one using {igraph} and {ggplot2}."
 tags:
 - r, data visualisation

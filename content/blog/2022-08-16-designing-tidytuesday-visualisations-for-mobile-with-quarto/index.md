@@ -5,7 +5,8 @@ categories:
 date: "2022-08-16"
 draft: false
 excerpt: "If, like me, you mostly scroll through Twitter on your phone, you might want to consider designing your content specifically aimed at people who look at Twitter on their phone. Here's how to do it in R, with a little help from Quarto."
-layout: single
+layout: blog-single
+slug: "2022-08-16-designing-tidytuesday-visualisations-for-mobile-with-quarto"
 subtitle: "If, like me, you mostly scroll through Twitter on your phone, you might want to consider designing your content specifically aimed at people who look at Twitter on their phone. Here's how to do it in R, with a little help from Quarto."
 tags:
 - r, data visualisation, quarto

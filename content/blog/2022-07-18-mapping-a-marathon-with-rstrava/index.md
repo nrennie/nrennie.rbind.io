@@ -5,7 +5,8 @@ categories:
 date: "2022-07-18"
 draft: false
 excerpt: "This tutorial blog will walk through the process of getting data from Strava using {rStrava}, making a map of it, and animating the map with {gganimate}."
-layout: single
+layout: blog-single
+slug: "2022-07-18-mapping-a-marathon-with-rstrava"
 subtitle: "This tutorial blog will walk through the process of getting data from Strava using {rStrava}, making a map of it, and animating the map with {gganimate}."
 tags:
 - r, data visualisation

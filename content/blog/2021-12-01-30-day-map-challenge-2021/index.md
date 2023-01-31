@@ -5,7 +5,8 @@ categories:
 date: "2021-12-01"
 draft: false
 excerpt: "The #30DayMapChallenge is a daily mapping, cartography, and data visualization challenge aimed at the spatial community."
-layout: single
+layout: blog-single
+slug: "2021-12-01-30-day-map-challenge-2021"
 subtitle: "The #30DayMapChallenge is a daily mapping, cartography, and data visualization challenge aimed at the spatial community."
 tags:
 - r, data visualisation, maps, 

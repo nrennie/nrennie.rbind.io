@@ -5,7 +5,8 @@ categories:
 date: "2022-01-18"
 draft: false
 excerpt: "An overview of my experience of curating the @WeAreRLadies twitter feed."
-layout: single
+layout: blog-single
+slug: "2022-01-18-curating-for-wearerladies"
 subtitle: "An overview of my experience of curating the @WeAreRLadies twitter feed."
 tags:
 - r, community
