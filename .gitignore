@@ -5,7 +5,7 @@
 public/
 .httr-oauth
 content/blog/2022-11-16-using-functional-analysis-to-model-air-pollution-data-in-r/air_pollution.csv
-content/blog/featured.svg
 content/blog/2023-02-24-feature-engineering-heart-sound-data-r/Data/
 content/blog/2023-02-24-feature-engineering-heart-sound-data-r/analysis.R
 *.rds
+*.svg
