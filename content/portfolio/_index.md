@@ -11,6 +11,6 @@ type: portfolio
 layout: list-grid 
 cascade:    
   show_author_byline: true
-  show_post_date: true
+  show_post_date: false
   show_comments: false
 ---
