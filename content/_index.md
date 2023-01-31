@@ -10,7 +10,7 @@ description: |
   Nicola Rennie is a statistician and data scientist, passionate about using R to solve problems. She currently works as a Data Scientist at Jumping Rivers, having previously completed her PhD in statistics and operational research at Lancaster University. She researched the detection of demand outliers in collaboration with Deutsche Bahn, Lufthansa, and Swiss Airlines.
 image_left: false
 images:
-- img/nicola_blue.jpg
+- img/nicola_r.jpg
 show_social_links: true
 subtitle: Data Scientist
 text_align_left: false

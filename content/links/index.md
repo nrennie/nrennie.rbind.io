@@ -8,8 +8,7 @@ draft: false
 show_title_as_headline: true
 show_post_thumbnail: true
 images:
-- sidebar-listing.jpg
-- [sidebar-listing.jpg]
+- featured.png
 ---
 
 <!-- R Weekly -->

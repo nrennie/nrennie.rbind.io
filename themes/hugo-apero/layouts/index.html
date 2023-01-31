@@ -11,9 +11,9 @@
         {{ if .Params.show_action_link }}<a class="action {{ .Params.action_type }}" href="{{ .Params.action_link }}">{{ .Params.action_label | safeHTML }}</a>{{ end }}
         {{ if .Params.show_action_link2 }}<a class="action {{ .Params.action_type }}" href="{{ .Params.action_link2 }}">{{ .Params.action_label2 | safeHTML }}</a>{{ end }}
       </div>
-      <div class="tr w-50-l {{ if .Params.image_left }}ml4{{ else }}mr4{{ end }}">
+      <div class="tc w-50-l {{ if .Params.image_left }}ml4{{ else }}mr4{{ end }}">
       {{ with .Params.images }}
-        {{ range first 1 . }}<img class="mv0 w-70-m" src="{{ . }}"/>{{ end }}
+        {{ range first 1 . }}<img class="mv0 w-70-m" src="{{ . }}" width = "70%" />{{ end }}
       {{ end }}
       </div>
     </div>

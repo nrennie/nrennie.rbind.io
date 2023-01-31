@@ -1,5 +1,5 @@
 ---
 title: Search
 images:
-- sidebar-listing.jpg
+- featured.png
 ---

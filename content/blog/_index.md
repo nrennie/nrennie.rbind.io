@@ -15,11 +15,5 @@ show_author_byline: true
 show_post_date: true
 show_post_thumbnail: true
 images:
-- sidebar-listing.jpg
-sidebar:
-  author: Nicola Rennie
-  description: ""
-  show_sidebar_adunit: false
-  title: A Sidebar for Your Thoughts
-title: Blog
+- featured.png
 ---
