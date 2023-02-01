@@ -51,7 +51,7 @@
         <meta property="og:image" content="{{- $image | absURL -}}" >
     {{- else -}}
         <meta name="twitter:image" content="{{- (printf "%s%s" $permalink $image) -}}"/>
-        <meta name="og:image" content="{{- (printf "%s%s" $permalink $image) -}}"/>
+        <meta name="image" property="og:image" content="{{- (printf "%s%s" $permalink $image) -}}"/>
     {{- end -}}
     <!--using featured images-->
 {{ else -}}
