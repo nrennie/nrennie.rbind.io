@@ -41,8 +41,8 @@ params:
   orgLocal:
   orgName: Nicola Rennie
   twitter: nrennie35
-  sharing_image: [img/twitter_card.jpg]
-  image: [img/twitter_card.jpg]
+  sharing_image: [img/preview_card.png]
+  image: [img/preview_card.png]
   social:
     - icon: github
       icon_pack: fab
