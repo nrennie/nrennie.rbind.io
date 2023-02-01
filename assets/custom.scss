@@ -51,6 +51,7 @@ div.highlight {
 #cookie-notice-deny {
   color: #546666;
   border-color: #546666;
+  background-color: #eaf2f2;
   border-style: solid;
   padding: 8px 15px;
 }
@@ -66,7 +67,8 @@ div.highlight {
   padding-top: 40px;
   padding-bottom: 40px;
   width: 100%;
-  background: #D2D9D9;
+  background: #eaf2f2;
+  border-top: 2px solid #546666;
   opacity: 1;
   z-index: 1000;
   color: #546666;
