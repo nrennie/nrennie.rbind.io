@@ -78,10 +78,13 @@ div.highlight {
 
 input[type=text] {
   padding: 6px;
-  border: none;
   margin-top: 10px;
   height: 40px;
-  background-color: #dae8e8;
+  border-color: #546666 !important;
+  border-width: 2px !important;
+  border-style: solid;
+  font-family: Commissioner;
+  background-color: #eaf2f2;
   font-size: 17px;
 }
 
@@ -92,7 +95,10 @@ input[type=submit] {
   padding-left: 20px;
   margin: 0 auto;
   display: block;
-  border: none;
+  border-color: #546666 !important;
+  border-width: 2px !important;
+  border-style: solid;
+  font-family: Commissioner;
   color: #546666;
 }
 

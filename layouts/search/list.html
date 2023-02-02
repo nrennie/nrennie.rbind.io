@@ -1,6 +1,10 @@
 {{ define "main" }}
 <main class="page-main pa4" role="main">
   
+<section class="blog-intro mw8 center tc mb5">
+<h2 class="f2 f1-ns lh-solid center fw4">{{ .Title | markdownify }}</h2>
+</section>
+  
 {{ partial "search-form.html" . }}
 
 <ul id="results">
