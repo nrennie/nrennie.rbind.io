@@ -3,7 +3,7 @@ title: "Finding #RStats resources with Shiny and GitHub Actions"
 slug: "appsilon-shinyconf-github-actions"
 subtitle: "In this talk I’ll show you how to collect data from Twitter using {rtweet}, schedule that data collection with GitHub Actions, and automatically deploy a Shiny app to display the data in a table."
 excerpt: "In this talk I’ll show you how to collect data from Twitter using {rtweet}, schedule that data collection with GitHub Actions, and automatically deploy a Shiny app to display the data in a table."
-PublishDate: 2023-02-09T00:00:00-06:00
+PublishDate: 2023-02-08T00:00:00-06:00
 date: 2023-03-15T00:00:00-08:00
 date_end: "2023-03-17T00:00:00-08:00"
 show_post_time: false
