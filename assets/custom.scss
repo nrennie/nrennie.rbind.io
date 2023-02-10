@@ -119,3 +119,22 @@ blockquote {
   padding-left: 20px;
   border-left: 5px solid #546666;
 }
+
+/* Sticky footer */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.site-footer {
+  flex-shrink: 0;
+}
