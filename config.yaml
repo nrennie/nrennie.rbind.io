@@ -23,7 +23,7 @@ markup:
       hardwraps: no
       unsafe: yes
   highlight:
-    style: witchhazel
+    style: rrt
   tableOfContents:
     endLevel: 2
     ordered: no
