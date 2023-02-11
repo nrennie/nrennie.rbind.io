@@ -30,6 +30,8 @@ div.highlight {
   background-color: #508080 !important;
   color: #F0F5F5;
   max-height: 400px !important;
+  overflow-y: auto;
+  overflow-x: auto;
 }
 
 .page-main .social-icon-links a {
