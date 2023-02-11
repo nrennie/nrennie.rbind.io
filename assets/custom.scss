@@ -17,18 +17,22 @@
   margin-top: 10px;
   display: inline-block;
   text-align: center;
-  border-color: #546666 !important;
+  border-color: #508080 !important;
   border-width: 2px !important;
   border-style: solid;
 }
 
 div.highlight {
-  background-color: #dae8e8 !important;
+  background-color: #F0F5F5 !important;
 }
 
 .pre {
-  background-color: #dae8e8 !important;
+  background-color: #F0F5F5 !important;
   max-height: 400px !important;
+}
+
+.page-main .social-icon-links a {
+    color: #e30b5c !important;
 }
 
 // Cookie banner
@@ -41,17 +45,17 @@ div.highlight {
 }
 
 #cookie-notice-accept {
-  color: #fff;
-  background-color: #546666 ;
-  border-color: #546666;
+  color: #F0F5F5;
+  background-color: #508080 ;
+  border-color: #508080;
   border-style: solid;
   padding: 8px 15px;
 }
 
 #cookie-notice-deny {
-  color: #546666;
-  border-color: #546666;
-  background-color: #eaf2f2;
+  color: #508080;
+  border-color: #508080;
+  background-color: #F0F5F5;
   border-style: solid;
   padding: 8px 15px;
 }
@@ -67,11 +71,11 @@ div.highlight {
   padding-top: 40px;
   padding-bottom: 40px;
   width: 100%;
-  background: #eaf2f2;
-  border-top: 2px solid #546666;
+  background: #F0F5F5;
+  border-top: 2px solid #508080;
   opacity: 1;
   z-index: 1000;
-  color: #546666;
+  color: #508080;
 }
 
 /* Style the search box inside the navigation bar */
@@ -80,11 +84,11 @@ input[type=text] {
   padding: 6px;
   margin-top: 10px;
   height: 40px;
-  border-color: #546666 !important;
+  border-color: #508080 !important;
   border-width: 2px !important;
   border-style: solid;
   font-family: Commissioner;
-  background-color: #eaf2f2;
+  background-color: #F0F5F5;
   font-size: 17px;
 }
 
@@ -95,11 +99,11 @@ input[type=submit] {
   padding-left: 20px;
   margin: 0 auto;
   display: block;
-  border-color: #546666 !important;
+  border-color: #508080 !important;
   border-width: 2px !important;
   border-style: solid;
   font-family: Commissioner;
-  color: #546666;
+  color: #508080;
 }
 
 /* Two columns layout */
@@ -117,7 +121,7 @@ input[type=submit] {
 blockquote {
   margin: 20px 0 30px;
   padding-left: 20px;
-  border-left: 5px solid #546666;
+  border-left: 5px solid #508080;
 }
 
 /* Sticky footer */
