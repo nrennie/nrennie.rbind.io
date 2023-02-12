@@ -191,7 +191,13 @@ Now we just need to change the fonts that are used. Here, I've used the `Ubuntu`
     ItalicFont=*-Italic,
     ]
 ```
-And that's everything that's in the `PrettyPDF.tex` file! You can download a copy of the template PDF [here](template.pdf).
+And that's everything that's in the `PrettyPDF.tex` file! This gives us a PDF that looks a bit like this:
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-03-09-making-pretty-pdfs-with-quarto/report.png" width = "70%" alt="Screenshot of a pdf with a light purple sidebar."><br>
+</p>
+
+You can download a copy of the template PDF [here](template.pdf).
 
 ### Using this extension
 
