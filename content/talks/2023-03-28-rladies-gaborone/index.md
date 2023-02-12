@@ -24,7 +24,7 @@ links:
 image: featured.png
 ---
 
-Creating a data science portfolio can help you to develop your skills, and well as showcase them to the wider world. However, getting started on making your portfolio can feel like a huge task. In this talk, I'll discuss how I used #TidyTuesday to gradually build an own R portfolio.
+Creating a data science portfolio can help you to develop your skills, and well as showcase them to the wider world. However, getting started on making your portfolio can feel like a huge task. In this talk, I'll discuss how I used #TidyTuesday to gradually build an R portfolio.
 
 We'll run through an example of a #TidyTuesday contribution, including:
 
