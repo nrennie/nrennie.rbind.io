@@ -23,7 +23,7 @@ markup:
       hardwraps: no
       unsafe: yes
   highlight:
-    style: rrt
+    style: vs
   tableOfContents:
     endLevel: 2
     ordered: no
