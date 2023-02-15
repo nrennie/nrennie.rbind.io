@@ -2,6 +2,7 @@
 title: "Detecting outlying demand in multi-leg bookings for transportation networks"
 subtitle: "31st European Conference on Operational Research"
 excerpt: "A (virtual) talk I gave at the 31st European Conference on Operational Research (EURO) at University of West Attica, Greece."
+slug: "2021-july-euro2021"
 date: 2021-07-11T10:00:00-06:00
 date_end: "2021-07-14T10:30:00-06:00"
 show_post_time: false

@@ -2,6 +2,7 @@
 title: "The identification of inaccurate demand estimates "
 subtitle: "30th European Conference on Operational Research"
 excerpt: "A talk I gave at the 30th European Conference on Operational Research (EURO) at University College Dublin."
+slug: "2019-june-euro2019"
 date: 2019-06-23T08:00:00-06:00
 date_end: "2019-06-26T08:30:00-06:00"
 show_post_time: false

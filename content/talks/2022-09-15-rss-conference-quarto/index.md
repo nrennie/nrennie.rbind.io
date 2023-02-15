@@ -2,6 +2,7 @@
 title: "Reproducible data reports with Quarto"
 subtitle: "Quarto is an open-source scientific and technical publishing system. Quarto allows you to weave together narrative text and code to produce elegantly formatted output and tell a story."
 excerpt: "Quarto is an open-source scientific and technical publishing system. Quarto allows you to weave together narrative text and code to produce elegantly formatted output and tell a story."
+slug: "2022-september-rss-international-conference-quarto"
 PublishDate: 2022-09-15T00:00:00-06:00
 date: 2022-09-12T00:00:00-08:00
 date_end: "2022-09-15T00:00:00-08:00"

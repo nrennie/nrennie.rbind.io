@@ -8,6 +8,7 @@ PublishDate: 2022-07-20T00:00:00-06:00
 show_post_time: false
 event: "rstudio::conf 2022"
 author: "Nicola Rennie"
+slug: "2022-july-rstudio-conf"
 location: "Washington D.C., USA"
 draft: false
 # layout options: single, single-sidebar

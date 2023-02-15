@@ -2,6 +2,7 @@
 title: "Detecting outlier demand in revenue management networks"
 subtitle: "3rd IMA and OR Society Conference on Mathematics of Operational Research"
 excerpt: "A (virtual) talk I gave at the 3rd IMA and OR Society Conference on Mathematics of Operational Research."
+slug: "2021-april-ima-or-conference"
 date: 2021-04-20T13:00:00-06:00
 date_end: "2021-04-23T14:00:00-06:00"
 show_post_time: false

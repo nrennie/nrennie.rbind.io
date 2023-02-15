@@ -4,6 +4,7 @@ subtitle: "This talk will highlight the types of projects that data scientists m
 excerpt: "This talk will highlight the types of projects that data scientists might work on, and some of the skills that have come in useful."
 date: 2022-07-01T00:00:00-06:00
 date_end: "2022-07-01T00:00:00-06:00"
+slug: "2022-july-cau-kiel"
 show_post_time: false
 event: "Advanced Business Analytics Guest Talk"
 author: "Nicola Rennie"

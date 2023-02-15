@@ -6,6 +6,7 @@ date: 2022-06-20T00:00:00-06:00
 date_end: "2022-06-23T00:00:00-06:00"
 show_post_time: false
 event: "useR Conference"
+slug: "2022-june-user"
 event_url: https://user2022.r-project.org/
 author: "Nicola Rennie"
 location: "Tennessee, USA (online)"

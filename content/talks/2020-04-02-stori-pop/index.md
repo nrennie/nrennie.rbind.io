@@ -2,6 +2,7 @@
 title: "Identifying and responding to outlier demand in revenue management"
 subtitle: "STOR-i Workshop on Prediction + Optimization 2020"
 excerpt: "A (virtual) talk I prepared for the STOR-i Workshop on Prediction + Optimization 2020. Cancelled due to Covid-19."
+slug: "2020-april-stori-pop"
 date: 2020-04-02T12:15:00-06:00
 date_end: "2020-04-03T12:45:00-06:00"
 show_post_time: false

@@ -2,6 +2,7 @@
 title: "Detecting outlier demand in railway networks"
 subtitle: "5th AIRO Young Workshop"
 excerpt: "A (virtual) talk I gave at the 5th AIRO Young Workshop at Università degli Studi di Napoli Federico II, Italy."
+slug: "2021-february-airoyoung"
 date: 2021-02-08T10:00:00-06:00
 date_end: "2021-02-12T11:00:00-06:00"
 show_post_time: false
