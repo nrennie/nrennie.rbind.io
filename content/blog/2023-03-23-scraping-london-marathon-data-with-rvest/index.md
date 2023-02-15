@@ -8,8 +8,6 @@ draft: false
 excerpt: "{rvest} is an R package within the {tidyverse} which helps you scrape data from web pages. This blog post will showcase an example of scraping data from Wikipedia on London Marathon races and winners."
 layout: blog-single
 subtitle: "{rvest} is an R package within the {tidyverse} which helps you scrape data from web pages. This blog post will showcase an example of scraping data from Wikipedia on London Marathon races and winners."
-tags:
-- r, data visualisation, rvest
 title: "Scraping London Marathon data with {rvest}"
 image: featured.png
 ---

@@ -4,14 +4,13 @@ author: Nicola Rennie
 categories:
   - R
   - Quarto
+  - LaTeX
 date: "2023-03-09"
 slug: "making-pretty-pdf-quarto"
 draft: false
 excerpt: "Adding custom styling to documents makes them look more professional. This blog post will take you through the process of making a Quarto extension to create a reusable custom template for good-looking PDFs."
 layout: blog-single
 subtitle: "Adding custom styling to documents makes them look more professional. This blog post will take you through the process of making a Quarto extension to create a reusable custom template for good-looking PDFs."
-tags:
-- r, quarto, latex
 image: featured.png
 ---
 

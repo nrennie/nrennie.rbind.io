@@ -2,6 +2,7 @@
 title: "The Cool Data Projects Show"
 subtitle: "In this episode of The Cool Data Projects Show with Kristen Kehrer from CometML, we talked about building cool Shiny apps, the joy of GitHub actions, and generative art!"
 excerpt: "In this episode of The Cool Data Projects Show with Kristen Kehrer from CometML, we talked about building cool Shiny apps, the joy of GitHub actions, and generative art!"
+slug: "2022-november-the-cool-data-projects-show"
 PublishDate: 2022-11-02T00:00:00-06:00
 date: 2022-11-02T00:00:00-08:00
 date_end: "2022-11-02T00:00:00-08:00"
