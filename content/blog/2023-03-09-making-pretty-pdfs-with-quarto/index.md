@@ -155,14 +155,15 @@ Finally, I want to deal with the font: colours and font family. Let's start of w
   {\sffamily\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
 ```
 
-I also want to left align the title, since it looks better with the sidebar on the right:
+I also want to left align the title, subtitle, and author fields, since it looks better with the sidebar on the right:
 
 ```latex
 % left align title
 \makeatletter
 \renewcommand{\maketitle}{\bgroup\setlength{\parindent}{0pt}
 \begin{flushleft}
-  {\sffamily\huge\textbf{\MakeUppercase{\@title}}}
+  {\sffamily\huge\textbf{\MakeUppercase{\@title}}} \vspace{0.3cm} \newline
+  {\Large {\@subtitle}} \newline
   \@author
 \end{flushleft}\egroup
 }
