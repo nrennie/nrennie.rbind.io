@@ -1,10 +1,10 @@
 ---
 title: Links
-subtitle: ""
+description: "Links to related websites and resources."
 author: Nicola Rennie
-description: ""
 date: 2023-02-11
 draft: false
+layout: standard
 show_title_as_headline: true
 show_post_thumbnail: true
 images:

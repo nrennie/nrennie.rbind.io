@@ -1,6 +1,6 @@
 ---
 title: Talks
-description: 
+description: "Slides and abstracts for talks and workshops."
 author: Nicola Rennie
 show_post_thumbnail: true
 images:
