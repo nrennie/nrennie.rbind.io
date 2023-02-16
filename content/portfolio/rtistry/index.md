@@ -31,88 +31,80 @@ abacus(nx = 30, ny = 100, max_size = 2, main_col = "black", bg_col = "white", s 
 abacus(nx = 20, ny = 10, max_size = 4, main_col = "white", bg_col = "black", s = 12)
 abacus(nx = 100, ny = 100, max_size = 3, main_col = "#008080", bg_col = "white", s = 123)
 ```
-<p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/abacus1.jpeg" width="33%">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/abacus2.jpeg" width="33%">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/abacus3.jpeg" width="33%">
-</p>
+{{< three-images
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/abacus1.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/abacus2.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/abacus3.jpeg" >}}
 
 ``` r
 attraction(n = 50000, a = -3, b = 1, c = 0.5, d = -1, main_col = "black", bg_col = "white")
 attraction(n = 50000, a = -6, b = 1, c = 0.5, d = -2, main_col = "black", bg_col = "white")
 attraction(n = 50000, a = -3, b = -2, c = 1, d = -1, main_col = rcartocolor::carto_pal(n  =  7, "SunsetDark"), bg_col = "white")
 ```
-<p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/attraction1.jpeg" width="33%">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/attraction2.jpeg" width="33%">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/attraction3.jpeg" width="33%">
-</p>
+{{< three-images
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/attraction1.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/attraction2.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/attraction3.jpeg" >}}
 
 ``` r
 black_hole(r_max = c(50, 150, 250, 350), n = 10000, lim = 300, main_cols = rcartocolor::carto_pal(n = 7, name = "SunsetDark"), bg_col = "black", size = 0.01, a = 0.5, s = 1234)
 black_hole(r_max = 100, n = 50000, lim = 300, main_cols = rev(rcartocolor::carto_pal(n = 7, name = "Teal")), bg_col = "white", size = 0.05, a = 0.3, s = 1234)
 black_hole(r_max = c(50, 150, 250), n = 20000, lim = 500, main_cols = rcartocolor::carto_pal(n = 7, name = "SunsetDark"), bg_col = "black", size = 0.01, a = 0.75, s = 1234)
 ```
-<p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/black_hole1.jpeg" width="33%">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/black_hole2.jpeg" width="33%">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/black_hole3.jpeg" width="33%">
-</p>
+{{< three-images
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/black_hole1.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/black_hole2.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/black_hole3.jpeg" >}}
 
 ``` r
 blending(n = 100, down = "white", up = "black", s = 1234)
 blending(n = 500, down = "white", up = "black", s = 1234)
 blending(n = 100, down = "#ba1141", up = "#003366", s = 1234)
 ```
-<p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/blending1.jpeg" width="33%">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/blending2.jpeg" width="33%">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/blending3.jpeg" width="33%">
-</p>
+{{< three-images
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/blending1.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/blending2.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/blending3.jpeg" >}}
 
 ``` r
 boxes(n = 100, perc = 0.1, col_palette = rcartocolor::carto_pal(n = 7, "DarkMint"), bg_col = "black", s = 1234)
 boxes(n = 20, perc = 0.1, col_palette = rcartocolor::carto_pal(n = 7, "DarkMint"), bg_col = "black", s = 1234)
 boxes(n = 100, perc = 0.5, col_palette = rcartocolor::carto_pal(n = 7, "Magenta"), bg_col = "black", s = 1234)
 ```
-<p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/boxes_n100_p1.jpeg" width="33%">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/boxes_n20_p1.jpeg" width="33%">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/boxes_n100_p5.jpeg" width="33%">
-</p>
+{{< three-images
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/boxes_n100_p1.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/boxes_n20_p1.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/boxes_n100_p5.jpeg" >}}
 
 ``` r
 bricks(n_y = 20, colours = c("#9B1D20", "#3D2B3D", "#CBEFB6", "#635D5C"), bg_col = "gray97")
 bricks(n_y = 200, colours = c("#9B1D20", "#3D2B3D", "#CBEFB6", "#635D5C"), bg_col = "gray97")
 bricks(n_y = 20, colours = rcartocolor::carto_pal(7, "Burg"), bg_col = "gray97")
 ```
-<p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bricks1.jpeg" width="33%">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bricks2.jpeg" width="33%">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bricks3.jpeg" width="33%">
-</p>
+{{< three-images
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bricks1.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bricks2.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bricks3.jpeg" >}}
 
 ``` r
 bubbles(num_circles = 20, main_col = "black", col_palette = rcartocolor::carto_pal(n = 12, "Bold"), bg_col = "white", s = 1234)
 bubbles(num_circles = 20, main_col = "lightgrey", col_palette = rcartocolor::carto_pal(n = 12, "Bold"), bg_col = "white", s = 123)
 bubbles(num_circles = 10, main_col = "white", col_palette = rcartocolor::carto_pal(n = 12, "Prism"), bg_col = "black", s = 2022)
 ```
-<p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bubbles1.jpeg" width="33%">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bubbles2.jpeg" width="33%">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bubbles3.jpeg" width="33%">
-</p>
+{{< three-images
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bubbles1.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bubbles2.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bubbles3.jpeg" >}}
 
 ``` r
 bullseye(main_col = "black", bg_col = "white", s = 1234)
 bullseye(main_col = "white", bg_col = "black", s = 1234)
 bullseye(main_col = "black", bg_col = "white", s = 2021)
 ```
-<p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bullseye_1234.jpeg" width="33%">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bullseye_1234n.jpeg" width="33%">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bullseye_2021.jpeg" width="33%">
-</p>
+{{< three-images
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bullseye_1234.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bullseye_1234n.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/bullseye_2021.jpeg" >}}
 
 ``` r
 circles(n = 100, smoothness = 100, col_palette = rcartocolor::carto_pal(n  =  12, "Bold"), line_col = NA, bg_col = "black", s = 1234)
