@@ -1,0 +1,11 @@
+<div class="flex-l bb pb3" style="">
+<div class="tl w-50-l mr4">
+{{ .Inner | markdownify }}
+<div class="home">
+<a class="action button" style="width: 100%;" href={{ (.Get 0) }}>{{ (.Get 2) }}</a>
+</div>
+</div>
+<div class="mh4 w-50-l tl pt4">
+<a href={{ (.Get 0) }} target="_blank"><img src={{ (.Get 1) }}></a>
+</div>
+</div>
