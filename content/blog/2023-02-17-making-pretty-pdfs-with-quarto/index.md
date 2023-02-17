@@ -242,7 +242,7 @@ There will almost certainly be some elements of the default Quarto PDF theme tha
 
 If you're looking for more Quarto extensions, I'd highly recommend checking out the [Awesome Quarto](https://github.com/mcanouil/awesome-quarto) repository - it has links to lots of Quarto resources including talks, tools, examples, and articles.
 
-If you want to know how to distribute your Quarto extension as part of an R package, instead of through GitHub, this [blog post](https://spencerschien.info/post/r_for_nonprofits/quarto_template/) from [Spencer Schien]() will be very useful.
+If you want to know how to distribute your Quarto extension as part of an R package, instead of through GitHub, this [blog post](https://spencerschien.info/post/r_for_nonprofits/quarto_template/) from [Spencer Schien](https://spencerschien.info/) will be very useful.
 
 This [blog post](https://meghan.rbind.io/blog/quarto-pdfs/) from [Meghan Hall](https://meghan.rbind.io/about/) gives some great tips for customising Quarto PDFs, including parameterised reports so you change the styling of your report based on parameters, and your data.
 
