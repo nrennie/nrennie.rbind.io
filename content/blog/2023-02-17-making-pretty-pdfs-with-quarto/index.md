@@ -5,7 +5,7 @@ categories:
   - R
   - Quarto
   - LaTeX
-date: "2023-03-09"
+date: "2023-02-17"
 slug: "making-pretty-pdf-quarto"
 draft: false
 excerpt: "Adding custom styling to documents makes them look more professional. This blog post will take you through the process of making a Quarto extension to create a reusable custom template for good-looking PDFs."
@@ -194,7 +194,7 @@ Now we just need to change the fonts that are used. Here, I've used the `Ubuntu`
 And that's everything that's in the `PrettyPDF.tex` file! This gives us a PDF that looks a bit like this:
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-03-09-making-pretty-pdfs-with-quarto/report.png" width = "70%" alt="Screenshot of a pdf with a light purple sidebar."><br>
+<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-17-making-pretty-pdfs-with-quarto/report.png" width = "70%" alt="Screenshot of a pdf with a light purple sidebar."><br>
 </p>
 
 You can download a copy of the template PDF [here](template.pdf).
@@ -236,18 +236,20 @@ Either replace the `logo.png` file in the `_extensions` directory with a new fil
 #### Changing the colours
 Lines 14-16 of `PrettyPDF.tex` define three colours used in the template: `light`, `dark`, and `highlight`. Change the hex colours in these lines to update the colours. The `light` colour changes the sidebar and code block background colours. The `dark` colour changes the text colour, and the `highlight` colour changes the link colours.
 
+There will almost certainly be some elements of the default Quarto PDF theme that I haven't adjusted here, simply because I haven't had the need to yet. Feel free to make your own adjustments!
+
 ### Further resources
 
 If you're looking for more Quarto extensions, I'd highly recommend checking out the [Awesome Quarto](https://github.com/mcanouil/awesome-quarto) repository - it has links to lots of Quarto resources including talks, tools, examples, and articles.
 
 If you want to know how to distribute your Quarto extension as part of an R package, instead of through GitHub, this [blog post](https://spencerschien.info/post/r_for_nonprofits/quarto_template/) from [Spencer Schien]() will be very useful.
 
-This [blog post](https://meghan.rbind.io/blog/quarto-pdfs/) from [Meghan Hall](https://meghan.rbind.io/about/) gives sme great tips for customising Quarto PDFs, including parameterised reports so you change the styling of your report based on parameters, and your data.
+This [blog post](https://meghan.rbind.io/blog/quarto-pdfs/) from [Meghan Hall](https://meghan.rbind.io/about/) gives some great tips for customising Quarto PDFs, including parameterised reports so you change the styling of your report based on parameters, and your data.
 
 Now you're ready to go and create some beautiful looking PDFs with Quarto!
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-03-09-making-pretty-pdfs-with-quarto/art.gif" width = "60%" alt="Gif of a dog wearing a beret painting a canvas"><br>
+<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-17-making-pretty-pdfs-with-quarto/art.gif" width = "60%" alt="Gif of a dog wearing a beret painting a canvas"><br>
 <small>Image: <a href="https://giphy.com/gifs/dog-human-painting-4y6DqPvlICp5S">giphy.com</a></small>
 </p>
 
