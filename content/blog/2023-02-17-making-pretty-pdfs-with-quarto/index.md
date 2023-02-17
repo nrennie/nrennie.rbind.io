@@ -80,7 +80,7 @@ The first thing we need to do is load some LaTeX packages, that will allow us to
 \usepackage{titlesec}
 ```
 
-Now we can set up the page geometry. Here we specify that we want the paper size to be A4, and increase the margin on the right hand side. This is because I want to add a coloued bar on the right hand side of the page, and need to make sure the text doesn't overlap into that sidebar.
+Now we can set up the page geometry. Here we specify that we want the paper size to be A4, and increase the margin on the right hand side. This is because I want to add a coloured bar on the right hand side of the page, and need to make sure the text doesn't overlap into that sidebar.
 
 ```latex
 %% Set page size with a wider right margin
@@ -96,7 +96,7 @@ Let's also define some colours using the `xcolor` package, which takes hex colou
 ```
 You *could* also define a colour for the page background but I'd recommend against that most of the time. Some people still print PDFs - and you don’t want to be the person who sends in their CV with a dark background colour and only half of gets printed because there's not enough ink in the printer...
 
-So let's get onto adding that sidebar! This LaTeX code chunk, adds a coloured bar (with the `light` colour`) on the right hand side which spans the entire height of the page, and is 3cm wide.
+So let's get onto adding that sidebar! This LaTeX code adds a coloured bar (with the `light` colour) on the right hand side which spans the entire height of the page, and is 3cm wide.
 
 ```latex
 %% Let's add the border on the right hand side
@@ -141,7 +141,7 @@ Since I have a sidebar, I'd prefer if the page numbers were in that sidebar, rat
 }
 \setlength{\footskip}{20pt}
 ```
-To get this to work, we need to include `\pagestyle{mystyle}` just before our document content - that's what's stored in the `pagestyle.text` folder. Again, it could be included in the `template.qmd` file, but this approach means users don't see what they don't need to.
+To get this to work, we need to include `\pagestyle{mystyle}` just before our document content - that's what's stored in the `pagestyle.tex` file. Again, it could be included in the `template.qmd` file, but this approach means users don't see what they don't need to.
 
 Finally, I want to deal with the font: colours and font family. Let's start of with changing the colour of all the section title font to our `dark` colour. I also added an underline to subsection (##) headings. 
 
@@ -197,7 +197,7 @@ And that's everything that's in the `PrettyPDF.tex` file! This gives us a PDF th
 <img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-17-making-pretty-pdfs-with-quarto/report.png" width = "70%" alt="Screenshot of a pdf with a light purple sidebar."><br>
 </p>
 
-You can download a copy of the template PDF [here](template.pdf).
+You can download a copy of the template PDF [here](template.pdf), and view the source code on [GitHub](https://github.com/nrennie/PrettyPDF).
 
 ### Using this extension
 
@@ -224,7 +224,7 @@ format:
 
 ### Adapting this extension
 
-If you want to update this template to use, for example, different colours or a different logo, you have two options. 
+If you want to update this template to use, for example, different colours or a different logo, you have two options:
 
 * Install the extension using the instructions above, then edit the  `_extensions/nrennie/PrettyPDF/PrettyPDF.tex` file.
 
@@ -244,7 +244,7 @@ If you're looking for more Quarto extensions, I'd highly recommend checking out 
 
 If you want to know how to distribute your Quarto extension as part of an R package, instead of through GitHub, this [blog post](https://spencerschien.info/post/r_for_nonprofits/quarto_template/) from [Spencer Schien](https://spencerschien.info/) will be very useful.
 
-This [blog post](https://meghan.rbind.io/blog/quarto-pdfs/) from [Meghan Hall](https://meghan.rbind.io/about/) gives some great tips for customising Quarto PDFs, including parameterised reports so you change the styling of your report based on parameters, and your data.
+This [blog post](https://meghan.rbind.io/blog/quarto-pdfs/) from [Meghan Hall](https://meghan.rbind.io/about/) gives some great tips for customising Quarto PDFs, including parameterised reports so you can change the styling of your report based on parameters, and your data.
 
 Now you're ready to go and create some beautiful looking PDFs with Quarto!
 
