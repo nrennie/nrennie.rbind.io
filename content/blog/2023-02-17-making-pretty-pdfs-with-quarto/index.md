@@ -18,6 +18,10 @@ image: featured.png
 
 Before we begin, I do want to point out that PDFs are not accessible, and generally recommend using HTML documents instead. However, many places won't yet accept HTML documents - especially when it comes to uploading documents online. So, we might have to stick with PDF for now.
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-02-17-making-pretty-pdfs-with-quarto/featured.png" width = "60%" alt="Screenshot of a pdf with a light purple sidebar."><br>
+</p>
+
 ### What are Quarto extensions?
 
 [Quarto extensions](https://quarto.org/docs/extensions/) are used to modify and extend the behaviour of Quarto. Templates are just one type of Quarto extension.
