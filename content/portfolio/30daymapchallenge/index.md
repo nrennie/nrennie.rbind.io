@@ -1,5 +1,5 @@
 ---
-title: "#30DayMapChallenge"
+title: "30 Day Map Challenge"
 subtitle: ""
 excerpt: "The #30DayMapChallenge is a data visualisation challenge where participants make one map each day of the challenge, inspired by the daily prompt."
 date: 2023-01-30

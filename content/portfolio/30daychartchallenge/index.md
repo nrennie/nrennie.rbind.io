@@ -1,5 +1,5 @@
 ---
-title: "#30DayChartChallenge"
+title: "30 Day Chart Challenge"
 subtitle: ""
 excerpt: ""
 date: 2023-01-30
