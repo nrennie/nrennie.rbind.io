@@ -2,14 +2,13 @@
 author: Nicola Rennie
 categories:
   - RLadies
+  - Community
 date: "2022-01-18"
 draft: false
 excerpt: "An overview of my experience of curating the @WeAreRLadies twitter feed."
 layout: blog-single
 slug: "2022-01-18-curating-for-wearerladies"
 subtitle: "An overview of my experience of curating the @WeAreRLadies twitter feed."
-tags:
-- r, community
 title: "Curating for @WeAreRLadies"
 image: featured.jpg
 ---

@@ -2,14 +2,13 @@
 author: Nicola Rennie
 categories:
   - gt
+  - Data Visualisation
 date: "2022-04-21"
 draft: false
 excerpt: "{gt} is an R package designed to make it easy to make good looking tables. This blog post demonstrates how to add plots as a column in a {gt} table."
 layout: blog-single
 slug: "2022-04-21-getting-started-with-gt-tables"
 subtitle: "{gt} is an R package designed to make it easy to make good looking tables. This blog post demonstrates how to add plots as a column in a {gt} table."
-tags:
-- r, data visualisation
 title: "Getting started with {gt} tables"
 image: featured.png
 ---

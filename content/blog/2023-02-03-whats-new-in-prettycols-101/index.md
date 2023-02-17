@@ -2,14 +2,14 @@
 author: Nicola Rennie
 categories:
   - R
+  - Data Visualisation
+  - Rtistr
 date: "2023-02-03"
 slug: "whats-new-in-prettycols-101"
 draft: false
 excerpt: "{PrettyCols} is an R package containing aesthetically pleasing colour palettes that are compatible with {ggplot2}. Find out about new features and palettes contained in the latest release!"
 layout: blog-single
 subtitle: "{PrettyCols} is an R package containing aesthetically pleasing colour palettes that are compatible with {ggplot2}. Find out about new features and palettes contained in the latest release!"
-tags:
-- r, data visualisation
 title: "What's new in {PrettyCols} 1.0.1?"
 image: featured.png
 ---

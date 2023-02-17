@@ -3,14 +3,14 @@ title: "30 Day Map Challenge 2022"
 author: Nicola Rennie
 categories:
   - R
+  - Maps
+  - Data Visualisation
 date: "2022-11-30"
 draft: false
 excerpt: "The #30DayMapChallenge is a month-long mapping, cartography, and data visualization challenge aimed at the spatial community. Here are the things I've learnt from participating in the challenge for a second time."
 layout: blog-single
 slug: 2022-11-30-30-day-map-challenge-2022
 subtitle: "The #30DayMapChallenge is a month-long mapping, cartography, and data visualization challenge aimed at the spatial community. Here are the things I've learnt from participating in the challenge for a second time."
-tags:
-- r, data visualisation, ggplot2, maps
 image: featured.png
 ---
 

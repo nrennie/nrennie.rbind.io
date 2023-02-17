@@ -8,8 +8,6 @@ slug: "2021-06-30-cotton-viz-challenge"
 excerpt: "In June, the #CottonViz data visualisation challenge was run by the History of Statistics & Young Statisticians sections of the Royal Statistical Society (RSS)."
 layout: blog-single
 subtitle: "In June, the #CottonViz data visualisation challenge was run by the History of Statistics & Young Statisticians sections of the Royal Statistical Society (RSS)."
-tags:
-- r, data visualisation
 title: "#CottonViz Data Visualisation Challenge"
 image: featured.jpg
 ---

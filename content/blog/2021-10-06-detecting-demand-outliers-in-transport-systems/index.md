@@ -8,8 +8,6 @@ draft: false
 excerpt: An overview of my PhD thesis entitled "Detecting demand outliers in transport systems".
 layout: blog-single
 subtitle: An overview of my PhD thesis entitled "Detecting demand outliers in transport systems".
-tags:
-- r, outlier detection, research
 title: Detecting demand outliers in transport systems
 image: featured.png
 ---

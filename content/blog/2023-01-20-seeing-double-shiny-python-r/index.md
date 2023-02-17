@@ -3,14 +3,13 @@ author: Nicola Rennie
 categories:
   - R
   - Python
+  - Shiny
 slug: "seeing-double-shiny-python-r"
 date: "2023-01-20"
 draft: false
 excerpt: "Back in July 2022 at rstudio::conf(2022), Posit (formerly RStudio) announced the release of Shiny for Python. I wanted to see how the two compared - so I built the same Shiny app twice! This blog post highlights a few of the differences, and things that were a little tricky switching to Shiny for Python."
 layout: blog-single
 subtitle: "Back in July 2022 at rstudio::conf(2022), Posit (formerly RStudio) announced the release of Shiny for Python. I wanted to see how the two compared - so I built the same Shiny app twice! This blog post highlights a few of the differences, and things that were a little tricky switching to Shiny for Python."
-tags:
-- r, python, shiny
 title: "Seeing double? Building the same app in Shiny for R and Shiny for Python"
 image: featured.png
 ---

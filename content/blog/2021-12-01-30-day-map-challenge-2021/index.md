@@ -2,14 +2,13 @@
 author: Nicola Rennie
 categories:
   - R
+  - Maps
 date: "2021-12-01"
 draft: false
 excerpt: "The #30DayMapChallenge is a daily mapping, cartography, and data visualization challenge aimed at the spatial community."
 layout: blog-single
 slug: "2021-12-01-30-day-map-challenge-2021"
 subtitle: "The #30DayMapChallenge is a daily mapping, cartography, and data visualization challenge aimed at the spatial community."
-tags:
-- r, data visualisation, maps, 
 title: 30 Day Map Challenge 2021
 image: featured.png
 ---

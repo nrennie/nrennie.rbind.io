@@ -5,13 +5,12 @@ slug: "combining-r-and-python-with-reticulate-and-quarto"
 categories:
   - R
   - Python
+  - Quarto
 date: "2023-01-06"
 draft: false
 excerpt: "Sometimes you might need to use R. Sometimes you might need to use Python. Sometimes you need to use both at the same time. This blog post shows you how to combine R and Python code using {reticulate} and output the results using Quarto."
 layout: blog-single
 subtitle: "Sometimes you might need to use R. Sometimes you might need to use Python. Sometimes you need to use both at the same time. This blog post shows you how to combine R and Python code using {reticulate} and output the results using Quarto."
-tags:
-- r, python, quarto
 image: featured.png
 math: true
 ---

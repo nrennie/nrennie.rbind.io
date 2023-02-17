@@ -2,14 +2,14 @@
 author: Nicola Rennie
 categories:
   - R
+  - TidyTuesday
+  - Data Visualisation
 date: "2021-12-18"
 draft: false
 slug: "2021-12-18-thinking-about-tidytuesday-and-the-spice-girls"
 excerpt: "Earlier this week, whilst curating for @WeAreRLadies, I tweeted a thread on my thought process for this week's #TidyTuesday challenge. This blog post expands on the thoughts in that thread."
 layout: blog-single
 subtitle: "Earlier this week, whilst curating for @WeAreRLadies, I tweeted a thread on my thought process for this week's #TidyTuesday challenge. This blog post expands on the thoughts in that thread."
-tags:
-- r, data visualisation, tidytuesday, ggplot
 title: "Thinking about #TidyTuesday (and the Spice Girls)"
 image: featured.jpeg
 ---
