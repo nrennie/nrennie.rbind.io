@@ -60,6 +60,12 @@ CRAN: [cran.r-project.org/package=PrettyCols](https://cran.r-project.org/package
 {{< /links-section >}}
 
 
+{{< links-section "https://raw.githubusercontent.com/nrennie/LondonMarathon/main/man/figures/logo.png" >}}
+### [LondonMarathon](https://github.com/nrennie/LondonMarathon)
+{LondonMarathon} is an R package containing two data sets about London Marathon scraped from Wikipedia.
+{{< /links-section >}}
+
+
 {{< links-section "https://raw.githubusercontent.com/nrennie/simnetdemand/main/man/figures/logo.png" >}}
 ### [simnetdemand](https://github.com/nrennie/simnetdemand)
 {simnetdemand} is an R package used to simulate demand patterns for different types of transport network.

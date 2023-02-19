@@ -126,15 +126,22 @@ saveRDS(london_marathon, file = "london_marathon.rds")
 Now, we can work with the scraped data in the same way we'd work with any other (cleaned up) data in R! Including making plots!
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/london-marathon/main/winners.png" width = "49%" alt="Barchart of London Marathon winners by country">
-<img src="https://raw.githubusercontent.com/nrennie/london-marathon/main/london_marathon.png" width = "49%" alt="Dumbbell chart of London marathon starters and finishers">
+<img src="https://raw.githubusercontent.com/nrennie/LondonMarathon/main/inst/winners.png" width = "49%" alt="Barchart of London Marathon winners by country">
+<img src="https://raw.githubusercontent.com/nrennie/LondonMarathon/main/inst/london_marathon.png" width = "49%" alt="Dumbbell chart of London marathon starters and finishers">
 </p>
 
-Code for the plots can be found on [GitHub](https://github.com/nrennie/london-marathon/blob/main/plots.R).
+Code for the plots can be found on [GitHub](https://github.com/nrennie/LondonMarathon/blob/main/inst/plots.R).
 
+If you're only interested in working with the data, and less in the web scraping, you can load the data directly from the [{LondonMarathon}](https://github.com/nrennie/LondonMarathon) R package with:
+
+```r
+remotes::install_github("nrennie/LondonMarathon")
+data(winners, package = "LondonMarathon")
+data(london_marathon, package = "LondonMarathon")
+```
 
 ### Final thoughts
 
-I hope this blog post has convinced you that scraping data from a website does need to be as difficult as it sounds, and that it's a better option that copying and pasting! The code, data, data dictionary, and a few exploratory plots can be found on [GitHub](https://github.com/nrennie/london-marathon).
+I hope this blog post has convinced you that scraping data from a website does need to be as difficult as it sounds, and that it's a better option that copying and pasting! The code, data, data dictionary, and a few exploratory plots can be found on [GitHub](https://github.com/nrennie/LondonMarathon).
 
 The background photo in the cover image of this blog post is from [Benjamin Davies](https://unsplash.com/@bendavisual) on [Unsplash](https://unsplash.com/photos/Oja2ty_9ZLM).
