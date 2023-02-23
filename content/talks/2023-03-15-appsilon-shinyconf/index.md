@@ -21,7 +21,7 @@ links:
   icon_pack: fab
   name: GitHub
   url: https://github.com/nrennie/shinytweet
-image: featured.png
+image: featured.jpg
 ---
 
 One of the best parts of the R community is our love of sharing the things we learn, and many of us use social media to do just that! But in a world where social media can seem endless and somewhat unreliable, it felt like I needed a way to do two things: (i) bookmark links to interesting #RStats content that people share, and (ii) store that information somewhere that would remain accessible if my social media platform of choice ceased to exist.
