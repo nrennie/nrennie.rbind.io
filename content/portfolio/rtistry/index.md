@@ -207,6 +207,16 @@ fractals(N = 20, col_palette = grey.colors(30), shift = -1, left = -1, right = 1
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/fractals3.jpeg" >}}
 
 ``` r
+gradients(nx = 5, ny = 5, s = 1234)
+gradients(nx = 3, ny = 3, s = 2023)
+gradients(nx = 20, ny = 20, s = 1234)
+```
+{{< three-images
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/gradients1.png"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/gradients2.png"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/gradients3.png" >}}
+
+``` r
 heart(n = 25, col_scheme = "mono", bg_col = "black", s = 1234)
 heart(n = 100, col_scheme = "mono", bg_col = "black", s = 1234)
 heart(n = 25, col_scheme = "rainbow", bg_col = "black", s = 1234)
