@@ -21,21 +21,26 @@ A blog post giving an overview of my PhD thesis is available on [my website](htt
 
 #### Publications
 
-**Analysing and visualising bike sharing demand with outliers.** N. Rennie, C. Cleophas, A. M. Syksulski, F. Dost. 2023. *Accepted in Discover Data.* Pre-print: [arxiv.org/abs/2204.06112](https://arxiv.org/abs/2204.06112).
+**Analysing and visualising bike sharing demand with outliers.**
+N. Rennie, C. Cleophas, A. M. Syksulski, F. Dost. 2023. *Accepted in Discover Data.* Pre-print: [arxiv.org/abs/2204.06112](https://arxiv.org/abs/2204.06112).
 
 
-**We're not getting any younger! Or should that be older?** N. Rennie. Significance (online). 2022. Link: [www.significancemagazine.com/science/723-we-re-not-getting-any-younger-or-should-that-be-older](https://www.significancemagazine.com/science/723-we-re-not-getting-any-younger-or-should-that-be-older).
+**We're not getting any younger! Or should that be older?**
+N. Rennie. Significance (online). 2022. Link: [www.significancemagazine.com/science/723-we-re-not-getting-any-younger-or-should-that-be-older](https://www.significancemagazine.com/science/723-we-re-not-getting-any-younger-or-should-that-be-older).
 
 
-**Detecting demand outliers in transport systems** N. Rennie. PhD Thesis. 2021. doi: [doi.org/10.17635/lancaster/thesis/1448](https://doi.org/10.17635/lancaster/thesis/1448).
+**Detecting demand outliers in transport systems**
+N. Rennie. PhD Thesis. 2021. doi: [doi.org/10.17635/lancaster/thesis/1448](https://doi.org/10.17635/lancaster/thesis/1448).
 
 
-**Identifying and responding to outlier demand in revenue management.** N. Rennie, C. Cleophas, A. M. Syksulski, F. Dost. European Journal of Operational Research. Volume 293, Issue 3, 16 September 2021, 1015-1030. doi: [doi.org/10.1016/j.ejor.2021.01.002](https://doi.org/10.1016/j.ejor.2021.01.002).
+**Identifying and responding to outlier demand in revenue management.**
+N. Rennie, C. Cleophas, A. M. Syksulski, F. Dost. European Journal of Operational Research. Volume 293, Issue 3, 16 September 2021, 1015-1030. doi: [doi.org/10.1016/j.ejor.2021.01.002](https://doi.org/10.1016/j.ejor.2021.01.002).
 
 
 #### Working Papers
 
-**Detecting outlying demand in multi-leg bookings for transportation networks.** N. Rennie, C. Cleophas, A. M. Syksulski, F. Dost. 2022. *Under revision.* Pre-print: [arxiv.org/abs/2104.04157](https://arxiv.org/abs/2104.04157).
+**Outlier detection in network revenue management.**
+N. Rennie, C. Cleophas, A. M. Syksulski, F. Dost. 2023. *Under revision.* Pre-print: [arxiv.org/abs/2104.04157](https://arxiv.org/abs/2104.04157).
 
 
 
