@@ -61,6 +61,9 @@ params:
     - icon: behance
       icon_pack: fab
       url: https://www.behance.net/nrennie
+    - icon: stack-overflow
+      icon_pack: fab
+      url: https://stackoverflow.com/users/17581735/nrennie
   socialInFooter: yes
   socialInHeader: no
   textFontFamily: sans-serif
