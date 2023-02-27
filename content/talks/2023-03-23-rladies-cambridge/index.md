@@ -21,7 +21,7 @@ links:
   icon_pack: fas
   name: Slides
   url: /talks/rladies-cambridge-ggplot2-colours/slides.html
-image: featured.png
+image: featured.jpg
 ---
 
 There are many colour palette packages in R that are compatible with {ggplot2}, but sometimes you might want to use your own choice of colours. For example, you might want them to match company or university branding guidelines. In this talk, I'll show you how to make a your own custom colour scale functions to add your own colours to {ggplot2} graphics - no more copying and pasting `scale_colour_manual()`!
