@@ -297,6 +297,16 @@ puzzles(n = 1000, num_groups = 700, col_palette = PrettyCols::prettycols("Beach"
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/puzzles3.png" >}}
 
 ``` r
+random_tessellation(n_x = 10, n_y = 10, deg_jitter = 0.1, linewidth = 0.5, line_col = "black", bg_col = "black", col_palette = PrettyCols::prettycols("Lively"), s = 1234)
+random_tessellation(n_x = 30, n_y = 30, deg_jitter = 0.3, linewidth = 0.1, line_col = "black", bg_col = "#357BA2FF", col_palette = viridis::mako(n = 6), s = 1234)
+random_tessellation(n_x = 25, n_y = 25, deg_jitter = 0.45, linewidth = 1, line_col = "grey60", bg_col = "grey20", col_palette = grey.colors(n = 15, start = 0.1), s = 1234)
+```
+{{< three-images
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/random_tessellation1.png"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/random_tessellation2.png"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/random_tessellation3.png" >}}
+
+``` r
 rectangles(n = 100, max_height = 7, max_width = 5, size = 2, main_col = "lightgrey", col_palette = rcartocolor::carto_pal(n = 12, "Bold"), bg_col = "white", s = 123)
 rectangles(n = 10, max_height = 15, max_width = 15, size = 4, main_col = "lightgrey", col_palette = rcartocolor::carto_pal(n = 12, "Bold"), bg_col = "white", s = 123)
 rectangles(n = 100, max_height = 4, max_width = 6, size = 1, main_col = ggplot2::alpha("white", 0.5), col_palette = rcartocolor::carto_pal(n = 12, "Prism"), bg_col = "black", s = 123)
