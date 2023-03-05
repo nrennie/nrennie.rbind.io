@@ -4,6 +4,8 @@
 <section class="blog-intro mw8 center tc mb5">
 <h2 class="f2 f1-ns lh-solid center fw4">{{ .Title | markdownify }}</h2>
 </section>
+
+<section class="page-content mw7 center">
   
 {{ partial "search-form.html" . }}
 
@@ -12,6 +14,7 @@
 </ul>
 
 {{ partial "search-index.html" . }}
+</section>
 </main>
 
 {{ end }}
