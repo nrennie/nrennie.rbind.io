@@ -17,8 +17,8 @@
   margin-top: 10px;
   display: inline-block;
   text-align: center;
-  background-color:  #508080 !important;
-  border-color: #508080 !important;
+  background-color:  #2F4F4F !important;
+  border-color: #2F4F4F !important;
   color: #F0F5F5 !important;
   border-width: 2px !important;
   border-style: solid;
@@ -30,7 +30,7 @@
   display: inline-block;
   text-align: center;
   color: #F0F5F5 !important;
-  background-color: #2F4F4F !important;
+  background-color: #508080 !important;
   border-color: #508080 !important;
   border-width: 2px !important;
   border-style: solid;
@@ -40,8 +40,8 @@
   margin-top: 10px;
   display: inline-block;
   text-align: center;
-  background-color:  #508080 !important;
-  border-color: #508080 !important;
+  background-color:  #2F4F4F !important;
+  border-color: #2F4F4F !important;
   color: #F0F5F5 !important;
   border-width: 2px !important;
   border-style: solid;
@@ -99,18 +99,34 @@ div.highlight {
 
 #cookie-notice-accept {
   color: #F0F5F5;
+  background-color: #2F4F4F ;
+  border-color: #2F4F4F;
+  border-style: solid;
+  padding: 10px 15px;
+}
+
+#cookie-notice-accept:hover   {
+  color: #F0F5F5;
   background-color: #508080 ;
   border-color: #508080;
   border-style: solid;
-  padding: 8px 15px;
+  padding: 10px 15px;
 }
 
 #cookie-notice-deny {
-  color: #508080;
-  border-color: #508080;
+  color: #2F4F4F;
+  border-color: #2F4F4F;
   background-color: #F0F5F5;
   border-style: solid;
-  padding: 8px 15px;
+  padding: 10px 15px;
+}
+
+#cookie-notice-deny:hover {
+  color: #2F4F4F;
+  border-color: #2F4F4F;
+  background-color: #ebeded;
+  border-style: solid;
+  padding: 10px 15px;
 }
 
 #cookie-notice {
