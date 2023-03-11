@@ -89,8 +89,9 @@ div.highlight {
 
 // Cookie banner
 
-#cookie-notice a {
-  font-weight: 600;
+#cookie-notice button {
+  font-weight: 600 !important;
+  font-family: Commissioner !important;
   display: inline-flex;
   cursor: pointer;
   margin-left: 0.5rem;
