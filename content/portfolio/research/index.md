@@ -17,9 +17,12 @@ My research interests lie in statistics and operational research, more specifica
 A blog post giving an overview of my PhD thesis is available on [my website](https://nrennie.rbind.io/blog/2021-10-06-detecting-demand-outliers-in-transport-systems/).
 
 
-## Publications and Working Papers
+## Publications
 
-#### Publications
+<!-- #### Publications -->
+
+**Outlier detection in network revenue management.**
+N. Rennie, C. Cleophas, A. M. Syksulski, F. Dost. 2023. *Accepted in OR Spectrum.* Pre-print: [arxiv.org/abs/2104.04157](https://arxiv.org/abs/2104.04157).
 
 **Analysing and visualising bike sharing demand with outliers.**
 N. Rennie, C. Cleophas, A. M. Syksulski, F. Dost. 2023. *Accepted in Discover Data.* Pre-print: [arxiv.org/abs/2204.06112](https://arxiv.org/abs/2204.06112).
@@ -37,10 +40,9 @@ N. Rennie. PhD Thesis. 2021. doi: [doi.org/10.17635/lancaster/thesis/1448](https
 N. Rennie, C. Cleophas, A. M. Syksulski, F. Dost. European Journal of Operational Research. Volume 293, Issue 3, 16 September 2021, 1015-1030. doi: [doi.org/10.1016/j.ejor.2021.01.002](https://doi.org/10.1016/j.ejor.2021.01.002).
 
 
-#### Working Papers
+<!-- #### Working Papers -->
 
-**Outlier detection in network revenue management.**
-N. Rennie, C. Cleophas, A. M. Syksulski, F. Dost. 2023. *Under revision.* Pre-print: [arxiv.org/abs/2104.04157](https://arxiv.org/abs/2104.04157).
+
 
 
 
