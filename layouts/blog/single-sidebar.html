@@ -1,7 +1,10 @@
 {{ define "main" }}
+<aside class="page-sidebar" role="complementary">
+  {{ partial "shared/toc.html" . }}
+</aside>
 <main class="page-main pa4" role="main">
   <section class="page-content mw7 center">
-    <article class="post-content pa0 pr3-l">
+    <article class="post-content pa0 pr2-c">
       <header class="post-header">
         <h1 class="f1 lh-solid measure-narrow mb3 fw4">{{ .Title }}</h1>
         {{ if .Params.subtitle }}<h4 class="f4 mt0 mb4 lh-title measure">{{ .Params.subtitle }}</h4>{{ end }}
@@ -10,19 +13,23 @@
       </header>
       <section class="post-body pt5 pb4">
         {{ .Content }}
+          <hr>
+        <div class="bb">
+        <p>For attribution, please cite this work as:</p>
+        <blockquote>
+          <b>{{ .Title }}</b>. <br>{{ .Params.author }}. {{ .PublishDate.Format "January 2, 2006" }}.<br>
+          <a href="https://nrennie.rbind.io/blog/{{ .Params.slug }}">nrennie.rbind.io/blog/{{ .Params.slug }}</a>
+        </blockquote>
+        <p>Licence: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">creativecommons.org/licenses/by/4.0</a></p>
+        </div>
+            {{ if .Params.show_comments }}
+      {{ partial "shared/comments.html" . }}
+    {{ end }}
       </section>
       <footer class="post-footer">
         {{ partial "shared/post-pagination.html" . }}
       </footer>
     </article>
-    {{ if .Params.show_comments }}
-      {{ partial "shared/comments.html" . }}
-    {{ end }}
   </section>
 </main>
-<aside class="page-sidebar" role="complementary">
-  {{ partial "shared/sidebar-scaffold.html" . }}
-  {{ .Scratch.Set "details" "open" }}
-  {{ partial "shared/post-details.html" . }}
-</aside>
 {{ end }}

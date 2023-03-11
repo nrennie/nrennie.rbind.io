@@ -24,7 +24,7 @@ markup:
   highlight:
     style: vs
   tableOfContents:
-    endLevel: 2
+    endLevel: 3
     ordered: no
     startLevel: 2
 params:

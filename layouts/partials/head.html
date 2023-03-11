@@ -17,4 +17,7 @@
   <!-- headroom.js -->
   {{ $mainJs := resources.Get "js/main.js" | js.Build "main.js" | minify | fingerprint }}
   <script src="{{ $mainJs.Permalink }}" type="text/javascript"></script>
+  <!-- toc.js -->
+  {{ $tocJs := resources.Get "js/toc.js" | js.Build "toc.js" | minify | fingerprint }}
+  <script src="{{ $tocJs.RelPermalink }}" type="text/javascript"></script>
 </head>

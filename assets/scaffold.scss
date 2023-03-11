@@ -260,10 +260,10 @@ form {
 }
 .single-sidebar {
   .page-main {
-    grid-column: 1 / 5;
+    grid-column: 2 / 16;
   }
   .page-sidebar {
-    grid-column: 5 / 7;
+    grid-column: 1 / 2;
   }
 }
 .single-series {
@@ -395,6 +395,27 @@ details#PageTableOfContents {
   @extend .mt3, .pl2, .pr0, .ml0, .mr2, .w-50, .dn, .db-l;
   summary {
     @extend .mb3, .f5, .fw7, .pl2, .ttu, .tracked, .#{$sidebarLinkColor};
+  }
+}
+
+// Series, collections, and blog posts table of contents
+
+details#PageTableOfContents nav#TableOfContents ul li:hover {
+  @extend .bg-#{$siteBgColor};
+}
+
+nav#TableOfContents ul li li,
+nav#SectionTableOfContents ul li,
+nav#SeriesTableOfContents ul li {
+  @extend .pl2, .bl, .bw1, .b--transparent;
+  &.active {
+    @extend .pl3, .bg-#{$siteBgColor}, .bl, .b--#{$borderColor}, .bw1;
+  }
+  &:not(.active) {
+    @extend .pl3, .dim, .bl, .bw1, .b--transparent;
+  }
+  &:hover:not(.active) a {
+    @extend .#{$headlineColor}, .b--#{$borderColor};
   }
 }
 
