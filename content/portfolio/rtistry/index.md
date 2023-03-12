@@ -437,6 +437,16 @@ sunbursts(n = 250, x_means = c(1, 2, 9, 50), y_means = c(3, 6, 8, -3), xy_var = 
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/sunbursts3.jpeg" >}}
 
 ``` r
+sunsets(num_bars = 8, n = 1000, col_palette = PrettyCols::prettycols("Lively"), bg_col = "#413C58", vertical = FALSE, fade_vertical = FALSE, alpha = 1, s = 2023)
+sunsets(num_bars = 3, n = 1000, col_palette = PrettyCols::prettycols("Lucent"), bg_col = "black", vertical = TRUE, fade_vertical = TRUE, alpha = 1, s = 1234)
+sunsets(num_bars = 10, n = 1000, col_palette = grey.colors(10), bg_col = "grey90", vertical = FALSE, fade_vertical = TRUE, alpha = 1, s = 2023)
+```
+{{< three-images
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/sunsets1.png"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/sunsets2.png"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/sunsets3.png" >}}
+
+``` r
 tiles(n_x = 12, n_y = 12, col_palette = MetBrewer::met.brewer("Veronese", 5), s = 1234)
 tiles(n_x = 50, n_y = 50, col_palette = MetBrewer::met.brewer("Veronese", 6), s = 1234)
 tiles(n_x = 12, n_y = 12, col_palette = MetBrewer::met.brewer("Pissaro", 5), s = 1234)
