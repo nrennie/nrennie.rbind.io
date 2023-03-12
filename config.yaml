@@ -33,7 +33,6 @@ params:
   description: "Personal website for Nicola Rennie, containing blogs and materials related to R, academic, and data science."
   customheadingFontFamily: Fraunces
   customtextFontFamily: Commissioner
-  description: A personal website for Nicola Rennie.
   favicon: /img/favicon.ico
   headingFontFamily: sans-serif
   mainSections:
