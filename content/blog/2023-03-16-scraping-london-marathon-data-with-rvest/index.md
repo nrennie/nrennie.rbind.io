@@ -17,7 +17,7 @@ There are lots of ways to get data into R: reading from local files or URLs, R p
 That's where {rvest} comes in. {rvest} is an R package within the {tidyverse} which helps you scrape data from web pages. This blog post will showcase an example of scraping data from Wikipedia on London Marathon races and winners. By the end, you should be ready to scrape some data of your own!
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-03-23-scraping-london-marathon-data-with-rvest/kermit.gif" width = "60%" alt="Gif of kermit the frog typing quickly on a typewriter"><br>
+<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-03-16-scraping-london-marathon-data-with-rvest/kermit.gif" width = "60%" alt="Gif of kermit the frog typing quickly on a typewriter"><br>
 <small>Image: <a href="https://giphy.com/gifs/muppets-LmBsnpDCuturMhtLfw">giphy.com</a></small>
 </p>
 
@@ -25,7 +25,7 @@ That's where {rvest} comes in. {rvest} is an R package within the {tidyverse} wh
 
 ### Loading the R packages
 
-For the process of scraping the London Marathon data from Wikipedia, we need five R packages: {rvest} for web-scraping, {dplyr} for manipulating the scraped data, {lubridate} and {chron} for working with the time data (optional depending on your use case), and {readr} to save the data for re-use later.
+For the process of scraping the London Marathon data from [Wikipedia](https://en.wikipedia.org/wiki/List_of_winners_of_the_London_Marathon), we need five R packages: {rvest} for web-scraping, {dplyr} for manipulating the scraped data, {lubridate} and {chron} for working with the time data (optional depending on your use case), and {readr} to save the data for re-use later.
 
 ```r
 library(rvest)
@@ -143,5 +143,7 @@ data(london_marathon, package = "LondonMarathon")
 ### Final thoughts
 
 I hope this blog post has convinced you that scraping data from a website does need to be as difficult as it sounds, and that it's a better option that copying and pasting! The code, data, data dictionary, and a few exploratory plots can be found on [GitHub](https://github.com/nrennie/LondonMarathon).
+
+If you need to interact with the website you're scraping in some way e.g. inputting log in details, or clicking on buttons to select data, you'll likely find [{RSelenium}](https://docs.ropensci.org/RSelenium/) a very useful package! This [blog post](http://brooksandrew.github.io/simpleblog/articles/scraping-with-selenium/) from [Andrew Brooks](https://github.com/brooksandrew) on how to use {RSelenium} for web scraping gives a short introduction.
 
 The background photo in the cover image of this blog post is from [Benjamin Davies](https://unsplash.com/@bendavisual) on [Unsplash](https://unsplash.com/photos/Oja2ty_9ZLM).
