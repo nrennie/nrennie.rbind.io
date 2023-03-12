@@ -2,7 +2,7 @@
 author: Nicola Rennie
 categories:
   - R
-date: "2023-03-23"
+date: "2023-03-16"
 slug: "web-scraping-rvest-london-marathon"
 draft: false
 excerpt: "{rvest} is an R package within the {tidyverse} which helps you scrape data from web pages. This blog post will showcase an example of scraping data from Wikipedia on London Marathon races and winners."
