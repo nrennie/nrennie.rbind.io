@@ -17,6 +17,10 @@ layout: single
 categories:
 - Conference
 links:
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: /talks/appsilon-shinyconf-github-actions/slides.html
 - icon: github
   icon_pack: fab
   name: GitHub
@@ -41,5 +45,3 @@ In this talk I’ll discuss:
 * GitHub repository: [github.com/nrennie/shinytweet](https://github.com/nrennie/shinytweet)
 
 * Blog post: [nrennie.rbind.io/blog/2022-10-05-automatically-deploying-a-shiny-app-for-browsing-rstats-tweets-with-github-actions](https://nrennie.rbind.io/blog/2022-10-05-automatically-deploying-a-shiny-app-for-browsing-rstats-tweets-with-github-actions/)
-
-Slides will be added soon!
