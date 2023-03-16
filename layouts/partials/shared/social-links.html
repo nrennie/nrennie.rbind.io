@@ -14,7 +14,7 @@
     {{ else if in (slice "http" "https") $scheme }}
       {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
     {{ end }}
-    <a class="link dib h1 w1 ml2 mr2 f5 o-90 glow" href="{{ $link | safeURL }}" title="{{ .icon }}" {{ $target | safeHTMLAttr }}>
+    <a class="link dib h1 w1 ml1 mr1 f5 o-90 glow" href="{{ $link | safeURL }}" title="{{ .icon }}" {{ $target | safeHTMLAttr }}>
       <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} fa-lg fa-fw"></i>
     </a>
   {{ end }}
