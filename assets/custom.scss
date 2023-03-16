@@ -83,6 +83,10 @@ div.highlight {
   border-color: #508080 !important;
   border-width: 1px !important;
   border-style: solid;
+  position: relative;
+  z-index: 0;
+  padding: 0;
+  margin: 0;
 } 
 
 .pre {
@@ -90,7 +94,7 @@ div.highlight {
   overflow-x: auto;
   border-style: none !important;
   padding: 5px;
-  margin: 5px;
+  margin: 0px;
 }
 
 .page-main .social-icon-links a {

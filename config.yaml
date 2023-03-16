@@ -15,6 +15,10 @@ ignoreFiles:
   - \.knit\.md$
   - \.utf8\.md$
 enableEmoji: yes
+pygmentsOptions: "linenos=table"
+pygmentsCodefences: true
+pygmentsStyle: "pygments"
+pygmentsCodefencesGuessSyntax: true
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
@@ -23,8 +27,6 @@ markup:
       unsafe: yes
   highlight:
     style: vs
-    lineNos: true
-    lineanchors: prefix
   tableOfContents:
     endLevel: 3
     ordered: no
