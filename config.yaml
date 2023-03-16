@@ -15,9 +15,6 @@ ignoreFiles:
   - \.knit\.md$
   - \.utf8\.md$
 enableEmoji: yes
-pygmentsOptions: "linenos=table"
-pygmentsCodefences: true
-pygmentsStyle: "pygments"
 pygmentsCodefencesGuessSyntax: true
 markup:
   defaultMarkdownHandler: goldmark
@@ -27,6 +24,11 @@ markup:
       unsafe: yes
   highlight:
     style: vs
+    codeFences: true
+    guessSyntax: true
+    noClasses: false
+    lineNos: true
+    lineNumbersInTable: true
   tableOfContents:
     endLevel: 3
     ordered: no

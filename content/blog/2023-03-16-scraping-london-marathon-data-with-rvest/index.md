@@ -39,7 +39,9 @@ library(readr)
 Now let's actually get the data! The key function in {rvest} is `read_html()` which does what it says on the tin and reads in the HTML code used on the site you pass in as the first argument:
 
 ```r
-london <- read_html("https://en.wikipedia.org/wiki/List_of_winners_of_the_London_Marathon")
+london <- read_html(
+  "https://en.wikipedia.org/wiki/List_of_winners_of_the_London_Marathon"
+  )
 ```
 The initial output doesn't look particularly nice: 
 

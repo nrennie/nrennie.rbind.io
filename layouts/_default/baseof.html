@@ -11,8 +11,5 @@
       <div>
         {{- block "footer" . }}{{- partial "footer.html" . -}}{{- end }}
       </div>
-    {{ if (findRE "<pre" .Content 1) }}
-    <script src="/js/copy-code-button.js"></script>
-    {{ end }}
     </body>
 </html>
