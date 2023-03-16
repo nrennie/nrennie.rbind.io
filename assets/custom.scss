@@ -76,7 +76,7 @@ div.highlight {
   border-style: solid;
 }
 
-.pre {
+.highlight {
   max-height: 400px !important;
   overflow-y: auto;
   overflow-x: auto;
@@ -84,6 +84,14 @@ div.highlight {
   border-width: 1px !important;
   border-style: solid;
 } 
+
+.pre {
+  overflow-y: auto;
+  overflow-x: auto;
+  border-style: none !important;
+  padding: 5px;
+  margin: 5px;
+}
 
 .page-main .social-icon-links a {
     color: #508080 !important;

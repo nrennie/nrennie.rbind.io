@@ -23,6 +23,8 @@ markup:
       unsafe: yes
   highlight:
     style: vs
+    lineNos: true
+    lineanchors: prefix
   tableOfContents:
     endLevel: 3
     ordered: no
