@@ -39,6 +39,7 @@ The R Weekly podcast offers a quick description of the latest highlighted blogs 
 ### [Jumping Rivers](https://www.jumpingrivers.com/)
 [Jumping Rivers](https://www.jumpingrivers.com/blog/) write blog posts on topics related to R, Python, and all things data science. You can find my contributed blog posts listed below.
 {{< detail-tag "View contributed blogs" >}}
+* [Alt Text in R: Plots, Reports, and Shiny](https://www.jumpingrivers.com/blog/accessibility-alt-text-in-r/)
 * [What is R7? A New OOP System for R](https://www.jumpingrivers.com/blog/r7-oop-object-oriented-programming-r/)
 * [I'm an R user: Quarto or R Markdown?](https://www.jumpingrivers.com/blog/quarto-rmarkdown-comparison/)
 * [Highlights from rstudio::conf(2022)](https://www.jumpingrivers.com/blog/highlights-rstudioconf2022/)
