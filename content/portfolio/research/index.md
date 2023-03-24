@@ -21,16 +21,16 @@ A blog post giving an overview of my PhD thesis is available on [my website](htt
 
 <!-- #### Publications -->
 
+**Outlier detection in network revenue management.** <br>
+**N. Rennie**, C. Cleophas, A. M. Syksulski, F. Dost. <br>
+*OR Spectrum*. 2023. <br>
+doi: [doi.org/10.1007/s00291-023-00714-2](https://doi.org/10.1007/s00291-023-00714-2).
+
+
 **Analysing and visualising bike sharing demand with outliers.** <br>
-**N. Rennie**, C. Cleophas, A. M. Syksulski, F. Dost. 2023. <br>
+**N. Rennie**, C. Cleophas, A. M. Syksulski, F. Dost. <br>
 *Discover Data*. Volume 1, Issue 1. March 2023. <br>
 doi: [doi.org/10.1007/s44248-023-00001-z](https://doi.org/10.1007/s44248-023-00001-z)
-
-
-**Outlier detection in network revenue management.** <br>
-**N. Rennie**, C. Cleophas, A. M. Syksulski, F. Dost. 2023. <br>
-*Accepted in OR Spectrum.* <br>
-Pre-print: [arxiv.org/abs/2104.04157](https://arxiv.org/abs/2104.04157).
 
 
 **We're not getting any younger! Or should that be older?** <br>
