@@ -16,6 +16,10 @@ draft: false
 layout: single
 categories:
 - RLadies
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: /talks/rladies-gaborone-data-science-portfolio/slides.html
 image: featured.jpg
 ---
 
