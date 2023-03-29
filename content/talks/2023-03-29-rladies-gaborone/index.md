@@ -9,7 +9,7 @@ date: "2023-03-29"
 date_end: "2023-03-29"
 show_post_time: false
 event: "R Ladies Gaborone Meetup"
-event_url: 
+event_url: "https://www.meetup.com/rladies-gaborone/events/291615551/"
 author: "Nicola Rennie"
 location: "Online"
 draft: false
