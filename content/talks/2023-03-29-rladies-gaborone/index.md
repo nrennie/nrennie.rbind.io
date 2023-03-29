@@ -16,6 +16,7 @@ draft: false
 layout: single
 categories:
 - RLadies
+links:
 - icon: download
   icon_pack: fas
   name: Slides
