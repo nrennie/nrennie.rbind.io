@@ -22,6 +22,10 @@ links:
   icon_pack: fas
   name: Slides
   url: /talks/rladies-gaborone-data-science-portfolio/slides.html
+- icon: youtube
+  icon_pack: fab
+  name: YouTube
+  url: https://youtu.be/b1qhl2yZloQ
 ---
 
 Creating a data science portfolio can help you to develop your skills, as well as showcase them to the wider world. However, getting started on making your portfolio can feel like a huge task. In this talk, I'll discuss how I used #TidyTuesday to gradually build an R portfolio.
