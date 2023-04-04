@@ -9,7 +9,7 @@ draft: false
 categories:
   - Research
 layout: single
-image: featured.jpg
+image: featured.png
 ---
 
 My research interests lie in statistics and operational research, more specifically in time series analysis with a focus on applications to health data. My research thus far has focused on the development and use of functional analysis for detecting outliers in time series data. We have performed case studies on multiple empirical data sets including railway booking data and bike-sharing usage data.
