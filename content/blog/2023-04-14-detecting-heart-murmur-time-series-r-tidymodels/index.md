@@ -253,15 +253,15 @@ all_model_data |>
 ```
 {{< /detail-tag >}}
 
-So we need a way of picking which variables to include in our model. One potential way is stepwise regression (where variables are iteratively included/removed from the model and the fit compared). With 43 variables, this approach could take quite a while, and it could be easy to go down the wrong path in selecting variables. Instead, we're going to use LASSO regression.
+So we need a way of picking which variables to include in our model. One potential way is stepwise regression (where variables are iteratively included/removed from the model and the fit compared). With 43 variables, this approach could take quite a while, and it could be easy to go down the wrong path in selecting variables. Instead, we're going to use Lasso regression.
 
-LASSO regression is a method for estimating coefficients in linear models, with a special constraint that forces the sum of the absolute value of the coefficients to be less than a particular value. This means that some coefficients are forced to be zero, and so LASSO can be used to automatically select which variables are included in the model, i.e. those that are non-zero.
+Lasso regression is a method for estimating coefficients in linear models, with a special constraint that forces the sum of the absolute value of the coefficients to be less than a particular value. This means that some coefficients are forced to be zero, and so Lasso can be used to automatically select which variables are included in the model, i.e. those that are non-zero.
 
-> Julia Silge uses LASSO regression in her blog post looking at data from The Office, and I'd highly recommend having a look at it if you want more examples and explanation of how {tidymodels} can be used for LASSO regression. Read it at [juliasilge.com/blog/lasso-the-office](https://juliasilge.com/blog/lasso-the-office/).
+> Julia Silge uses Lasso regression in her blog post looking at data from The Office, and I'd highly recommend having a look at it if you want more examples and explanation of how {tidymodels} can be used for Lasso regression. Read it at [juliasilge.com/blog/Lasso-the-office](https://juliasilge.com/blog/Lasso-the-office/).
 
 We may also want to consider principal component analysis (PCA) which transforms the explanatory variables into a new set of artificial variables (or components). These new variables are chosen to explain the most variability in the original variables, and can also help to deal with correlations between explanatory variables in the data.
 
-In this blog post, let's compare using LASSO logistic regression on the raw data and LASSO logistic regression on the principal components. Before a model is fitted to the data, we need to split the data into a training set and a test set. This allows us to perform model selection using the training data without biasing the evaluation on the test set.
+In this blog post, let's compare using Lasso logistic regression on the raw data and Lasso logistic regression on the principal components. Before a model is fitted to the data, we need to split the data into a training set and a test set. This allows us to perform model selection using the training data without biasing the evaluation on the test set.
 
 {{< detail-tag "Show code: split data into train and test" >}}
 ```r
@@ -290,7 +290,7 @@ wf_pca <- workflow() |>
 ```
 {{< /detail-tag >}}
 
-The next step in fitting a LASSO regression model is dealing with $\lambda$ (a hyperparameter). This isn't something like the regression coefficients which can be optimally computed based on the data. Instead, we need to try lots of different values of $\lambda$ and pick the one that performs best. A (potentially) different value of $\lambda$ should be selected for the model using the principal components as explanatory variables.
+The next step in fitting a Lasso regression model is dealing with $\lambda$ (a hyperparameter). This isn't something like the regression coefficients which can be optimally computed based on the data. Instead, we need to try lots of different values of $\lambda$ and pick the one that performs best. A (potentially) different value of $\lambda$ should be selected for the model using the principal components as explanatory variables.
 
 {{< detail-tag "Show code: tune $\lambda$" >}}
 ```r
@@ -301,13 +301,13 @@ tune_spec <- logistic_reg(penalty = tune(), mixture = 1) |>
 lambda_grid <- grid_regular(penalty(), levels = 50)
 set.seed(1234)
 
-lasso_grid <- tune_grid(
+Lasso_grid <- tune_grid(
   wf |> add_model(tune_spec),
   resamples = murmurs_boot,
   grid = lambda_grid
 )
 
-lasso_pca_grid <- tune_grid(
+Lasso_pca_grid <- tune_grid(
   wf_pca |> add_model(tune_spec),
   resamples = murmurs_boot,
   grid = lambda_grid
@@ -327,7 +327,7 @@ So how do we know which value of $\lambda$ is best? For each value of $\lambda$ 
 
 {{< detail-tag "Show code: plot performace for different $\lambda$" >}}
 ``` r
-p1 <- lasso_grid |>
+p1 <- Lasso_grid |>
   collect_metrics() |> 
   ggplot(mapping = aes(x = penalty)) +
   geom_ribbon(mapping = aes(
@@ -350,7 +350,7 @@ p1 <- lasso_grid |>
   theme(axis.text.y = element_text(margin = margin(r = 5)))
 p1
 
-p2 <- lasso_pca_grid |>
+p2 <- Lasso_pca_grid |>
   collect_metrics() |> 
   ggplot(mapping = aes(x = penalty)) +
   geom_ribbon(mapping = aes(
@@ -384,25 +384,25 @@ We can then use this *best* value of $\lambda$ in our final model.
 
 {{< detail-tag "Show code: fit final model" >}}
 ```r
-highest_roc_auc <- lasso_grid %>%
+highest_roc_auc <- Lasso_grid %>%
   select_best("roc_auc")
 
-highest_pca_roc_auc <- lasso_pca_grid %>%
+highest_pca_roc_auc <- Lasso_pca_grid %>%
   select_best("roc_auc")
 
-final_lasso <- finalize_workflow(
+final_Lasso <- finalize_workflow(
   wf %>% add_model(tune_spec),
   highest_roc_auc
 )
 
-final_pca_lasso <- finalize_workflow(
+final_pca_Lasso <- finalize_workflow(
   wf_pca %>% add_model(tune_spec),
   highest_pca_roc_auc
 )
 ```
 {{< /detail-tag >}}
 
-Let's look at which explanatory variables the LASSO regression has selected as important. I'll only look at the model fitted to the raw data, as the PCA data can't really be interpreted in the same way.
+Let's look at which explanatory variables the Lasso regression has selected as important. I'll only look at the model fitted to the raw data, as the PCA data can't really be interpreted in the same way.
 
 <p align="center">
 <img width="70%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-04-14-detecting-heart-murmur-time-series-r-tidymodels/variables.png">
@@ -410,7 +410,7 @@ Let's look at which explanatory variables the LASSO regression has selected as i
 
 {{< detail-tag "Show code: plot predictors" >}}
 ```r
-final_lasso %>%
+final_Lasso %>%
   fit(murmurs_train) %>%
   extract_fit_parsnip() %>%
   vip::vi(lambda = highest_roc_auc$penalty) %>%
@@ -439,13 +439,13 @@ We can then finally fit our final model to the test data to evaluate how well it
 {{< detail-tag "Show code: fit to test data" >}}
 ```r
 last_fit(
-  final_lasso,
+  final_Lasso,
   murmurs_split
 ) %>%
   collect_metrics()
 
 last_fit(
-  final_pca_lasso,
+  final_pca_Lasso,
   murmurs_split
 ) %>%
   collect_metrics()
@@ -468,7 +468,7 @@ Sometimes we'll care about these four things equally, and sometimes some will be
 {{< detail-tag "Show code: plot confusion matrix" >}}
 ```r
 p1 = last_fit(
-  final_lasso,
+  final_Lasso,
   murmurs_split
 ) |> 
   pull(.predictions) |> 
@@ -486,7 +486,7 @@ p1 = last_fit(
 p1
 
 p2 = last_fit(
-  final_pca_lasso,
+  final_pca_Lasso,
   murmurs_split
 ) |> 
   pull(.predictions) |> 
