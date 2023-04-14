@@ -11,6 +11,12 @@ images:
 - featured.png
 ---
 
+{{< links-section "/links/r4ds.png" >}}
+### [R4DS Online Community](https://www.rfordatasci.com/)
+The R4DS Online Learning Community is a community of R learners at all skill levels working together to improve their skills. [Join the Slack workspace](http://r4ds.io/join) to meet other R users.
+{{< /links-section >}}
+
+
 {{< links-section "/links/rweekly.png" >}}
 ### [R Weekly](https://rweekly.org/)
 R Weekly keeps track of great things in the R community and makes it more accessible to everyone. Some of my blog posts have made the highlights of R Weekly!
@@ -35,6 +41,18 @@ The R Weekly podcast offers a quick description of the latest highlighted blogs 
 {{< /links-section >}}
 
 
+{{< links-section "/links/chicas.png" >}}
+### [CHICAS](https://chicas.lancaster-university.uk/)
+[CHICAS](https://chicas.lancaster-university.uk/) (Centre for Health Informatics, Computing, and Statistics) is a group of staff, research associates, and postgraduate students in Lancaster Medical School at Lancaster University. 
+{{< /links-section >}}
+
+
+{{< links-section "/links/rladies.png" >}}
+### [R-Ladies](https://rladies.org/)
+[R-Ladies](https://rladies.org/) is a global organisation that aims to promote gender diversity in the R community. [Join the Slack workspace](https://rladies-community-slack.herokuapp.com/) to meet other R users.
+{{< /links-section >}}
+
+
 {{< links-section "/links/jumping_rivers.png" >}}
 ### [Jumping Rivers](https://www.jumpingrivers.com/)
 [Jumping Rivers](https://www.jumpingrivers.com/blog/) write blog posts on topics related to R, Python, and all things data science. You can find my contributed blog posts listed below.
@@ -55,18 +73,6 @@ The [Posit](https://posit.co/blog/) (formerly RStudio) blog covers topics includ
 {{< detail-tag "View contributed blogs" >}}
 * [Translating Shiny Apps for International Audiences](https://www.rstudio.com/blog/translating-shiny-apps-for-international-audiences/)
 {{< /detail-tag >}}
-{{< /links-section >}}
-
-
-{{< links-section "/links/r4ds.png" >}}
-### [R4DS Online Community](https://www.rfordatasci.com/)
-The R4DS Online Learning Community is a community of R learners at all skill levels working together to improve their skills. [Join the Slack workspace](http://r4ds.io/join) to meet other R users.
-{{< /links-section >}}
-
-
-{{< links-section "/links/rladies.png" >}}
-### [R-Ladies](https://www.r-bloggers.com/)
-[R-bloggers](https://rladies.org/) is a global organisation that aims to promote gender diversity in the R community. [Join the Slack workspace](https://rladies-community-slack.herokuapp.com/) to meet other R users.
 {{< /links-section >}}
 
 
