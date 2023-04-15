@@ -6,7 +6,7 @@ action_type: button
 show_action_link2: true2
 action_label2: Publications
 action_link2: /Nicola_Rennie_Publications.pdf
-description: "Nicola Rennie is an academic and data scientist, passionate about using statistics to solve problems. She has experience in data science consultancy, having previously completed her PhD in statistics and operational research at Lancaster University. She researched the detection of demand outliers in collaboration with Deutsche Bahn, and continues to enjoy working closely with external research partners."
+description: "Nicola Rennie is an academic and data scientist, passionate about using statistics to solve problems. She is currently a Lecturer in Health Data Science at Lancaster Medical School, working on time series analysis and applications related to health. Nicola also has experience in data science consultancy, and collaborates closely with external research partners."
 image_left: false
 images:
 - img/nicola_r.jpg
