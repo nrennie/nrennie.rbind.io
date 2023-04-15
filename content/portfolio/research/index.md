@@ -35,7 +35,7 @@ doi: [doi.org/10.1007/s44248-023-00001-z](https://doi.org/10.1007/s44248-023-000
 {{< /detail-tag >}}
 
 
-{{< detail-tag "2022" >}}
+{{< detail-tag "<h3>2022</h3>" >}}
 **We're not getting any younger! Or should that be older?** <br>
 **N. Rennie**. <br>
 *Significance (online)*. 2022. <br>
@@ -43,7 +43,7 @@ Link: [www.significancemagazine.com/science/723-we-re-not-getting-any-younger-or
 {{< /detail-tag >}}
 
 
-{{< detail-tag "2021" >}}
+{{< detail-tag "<h3>2021</h3>" >}}
 **Detecting demand outliers in transport systems** <br>
 **N. Rennie**. <br>
 *PhD Thesis*. 2021. <br>
