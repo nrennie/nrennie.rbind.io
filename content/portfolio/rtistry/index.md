@@ -237,14 +237,14 @@ infinity(n = 25, col_scheme = "rainbow", bg_col = "black", s = 1234)
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/infinity_n25_r.jpeg" >}}
 
 ```r
-lines(n = 100, max_length = 7, linewidth = 0.5, main_col = "black", bg_col = "white", s = 123)
-lines(n = 1000, max_length = 5, linewidth = 0.1, main_col = "#32A287", bg_col = "white", s = 12)
-lines(n = 50, max_length = 10, linewidth = 0.5, main_col = "#C03221", bg_col = "#f2d6d2", s = 2023)
+perpendicular(n = 100, max_length = 7, linewidth = 0.5, main_col = "black", bg_col = "white", s = 123)
+perpendicular(n = 1000, max_length = 5, linewidth = 0.1, main_col = "#32A287", bg_col = "white", s = 12)
+perpendicular(n = 50, max_length = 10, linewidth = 0.5, main_col = "#C03221", bg_col = "#f2d6d2", s = 2023)
 ```
 {{< three-images
-"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/lines1.jpeg"
-"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/lines2.jpeg"
-"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/lines3.jpeg" >}}
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/perpendicular1.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/perpendicular2.jpeg"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/perpendicular3.jpeg" >}}
 
 ```r
 moire(inner_n = 20, dist = 10, inner_col = "grey40", outer_col = "grey60", bg_col = "grey10", inner_r = 0.5, outer_r = 0.2)
@@ -489,11 +489,11 @@ waves(a = 6, b = 23, linewidth  =  0.5, main_col = "black", bg_col = "white", s 
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/waves6_23_bw.jpeg" >}}
 
 ```r
-windows(n_x = 10, n_y = 10, col_palette = PrettyCols::prettycols("Beach", n = 5), linewidth = 2) 
-windows(n_x = 12, n_y = 12, col_palette = gray.colors(20), linewidth = 2) 
-windows(n_x = 5, n_y = 5, col_palette = PrettyCols::prettycols("TangerineBlues"), linewidth = 1) 
+window_boxes(n_x = 10, n_y = 10, col_palette = PrettyCols::prettycols("Beach", n = 5), linewidth = 2) 
+window_boxes(n_x = 12, n_y = 12, col_palette = gray.colors(20), linewidth = 2) 
+window_boxes(n_x = 5, n_y = 5, col_palette = PrettyCols::prettycols("TangerineBlues"), linewidth = 1) 
 ```
 {{< three-images
-"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/windows1.png"
-"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/windows2.png"
-"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/windows3.png" >}}
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/window_boxes1.png"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/window_boxes2.png"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/window_boxes3.png" >}}
