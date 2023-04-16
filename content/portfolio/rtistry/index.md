@@ -367,9 +367,9 @@ spirals(perc = 0.8, s = 1234)
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/spirals_p8.jpeg" >}}
 
 ```r
-spiro(n_x = 10, n_y = 10, d = 10, R = 4, r = 1, bg_col = "grey20", col_palette = "white", s = 1234)
-spiro(n_x = 5, n_y = 5, d = 10, R = 4, r = 1, bg_col = "grey20", col_palette = PrettyCols::prettycols("Lucent"), s = 2023)
-spiro(n_x = 3, n_y = 3, d = 5, R = 8, r = 1, bg_col = "black", col_palette = PrettyCols::prettycols("Neon"), s = 1234)
+spiro(n_x = 10, n_y = 10, d = 10, R = 4, r = 1, bg_col = "grey20", linewidth = 0.5, col_palette = "white", s = 1234)
+spiro(n_x = 5, n_y = 5, d = 10, R = 4, r = 1, bg_col = "grey20", linewidth = 0.5, col_palette = PrettyCols::prettycols("Lucent"), s = 2023)
+spiro(n_x = 3, n_y = 3, d = 5, R = 8, r = 1, bg_col = "black", linewidth = 0.5, col_palette = PrettyCols::prettycols("Neon"), s = 1234)
 ```
 {{< three-images
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/spiro1.png"
