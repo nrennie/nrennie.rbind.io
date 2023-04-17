@@ -21,7 +21,6 @@ A blog post giving an overview of my PhD thesis is available on [my website](htt
 
 <!-- #### Publications -->
 
-{{< detail-tag "<h3>2023</h3>" >}}
 **Outlier detection in network revenue management.** <br>
 **N. Rennie**, C. Cleophas, A. M. Syksulski, F. Dost. <br>
 *OR Spectrum*. 2023. <br>
@@ -32,18 +31,14 @@ doi: [doi.org/10.1007/s00291-023-00714-2](https://doi.org/10.1007/s00291-023-007
 **N. Rennie**, C. Cleophas, A. M. Syksulski, F. Dost. <br>
 *Discover Data*. Volume 1, Issue 1. March 2023. <br>
 doi: [doi.org/10.1007/s44248-023-00001-z](https://doi.org/10.1007/s44248-023-00001-z)
-{{< /detail-tag >}}
 
 
-{{< detail-tag "<h3>2022</h3>" >}}
 **We're not getting any younger! Or should that be older?** <br>
 **N. Rennie**. <br>
 *Significance (online)*. 2022. <br>
 Link: [www.significancemagazine.com/science/723-we-re-not-getting-any-younger-or-should-that-be-older](https://www.significancemagazine.com/science/723-we-re-not-getting-any-younger-or-should-that-be-older).
-{{< /detail-tag >}}
 
 
-{{< detail-tag "<h3>2021</h3>" >}}
 **Detecting demand outliers in transport systems** <br>
 **N. Rennie**. <br>
 *PhD Thesis*. 2021. <br>
@@ -54,7 +49,6 @@ doi: [doi.org/10.17635/lancaster/thesis/1448](https://doi.org/10.17635/lancaster
 **N. Rennie**, C. Cleophas, A. M. Syksulski, F. Dost. <br>
 *European Journal of Operational Research*. Volume 293, Issue 3, 16 September 2021, 1015-1030. <br>
 doi: [doi.org/10.1016/j.ejor.2021.01.002](https://doi.org/10.1016/j.ejor.2021.01.002).
-{{< /detail-tag >}}
 
 
 <!-- #### Working Papers -->
