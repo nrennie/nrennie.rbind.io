@@ -14,7 +14,7 @@ image: featured.png
 
 ### Jumping Rivers
 
-**2021 - Present**. *Data Science Trainer**.
+**Nov 2021 - Apr 2023**. *Data Science Trainer**.
 
 - Introduction to R and Statistical Modelling
 - Advanced Graphics in R
