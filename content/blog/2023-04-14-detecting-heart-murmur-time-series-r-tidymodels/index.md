@@ -34,7 +34,6 @@ library(glue)
 library(here)
 library(purrr)
 library(rstatix)
-library(nrBrand)
 library(vip)
 library(forcats)
 library(patchwork)
@@ -334,19 +333,16 @@ p1 <- Lasso_grid |>
     ymin = mean - std_err,
     ymax = mean + std_err
   ),
-  fill = nr_mid,
   alpha = 0.3
   ) +
   geom_line(mapping = aes(y = mean),
-            linewidth = 1,
-            colour = nr_mid) +
+            linewidth = 1) +
   facet_wrap(~.metric, scales = "free", nrow = 1) +
   scale_x_log10() +
   labs(x = "Penalty",
        y = "Mean",
        title = "Model performance under different penalties",
        subtitle = "(without PCA)") +
-  nrBrand::theme_nr() +
   theme(axis.text.y = element_text(margin = margin(r = 5)))
 p1
 
@@ -357,19 +353,16 @@ p2 <- Lasso_pca_grid |>
     ymin = mean - std_err,
     ymax = mean + std_err
   ),
-  fill = nr_mid,
   alpha = 0.3
   ) +
   geom_line(mapping = aes(y = mean),
-            linewidth = 1,
-            colour = nr_mid) +
+            linewidth = 1) +
   facet_wrap(~.metric, scales = "free", nrow = 1) +
   scale_x_log10() +
   labs(x = "Penalty",
        y = "Mean",
        title = "",
        subtitle = "(with PCA)") +
-  nrBrand::theme_nr() +
   theme(axis.text.y = element_text(margin = margin(r = 5)))
 p2
 
@@ -421,11 +414,8 @@ final_Lasso %>%
   ggplot(mapping = aes(x = Importance, y = Variable, fill = Sign)) +
   geom_col(alpha = 0.6) +
   scale_x_continuous(expand = c(0, 0)) +
-  scale_fill_manual(values = c(nr_contrast, nr_mid),
-                    labels = c("Negative influence", "Positive influence")) +
   labs(y = NULL,
        title = "Most important time series features for prediction") +
-  nrBrand::theme_nr() +
   theme(legend.position = c(0.7, 0.15),
         legend.title = element_blank(),
         plot.title.position = "plot")
@@ -476,10 +466,8 @@ p1 = last_fit(
   as_tibble() |> 
   conf_mat(murmur, .pred_class) |> 
   autoplot(type = "heatmap") +
-  scale_fill_gradient(low = nr_light, high = nr_mid) +
   labs(title = "Confusion matrix of predictions",
        subtitle = "(without PCA)") +
-  nrBrand::theme_nr() +
   coord_cartesian(expand = F) +
   theme(legend.position = "none",
         panel.grid = element_blank())
@@ -494,10 +482,8 @@ p2 = last_fit(
   as_tibble() |> 
   conf_mat(murmur, .pred_class) |> 
   autoplot(type = "heatmap") +
-  scale_fill_gradient(low = nr_light, high = nr_mid) +
   labs(title = "",
        subtitle = "(with PCA)") +
-  nrBrand::theme_nr() +
   coord_cartesian(expand = F) +
   theme(legend.position = "none",
         panel.grid = element_blank())
