@@ -324,6 +324,19 @@ moire(inner_n = 4, dist = 2, inner_col = "#533E2D", outer_col = "#A27035", bg_co
 {{< /detail-tag >}}
 
 {{< three-images
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/mirrored1.png"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/mirrored2.png"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/mirrored3.png" >}}
+
+{{< detail-tag "Code" >}}
+```r
+mirrored(n = 15, w = 4, col_palette = PrettyCols::prettycols("PurpleTangerines"), s = 1234)
+mirrored(n = 10, w = 2, col_palette = c("grey80", "grey20"), s = 19)
+mirrored(n = 20, w = 4, col_palette = rev(PrettyCols::prettycols("Beach")), s = 1234)
+```
+{{< /detail-tag >}}
+
+{{< three-images
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/mosaic1.png"
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/mosaic2.png"
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/mosaic3.png" >}}
