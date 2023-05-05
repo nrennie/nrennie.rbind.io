@@ -173,7 +173,7 @@ Now comes the slightly tricky part: we need to *crack* the egg. There are two th
 
 For this, we're going to use two different packages: [{sf}](https://cran.r-project.org/web/packages/sf/index.html) and [{lwgeom}](https://cran.r-project.org/web/packages/lwgeom/index.html). These packages were probably designed for making maps and doing spatial analysis, but it turns out they're also good for (graphical) egg-making purposes.
 
-The first thing I'm going to do, is convert the line and the egg into spatial objects. The egg will be converted to a *polygon*, and the line will be converted to a *linestring*. I've applied a further transformation to the y-axis here, to making plotting easier later on (since specific aspect ratios are enforced when we plot spatial data). I probably should have re-factored my initial transformation of the x and y coordinates earlier, but I didn't for reasons of pure laziness.
+The first thing I'm going to do, is convert the line and the egg into spatial objects. The egg will be converted to a *polygon*, and the line will be converted to a *linestring*. I've applied a further transformation to the y-axis here, to making plotting easier later on (since specific aspect ratios are enforced when we plot spatial data). I probably should have re-factored my initial transformation of the x and y coordinates earlier, but I didn't for reasons of pure laziness. 
 
 ```r
 library(sf)
