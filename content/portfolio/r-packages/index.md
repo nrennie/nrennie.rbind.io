@@ -2,7 +2,7 @@
 title: "R Packages"
 subtitle: ""
 excerpt: "R packages for generative art, data analysis and visualisation; data simulation, and outlier detection."
-date: 2022-09-02
+date: 2023-05-11
 weight: 4
 author: "Nicola Rennie"
 draft: false
@@ -20,6 +20,12 @@ links:
 I have developed R packages for generative art, data analysis, data visualisation; and outlier detection. The documentation for all of my publicly available R packages can be found on [nrennie.github.io](https://nrennie.github.io/).
 
 ## CRAN Packages
+
+{{< links-section "https://raw.githubusercontent.com/nrennie/ggflowchart/main/man/figures/logo.png" >}}
+### [ggflowchart](https://github.com/nrennie/ggflowchart)
+{ggflowchart} is an R package for creating flowchart diagrams using {ggplot2}.
+{{< /links-section >}}
+
 
 {{< links-section "https://raw.githubusercontent.com/nrennie/PrettyCols/main/man/figures/logo.png" >}}
 ### [PrettyCols](https://github.com/nrennie/PrettyCols)
@@ -51,12 +57,6 @@ CRAN: [cran.r-project.org/package=PrettyCols](https://cran.r-project.org/package
 {{< links-section "https://raw.githubusercontent.com/nrennie/ggalttext/main/man/figures/logo.png" >}}
 ### [ggalttext](https://github.com/nrennie/ggalttext)
 {ggalttext} is an R package which generates alt text for plots created in {ggplot2}.
-{{< /links-section >}}
-
-
-{{< links-section "https://raw.githubusercontent.com/nrennie/ggflowchart/main/man/figures/logo.png" >}}
-### [ggflowchart](https://github.com/nrennie/ggflowchart)
-{ggflowchart} is an R package for creating flowchart diagrams using {ggplot2}.
 {{< /links-section >}}
 
 
