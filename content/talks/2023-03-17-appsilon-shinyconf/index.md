@@ -25,6 +25,10 @@ links:
   icon_pack: fab
   name: GitHub
   url: https://github.com/nrennie/shinytweet
+- icon: youtube
+  icon_pack: fab
+  name: YouTube
+  url: https://www.youtube.com/watch?v=oGRGzyYLQXU
 image: featured.jpg
 ---
 
