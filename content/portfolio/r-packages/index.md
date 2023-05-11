@@ -24,6 +24,8 @@ I have developed R packages for generative art, data analysis, data visualisatio
 {{< links-section "https://raw.githubusercontent.com/nrennie/ggflowchart/main/man/figures/logo.png" >}}
 ### [ggflowchart](https://github.com/nrennie/ggflowchart)
 {ggflowchart} is an R package for creating flowchart diagrams using {ggplot2}.
+
+CRAN: [cran.r-project.org/web/packages/ggflowchart](https://cran.r-project.org/web/packages/ggflowchart/index.html)
 {{< /links-section >}}
 
 
@@ -31,7 +33,7 @@ I have developed R packages for generative art, data analysis, data visualisatio
 ### [PrettyCols](https://github.com/nrennie/PrettyCols)
 {PrettyCols} is an R package containing aesthetically pleasing colour palettes. The structure of the package is based on code from the [{PNWColors}](https://github.com/jakelawlor/PNWColors), [{wesanderson}](https://github.com/karthik/wesanderson), and [{MetBrewer}](https://github.com/BlakeRMills/MetBrewer) packages.
 
-CRAN: [cran.r-project.org/package=PrettyCols](https://cran.r-project.org/package=PrettyCols)
+CRAN: [cran.r-project.org/web/packages/PrettyCols](https://cran.r-project.org/web/packages/PrettyCols/index.html)
 {{< /links-section >}}
 
 ## GitHub Packages
