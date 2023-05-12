@@ -14,6 +14,10 @@ image: featured.png
 
 Back in April 2022, I participated in the [#30DayChartChallenge](https://twitter.com/30DayChartChall) and for the *Storytelling* prompt on day 29 in the *Uncertainty* category, I created the **Goldilocks Decision Tree**.  I also gave a talk to [R-Ladies Nairobi](https://twitter.com/RLadiesNairobi) on the challenge and used the flowchart as a live-coding example. A summary of the talk ended up as a [blog post](https://nrennie.rbind.io/blog/2022-06-06-creating-flowcharts-with-ggplot2/).
 
+<p align="center">
+<img width = "80%" src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-05-12-introducing-ggflowchart/bears.png" alt="a flowchart diagram showing the story of goldilocks and the three bears">
+</p>
+
 The reactions were pretty positive, and the suggestions from [Twitter](https://twitter.com/wouldeye125/status/1534181236737966085) that it should become its own R package have been floating around in my mind since then. So here it is! {ggflowchart} - the package for creating simple flowcharts using {ggplot2}.
 
 ### What does {ggflowchart} do?
