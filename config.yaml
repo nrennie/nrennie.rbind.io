@@ -70,6 +70,9 @@ params:
     - icon: stack-overflow
       icon_pack: fab
       url: https://stackoverflow.com/users/17581735/nrennie
+    - icon: orcid
+      icon_pack: fab
+      url: https://orcid.org/0000-0003-4797-557X
   socialInFooter: yes
   socialInHeader: no
   textFontFamily: sans-serif
