@@ -21,6 +21,7 @@ The R4DS Online Learning Community is a community of R learners at all skill lev
 ### [R Weekly](https://rweekly.org/)
 R Weekly keeps track of great things in the R community and makes it more accessible to everyone. Some of my blog posts have made the highlights of R Weekly!
 {{< detail-tag "View highlighted blogs" >}}
+* [2023 Week 20: Introducing {ggflowchart}](https://rweekly.org/2023-W20.html)
 * [2023 Week 04: Seeing double? Building the same app in Shiny for R and Shiny for Python](https://rweekly.org/2023-W04.html)
 * [2022 Week 49: How to make your own #RStats Wrapped!](https://rweekly.org/2022-W49.html)
 * [2022 Week 41: Automatically deploying a Shiny app for browsing #RStats tweets with GitHub Actions](https://rweekly.org/2022-W41.html)
@@ -33,6 +34,7 @@ R Weekly keeps track of great things in the R community and makes it more access
 ### [R Weekly Podcast](https://rweekly.fireside.fm/)
 The R Weekly podcast offers a quick description of the latest highlighted blogs and other stories from the latest R Weekly issue. Some of my blog posts have been discussed on the R Weekly Podcast!
 {{< detail-tag "Listen to featured episodes" >}}
+* [2023 Week 20: Introducing {ggflowchart}](https://rweekly.fireside.fm/122)
 * [2023 Week 04: Seeing double? Building the same app in Shiny for R and Shiny for Python](https://rweekly.fireside.fm/108)
 * [2022 Week 49: How to make your own #RStats Wrapped!](https://rweekly.fireside.fm/103)
 * [2022 Week 41: Automatically deploying a Shiny app for browsing #RStats tweets with GitHub Actions](https://rweekly.fireside.fm/97)
