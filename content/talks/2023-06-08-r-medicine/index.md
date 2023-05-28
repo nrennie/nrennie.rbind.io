@@ -17,10 +17,13 @@ draft: false
 layout: single
 categories:
 - Conference
+links:
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: /talks/r-medicine-2023-tidymodels/slides.html
 ---
 
 ### Abstract
 
-Heart murmurs are additonal, unusual sounds in a person's heartbeat, which can be detected through listening to the heart. When the sounds of heartbeats are recorded, the time series of the observed frequencies can be analysed to support a diagnosis of whether a patient has a heart murmur. Time series analysis can uncover hidden structures in data collected over time, such as sound recordings. When dealing with complex structures in time series data, e.g. when data has been collected over different time periods, it can be desirable to extract and model features of the time series instead of the raw data. These features can then be used to classify time series - such as those patients who do or do not have heart murmurs. In this talk, Nicola will give a brief overview of the {tidymodels} framework for machine learning, discuss the extraction of time series features, demonstrate the process of fitting machine learning models in R, and consider different approaches to model evaluation. The difficulties and concerns that come along with using machine learning to automate the detection of health conditions will also be discussed.
-
-Slides coming soon!
+Heart murmurs are additional, unusual sounds in a person's heartbeat, which can be detected through listening to the heart. When the sounds of heartbeats are recorded, the time series of the observed frequencies can be analysed to support a diagnosis of whether a patient has a heart murmur. Time series analysis can uncover hidden structures in data collected over time, such as sound recordings. When dealing with complex structures in time series data, e.g. when data has been collected over different time periods, it can be desirable to extract and model features of the time series instead of the raw data. These features can then be used to classify time series - such as those patients who do or do not have heart murmurs. In this talk, Nicola will give a brief overview of the {tidymodels} framework for machine learning, discuss the extraction of time series features, demonstrate the process of fitting machine learning models in R, and consider different approaches to model evaluation. The difficulties and concerns that come along with using machine learning to automate the detection of health conditions will also be discussed.
