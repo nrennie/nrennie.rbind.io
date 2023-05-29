@@ -129,6 +129,19 @@ bullseye(main_col = "black", bg_col = "white", s = 2021)
 {{< /detail-tag >}}
 
 {{< three-images
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/chaos1.png"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/chaos2.png"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/chaos3.png" >}}
+
+{{< detail-tag "Code" >}}
+```r
+chaos(n_lines = 75, n_points = 10, n_circles = 20, line_col = "grey70", point_col = "black", circle_col = "white", circle_line_col = "black", bg_col = "white", min_circle = 0.01, max_circle = 0.1, linewidth = 0.2, alpha = 0.5, size = 0.3, s = 1234)
+chaos(n_lines = 100, n_points = 45, n_circles = 25, line_col = "grey40", point_col = "white", circle_col = "grey10", circle_line_col = "white", bg_col = "grey10", min_circle = 0.005, max_circle = 0.15, linewidth = 0.15, alpha = 0.6, size = 0.4, s = 2024)
+chaos(n_lines = 150, n_points = 50, n_circles = 20, line_col = "#EDAE49", point_col = "#D1495B", circle_col = "#003D5B", circle_line_col = "#00798C", bg_col = "#413C58", min_circle = 0.005, max_circle = 0.05, linewidth = 0.1, alpha = 0.5, size = 1, s = 2023)
+```
+{{< /detail-tag >}}
+
+{{< three-images
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/circles1.jpeg"
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/circles2.jpeg"
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/circles3.jpeg" >}}
