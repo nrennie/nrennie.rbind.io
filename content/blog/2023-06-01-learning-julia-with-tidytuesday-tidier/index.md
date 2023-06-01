@@ -132,7 +132,7 @@ I really enjoyed getting to grips with Tidier.jl and found it an easier way to s
 
 You can view the visualisations I created (with code) in the Quarto document published on [QuartoPub](https://nrennie.quarto.pub/juliatuesday/). You can also view the source code on [GitHub](https://github.com/nrennie/JuliaTuesday).
 
-Thanks to [Karandeep Singh](https://github.com/kdpsingh) (and other contributors) for developing Tidier.jl - it's definitely made my Julia journey easier!
+Thanks to [Karandeep Singh](https://github.com/kdpsingh) (and other contributors) for developing Tidier.jl - it's definitely made my Julia journey easier! 
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-06-01-learning-julia-with-tidytuesday-tidier/julia.gif" width = "60%" alt="Gif of Julia child cooking"><br>
