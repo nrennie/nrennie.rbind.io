@@ -5,8 +5,8 @@ subtitle: "This talk will give a brief overview of the {tidymodels} framework fo
 image: featured.png
 excerpt: "This talk will give a brief overview of the {tidymodels} framework for machine learning, discuss the extraction of time series features, demonstrate the process of fitting machine learning models in R to heart sound recordings, and consider different approaches to model evaluation."
 PublishDate: "2023-05-05"
-date: "2023-06-09"
-date_end: "2023-06-05"
+date: "2023-06-05"
+date_end: "2023-06-09"
 show_post_time: false
 event: "R / Medicine 2023"
 event_url: "https://events.linuxfoundation.org/r-medicine/"
