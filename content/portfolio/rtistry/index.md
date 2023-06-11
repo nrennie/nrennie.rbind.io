@@ -207,6 +207,19 @@ crawling(n = 1000, edge_colour = "black", node_size = 1, node_colour = "black", 
 {{< /detail-tag >}}
 
 {{< three-images
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/criss_cross1.png"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/criss_cross2.png"
+"https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/criss_cross3.png" >}}
+
+{{< detail-tag "Code" >}}
+```r
+criss_cross(n = 25, bg_col = "white", line_col = "grey50", linewidth = 0.1, outline_col = "black", outline_width = 1.5, s = 1234)
+criss_cross(n = 100, bg_col = "black", line_col = PrettyCols::prettycols("Lucent"), linewidth = 0.1, outline_col = "#F9C22E", outline_width = 1, s = 2023)
+criss_cross(n = 10, bg_col = ggplot2::alpha("#462255", 0.6), line_col = PrettyCols::prettycols("Bright"), linewidth = 0.9, outline_col = "#462255", outline_width = 1.5, s = 1234)
+```
+{{< /detail-tag >}}
+
+{{< three-images
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/divide1.jpeg"
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/divide2.jpeg"
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/divide3.jpeg" >}}
