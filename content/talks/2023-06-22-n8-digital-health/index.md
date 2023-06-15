@@ -1,9 +1,9 @@
 ---
 title: "Classification of phonocardiogram signals to detect heart murmurs"
 slug: "n8-digital-health-2023"
-subtitle: ""
+subtitle: "Phonocardiographs are used to capture high resolution recordings of heart sounds. This lightning talk will discuss how we can use time series analysis can uncover hidden structures in the recordings, and use this information to detect and classify heart murmurs."
 image: featured.jpg
-excerpt: ""
+excerpt: "Phonocardiographs are used to capture high resolution recordings of heart sounds. This lightning talk will discuss how we can use time series analysis can uncover hidden structures in the recordings, and use this information to detect and classify heart murmurs."
 PublishDate: "2023-06-15"
 date: "2023-06-22"
 date_end: "2023-06-22"
@@ -11,7 +11,7 @@ show_post_time: false
 event: "N8 Digital Health Community Day"
 event_url: "https://n8cir.org.uk/events/digital-health-community-day/"
 author: "Nicola Rennie"
-location: "Leeds"
+location: "Leeds, UK"
 draft: false
 # layout options: single, single-sidebar
 layout: single
