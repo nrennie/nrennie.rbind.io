@@ -17,6 +17,11 @@ draft: false
 layout: single
 categories:
 - Conference
+links:
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: /talks/n8-digital-health-2023/slides.html
 ---
 
 ### Abstract
