@@ -1,6 +1,6 @@
 ---
 title: "Programming in public: How sharing code on social media led to new opportunities"
-slug: "pydata-lancaster"
+slug: "pydata-lancaster-2023"
 subtitle: "I'll be talking about how sharing code on social media led to finding a community of people and new opportunities, and I'll discuss one of my recent projects to develop data visualisation guidelines in R and Python."
 image: featured.png
 excerpt: "I'll be talking about how sharing code on social media led to finding a community of people and new opportunities, and I'll discuss one of my recent projects to develop data visualisation guidelines in R and Python."
