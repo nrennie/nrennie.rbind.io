@@ -151,6 +151,7 @@ If you don't have elevation data, you can use the [{elevatr}](https://github.com
 
 ``` r
 library(elevatr)
+library(raster)
 elev_data <- get_elev_raster(
   locations = data.frame(x = c(-1.760, -1.335), y = c(54.898, 55.067)),
   z = 10,
