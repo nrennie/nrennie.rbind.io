@@ -3,7 +3,7 @@ author: Nicola Rennie
 categories:
   - R
   - Data Visualisation
-  - Rtistr
+  - Rtistry
 date: "2023-02-03"
 slug: "whats-new-in-prettycols-101"
 draft: false
