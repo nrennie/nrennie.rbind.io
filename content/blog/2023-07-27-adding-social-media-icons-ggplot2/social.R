@@ -18,14 +18,14 @@ social_caption <- glue::glue(
 # Plot caption ------------------------------------------------------------
 
 library(ggplot2)
-g <- ggplot() +
+ggplot() +
   labs(caption = social_caption)
-g
 
 # Format with ggtext ------------------------------------------------------
 
 library(ggtext)
-g +
+ggplot() +
+  labs(caption = social_caption) +
   theme(plot.caption = element_textbox_simple())
 
 # Featured image ----------------------------------------------------------
