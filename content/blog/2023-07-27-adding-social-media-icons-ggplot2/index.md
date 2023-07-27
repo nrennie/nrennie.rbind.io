@@ -7,9 +7,9 @@ categories:
 date: "2023-07-27"
 slug: "adding-social-media-icons-ggplot2"
 draft: false
-excerpt: "Adding social media icons to your data visualisation is a great, concise way to put your name on your work, and make it easy for people to find your profile from your work. This blog explains how to add social media icons to {ggplot2} charts."
+excerpt: "Adding social media icons to your data visualisation is a great, concise way to put your name on your work, and make it easy for people to find your profile from your work. This blog post explains how to add social media icons to {ggplot2} charts."
 layout: blog-single
-subtitle: ""
+subtitle: "Adding social media icons to your data visualisation is a great, concise way to put your name on your work, and make it easy for people to find your profile from your work. This blog post explains how to add social media icons to {ggplot2} charts."
 title: "Adding social media icons to charts with {ggplot2}"
 image: featured.png
 ---
