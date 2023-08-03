@@ -17,6 +17,15 @@ draft: false
 layout: single
 categories:
 - Conference
+links:
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: https://teaching-with-webr.netlify.app/
+- icon: github
+  icon_pack: fab
+  name: GitHub
+  url: https://github.com/nrennie/teaching-with-webR
 ---
 
 ### Abstract
@@ -26,5 +35,3 @@ The theoretical and practical aspects of statistics are often taught separately 
 However, including live coding within a lecture isn’t always straightforward - it relies on students either bringing laptop with software pre-installed, or having signed up for cloud-based services in advance. With the creation of webR, which makes it possible to run R code in a web browser, this no longer has to be the case. All an instructor or students needs is an internet connect - nothing more than a smartphone is needed.
 
 In this talk, I’ll describe ways that teaching materials can be adjusted and made more engaging with live coding examples. It will include a demonstration of using webR to teach a simple statistical concept showing its potential to revolutionise the way we teach data science. Though this talk will primarily focus on the use of R in teaching, it will also prove relevant to those who use alternative programming languages.
-
-Slides coming soon!
