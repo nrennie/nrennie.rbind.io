@@ -22,6 +22,10 @@ links:
   icon_pack: fas
   name: Slides
   url: /talks/r-medicine-2023-tidymodels/slides.html
+- icon: youtube
+  icon_pack: fab
+  name: YouTube
+  url: https://youtu.be/xyxbhLb_aEs
 ---
 
 ### Abstract
