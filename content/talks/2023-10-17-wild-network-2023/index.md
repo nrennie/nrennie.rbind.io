@@ -1,9 +1,9 @@
 ---
 title: "Data, technology and medicine: Using data science to improve health outcomes"
 slug: "wild-schools-2023"
-subtitle: ""
+subtitle: "This talk will showcase some of the research we’re currently doing within Lancaster Medical School to make better use of data and technology within medicine."
 image: featured.jpg
-excerpt: ""
+excerpt: "This talk will showcase some of the research we’re currently doing within Lancaster Medical School to make better use of data and technology within medicine."
 PublishDate: "2023-10-01"
 date: "2023-10-17"
 date_end: "2023-10-17"
