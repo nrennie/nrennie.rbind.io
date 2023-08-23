@@ -34,6 +34,8 @@ sysfonts::font_add(family = "Font Awesome 6 Brands",
 showtext::showtext_auto()
 ```
 
+> Note: If you are using `ggsave()` with the default resolution of 300 dpi, you may also wish to run `showtext_opts(dpi = 300)`.
+
 ### Using icons in {ggplot2} text
 
 Let's say we want to add a GitHub icon to our {ggplot2} chart caption. We first need to know the unicode for the GitHub icon. You can search for the icon you want at [fontawesome.com/icons](https://fontawesome.com/icons), and you'll see the unicode icon in the top right of the screen. Although a Google search or ChatGPT would likely work equally well...
