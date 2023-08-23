@@ -326,6 +326,8 @@ use_tt_template <- function(date_chr = "2023-08-22",
 
 If you've never made a function in R before, the [R for Data Science](https://r4ds.hadley.nz/functions) book has some excellent information and examples to get started!
 
+The [{usethis} package](https://usethis.r-lib.org/reference/use_rmarkdown_template.html) has a `use_rmarkdown_template()` function for adding your own custom RMarkdown templates if you'd prefer .Rmd files instead of .R files.
+
 If you're interested in automating parts of your data science workflows, I'd highly recommend you look into GitHub Actions (or GitLab CI/CD). You can read about how I used GitHub Actions to refresh data and redeploy a Shiny app on a schedule in my blog post from last year on [Automatically deploying a Shiny app for browsing #RStats tweets with GitHub Actions](https://nrennie.rbind.io/blog/2022-10-05-automatically-deploying-a-shiny-app-for-browsing-rstats-tweets-with-github-actions/). I could do something similar here if I wanted to create these template files automatically every Tuesday morning!
 
 
