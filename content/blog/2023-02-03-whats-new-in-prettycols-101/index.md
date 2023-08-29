@@ -69,6 +69,8 @@ The colourblind-friendliness has been checked using `colorblindcheck::palette_ch
 
 ### Python support
 
+> *Edit: As of August 2023, Python support has moved to a separate package. See [github.com/nrennie/PrettyPyCols](https://github.com/nrennie/PrettyPyCols).*
+
 This colour palette package was originally developed for use with R, particularly with {ggplot2}. However, many people make charts and generative art with Python instead. So, now you can use PrettyCols with Python. The Python code is adapted from the [{MetBrewer}](https://github.com/BlakeRMills/MetBrewer/tree/main/Python) package from [Blake Robert Mills](https://github.com/BlakeRMills) which also provides support for R and Python.
 
 You can install from [GitHub](https://github.com/nrennie/PrettyCols/tree/main/Python) and read more about how to use these palettes with Python in the *Using with Python* package [vignette](https://nrennie.github.io/PrettyCols/articles/using-with-python.html). 
