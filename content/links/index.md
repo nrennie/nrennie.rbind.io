@@ -2,7 +2,7 @@
 title: Links
 description: "Links to related websites and resources."
 author: Nicola Rennie
-date: 2023-02-11
+date: 2023-09-01
 draft: false
 layout: standard
 show_title_as_headline: true
@@ -21,6 +21,7 @@ The R4DS Online Learning Community is a community of R learners at all skill lev
 ### [R Weekly](https://rweekly.org/)
 R Weekly keeps track of great things in the R community and makes it more accessible to everyone. Some of my blog posts have made the highlights of R Weekly!
 {{< detail-tag "View highlighted blogs" >}}
+* [2023 Week 35: Creating template files with R](https://rweekly.org/2023-W35.html)
 * [2023 Week 31: Adding social media icons to charts with {ggplot2}](https://rweekly.org/2023-W31.html)
 * [2023 Week 20: Introducing {ggflowchart}](https://rweekly.org/2023-W20.html)
 * [2023 Week 04: Seeing double? Building the same app in Shiny for R and Shiny for Python](https://rweekly.org/2023-W04.html)
@@ -33,8 +34,9 @@ R Weekly keeps track of great things in the R community and makes it more access
 
 {{< links-section "/links/rweekly_podcast.png" >}}
 ### [R Weekly Podcast](https://rweekly.fireside.fm/)
-The R Weekly podcast offers a quick description of the latest highlighted blogs and other stories from the latest R Weekly issue. Some of my blog posts have been discussed on the R Weekly Podcast!
+The R Weekly Podcast offers a quick description of the latest highlighted blogs and other stories from the latest R Weekly issue. Some of my blog posts have been discussed on the R Weekly Podcast!
 {{< detail-tag "Listen to featured episodes" >}}
+* [2023 Week 35: Creating template files with R](https://rweekly.fireside.fm/135)
 * [2023 Week 31: Adding social media icons to charts with {ggplot2}](https://rweekly.fireside.fm/131)
 * [2023 Week 20: Introducing {ggflowchart}](https://rweekly.fireside.fm/122)
 * [2023 Week 04: Seeing double? Building the same app in Shiny for R and Shiny for Python](https://rweekly.fireside.fm/108)
