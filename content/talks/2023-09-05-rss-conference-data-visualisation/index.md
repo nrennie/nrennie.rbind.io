@@ -17,6 +17,19 @@ draft: false
 layout: single
 categories:
 - Conference
+links:
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: https://nrennie.github.io/rss-conference-2023-data-viz-slides/
+- icon: github
+  icon_pack: fab
+  name: Guide
+  url: https://royal-statistical-society.github.io/datavisguide/
 ---
 
-More details coming soon!
+Our 80-minute session is divided into two halves:
+
+In part 1, authors Andreas Krause, Nicola Rennie, and Brian Tarran will introduce the guide and its key recommendations, and there will be a short demo of how to use the new {RSSthemes} R package.
+
+In part 2, attendees will be invited to share feedback with the authors, propose ideas, and start developing new and expanded sections of the guide. Attendees will be shown how to work with the guide’s source files and collaborate via GitHub. 
