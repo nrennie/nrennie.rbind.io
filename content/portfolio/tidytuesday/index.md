@@ -2,7 +2,7 @@
 title: "#TidyTuesday"
 subtitle: ""
 excerpt: "#TidyTuesday is a weekly data challenge aimed at the R community. Every week a new data set is posted alongside a chart or article related to that data set, and ask participants explore the data."
-date: 2023-01-30
+date: 2023-09-11
 author: "Nicola Rennie"
 draft: false
 categories:
@@ -22,6 +22,10 @@ links:
 #TidyTuesday is a weekly data challenge aimed at the R community. Every week a new dataset is posted alongside a chart or article related to that dataset, and ask participants explore the data. You can access the data and find out more [here](https://github.com/rfordatascience/tidytuesday/blob/master/README.md). 
 
 Below is a selection of my contributions to the #TidyTuesday challenge. All contributions and the code used to generate them can be found on [GitHub](https://github.com/nrennie/tidytuesday).
+
+<p align="center">
+<a href="https://github.com/nrennie/tidytuesday/tree/main/2023/2023-09-12"><img src="https://raw.githubusercontent.com/nrennie/tidytuesday/main/2023/2023-09-12/20230912.png" width="80%"></a>
+</p>
 
 <p align="center">
 <a href="https://github.com/nrennie/tidytuesday/tree/main/2023/2023-05-30"><img src="https://raw.githubusercontent.com/nrennie/tidytuesday/main/2023/2023-05-30/20230530.png" width="80%"></a>
