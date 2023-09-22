@@ -21,6 +21,12 @@ Generative art is the practice of creating artwork using code. When the programm
 
 
 {{< three-images
+  "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/wander.png"
+  "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/riso_circles2.png"
+  "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/crosshatch.png" "Wander" "Riso Circles" "Crosshatch" >}}
+  
+  
+{{< three-images
   "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/window_boxes1.png"
   "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/waves23_6_col.jpeg"
   "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/split_grid3.png" "Window Boxes" "Waves" "Split Grid" >}}
@@ -31,6 +37,12 @@ Generative art is the practice of creating artwork using code. When the programm
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/attraction1.jpeg"
 "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/black_hole1.jpeg" "Abacus" "Attraction" "Black Hole" >}}
 
+
+{{< three-images
+  "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/imploding_hexagon.png"
+  "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/split_jitter.png"
+  "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/stripes_p50_n3.jpeg" "Imploding Hexagon" "Split Jitter" "Stripes" >}}
+  
 
 {{< three-images
   "https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/portfolio/rtistry/Images/shatter1.png"
