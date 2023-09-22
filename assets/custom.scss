@@ -262,6 +262,26 @@ input[type=submit]:hover {
   flex: 50%;
 }
 
+
+/* Three columns layout */
+
+.column-three {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row-three::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 500px) {
+  .column-three {
+    width: 100%;
+  }
+}
+
 /* Two columns layout */
 
 blockquote {
