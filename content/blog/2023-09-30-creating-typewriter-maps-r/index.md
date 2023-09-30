@@ -71,7 +71,7 @@ elev_df <- elev_mat |>
   mutate(x = as.numeric(x))
 ```
 
-Now let's create a lool-up table for our selected letters and which elevation level they map to:
+Now let's create a look-up table for our selected letters and which elevation level they map to:
 
 ```r
 chars <- c("l", "I", "H", "M")
