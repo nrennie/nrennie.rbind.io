@@ -62,6 +62,7 @@ Now we need to do some pre-processing of our elevation data before we plot it. W
 To convert it into intervals, it's first easiest to convert the `RasterLayer` file we currently have into a dataframe or tibble. By default, converting from `RasterLayer` to a dataframe results in a single column, so the following code simple adds back in the information about which grid row and column each elevation value belongs to.
 
 ```r
+library(tidyverse)
 elev_mat <- terra::as.matrix(elev_data, wide = TRUE)
 colnames(elev_mat) <- 1:ncol(elev_mat)
 elev_df <- elev_mat |> 
@@ -91,13 +92,13 @@ Our look up table looks like this:
 
 Now let's turn the continuous elevation data into four levels (1, 2, 3, and 4) using the `ntile()` function from {dplyr}. I don't use the `ntile()` function very often - it breaks the input vector into `n` buckets and returns an integer vector denoting which bucket each value falls into. We can then `left_join()` our bucketed elevation data to the `chars_map` look-up table we've already created.
 
-Areas outside the boundary map of Scotland (e.g. in the sea) have an elevation level of `NA`. We could leave these as `NA`, or we can replace them with a character string containing a space. I've chosen to do the latter to keep the {ggplot2} warnings about plotting missing values quiet!
+Areas outside the boundary map of Scotland (e.g. in the sea) have an elevation level of `NA`. We don't want to plot these, so we can drop any `NA` values from the data.
 
 ```r
 elev_plot <- elev_df |> 
     mutate(value = ntile(value, n = length(chars))) |> 
     left_join(chars_map, by = "value") |> 
-    mutate(value_letter = replace_na(value_letter, " "))
+    drop_na()
 ```
 
 The first five rows of `elev_plot` look like this:
