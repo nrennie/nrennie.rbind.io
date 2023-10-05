@@ -37,6 +37,7 @@ R Weekly keeps track of great things in the R community and makes it more access
 ### [R Weekly Podcast](https://rweekly.fireside.fm/)
 The R Weekly Podcast offers a quick description of the latest highlighted blogs and other stories from the latest R Weekly issue. Some of my blog posts have been discussed on the R Weekly Podcast!
 {{< detail-tag "Listen to featured episodes" >}}
+* [2023 Week 40: Creating typewriter-styled maps in {ggplot2}](https://rweekly.fireside.fm/139)
 * [2023 Week 35: Creating template files with R](https://rweekly.fireside.fm/135)
 * [2023 Week 31: Adding social media icons to charts with {ggplot2}](https://rweekly.fireside.fm/131)
 * [2023 Week 20: Introducing {ggflowchart}](https://rweekly.fireside.fm/122)
