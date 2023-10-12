@@ -11,7 +11,7 @@ show_post_time: false
 event: "R Ladies Edinburgh Meetup"
 event_url: "https://www.meetup.com/rladies-edinburgh/"
 author: "Nicola Rennie"
-location: "Online"
+location: "Edinburgh, UK"
 draft: false
 # layout options: single, single-sidebar
 layout: single
