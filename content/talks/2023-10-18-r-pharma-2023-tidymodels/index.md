@@ -2,7 +2,7 @@
 title: "Introduction to machine learning with {tidymodels}"
 slug: "r-pharma-2023-tidymodels"
 subtitle: "This two hour workshop will introduce you to using {tidymodels} for machine learning in R."
-image: featured.png
+image: featured.jpg
 excerpt: "This two hour workshop will introduce you to using {tidymodels} for machine learning in R."
 PublishDate: "2023-10-01"
 date: "2023-10-18"
