@@ -232,4 +232,4 @@ I'm hoping this has answered most of the remaining questions!
 <p align="center">
 <img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-10-23-tidymodels-questions/dog.gif" width = "60%" alt="Gif of confused sausage dog with questions marks above its head"><br>
 <small>Image: <a href="https://giphy.com/gifs/originals-doxie-maia-dachsund-ZXwdJuk172dQwAqMGv">giphy.com</a></small>
-</p>
+</p> 
