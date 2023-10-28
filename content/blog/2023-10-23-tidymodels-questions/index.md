@@ -14,7 +14,7 @@ subtitle: "After running the 'Introduction to machine learning with {tidymodels}
 image: featured.png
 ---
 
-Last week I had the pleasure of running the *Introduction to machine learning with {tidymodels}* workshop as part of the [R/Pharma 2023 Conference](https://rinpharma.com/event/rinpharma2023/). Thanks again to Phil Bowsher for the invitation, and to Eric Nantz for TA'ing the workshop and keeping an eye on all the questions coming in!
+Last week I had the pleasure of running the *Introduction to machine learning with {tidymodels}* workshop as part of the [R/Pharma 2023 Conference](https://rinpharma.com/event/rinpharma2023/). Thanks again to Phil Bowsher for the invitation, Eric Nantz for TA'ing the workshop and keeping an eye on all the questions coming in, and Libby Heeren for so many helpful responses to questions!
 
 During the workshop, we covered the pre-modelling steps with {tidymodels}, LASSO logistic regression, random forests, and support vector machines. The workshop materials can be found online:
 
@@ -232,4 +232,4 @@ I'm hoping this has answered most of the remaining questions!
 <p align="center">
 <img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-10-23-tidymodels-questions/dog.gif" width = "60%" alt="Gif of confused sausage dog with questions marks above its head"><br>
 <small>Image: <a href="https://giphy.com/gifs/originals-doxie-maia-dachsund-ZXwdJuk172dQwAqMGv">giphy.com</a></small>
-</p>
+</p> 
