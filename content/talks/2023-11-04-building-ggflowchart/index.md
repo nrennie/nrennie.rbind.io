@@ -17,7 +17,12 @@ draft: false
 layout: single
 categories:
 - Meetup
+links:
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: /talks/ggplot2-building-ggflowchart/slides.html
 ---
 
-More information coming soon!
+This talk will discuss the inspiration for creating {ggflowchart}, the technical details of how it's built, and the features being added next.
 
