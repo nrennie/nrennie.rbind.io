@@ -79,7 +79,7 @@ The R Weekly Podcast offers a quick description of the latest highlighted blogs 
 ### [Posit](https://posit.co/blog/)
 The [Posit](https://posit.co/blog/) (formerly RStudio) blog covers topics including industry, open source, products and technology, training and education, and data science leadership. You can find my contributed blogs listed below.
 {{< detail-tag "View contributed blogs" >}}
-* [Translating Shiny Apps for International Audiences](https://www.rstudio.com/blog/translating-shiny-apps-for-international-audiences/)
+* [Translating Shiny Apps for International Audiences](https://posit.co/blog/translating-shiny-apps-for-international-audiences/)
 {{< /detail-tag >}}
 {{< /links-section >}}
 
