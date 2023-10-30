@@ -21,6 +21,7 @@ The R4DS Online Learning Community is a community of R learners at all skill lev
 ### [R Weekly](https://rweekly.org/)
 R Weekly keeps track of great things in the R community and makes it more accessible to everyone. Some of my blog posts have made the highlights of R Weekly!
 {{< detail-tag "View highlighted blogs" >}}
+* [2023 Week 44: Answering some {tidymodels} questions](https://rweekly.org/2023-W44.html)
 * [2023 Week 40: Creating typewriter-styled maps in {ggplot2}](https://rweekly.org/2023-W40.html)
 * [2023 Week 35: Creating template files with R](https://rweekly.org/2023-W35.html)
 * [2023 Week 31: Adding social media icons to charts with {ggplot2}](https://rweekly.org/2023-W31.html)
