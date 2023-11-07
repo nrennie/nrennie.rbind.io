@@ -208,3 +208,4 @@ art(n_x=300, max_y=20, size=0.001, linewidth=0.1, bg_col="#FAE3E3", col_palette=
 <img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2023-11-08-making-art-python-plotnine/bobross.gif" width = "60%" alt="Gif of Bob Ross painting"><br>
 <small>Image: <a href="https://giphy.com/gifs/Q8vZZ6kGS1VFm">giphy.com</a></small>
 </p>
+
