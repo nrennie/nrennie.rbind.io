@@ -17,7 +17,11 @@ draft: false
 layout: single
 categories:
 - Seminar
+links:
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: /talks/stori-international-day-women-statistics-data-science/slides.html
 ---
 
-More information coming soon!
-
+This talk will discuss my career path to date as part of the International Day of Women in Statistics and Data Science celebrations at STOR-i CDT.
