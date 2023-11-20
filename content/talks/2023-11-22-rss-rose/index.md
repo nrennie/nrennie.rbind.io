@@ -17,6 +17,17 @@ draft: false
 layout: single
 categories:
 - Seminar
+links:
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: /talks/rss-rose-statistics-education-2023/slides.html
 ---
 
 In this lightning talk, I’ll describe ways that teaching materials can be adjusted and made more engaging with live coding examples. It will include a demonstration of using webR to teach a simple statistical concept showing its potential to revolutionise the way we teach data science.
+
+### Resources
+
+* webR demo slides: [learning-statistics-with-webr.netlify.app](https://learning-statistics-with-webr.netlify.app/#/title-slide)
+
+* webR demo source code: [github.com/nrennie/learning-statistics-with-webR](https://github.com/nrennie/learning-statistics-with-webR)
