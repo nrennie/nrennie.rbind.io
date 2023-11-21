@@ -4,7 +4,7 @@ slug: "rladies-edinburgh-quarto"
 subtitle: "This workshop will introduce you to Quarto, an open-source scientific and technical publishing system that allows you to combine narrative text, code, images, and tables. We'll learn how to make different types of documents such as PDF, MS Word, and HTML, and how to parameterise reports and save ourselves time!"
 image: featured.png
 excerpt: "This workshop will introduce you to Quarto, an open-source scientific and technical publishing system that allows you to combine narrative text, code, images, and tables. We'll learn how to make different types of documents such as PDF, MS Word, and HTML, and how to parameterise reports and save ourselves time!"
-PublishDate: "2023-11-30"
+PublishDate: "2023-11-21"
 date: "2023-12-11"
 date_end: "2023-12-11"
 show_post_time: false
