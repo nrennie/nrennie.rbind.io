@@ -17,6 +17,15 @@ layout: single
 categories:
 - Meetup
 image: featured.png
+links:
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: https://nrennie.github.io/oxford-RUG-christmas-cards/
+- icon: github
+  icon_pack: fab
+  name: GitHub
+  url: https://github.com/nrennie/oxford-RUG-christmas-cards
 ---
 
 ## Oxford R User Group Christmas Cards Workshop
