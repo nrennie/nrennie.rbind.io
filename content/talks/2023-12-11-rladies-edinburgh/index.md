@@ -27,6 +27,7 @@ links:
 Quarto is an open-source scientific and technical publishing system, developed by Posit (formerly RStudio). By combining narrative text, code, images, and tables, Quarto allows you to produce elegantly formatted output that is fully reproducible. Quarto is capable of embedding code written in R, Python, Julia, and Observable JS (for this talk we’ll focus on R). It supports dozens of static and dynamic output formats including HTML, PDF, MS Word, slides, dashboards, scientific articles and more.
 
 In this talk, we’ll discuss what Quarto is and how it differs from R Markdown, demonstrate how to make simple documents, and showcase a few features of Quarto that make it incredibly useful. In this session, you will learn how to:
+
 •	create documents in Quarto that combine R code with text, images, and plots. 
 •	make use of Quarto options to easily switch between output formats such as PDF, MS Word, and HTML
 •	parameterise reports to quickly create multiple copies of a report
