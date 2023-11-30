@@ -17,6 +17,11 @@ draft: false
 layout: single
 categories:
 - RLadies
+links:
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: /talks/rladies-edinburgh-quarto/slides.html
 ---
 
 Quarto is an open-source scientific and technical publishing system, developed by Posit (formerly RStudio). By combining narrative text, code, images, and tables, Quarto allows you to produce elegantly formatted output that is fully reproducible. Quarto is capable of embedding code written in R, Python, Julia, and Observable JS (for this talk we’ll focus on R). It supports dozens of static and dynamic output formats including HTML, PDF, MS Word, slides, dashboards, scientific articles and more.
