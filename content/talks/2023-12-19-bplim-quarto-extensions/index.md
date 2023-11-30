@@ -4,7 +4,7 @@ slug: "bplim-quarto-extensions"
 subtitle: "This session will give an overview of ways to customise HTML outputs (including documents and revealjs slides) as well as PDF documents. We’ll also discuss the use of Quarto extensions as a way of sharing customised templates with others."
 image: featured.jpg
 excerpt: "This session will give an overview of ways to customise HTML outputs (including documents and revealjs slides) as well as PDF documents. We’ll also discuss the use of Quarto extensions as a way of sharing customised templates with others."
-PublishDate: "2023-11-30"
+PublishDate: "2023-12-13"
 date: "2023-12-19"
 date_end: "2023-12-19"
 show_post_time: false
