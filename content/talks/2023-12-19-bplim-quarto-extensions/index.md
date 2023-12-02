@@ -2,14 +2,14 @@
 title: Styling documents and building extensions with Quarto"
 slug: "bplim-quarto-extensions"
 subtitle: "This session will give an overview of ways to customise HTML outputs (including documents and revealjs slides) as well as PDF documents. We’ll also discuss the use of Quarto extensions as a way of sharing customised templates with others."
-image: featured.jpg
+image: featured.png
 excerpt: "This session will give an overview of ways to customise HTML outputs (including documents and revealjs slides) as well as PDF documents. We’ll also discuss the use of Quarto extensions as a way of sharing customised templates with others."
-PublishDate: "2023-12-13"
-date: "2023-12-19"
+PublishDate: "2023-12-02"
+date: "2023-12-18"
 date_end: "2023-12-19"
 show_post_time: false
-event: "BPLIM Workshop 2023"
-event_url: "https://bplim.bportugal.pt/content/bplim-workshop-2023-output-creation-automating-research-process"
+event: "BPLIM Workshop on Automation of the Research Process"
+event_url: "https://www.bportugal.pt/en/evento/workshop-automation-research-process"
 author: "Nicola Rennie"
 location: "Porto, Portugal"
 draft: false
