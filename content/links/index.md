@@ -51,6 +51,12 @@ The R Weekly Podcast offers a quick description of the latest highlighted blogs 
 {{< /links-section >}}
 
 
+{{< links-section "/links/rwds.png" >}}
+### [Real World Data Science](https://realworlddatascience.net/)
+[Real World Data Science](https://realworlddatascience.net/) is a project from the Royal Statistical Society, in partnership with the American Statistical Association. It's developed by data science practitioners and leaders with a single goal in mind: to help deliver high quality, ethical, and impactful data science projects.
+{{< /links-section >}}
+
+
 {{< links-section "/links/chicas.png" >}}
 ### [CHICAS](https://chicas.lancaster-university.uk/)
 [CHICAS](https://chicas.lancaster-university.uk/) (Centre for Health Informatics, Computing, and Statistics) is a group of staff, research associates, and postgraduate students in Lancaster Medical School at Lancaster University. 
