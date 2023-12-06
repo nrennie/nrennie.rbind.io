@@ -38,6 +38,7 @@ R Weekly keeps track of great things in the R community and makes it more access
 ### [R Weekly Podcast](https://rweekly.fireside.fm/)
 The R Weekly Podcast offers a quick description of the latest highlighted blogs and other stories from the latest R Weekly issue. Some of my blog posts have been discussed on the R Weekly Podcast!
 {{< detail-tag "Listen to featured episodes" >}}
+* [2023 Week 49: Answering some {tidymodels} questions](https://rweekly.fireside.fm/145)
 * [2023 Week 44: Answering some {tidymodels} questions](https://rweekly.fireside.fm/142)
 * [2023 Week 40: Creating typewriter-styled maps in {ggplot2}](https://rweekly.fireside.fm/139)
 * [2023 Week 35: Creating template files with R](https://rweekly.fireside.fm/135)
@@ -65,7 +66,7 @@ The R Weekly Podcast offers a quick description of the latest highlighted blogs 
 
 {{< links-section "/links/rladies.png" >}}
 ### [R-Ladies](https://rladies.org/)
-[R-Ladies](https://rladies.org/) is a global organisation that aims to promote gender diversity in the R community. [Join the Slack workspace](https://rladies-community-slack.herokuapp.com/) to meet other R users.
+[R-Ladies](https://rladies.org/) is a global organisation that aims to promote gender diversity in the R community. [Join the Slack workspace](https://rladies-community-slack.herokuapp.com/) to meet other R users. Since September 2023, I've been the organiser of [R-Ladies Lancaster](https://www.meetup.com/rladies-lancaster/).
 {{< /links-section >}}
 
 
