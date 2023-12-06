@@ -14,7 +14,6 @@ image: featured.png
 
 My research interests lie in statistics, data science, and operational research - with a focus on applications to health data. I'm also interested in research into the way we teach statistics and data science, particularly on aspects related to accessibility and reproducibility of teaching materials.
 
-
 My previous research focused on the development and use of functional analysis for detecting outliers in time series data. We have performed case studies on multiple empirical data sets including railway booking data and bike-sharing usage data. 
 
 A blog post giving an overview of my PhD thesis is available on [my website](https://nrennie.rbind.io/blog/2021-10-06-detecting-demand-outliers-in-transport-systems/).
@@ -22,7 +21,7 @@ A blog post giving an overview of my PhD thesis is available on [my website](htt
 
 ## Publications
 
-<!-- #### Publications -->
+### Journal publications
 
 **Outlier detection in network revenue management.** <br>
 **N. Rennie**, C. Cleophas, A. M. Syksulski, F. Dost. <br>
@@ -34,6 +33,21 @@ doi: [doi.org/10.1007/s00291-023-00714-2](https://doi.org/10.1007/s00291-023-007
 **N. Rennie**, C. Cleophas, A. M. Syksulski, F. Dost. <br>
 *Discover Data*. Volume 1, Issue 1. March 2023. <br>
 doi: [doi.org/10.1007/s44248-023-00001-z](https://doi.org/10.1007/s44248-023-00001-z)
+
+
+**Identifying and responding to outlier demand in revenue management.** <br>
+**N. Rennie**, C. Cleophas, A. M. Syksulski, F. Dost. <br>
+*European Journal of Operational Research*. Volume 293, Issue 3, 16 September 2021, 1015-1030. <br>
+doi: [doi.org/10.1016/j.ejor.2021.01.002](https://doi.org/10.1016/j.ejor.2021.01.002).
+
+
+### Other publications
+
+
+**Best practices for data visualisation** <br>
+A. Krause, **N. Rennie**. B. Tarran. <br>
+*Royal Statistical Society (online)*. 2023. <br>
+Link: [royal-statistical-society.github.io/datavisguide](https://royal-statistical-society.github.io/datavisguide/).
 
 
 **We're not getting any younger! Or should that be older?** <br>
@@ -48,15 +62,11 @@ Link: [www.significancemagazine.com/science/723-we-re-not-getting-any-younger-or
 doi: [doi.org/10.17635/lancaster/thesis/1448](https://doi.org/10.17635/lancaster/thesis/1448).
 
 
-**Identifying and responding to outlier demand in revenue management.** <br>
-**N. Rennie**, C. Cleophas, A. M. Syksulski, F. Dost. <br>
-*European Journal of Operational Research*. Volume 293, Issue 3, 16 September 2021, 1015-1030. <br>
-doi: [doi.org/10.1016/j.ejor.2021.01.002](https://doi.org/10.1016/j.ejor.2021.01.002).
+### Preprint publications
 
 
-<!-- #### Working Papers -->
-
-
-
-
+**Prevalence of radiological cerebral small vessel disease: an insight from routinely collected data.** <br>
+M. P. Maskery, **N. Rennie**, S. Mathur, J. Knight, H. C. A. Emsley. <br>
+*Preprint*. November 2023. <br>
+doi: [doi.org/10.21203/rs.3.rs-3625684/v1](https://doi.org/10.21203/rs.3.rs-3625684/v1)
 
