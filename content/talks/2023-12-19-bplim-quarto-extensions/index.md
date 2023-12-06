@@ -1,5 +1,5 @@
 ---
-title: Styling documents and building extensions with Quarto"
+title: "Styling documents and building extensions with Quarto"
 slug: "bplim-quarto-extensions"
 subtitle: "This session will give an overview of ways to customise HTML outputs (including documents and revealjs slides) as well as PDF documents. We’ll also discuss the use of Quarto extensions as a way of sharing customised templates with others."
 image: featured.png
