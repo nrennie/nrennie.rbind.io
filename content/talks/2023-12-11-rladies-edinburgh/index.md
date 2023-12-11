@@ -28,6 +28,6 @@ Quarto is an open-source scientific and technical publishing system, developed b
 
 In this talk, we’ll discuss what Quarto is and how it differs from R Markdown, demonstrate how to make simple documents, and showcase a few features of Quarto that make it incredibly useful. In this session, you will learn how to:
 
-•	create documents in Quarto that combine R code with text, images, and plots. 
-•	make use of Quarto options to easily switch between output formats such as PDF, MS Word, and HTML
-•	parameterise reports to quickly create multiple copies of a report
+- create documents in Quarto that combine R code with text, images, and plots.
+- make use of Quarto options to easily switch between output formats such as PDF, MS Word, and HTML
+- parameterise reports to quickly create multiple copies of a report
