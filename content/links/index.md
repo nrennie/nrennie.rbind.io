@@ -56,12 +56,21 @@ The R Weekly Podcast offers a quick description of the latest highlighted blogs 
 {{< links-section "/links/rwds.png" >}}
 ### [Real World Data Science](https://realworlddatascience.net/)
 [Real World Data Science](https://realworlddatascience.net/) is a project from the Royal Statistical Society, in partnership with the American Statistical Association. It's developed by data science practitioners and leaders with a single goal in mind: to help deliver high quality, ethical, and impactful data science projects.
+{{< detail-tag "View contributed blogs" >}}
+* [Creating Christmas cards with R](https://realworlddatascience.net/ideas/tutorials/posts/2023/12/12/xmas-cards.html)
+{{< /detail-tag >}}
 {{< /links-section >}}
 
 
 {{< links-section "/links/chicas.png" >}}
 ### [CHICAS](https://chicas.lancaster-university.uk/)
-[CHICAS](https://chicas.lancaster-university.uk/) (Centre for Health Informatics, Computing, and Statistics) is a group of staff, research associates, and postgraduate students in Lancaster Medical School at Lancaster University. 
+[CHICAS](https://chicas.lancaster-university.uk/) (Centre for Health Informatics, Computing, and Statistics) is a group of staff, research associates, and postgraduate students in Lancaster Medical School at Lancaster University. Since April 2023, I've been a Lecturer in Health Data Science within CHICAS.
+{{< /links-section >}}
+
+
+{{< links-section "/links/rose.png" >}}
+### [RoSE Network](https://www.rose-network.org/)
+The [RoSE Network](https://www.rose-network.org/) (Researchers of Statistics Education) proactively creates an open and inclusive space for multidisciplinary researchers and practitioners of statistics education globally to connect, learn, and collaborate, toward advancing statistics education research and evidence-based practice. Since September 2023, I've been co-leading the Statistics Software Special Interest Group, and part of the Communications team.
 {{< /links-section >}}
 
 
@@ -71,9 +80,15 @@ The R Weekly Podcast offers a quick description of the latest highlighted blogs 
 {{< /links-section >}}
 
 
+{{< links-section "/links/rss.png" >}}
+### [RSS Teaching Statistics Section](https://rss.org.uk/membership/rss-groups-and-committees/sections/teaching-statistics/)
+The [Teaching Statistics Section](https://rss.org.uk/membership/rss-groups-and-committees/sections/teaching-statistics/) of the [Royal Statistical Society](https://rss.org.uk/) provides a platform to collate and disseminate ideas and best practice in the teaching of statistics. The section mainly targets statistics educators, which includes those working in post-18 education, including higher education and professional training. Since October 2023, I've been a a member of the RSS Teaching Statistics Section committee.
+{{< /links-section >}}
+
+
 {{< links-section "/links/jumping_rivers.png" >}}
 ### [Jumping Rivers](https://www.jumpingrivers.com/)
-[Jumping Rivers](https://www.jumpingrivers.com/blog/) write blog posts on topics related to R, Python, and all things data science. You can find my contributed blog posts listed below.
+[Jumping Rivers](https://www.jumpingrivers.com/blog/) write blog posts on topics related to R, Python, and all things data science. You can find the blog posts I contributed when I worked as a Data Scientist at Jumping Rivers listed below.
 {{< detail-tag "View contributed blogs" >}}
 * [Alt Text in R: Plots, Reports, and Shiny](https://www.jumpingrivers.com/blog/accessibility-alt-text-in-r/)
 * [What is R7? A New OOP System for R](https://www.jumpingrivers.com/blog/r7-oop-object-oriented-programming-r/)
