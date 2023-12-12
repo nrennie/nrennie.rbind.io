@@ -44,6 +44,12 @@ doi: [doi.org/10.1016/j.ejor.2021.01.002](https://doi.org/10.1016/j.ejor.2021.01
 ### Other publications
 
 
+**Creating Christmas cards with R** <br>
+**N. Rennie**. <br>
+*Real World Data Science (online)*. 2023. <br>
+Link: [realworlddatascience.net/ideas/tutorials/posts/2023/12/12/xmas-cards.html](https://realworlddatascience.net/ideas/tutorials/posts/2023/12/12/xmas-cards.html).
+
+
 **Best practices for data visualisation** <br>
 A. Krause, **N. Rennie**. B. Tarran. <br>
 *Royal Statistical Society (online)*. 2023. <br>
