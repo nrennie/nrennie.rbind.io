@@ -50,28 +50,35 @@ params:
   image: [img/preview_card.png]
   social:
     - icon: github
+      name: GitHub
       icon_pack: fab
       url: https://github.com/nrennie
     - icon: linkedin
+      name: LinkedIn
       icon_pack: fab
       url: https://www.linkedin.com/in/nicola-rennie/
     - icon: twitter
+      name: Twitter
       icon_pack: fab
       url: https://twitter.com/nrennie35
     - icon: youtube
+      name: YouTube
       icon_pack: fab
       url: https://www.youtube.com/@nrennie
     - icon: behance
+      name: Behance
       icon_pack: fab
       url: https://www.behance.net/nrennie
     - icon: stack-overflow
+      name: StackOverflow
       icon_pack: fab
       url: https://stackoverflow.com/users/17581735/nrennie
     - icon: cloud
+      name: BlueSky
       icon_pack: fa
-      title: bluesky
       url: https://bsky.app/profile/nrennie.bsky.social
     - icon: orcid
+      name: Orcid
       icon_pack: fab
       url: https://orcid.org/0000-0003-4797-557X
   socialInFooter: yes
