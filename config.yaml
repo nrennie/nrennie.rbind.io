@@ -69,7 +69,7 @@ params:
       url: https://stackoverflow.com/users/17581735/nrennie
     - icon: cloud
       icon_pack: fa
-      label: bluesky
+      title: bluesky
       url: https://bsky.app/profile/nrennie.bsky.social
     - icon: orcid
       icon_pack: fab
