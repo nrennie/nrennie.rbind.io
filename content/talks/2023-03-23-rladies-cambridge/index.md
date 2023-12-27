@@ -21,6 +21,10 @@ links:
   icon_pack: fas
   name: Slides
   url: /talks/rladies-cambridge-ggplot2-colours/slides.html
+- icon: youtube
+  icon_pack: fab
+  name: YouTube
+  url: https://www.youtube.com/watch?v=y2-GlBkcYWA
 image: featured.jpg
 ---
 
