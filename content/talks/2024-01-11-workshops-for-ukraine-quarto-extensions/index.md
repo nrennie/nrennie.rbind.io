@@ -17,6 +17,15 @@ draft: false
 layout: single
 categories:
 - Workshop
+links:
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: https://nrennie.github.io/workshops-for-ukraine-quarto-extensions
+- icon: github
+  icon_pack: fab
+  name: GitHub
+  url: https://github.com/nrennie/workshops-for-ukraine-quarto-extensions
 ---
 
 Quarto is an open-source scientific and technical publishing system that allows you to combine text with code to create fully reproducible documents in a variety of formats. The addition of custom styling to documents can make them look more professional and recognisable. In the first half of this workshop we'll look at ways to customise HTML outputs (including documents and revealjs slides) using CSS, and ways to customise PDF documents using LaTeX. In the second half, we’ll discuss the use of Quarto extensions as a way of sharing customised templates with others, demonstrate how to install and use extensions, and show the process of building your own custom style extension.
