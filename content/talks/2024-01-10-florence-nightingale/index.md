@@ -1,6 +1,6 @@
 ---
 title: "Florence Nightingale Day: using data science to improve health outcomes"
-slug: "florence-nightingale-day-2023"
+slug: "florence-nightingale-day-2024"
 subtitle: "In this talk, I'll discuss some of the research projects I've had the privilege to contribute to and showcase some of the ways we can make better use of data and technology within medicine."
 image: featured.png
 excerpt: "In this talk, I'll discuss some of the research projects I've had the privilege to contribute to and showcase some of the ways we can make better use of data and technology within medicine."
@@ -17,6 +17,11 @@ draft: false
 layout: single
 categories:
 - Engagement
+links:
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: /talks/florence-nightingale-day-2024/slides.pdf
 ---
 
 ## Data, technology and medicine: Using data science to improve health outcomes
