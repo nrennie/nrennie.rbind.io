@@ -28,7 +28,7 @@ links:
   url: https://github.com/nrennie/workshops-for-ukraine-quarto-extensions
 ---
 
-Quarto is an open-source scientific and technical publishing system that allows you to combine text with code to create fully reproducible documents in a variety of formats. The addition of custom styling to documents can make them look more professional and recognisable. In the first half of this workshop we'll look at ways to customise HTML outputs (including documents and revealjs slides) using CSS, and ways to customise PDF documents using LaTeX. In the second half, we’ll discuss the use of Quarto extensions as a way of sharing customised templates with others, demonstrate how to install and use extensions, and show the process of building your own custom style extension.
+Quarto is an open-source scientific and technical publishing system that allows you to combine text with code to create fully reproducible documents in a variety of formats. The addition of custom styling to documents can make them look more professional and recognisable. In the first half of this workshop we'll look at ways to customise HTML outputs (including documents and revealjs slides) using CSS, and ways to customise PDF documents using LaTeX. In the second half, we’ll discuss the use of Quarto extensions as a way of sharing customised templates with others, demonstrate how to install and use extensions, and show the process of building your own custom style extension. 
 
 Sign up: [sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine#h.gdrb6r6xrczk](https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine#h.gdrb6r6xrczk)
 
