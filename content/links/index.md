@@ -21,7 +21,7 @@ The R4DS Online Learning Community is a community of R learners at all skill lev
 ### [R Weekly](https://rweekly.org/)
 R Weekly keeps track of great things in the R community and makes it more accessible to everyone. Some of my blog posts and resources have made the highlights of R Weekly!
 {{< detail-tag "View highlighted blogs" >}}
-* [2024 Week 2: Four ways to streamline your R workflows](https://rweekly.org/2024-W02.html)
+* [2024 Week 02: Four ways to streamline your R workflows](https://rweekly.org/2024-W02.html)
 * [2023 Week 51: Introduction to reproducible reporting with Quarto](https://rweekly.org/2023-W51.html)
 * [2023 Week 49: How to make your own #RStats Wrapped!](https://rweekly.org/2023-W49.html)
 * [2023 Week 44: Answering some {tidymodels} questions](https://rweekly.org/2023-W44.html)
@@ -41,6 +41,7 @@ R Weekly keeps track of great things in the R community and makes it more access
 ### [R Weekly Podcast](https://rweekly.fireside.fm/)
 The R Weekly Podcast offers a quick description of the latest highlighted blogs and other stories from the latest R Weekly issue. Some of my blog posts and resources have been discussed on the R Weekly Podcast!
 {{< detail-tag "Listen to featured episodes" >}}
+* [2024 Week 02: Four ways to streamline your R workflows](https://rweekly.fireside.fm/147)
 * [2023 Week 49: How to make your own #RStats Wrapped!](https://rweekly.fireside.fm/145)
 * [2023 Week 44: Answering some {tidymodels} questions](https://rweekly.fireside.fm/142)
 * [2023 Week 40: Creating typewriter-styled maps in {ggplot2}](https://rweekly.fireside.fm/139)
