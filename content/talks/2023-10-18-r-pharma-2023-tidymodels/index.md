@@ -26,6 +26,10 @@ links:
   icon_pack: fab
   name: GitHub
   url: https://github.com/nrennie/r-pharma-2023-tidymodels
+- icon: youtube
+  icon_pack: fab
+  name: YouTube
+  url: https://youtu.be/i-Rm2HUWgnc
 ---
 
 Machine learning (ML) is an important aspect of data science that can be used to create predictions, make classifications, and uncover insights in data that can be difficult to detect. ML models are becoming increasingly common in medical and pharmaceutical settings, from aiding in patient diagnosis to analysing responses to treatment. {tidymodels} is a collection of R packages that can be used for various aspects of machine learning pipelines, including sampling data, building and fitting models, and performance evaluation. {tidymodels} provides a consistent, user-friendly approach to fitting machine learning models in R.
