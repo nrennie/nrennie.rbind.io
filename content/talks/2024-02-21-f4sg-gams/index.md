@@ -4,12 +4,12 @@ slug: "f4sg-gams"
 subtitle: "This workshop will provide an overview of generalised additive models (GAMs), demonstrate the practical aspects of fitting such models, and describe how to evaluate and interpret different them."
 image: featured.jpg
 excerpt: "This workshop will provide an overview of generalised additive models (GAMs), demonstrate the practical aspects of fitting such models, and describe how to evaluate and interpret different them."
-PublishDate: "2024-02-01"
+PublishDate: "2024-01-30"
 date: "2024-02-21"
 date_end: "2024-02-21"
 show_post_time: false
 event: "Forecasting for Social Good Workshop"
-event_url: ""
+event_url: "https://cardiff.zoom.us/meeting/register/tZEqduGsqjwqGNWoG7FSA6U51ohnswp74Ww-#/registration"
 author: "Nicola Rennie"
 location: "Online"
 draft: false
