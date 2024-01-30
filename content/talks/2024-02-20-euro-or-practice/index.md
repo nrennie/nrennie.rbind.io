@@ -1,10 +1,10 @@
 ---
-title: "Forecasting with Generalised Additive Models (GAMs) in R"
+title: "Practice of OR: Data Visualisation"
 slug: "euro-or-practice"
 subtitle: "As part of the parallel sessions section, I will deliver a short presentation on the use of data visualisation in OR before we open the floor to the round table discussion."
 image: featured.jpg
 excerpt: "As part of the parallel sessions section, I will deliver a short presentation on the use of data visualisation in OR before we open the floor to the round table discussion."
-PublishDate: "2024-02-01"
+PublishDate: "2024-01-30"
 date: "2024-02-20"
 date_end: "2024-02-20"
 show_post_time: false
