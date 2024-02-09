@@ -54,12 +54,10 @@ Compare the two below where we set the page margins and position a light purple 
 
 {{< panelset class="packages" >}}
 {{< panel name="Typst" >}}
-```r
+```typst
 // Configure pages.
 set page(
   margin: (left: 2cm, right: 1.5cm, top: 2cm, bottom: 2cm),
-  numbering: "1",
-  number-align: right,
   background: place(right + top, rect(
     fill: rgb("#E6E6FA"),
     height: 100%,
@@ -86,7 +84,7 @@ set page(
 {{< /panel >}}
 {{< /panelset >}}
 
-I think you'll agree that the Typst code is much easier to read and understand what's going on. The learning curve for Typst has been much less steep compared to LaTeX.
+I think you'll agree that the Typst code is much easier to read and understand what's going on. The learning curve for Typst has been much less steep compared to LaTeX. The outputs look fairly similar, though not quite identical.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2024-01-31-making-pdf-with-quarto-typst-latex/report.png" width = "48%" alt="Screenshot of a pdf with a light purple sidebar.">
@@ -107,7 +105,9 @@ quarto use template nrennie/PrettyPDF
 
 ### Typst vs LaTeX
 
-Let's see how Typst compares to LaTeX when it comes to making PDF documents in Quarto. What do I like more about Typst?
+Let's see how Typst compares to LaTeX when it comes to making PDF documents in Quarto. 
+
+What do I like more about Typst?
 
 * It's fast. Much faster than LaTeX. Typst is written in [Rust](https://www.rust-lang.org/), and uses incremental compilation giving faster compile times. Even with simple single page documents, it's noticeably quicker than LaTeX.
 * The error messages are more informative. When I was debugging error messages in the style files, it was easier to find the source of error.
@@ -129,6 +129,6 @@ The [Quarto documentation on how to use Typst](https://quarto.org/docs/output-fo
 Now you're ready to go and create some beautiful looking PDFs with Quarto - either using LaTeX or Typst!
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2024-01-31-making-pdf-with-quarto-typst-latex/cat.gif" width = "60%" alt="Gif of a cat typing at a laptop"><br>
+<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2024-01-31-making-pdf-with-quarto-typst-latex/cat.gif" width = "45%" alt="Gif of a cat typing at a laptop"><br>
 <small>Image: <a href="https://giphy.com/gifs/cat-laptop-document-heIX5HfWgEYlW">giphy.com</a></small>
 </p>
