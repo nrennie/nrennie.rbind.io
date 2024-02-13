@@ -17,11 +17,6 @@ draft: false
 layout: single
 categories:
 - Engagement
-links:
-- icon: download
-  icon_pack: fas
-  name: Slides
-  url: /talks/florence-nightingale-day-2024/slides.pdf
 ---
 
 ## Data, technology and medicine: Using data science to improve health outcomes
