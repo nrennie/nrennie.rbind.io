@@ -116,10 +116,6 @@ menu:
       title: Links
       url: /links/
       weight: 5
-    - name: Search
-      title: Search
-      url: /search/
-      weight: 6
 privacy:
   disqus:
     disable: no
