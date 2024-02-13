@@ -17,11 +17,6 @@ draft: false
 layout: single
 categories:
 - Meetup
-links:
-- icon: download
-  icon_pack: fas
-  name: Slides
-  url: /talks/wild-using-tech-for-good/slides.html
 ---
 
 ### Abstract
