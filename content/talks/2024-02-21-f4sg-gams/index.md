@@ -17,6 +17,15 @@ draft: false
 layout: single
 categories:
 - Workshop
+links:
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: https://nrennie.github.io/f4sg-gams
+- icon: github
+  icon_pack: fab
+  name: GitHub
+  url: https://github.com/nrennie/f4sg-gams
 ---
 
 ## About the workshop
