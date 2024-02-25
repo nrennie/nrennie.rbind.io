@@ -1,6 +1,6 @@
 ---
 title: "Practice of OR: Data Visualisation"
-slug: "euro-or-practice"
+slug: "euro-or-practice-data-viz"
 subtitle: "As part of the parallel sessions section, I will deliver a short presentation on the use of data visualisation in OR before we open the floor to the round table discussion."
 image: featured.jpg
 excerpt: "As part of the parallel sessions section, I will deliver a short presentation on the use of data visualisation in OR before we open the floor to the round table discussion."
@@ -17,6 +17,11 @@ draft: false
 layout: single
 categories:
 - Seminar
+links:
+- icon: download
+  icon_pack: fas
+  name: Slides
+  url: /talks/euro-or-practice-data-viz/slides.html
 ---
 
 As part of the parallel sessions section, I will deliver a short presentation on the use of data visualisation in OR before we open the floor to the round table discussion.

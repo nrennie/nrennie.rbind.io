@@ -1,9 +1,9 @@
 ---
 title: "Typst or LaTeX? Styling PDF documents with Quarto extensions"
 slug: "satrdays-london-2024"
-subtitle: "In this talk, I'll give an overview of ways to create customised PDF documents using Quarto with a little help from R, LaTeX, and Typst. To demonstrate the differences between LaTeX and Typst, I’ll walk through the process of converting a LaTeX-based style extension to Typst – discussing error messages, render time, and customisability along the way."
+subtitle: "In this talk, I'll give an overview of ways to create customised PDF documents using Quarto with a little help from R, LaTeX, and Typst. I’ll walk through the process of converting a LaTeX-based style extension to Typst – discussing error messages, render time, and customisability along the way."
 image: featured.png
-excerpt: "In this talk, I'll give an overview of ways to create customised PDF documents using Quarto with a little help from R, LaTeX, and Typst. To demonstrate the differences between LaTeX and Typst, I’ll walk through the process of converting a LaTeX-based style extension to Typst – discussing error messages, render time, and customisability along the way."
+excerpt: "In this talk, I'll give an overview of ways to create customised PDF documents using Quarto with a little help from R, LaTeX, and Typst. I’ll walk through the process of converting a LaTeX-based style extension to Typst – discussing error messages, render time, and customisability along the way."
 PublishDate: "2024-02-13"
 date: "2024-04-27"
 date_end: "2024-04-27"
