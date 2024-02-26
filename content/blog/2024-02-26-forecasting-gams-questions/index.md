@@ -52,6 +52,13 @@ The {mgcv} package has several types of smooth classes built-in, and you can als
 
 Yes! The `gen_additive_model()` function in the {parsnip} package allows you to fit GAMs in {tidymodels} - and they are fitted with the {mgcv} package. You can read the help files here: [parsnip.tidymodels.org/reference/gen_additive_mod.html](https://parsnip.tidymodels.org/reference/gen_additive_mod.html)
 
+#### Can we include interaction terms in a GAM?
+
+Yes, there are two ways to include interaction terms in GAMs in {mgcv}, depending on whether you want one or both of the terms are smoothed variables:
+
+* For an interaction between two smoothed variables, `x` and `y`, add `s(x, y)` to the right hand side of the formula in `gam()`.
+* For an interaction between a smoothed variable `x`, and a linear variable `y`, add `s(x, by = y)` to the right hand side of the formula in `gam()`. Here, `y` can be either continuous (then the linear effect of `y` varies smoothly with `x`) or a factor (where it should also be a main effect and you'll have a smooth term that varies between different levels of `y`).
+
 #### Can we use AIC to select models?
 
 Yes, you can use the AIC value to compare and select between models. You can also use other criteria such as the generalised cross validation scores for similar comparisons. Run `?gam.selection` to see a more in-depth discussion of model selection, including choosing parameters. 
