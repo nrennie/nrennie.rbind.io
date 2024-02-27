@@ -21,7 +21,7 @@ links:
 - icon: download
   icon_pack: fas
   name: Slides
-  url: https://teaching-with-webr.netlify.app/
+  url: https://nrennie.github.io/teaching-with-webR
 - icon: github
   icon_pack: fab
   name: GitHub
